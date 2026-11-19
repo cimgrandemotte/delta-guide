@@ -1,0 +1,77 @@
+name: Deploy — Delta Force Ultimate Guide
+
+# Déploiement GitHub Pages vers https://delta-guide.duckdns.org
+# Le site est régénéré depuis les JSON à chaque push : le HTML du dépôt
+# et le HTML publié ne peuvent donc jamais diverger.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Régénération du site depuis les données
+        working-directory: tools
+        run: |
+          python3 build_all.py
+          python3 build_sitemap.py
+
+      - name: Contrôle qualité (bloquant)
+        run: python3 tools/qa.py
+
+      - name: Vérification des médias référencés
+        run: |
+          manquants=0
+          for p in $(grep -roh 'src="[^"]*\.\(jpg\|mp3\)"' pages index.html 404.html \
+                     | sed 's/src="//;s/"//' | sed 's|^\.\./\.\./||;s|^\./||' | sort -u); do
+            if [ ! -f "$p" ]; then echo "::error::Média manquant : $p"; manquants=1; fi
+          done
+          exit $manquants
+
+      - name: Garde-fou — aucun SVG ni PNG
+        run: |
+          if [ -n "$(find assets -iname '*.svg' -o -iname '*.png')" ]; then
+            echo "::error::Un fichier SVG ou PNG a été introduit dans assets/"; exit 1
+          fi
+
+      - name: Nettoyage avant publication
+        run: rm -rf tools/__pycache__
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

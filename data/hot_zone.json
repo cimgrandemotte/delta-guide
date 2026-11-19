@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "maj": "2026-11-19",
+    "sources": "dotesports, r/DeltaForceGlobal, guides communautaires",
+    "avertissement": "Le Hot Zone entre et sort de la rotation. Vérifiez sa disponibilité dans le menu Operations."
+  },
+  "principe": "Le Hot Zone est la seule partie d'Operations où vous ne risquez rien. Trois équipes de trois, petites cartes, équipement fourni par le jeu. Votre réserve n'est jamais touchée — ni en perte, ni en gain. C'est, de très loin, le meilleur terrain d'entraînement gratuit au combat du jeu.",
+  "regles": [
+    "Trois escouades de trois s'affrontent simultanément sur une carte réduite.",
+    "Une manche se gagne en éliminant les deux autres équipes OU en décodant le MandelBrick.",
+    "Le décodage suit la même logique qu'en Operations : récupérer le brick marqué sur la carte, le porter à l'une des deux stations, puis tenir la position jusqu'à la fin du minuteur.",
+    "Une interruption du décodage remet la progression à zéro.",
+    "Première équipe à trois manches gagnées.",
+    "Le MandelBrick décodé en Hot Zone est un objectif de mode : vous ne le récupérez pas dans votre réserve."
+  ],
+  "equipement": {
+    "titre": "Une économie de manches, pas une réserve",
+    "contenu": "Vous n'emportez rien de votre réserve. Vous gagnez des points en jouant les manches et vous les dépensez sur des ensembles préconstruits, proches des tickets d'équipement. La première manche est une manche au pistolet, exactement comme dans les jeux tactiques classiques, puis les ensembles disponibles s'améliorent au fil de la partie.",
+    "astuce": "Quand vous menez au score, ne répartissez pas les points équitablement : concentrez-les sur le joueur le plus régulier de l'équipe pour lui offrir le meilleur ensemble disponible. Trois équipements moyens perdent contre un excellent équipement bien placé."
+  },
+  "pourquoi": [
+    "Zéro risque financier : aucune perte de réserve, aucune peur de l'équipement.",
+    "Mêmes mécaniques de tir, de recul et d'armure qu'en Operations — ce que vous y apprenez se transfère directement.",
+    "Les cartes sont petites : vous enchaînez plus d'échanges en dix minutes qu'en trois parties d'Operations.",
+    "Les temps de recharge des capacités sont courts : vous pouvez réellement apprendre à utiliser votre opérateur.",
+    "Idéal comme échauffement avant une session d'Operations sérieuse."
+  ],
+  "tactiques": [
+    {
+      "titre": "Apprenez les trois points de départ",
+      "detail": "Ils sont identiques à chaque manche sur une carte donnée. Savoir d'où arrivent les deux autres équipes vous donne quelques secondes d'avance — sur une carte aussi petite, c'est décisif."
+    },
+    {
+      "titre": "Laissez les deux autres équipes se rencontrer",
+      "detail": "Avec trois équipes, le premier contact est rarement le vôtre. Positionnez-vous pour arriver en troisième sur un échange déjà entamé."
+    },
+    {
+      "titre": "Cachez le brick au lieu de le porter",
+      "detail": "Une astuce avancée : récupérez le brick, dissimulez-le à proximité de la station et n'allez le chercher que pour le décodage final. Le transporter signale votre position en permanence."
+    },
+    {
+      "titre": "Surveillez les icônes d'escouade",
+      "detail": "L'état des trois équipes est affiché en haut de l'écran. C'est du renseignement gratuit : si une escouade est déjà réduite à un joueur, c'est elle qu'il faut chasser."
+    },
+    {
+      "titre": "Privilégiez les armes de courte portée",
+      "detail": "Les cartes sont compactes. Un PM ou un fusil d'assaut stable à courte distance l'emporte presque toujours sur une configuration longue portée."
+    }
+  ],
+  "operateurs": [
+    "Luna",
+    "Stinger",
+    "Sineva",
+    "Hackclaw"
+  ],
+  "note_operateurs": "Ces quatre-là ressortent systématiquement des retours de joueurs : de la détection, de la mobilité et de l'entrée en zone, c'est-à-dire exactement ce que récompense une carte réduite.",
+  "limite": "Le mode n'offre pas de progression dédiée : pas de classement, pas de récompenses propres en dehors des événements temporaires. On y vient pour progresser, pas pour farmer."
+}

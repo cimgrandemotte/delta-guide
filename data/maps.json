@@ -1,0 +1,501 @@
+{
+  "_meta": {
+    "fichier": "maps.json",
+    "derniere_maj": "2026-11-19",
+    "sources": [
+      "https://deltaforce.th.gl/",
+      "https://gamegrids.io/delta-force/maps/",
+      "https://timesaver.gg/blog/delta-force-tide-prison-map-loot-extraction-guide",
+      "https://timesaver.gg/blog/delta-force-brakkesh-faction-guide",
+      "https://overgear.com/guides/delta-force/season-12-guide/"
+    ],
+    "total_localisations_referencees": 1326
+  },
+  "operations": [
+    {
+      "id": "zero-dam",
+      "nom": "Zero Dam",
+      "difficulte": "Débutant",
+      "disponibilite": "Easy / Normal / Eternal Night",
+      "localisations_referencees": 457,
+      "boss": "Saeed (Capitaine de la garde, surnom Fiery Owl)",
+      "resume": "La carte d'entrée du mode extraction. Loot solide au barrage et dans les bâtiments administratifs, extractions généreuses, bots présents en Easy.",
+      "zones_cles": [
+        "Administrative Center (East / West Wing)",
+        "Major Substation",
+        "Cement Plant",
+        "Visitor Center",
+        "Barracks",
+        "Underground Passage",
+        "Power Backup Center",
+        "Vault"
+      ],
+      "porte_a_code": "Côté droit de la Major Substation : ramper dans le pipeline souterrain jusqu'au bout du passage.",
+      "secret_cracked": "Une porte secrète porte l'inscription CRACKED. Le code se reconstitue en jouant la carte Warfare Cracked en Attack/Defend : des symboles en morse sont cachés aux objectifs A1, B1, C1, D1. Le code change toutes les 24 h et peut différer d'un joueur à l'autre.",
+      "routes": [
+        {
+          "nom": "Route Admin PvP",
+          "desc": "Administrative Area pour le PvP et le gros loot (joueurs + spawns aléatoires). La plus rentable et la plus dangereuse."
+        },
+        {
+          "nom": "Cement → Substation souterrain",
+          "desc": "Loot moyen à l'abri de la majorité des joueurs."
+        },
+        {
+          "nom": "Route sud Cement → Substation Dormitory",
+          "desc": "Le dortoir est rarement pillé par ceux qui y spawnent."
+        }
+      ],
+      "astuces": [
+        "Les nids d'oiseaux peuvent contenir le collectible Soul · Roaming Blade (collab Phantom Blade Zero) jusqu'au 25/01/2027.",
+        "Event Nouvel An annoncé : feux d'artifice à Zero Dam."
+      ],
+      "priorite_butin": {
+        "titre": "Ordre de valeur relevé par les joueurs réguliers",
+        "ordre": [
+          "Administration",
+          "Sous-station",
+          "Usine à ciment",
+          "Centre des visiteurs",
+          "Barracks",
+          "Petite sous-station",
+          "Camp militaire"
+        ],
+        "note": "Cet ordre est une moyenne, pas une loi : certaines parties voient l'Administration complètement sèche et l'usine à ciment déborder. Le vrai pain quotidien d'un joueur solo reste les nids d'oiseau, les caisses de transport aérien et les sacs de voyage — présents partout, peu disputés, et qui se remplissent pendant que les autres se battent pour l'Administration.",
+        "salles_premium": "Bureau du directeur de l'aile est = le meilleur butin de la carte. Salle VIP centrale du Centre des visiteurs = deuxième."
+      },
+      "extractions_detail": {
+        "titre": "Sorties fixes, conditionnelles et payantes",
+        "avertissement": "Relevé communautaire. Les sorties conditionnelles et leurs seuils changent au fil des saisons.",
+        "lignes": [
+          {
+            "nom": "Entrée de route Rear Grip ouest (est de la carte)",
+            "condition": "Fixe — présente chaque partie",
+            "note": "Votre plan B par défaut."
+          },
+          {
+            "nom": "Tunnel Rear Grip est (ouest de la carte)",
+            "condition": "Fixe — présente chaque partie",
+            "note": "Faible fréquentation, peu de campeurs."
+          },
+          {
+            "nom": "Raccourci près de la route (est)",
+            "condition": "≈ 50 % d'apparition",
+            "note": "Ne construisez jamais un itinéraire qui en dépend."
+          },
+          {
+            "nom": "Entrée de route Rear Grip est (ouest)",
+            "condition": "≈ 50 % d'apparition",
+            "note": "Idem — toujours prévoir une solution de repli."
+          },
+          {
+            "nom": "Berge de la rivière (sud-est)",
+            "condition": "Paiement de 10 000",
+            "note": "Le péage filtre les joueurs fauchés, mais signale aussi que vous transportez de la valeur. Des joueurs s'y postent."
+          },
+          {
+            "nom": "Sommet du barrage (ouest)",
+            "condition": "Moins de 30 kg transportés",
+            "note": "Parfait pour une sortie légère et chère. Le seuil rend votre profil prévisible."
+          },
+          {
+            "nom": "Voie de réparation (est)",
+            "condition": "Abandon du sac à dos",
+            "note": "La sortie de secours quand tout va mal et que l'essentiel est en poche sécurisée."
+          },
+          {
+            "nom": "Ascenseur industriel",
+            "condition": "Activation par levier",
+            "note": "Le levier s'entend. Attendez-vous à de la compagnie."
+          }
+        ]
+      }
+    },
+    {
+      "id": "layali-grove",
+      "nom": "Layali Grove",
+      "difficulte": "Intermédiaire",
+      "disponibilite": "Hazard",
+      "localisations_referencees": 96,
+      "keycards": 22,
+      "boss": "Reis (surnom Abyss Shark, côté Ahsarah) — également contact de la tâche Bounty: Breaking Waves",
+      "resume": "Grande carte boisée remaniée en S11 (2.0) : Fisher's Hut, Rock Cavern, Underground Dock. Hôtel Sparkling Empress = le plus gros concentré de keycards de valeur du jeu.",
+      "zones_cles": [
+        "Sparkling Empress Hotel",
+        "Haavk WSR Lab (Radar Station + Lab Building)",
+        "Aminya Village",
+        "Cargo Havoc",
+        "Checkpoint",
+        "Desert Trails Farm",
+        "Small Train Station",
+        "Ghurab Desolation"
+      ],
+      "porte_a_code": "Entrée souterraine près du point marqué dans le coin inférieur droit de la carte.",
+      "astuces": [
+        "King's Suite = la keycard la plus chère du jeu (prix guide 2 363 076).",
+        "Le Layali Grove Noble Superior Treasure est l'un des items de production les plus rentables du Black Site."
+      ]
+    },
+    {
+      "id": "space-city",
+      "nom": "Space City",
+      "difficulte": "Avancé",
+      "disponibilite": "Both (Hazard + Warfare)",
+      "localisations_referencees": 409,
+      "boss": "Desmoulins OU Hudson (directeurs Haavk) — tirage à chances égales à chaque apparition de commandant",
+      "resume": "Rénovée en S11 : Bon Lab, Black Chamber, Test Range, Space City Switch. Carte verticale et technique, forte densité de salles à keycard.",
+      "zones_cles": [
+        "Bon Lab",
+        "Black Chamber",
+        "Test Range",
+        "Assembly Workshop",
+        "Buoyancy Lab",
+        "CEO Office",
+        "No.3 Dormitory",
+        "Central Command Room"
+      ],
+      "porte_a_code": "Industrial Zone — Assembly Room 2F.",
+      "astuces": [
+        "Les noms d'étages et de bâtiments sont désormais localisés sur les cartes communautaires en couches.",
+        "Le commandant alterne : vérifier l'audio de boss avant d'engager."
+      ],
+      "apparitions": {
+        "titre": "Huit apparitions, et elles ne se valent pas du tout",
+        "contenu": "Space City distribue huit points de départ. Deux sont garantis à chaque partie : le Dortoir et le Passage employés. Une partie compte généralement 18 à 20 joueurs, soit six escouades de trois complétées par des équipes partielles. Savoir où vous êtes tombé détermine la totalité de votre plan.",
+        "lignes": [
+          {
+            "lieu": "Commandement Central",
+            "valeur": "Excellente",
+            "detail": "Appelée « l'apparition du Gardien ». Vous contrôlez le Pont Central et pouvez frapper quiconque le traverse. C'est aussi pourquoi la plupart des parties s'y décident : une seule équipe en ressort généralement."
+          },
+          {
+            "lieu": "Zone de Lancement",
+            "valeur": "Excellente",
+            "detail": "Paradoxalement l'une des meilleures : la majorité des joueurs se concentre dans la moitié haute. Pendant qu'ils s'entretuent dehors, vous pillez le cœur tranquillement."
+          },
+          {
+            "lieu": "Passage employés 2",
+            "valeur": "Bonne mais risquée",
+            "detail": "La plus proche du cœur. Elle était considérée comme la meilleure, jusqu'à ce que tout le monde connaisse la carte. Le risque a beaucoup monté."
+          },
+          {
+            "lieu": "Dortoir",
+            "valeur": "Correcte",
+            "detail": "Garantie chaque partie. Montez à l'étage, observez par la vitre pare-balles si la Porte Ouest est ouverte avant de vous engager."
+          },
+          {
+            "lieu": "Prison 2",
+            "valeur": "Faible",
+            "detail": "Au moins vous avez de quoi piller sur place, dont un grand coffre ajouté à la Salle d'impression en Hard."
+          },
+          {
+            "lieu": "Prison 3",
+            "valeur": "Faible sans carte",
+            "detail": "Deux expériences totalement différentes selon que vous ayez ou non la carte du Pont-levis est. Sans elle, c'est la pire position de la carte."
+          },
+          {
+            "lieu": "Prison 1",
+            "valeur": "Mauvaise",
+            "detail": "Souvent éliminé très tôt, et peu de butin de repli."
+          }
+        ],
+        "coeur": "Les quatre bâtiments du cœur : Chambre Noire, Labo de Flottabilité, Installation de Centrifugation, Champ de tir. La Centrifugation est la plus rapide et la plus sûre à piller — aucune carte supplémentaire requise, beaucoup de points de butin, et deux niveaux pour décrocher."
+      }
+    },
+    {
+      "id": "brakkesh",
+      "nom": "Brakkesh 2.0",
+      "difficulte": "Élevée",
+      "disponibilite": "Normal en permanence ; Hard le week-end",
+      "localisations_referencees": 71,
+      "keycards": 19,
+      "badge": "REFONTE S12",
+      "boss": "Blue Eagle HAAVK-64 (hélicoptère de patrouille)",
+      "resume": "Ville haute densité avec des salles très rentables derrière keycard. Refonte majeure en Saison Aurora : Babel entièrement retravaillée, Central Command Zone redessinée, nouveau conflit de factions.",
+      "rework_s12": {
+        "babel": "Babel « entièrement retravaillée » : nouveau terrain, nouvelles rotations, éclairage revu.",
+        "control_room": "La salle de contrôle obtient de nouvelles entrées et un accès à l'étage supérieur plus précoce.",
+        "nouveaux_passages": "Nouveau passage fermé et ailes du bâtiment plus lisibles.",
+        "factions": {
+          "mecanique": "Chercher en match un avant-poste de contact caché d'Ahsarah ou de Haavk, choisir son camp, réclamer le Faction Badge. Les missions de faction font monter le badge ; au Lv.2 se débloquent les faction milestones et les faction hunts.",
+          "ahsarah": "La Garde Ahsarah veut reprendre la tour : on pousse dedans.",
+          "haavk": "Haavk Corp veut protéger une livraison de cargo : on tient le terrain pendant qu'elle avance.",
+          "perk_haut_badge": "Rendre un nombre limité de gardes ennemis amicaux.",
+          "danger": "Lancer une mission de faction majeure peut déclencher une CHASSE : des escouades adverses sont envoyées à vos trousses.",
+          "coordonnees": "Aucune coordonnée fixe publiée par Garena — suivre les indices en match."
+        }
+      },
+      "zones_cles": [
+        "New Tower of Babel",
+        "Museum",
+        "Hotel",
+        "Old Bath (Hammam)",
+        "Underground Vault",
+        "East Town",
+        "West Town",
+        "Fortress / Azure Town",
+        "Market",
+        "Parking"
+      ],
+      "porte_a_code": "Côté nord du Hammam.",
+      "routes": [
+        {
+          "nom": "Côté Hôtel",
+          "desc": "Rue principale, très disputée dès le début de partie."
+        },
+        {
+          "nom": "Côté Fortress",
+          "desc": "Aussi meurtrière que le côté hôtel."
+        },
+        {
+          "nom": "Market → Parking → Museum/Tower",
+          "desc": "Itinéraire nettement moins fréquenté, le plus sûr pour un solo."
+        }
+      ],
+      "astuces": [
+        "Stratégie communautaire d'extraction fiable : casque DICH violet (acheter une version endommagée) pour +50% de portée auditive, armure violette, SMG bon marché à cadence élevée avec munitions violettes, jouer Hackclaw, foncer vers Babel, extraire via la dog tag extraction.",
+        "Pour les runs de faction : ne rien emporter de précieux (chest/helmet/rig/backpack bleu + pistolet suffisent).",
+        "Mettre l'objet de mission difficile à remplacer dans la Safe Box : il survit à la mort.",
+        "File d'attente longue hors heures de pointe : basculer sur serveur EU ou SEA réduit l'attente à quelques minutes."
+      ]
+    },
+    {
+      "id": "tide-prison",
+      "nom": "Tide Prison",
+      "difficulte": "Hard",
+      "disponibilite": "Hazard (carte Hard désignée)",
+      "localisations_referencees": 93,
+      "keycards": "répertoriées sur th.gl",
+      "boss": "Warden Ghroth (boss principal depuis septembre 2025) + Raven (via les opérations Ravenhunter et Starslayer)",
+      "resume": "Complexe pénitentiaire offshore. SEULE carte où la partie commence enfermé en cellule : il faut s'évader avant de pouvoir tirer. Sections inondées et loot sous-marin ; au moins une extraction impose de plonger.",
+      "boucle": "S'évader de la cellule → récupérer son équipement → piller l'intérieur et les zones disputées → revendre contre des Tekniq Alloys → extraire avant la fin du timer.",
+      "porte_a_code": "Prison Administrative Area, 1F, coin de l'escalier du hall.",
+      "warden_ghroth": {
+        "localisation": "Administration Block",
+        "escorte": "3 Elite Warden Guards + 2 Shieldbearers",
+        "combat": "Deux phases. Phase 1 : esquiver le Heavy Slam, casser la ligne de vue contre le Chain Pull. Phase 2 : gaz hallucinogène (à dissiper via les ventilateurs) et onde de choc Ground Rupture à sauter. Points faibles : épaules et dos.",
+        "arme": "ASh-12 Battle Rifle",
+        "drop": "Ghroth Judgement Card — ouvre UNE des trois salles de haute valeur. Non extractible, valable uniquement pour le match en cours.",
+        "autres_drops": "ASh-12 + munitions, armure Haavk légendaire, chest rig Haavk épique, items de haute rareté assortis",
+        "loadout_recommande": "M4A1 en DPS principal (code 6FINC4G0CQTV1IBVCBQVT), ASh-12 pour casser l'armure à partir du niveau Operations 40, S12K en phase rapprochée.",
+        "astuce": "Avec la mission High-Value Operation Ravenhunter, Ghroth est d'abord AMICAL : il faut l'aider à tuer Raven avant qu'il ne devienne hostile."
+      },
+      "astuces": [
+        "Warden's Private Vault (2F Administration Block) : deux coffres avec fort taux de drop Tier 6 et spawns MandelBrick possibles.",
+        "Security Monitoring Suite (West Wing) : trois PC cases pour l'électronique haut de gamme.",
+        "Warden Conference Hall fermée et inaccessible depuis War Ablaze."
+      ],
+      "evasion_cellule": {
+        "titre": "Vous commencez enfermé",
+        "principe": "Tide Prison est la seule carte d'Operations qui ne commence pas par un déplacement mais par une énigme. Vous apparaissez dans une cellule, désarmé, et vous devez en sortir avant de pouvoir jouer. Votre équipement vous attend dans un casier juste à l'extérieur. Chaque cellule tire au sort un mécanisme de sortie parmi cinq ; une fois les cinq connus, l'évasion prend dix à quinze secondes et devient un non-événement.",
+        "puzzles": [
+          {
+            "nom": "Mur laser",
+            "indice": "Une grille de faisceaux barre l'ouverture",
+            "geste": "Le bas du mur est dégagé : passez à plat ventre sous le faisceau le plus bas."
+          },
+          {
+            "nom": "Grille de ventilation verrouillée",
+            "indice": "Un conduit au sol ou en hauteur, fermé par un panneau à lecteur",
+            "geste": "Nécessite une carte d'accès. Conservez-en toujours une sur vous au départ."
+          },
+          {
+            "nom": "Grille soudée",
+            "indice": "Barreaux massifs sans lecteur",
+            "geste": "Posez une charge de brèche. Le bruit s'entend loin : attendez-vous à de la compagnie."
+          },
+          {
+            "nom": "Scanner d'empreinte",
+            "indice": "Un lecteur biométrique clignote en rouge",
+            "geste": "Quatre fragments d'empreinte sont dispersés dans la cellule. Ramassez-les tous, puis validez au lecteur."
+          },
+          {
+            "nom": "Terminal de piratage",
+            "indice": "Un écran de console actif",
+            "geste": "Mini-jeu de piratage classique. Pas de matériel requis, juste du sang-froid."
+          }
+        ],
+        "conseils": [
+          "Ne sprintez pas vers le casier : d'autres joueurs sortent au même moment et le couloir des cellules est un couloir de la mort.",
+          "Le bruit de votre méthode de sortie renseigne les autres. Une charge de brèche annonce votre position ; un scanner ne dit rien.",
+          "Emportez toujours au moins une carte d'accès au départ : deux des cinq mécanismes en dépendent directement ou indirectement."
+        ]
+      },
+      "cartes_acces": {
+        "titre": "Trois niveaux de cartes d'accès",
+        "avertissement": "Les valeurs de durabilité ci-dessous circulent dans la communauté mais ne sont pas confirmées par une source officielle. Traitez-les comme des ordres de grandeur.",
+        "niveaux": [
+          {
+            "niveau": "Niveau 1",
+            "usage": "Cellules, portes de service, zones communes",
+            "durabilite": "≈ 100 points",
+            "ou": "Butin courant, casiers de gardiens"
+          },
+          {
+            "niveau": "Niveau 2",
+            "usage": "Infirmerie, ateliers, étages intermédiaires",
+            "durabilite": "≈ 100 points",
+            "ou": "Conteneurs sécurisés, IA d'élite"
+          },
+          {
+            "niveau": "Niveau 3",
+            "usage": "Bureau principal, salles à fort butin",
+            "durabilite": "≈ 80 points",
+            "ou": "Rare — souvent gardée par un adversaire déjà sur place"
+          }
+        ],
+        "regle": "Chaque ouverture consomme de la durabilité. Une carte n'est pas un passe illimité : planifiez l'itinéraire avant de brûler des points sur une porte sans intérêt."
+      },
+      "extractions": {
+        "titre": "Trois sorties, trois philosophies",
+        "avertissement": "Certains guides en ligne listent sept extractions nommées pour cette carte. Ces listes ne sont corroborées par aucune autre source et contredisent les relevés de terrain. Nous retenons la version à trois extractions.",
+        "sorties": [
+          {
+            "nom": "Extraction principale",
+            "cout": "Une séquence en trois temps",
+            "detail": "Activez le terminal de l'infirmerie, puis le scanner biométrique à l'étage, puis abaissez le levier du bureau principal. Le levier n'est utilisable que deux fois par partie : si deux escouades sont déjà sorties par là, cette route est morte.",
+            "risque": "Moyen",
+            "conseil": "Faites les deux premières étapes en début de partie, avant que le sac ne pèse. Gardez le levier pour la fin."
+          },
+          {
+            "nom": "Point fixe en mer",
+            "cout": "Aucun prérequis",
+            "detail": "Une zone d'évacuation ouverte, en bord d'eau, directement sous les tours de guet.",
+            "risque": "Élevé",
+            "conseil": "Totalement à découvert. N'y allez qu'avec un fumigène, ou après avoir vérifié les tours."
+          },
+          {
+            "nom": "Abandon de sac en plongée",
+            "cout": "Vous laissez le sac",
+            "detail": "Dans la zone de construction, vous pouvez partir en plongée en abandonnant votre sac à dos.",
+            "risque": "Faible",
+            "conseil": "La sortie de secours. Si vous transportez un objet de grande valeur dans vos poches sécurisées et que tout va mal, c'est la décision rentable."
+          }
+        ]
+      },
+      "note_boss": "Le gardien de zone est Warden Ghroth depuis septembre 2025, en remplacement du précédent. Sa Carte de Jugement ouvre une salle parmi trois possibles. Elle n'est pas extractible et ne vaut que pour la partie en cours : utilisez-la immédiatement ou elle ne vaut rien."
+    },
+    {
+      "id": "az3",
+      "nom": "AZ3 Nuclear Plant",
+      "difficulte": "Élite",
+      "disponibilite": "Easy (Ops Lv.9) / Normal (Ops Lv.14) / Supercritical (18 décembre 2026, Ops Lv.30)",
+      "localisations_referencees": 70,
+      "boss": "Neural Device Agent H1000",
+      "resume": "Centrale nucléaire. Carte compacte pour des runs de loot rapides et des hot drops PvP. Zone radioactive : la Decontamination Chamber du Black Site est quasi obligatoire.",
+      "porte_a_code": "Bâtiments près de la Seawater Treatment Area.",
+      "cout_entree": "AZ3 Normal : 112 500 Tekniq Alloys par entrée.",
+      "supercritical": {
+        "statut": "PAS ENCORE DISPONIBLE",
+        "date": "18 décembre 2026",
+        "prerequis": "Operations Level 30 + valeur d'entrée requise",
+        "note": "Les notes de novembre ne mentionnent AUCUN emplacement d'extraction ni d'accès permanent. Préparer le niveau et la mise à l'avance."
+      },
+      "decontamination": "Les trois paliers de la Decontamination Chamber se débloquent aux niveaux Operations 9, 14 et 27. Ne la rusher que si vous farmez activement AZ3."
+    }
+  ],
+  "warfare": [
+    {
+      "id": "zenith-port",
+      "nom": "Zenith Port",
+      "badge": "NOUVELLE S12",
+      "type": "Carte côtière",
+      "resume": "Les forces du G.T.I. prennent d'assaut un port sous couverture de la flotte. Les attaquants arrivent par la mer, traversent les rues et montent vers les hauteurs.",
+      "evenement_riptide": "Un barrage soutenu de missiles guidés attire le feu de la défense anti-aérienne du port. Les missiles interceptés explosent en mer et génèrent des vagues géantes qui inondent les objectifs bas et déplacent les combats sur les toits.",
+      "specificites": [
+        "Nouvelle physique de véhicules : les engins amphibies et les embarcations montent et descendent avec les vagues.",
+        "Musique de véhicule urbain exclusive à la carte.",
+        "Mode Immersif réservé au PC : masque la majorité de l'interface.",
+        "Mix audio Verity en préversion sur cette carte uniquement."
+      ],
+      "patch_12_11": [
+        "Spawns attaquants du Secteur B ajustés",
+        "Allocation de véhicules revue Secteurs B et C",
+        "Bases de déploiement post-Riptide ajustées Secteur C"
+      ],
+      "event": "Battle of Zenith Port — 10 au 19 novembre 2026 (terminé). Récompenses : Toro Scatenato - Tank, Premium Weapon EXP Token."
+    },
+    {
+      "id": "the-mog",
+      "nom": "The Mog",
+      "type": "Urbaine",
+      "resume": "Carte urbaine inspirée de Black Hawk Down, introduite en Saison 11. Favorise le jeu SMG/AR agressif."
+    },
+    {
+      "id": "akh-canal",
+      "nom": "Akh Canal",
+      "statut": "RETIRÉE EN S12",
+      "resume": "Retirée de la rotation Warfare avec la Saison Aurora. Aucune raison communiquée dans les patch notes. Était une carte King of the Hill appréciée."
+    },
+    {
+      "id": "cracked",
+      "nom": "Cracked",
+      "type": "Attack/Defend",
+      "resume": "Carte Warfare liée au secret cross-mode de Zero Dam : les fragments de code en morse sont cachés aux objectifs A1, B1, C1, D1."
+    },
+    {
+      "id": "threshold",
+      "nom": "Threshold",
+      "type": "King of the Hill",
+      "s12": "Zones de combat corrigées en King of the Hill."
+    },
+    {
+      "id": "cyclone",
+      "nom": "Cyclone",
+      "type": "Victory Unite / Attack and Defend",
+      "s12": "Le spawn du LAV-AA défenseur du Secteur A a été déplacé."
+    }
+  ],
+  "categories_marqueurs": [
+    {
+      "id": "extract",
+      "libelle": "Extractions",
+      "couleur": "#00FF9D"
+    },
+    {
+      "id": "boss",
+      "libelle": "Boss",
+      "couleur": "#FF2D2D"
+    },
+    {
+      "id": "keycard",
+      "libelle": "Keycards / portes verrouillées",
+      "couleur": "#FFD700"
+    },
+    {
+      "id": "loot",
+      "libelle": "Loot haute valeur",
+      "couleur": "#00C8FF"
+    },
+    {
+      "id": "spawn",
+      "libelle": "Spawns joueurs",
+      "couleur": "#E8EDF5"
+    },
+    {
+      "id": "password",
+      "libelle": "Portes à code",
+      "couleur": "#FF6B00"
+    },
+    {
+      "id": "secret",
+      "libelle": "Secrets",
+      "couleur": "#9C27B0"
+    },
+    {
+      "id": "collectible",
+      "libelle": "Collectibles",
+      "couleur": "#FF66CC"
+    },
+    {
+      "id": "fishing",
+      "libelle": "Pêche",
+      "couleur": "#4CAF50"
+    },
+    {
+      "id": "production",
+      "libelle": "Black Site Production",
+      "couleur": "#7A8FA6"
+    }
+  ]
+}

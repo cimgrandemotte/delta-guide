@@ -1,0 +1,834 @@
+{
+  "_meta": {
+    "fichier": "season12.json",
+    "description": "Saison 12 — Aurora. Données vérifiées par recherche web le 2026-11-19.",
+    "derniere_maj": "2026-11-19",
+    "sources": [
+      "https://deltaforce.garena.com/en/news/all",
+      "https://timesaver.gg/blog/delta-force-season-aurora-patch-notes",
+      "https://www.theclick.gg/delta-force-aurora-patch-notes/",
+      "https://overgear.com/guides/delta-force/season-12-guide/",
+      "https://patchbot.io/games/delta-force/articles/2140-version-update-new-season-aurora-massive-events-rewards-store-updates",
+      "https://accountshark.net/blog/delta-force-season-aurora-season-12-guide-martelo-an-94-zenith-port-brakkesh-patch-notes"
+    ]
+  },
+  "saison": {
+    "numero": 12,
+    "nom": "Aurora",
+    "lancement": "2026-11-10",
+    "heure_lancement": "02:00 UTC (10:00 UTC+8)",
+    "type_deploiement": "No-downtime (sans interruption de service)",
+    "plateformes": [
+      "PC",
+      "PS5",
+      "Xbox Series X|S",
+      "Android",
+      "iOS"
+    ],
+    "patch_correctif": "2026-11-12",
+    "fin_estimee": "2027-01-25 (fin des events Season Challenge / Weekend Select)",
+    "reset": "Toute la progression des missions de la Saison 11 est effacée. Les accès Ultimate Safe Box et les Safe Box Trial Cards des saisons précédentes expirent. Le stash n'est PAS wipe.",
+    "confiance": "confirme"
+  },
+  "nouveautes_majeures": [
+    {
+      "id": "martelo",
+      "titre": "Nouvel opérateur Assault : Martelo (Veronica Cardozo)",
+      "detail": "Ariete (charge bouclier), Smoke Halo, Grenade HE, passif Guerreira. Débloquée gratuitement via le Season Pass.",
+      "confiance": "confirme"
+    },
+    {
+      "id": "brakkesh2",
+      "titre": "Brakkesh 2.0",
+      "detail": "Refonte de Babel et de la Central Command Zone + mode de conflit de factions Haavk Corp vs Ahsarah Guard, badge de faction, chasses de faction.",
+      "confiance": "confirme"
+    },
+    {
+      "id": "zenith_port",
+      "titre": "Nouvelle carte Warfare : Zenith Port",
+      "detail": "Assaut côtier du G.T.I. sous couverture de la flotte. Événement Riptide : les missiles guidés interceptés explosent en mer et génèrent des vagues géantes qui déplacent les combats sur les toits. Physique de vagues pour véhicules amphibies.",
+      "confiance": "confirme"
+    },
+    {
+      "id": "akh_canal_retire",
+      "titre": "Akh Canal retirée du pool Warfare",
+      "detail": "Aucune raison donnée dans les patch notes.",
+      "confiance": "confirme"
+    },
+    {
+      "id": "an94",
+      "titre": "Nouvelle arme : AN-94 (5.45x39mm)",
+      "detail": "Fusil d'assaut réservé aux opérateurs Assault. Event kill-mission 10/11 → 10/12/2026 (Avatar Breakout + Tactical Armament Vouchers).",
+      "confiance": "confirme"
+    },
+    {
+      "id": "munitions",
+      "titre": "5 nouvelles munitions",
+      "detail": ".300BLK TIV, .300BLK TTV, 5.56x45mm CINDER, 9x19mm 7N30, 5.45mm SPALL.",
+      "confiance": "confirme"
+    },
+    {
+      "id": "az3_supercritical",
+      "titre": "AZ3 Supercritical",
+      "detail": "CORRECTION IMPORTANTE : mode difficile pour AZ3 attendu le 18 DÉCEMBRE 2026, PAS disponible au lancement de la saison. Requiert Operations Level 30.",
+      "confiance": "confirme"
+    },
+    {
+      "id": "pbz",
+      "titre": "Collaboration Phantom Blade Zero",
+      "detail": "Apparences d'inspiration wuxia, katana, Seven-Star Sword - G3 (gratuit), collectible Soul · Roaming Blade dans les nids d'oiseaux.",
+      "confiance": "confirme"
+    },
+    {
+      "id": "firing_range",
+      "titre": "Firing Range 2.0",
+      "detail": "Cibles mobiles, sessions chronométrées, statistiques de performance, test des capacités d'opérateur, changement d'opérateur dans le stand.",
+      "confiance": "confirme"
+    },
+    {
+      "id": "loading_plans",
+      "titre": "Loading Plans",
+      "detail": "Ordre personnalisé des munitions dans le chargeur. Débloqué à Operations Level 35.",
+      "confiance": "confirme"
+    },
+    {
+      "id": "verity",
+      "titre": "Full Verity Mode (PC, Warfare)",
+      "detail": "UE5 : Lumen (global illumination), Nanite (géométrie), Virtual Shadow Maps. Eau et végétation améliorées. Mix audio Verity en préversion sur Zenith Port uniquement. Mode Immersif PC qui masque la majorité du HUD.",
+      "confiance": "confirme"
+    },
+    {
+      "id": "penetration",
+      "titre": "Nouvelle mécanique de pénétration",
+      "detail": "Une balle peut désormais traverser plusieurs ennemis.",
+      "confiance": "probable"
+    },
+    {
+      "id": "thermobarique",
+      "titre": "Bombe thermobarique (Warfare)",
+      "detail": "Nouveau Call-in Attack avec effet de brûlure retardé.",
+      "confiance": "confirme"
+    },
+    {
+      "id": "chroma",
+      "titre": "Palier de collectibles Chroma",
+      "detail": "Nouveau palier au-dessus de Rouge. Nouveaux collectibles : Plasma Cutter, Neutron Detector, Queen Piece, Nuclear Battery. Trading de poissons au Bazaar. Succès Genius Ratty.",
+      "confiance": "confirme"
+    },
+    {
+      "id": "detonation_console",
+      "titre": "Support manette pour Detonation",
+      "detail": "Le mode Detonation arrive sur console.",
+      "confiance": "confirme"
+    }
+  ],
+  "patch_12_novembre": {
+    "date": "2026-11-12",
+    "changements": [
+      "Martelo — Smoke Halo : portée d'atténuation sonore fixée à 50 m, chute plus forte au-delà de 30 m ; le son mécanique lors d'une rotation caméra n'est plus audible que par Martelo.",
+      "Fate Contracts S12 — tâche Rover : 6 impacts de Dart Rifle dans n'importe quelle Operation Hard.",
+      "Fate Contracts S12 — tâche Martelo : 3 impacts d'Ariete (réduit de 6 à 3).",
+      "Zenith Port — spawns attaquants du Secteur B ajustés.",
+      "Zenith Port — allocation de véhicules revue dans les Secteurs B et C.",
+      "Zenith Port — bases de déploiement post-Riptide ajustées dans le Secteur C."
+    ],
+    "confiance": "confirme"
+  },
+  "equilibrage_armes": {
+    "operations": [
+      {
+        "arme": "AR-57",
+        "changement": "Pénétration d'armure 31 → 32 ; multiplicateur de dégâts aux bras 0.4 → 0.5",
+        "sens": "buff"
+      },
+      {
+        "arme": "K416",
+        "changement": "Dégâts 31 → 32 ; falloff 27m/54m 0.85x/0.7x → 27m/40m 0.9x/0.7x",
+        "sens": "buff (portée raccourcie)"
+      },
+      {
+        "arme": "MCX LT (Fierce Barrel)",
+        "changement": "Multiplicateur abdomen 0.9x → 1.0x",
+        "sens": "buff"
+      },
+      {
+        "arme": "AUG (chargeur 45 coups)",
+        "changement": "Maniabilité -8 → -5",
+        "sens": "buff"
+      },
+      {
+        "arme": "Thompson (Advanced Frame System)",
+        "changement": "Falloff 1er palier 0.85x → 0.8x",
+        "sens": "nerf"
+      },
+      {
+        "arme": "AKM (Performance Barrel Combo)",
+        "changement": "Bonus de portée et vélocité retirés ; falloff 42m/74m → 30m/45m",
+        "sens": "nerf"
+      }
+    ],
+    "warfare": [
+      {
+        "arme": "MDR .308 (chargeur étendu)",
+        "changement": "Maniabilité -12 → -4",
+        "sens": "buff"
+      },
+      {
+        "arme": "Thompson SMG",
+        "changement": "Multiplicateur headshot 1.9x → 1.6x ; falloff 2e palier 0.75x → 0.7x",
+        "sens": "nerf"
+      },
+      {
+        "arme": "Compound Bow",
+        "changement": "Flèches en réserve 30 → 16 ; dégâts mollet 0.9x → 0.7x",
+        "sens": "nerf"
+      }
+    ],
+    "detonation": [
+      {
+        "arme": "G17 Pistol",
+        "changement": "Dégâts 27 → 30",
+        "sens": "buff"
+      },
+      {
+        "arme": "KC-17",
+        "changement": "Pénétration d'armure 48 → 44",
+        "sens": "nerf"
+      },
+      {
+        "arme": "725 Shotgun",
+        "changement": "Dégâts 18x8 → 16x8 ; falloff 0.9x/0.8x → 0.8x/0.7x",
+        "sens": "nerf"
+      },
+      {
+        "arme": "M870 / FS-12",
+        "changement": "Falloff 10m/15m 0.9x/0.8x → 0.8x/0.7x",
+        "sens": "nerf"
+      }
+    ]
+  },
+  "equilibrage_operateurs": {
+    "avertissement": "ATTENTION : de nombreux changements S12 sont SPÉCIFIQUES AU MODE DETONATION et n'affectent ni Operations ni Warfare. Ne pas les généraliser.",
+    "tous_modes": [
+      {
+        "operateur": "Rover",
+        "changement": "Clover détecte les ennemis au bruit et peut bondir sur eux à distance",
+        "sens": "buff"
+      },
+      {
+        "operateur": "N-Two",
+        "changement": "Durée Cryo-Flask 10s → 7s",
+        "sens": "nerf"
+      },
+      {
+        "operateur": "Shepherd",
+        "changement": "Le Sonic Trap ne bloque plus les balles et sa hitbox revient à sa taille d'origine (annulation du nerf du 15 octobre)",
+        "sens": "buff"
+      }
+    ],
+    "operations": [
+      {
+        "operateur": "Rover",
+        "changement": "Les munitions de niveau 6+ infligent 2x dégâts à Clover",
+        "sens": "nerf"
+      },
+      {
+        "operateur": "N-Two",
+        "changement": "Dégâts de zone 4 → 7 HP/0.5s ; cooldown 55s → 45s ; Homing Stun Grenade 45s → 40s",
+        "sens": "buff majeur"
+      },
+      {
+        "operateur": "Nox",
+        "changement": "Silent Assault : 25s avec un seul Nox, 15s avec deux ou trois Nox dans l'escouade (cap d'empilement)",
+        "sens": "nerf"
+      }
+    ],
+    "warfare": [
+      {
+        "operateur": "N-Two",
+        "changement": "Dégâts de zone Cryo-Flask 8 → 10 HP/0.5s",
+        "sens": "buff"
+      },
+      {
+        "operateur": "Nox",
+        "changement": "Passif Warfare renommé Deep Trauma → Revenant",
+        "sens": "neutre"
+      }
+    ],
+    "detonation_uniquement": [
+      {
+        "operateur": "Rover",
+        "changement": "Clover 7 → 6 points de charge ; réduction PV max Dart Rifle 30 → 45 ; fumée irritante 15s → 18s",
+        "sens": "buff"
+      },
+      {
+        "operateur": "Toxik",
+        "changement": "Blinding Gas max 2 → 3, cooldown 60s → 75s",
+        "sens": "mixte"
+      },
+      {
+        "operateur": "Raptor",
+        "changement": "Wing Cam 6 → 4 points de charge ; vitesse mobile Silver Wing 7 → 8 m/s",
+        "sens": "buff"
+      },
+      {
+        "operateur": "Morse",
+        "changement": "Rayon du Throwable Jammer 7m → 10m ; mèche du Delayed Flashbang -0.05s",
+        "sens": "buff"
+      },
+      {
+        "operateur": "Uluru",
+        "changement": "Loitering Munition explosion principale 50 → 80 (rayon pleins dégâts 2m), sous-munitions 100 → 60 ; Composite Incendiary 300 → 250",
+        "sens": "mixte"
+      },
+      {
+        "operateur": "Gizmo",
+        "changement": "Durée Smoke Mine 15s → 18s",
+        "sens": "buff"
+      },
+      {
+        "operateur": "Stinger",
+        "changement": "Prix Smokescreen 250 → 300 ; auto-soin Hive-Tech Pistol 20s → 15s",
+        "sens": "nerf"
+      },
+      {
+        "operateur": "Hackclaw (Mai Xiaowen)",
+        "changement": "Portée max Flash Drone 50m → 40m, délai légèrement allongé",
+        "sens": "nerf"
+      },
+      {
+        "operateur": "Luna & Shepherd",
+        "changement": "Dégâts minimum GE2 Frag Grenade 10 → 5 ; portée de l'icône d'alerte 10m → 20m",
+        "sens": "nerf"
+      },
+      {
+        "operateur": "Vlinder",
+        "changement": "Le drone de secours restaure 50 PV au lieu de 100",
+        "sens": "nerf"
+      },
+      {
+        "operateur": "Nox & Morse",
+        "changement": "Les flashbangs ne donnent plus d'immunité après impacts répétés",
+        "sens": "nerf"
+      },
+      {
+        "operateur": "Desmoulins (Polaris Patrol)",
+        "changement": "Portée du véhicule télécommandé 150m → 120m ; multiplicateur munitions basse pénétration 0.2x → 0.9x ; durée Seeker Bomb Vehicle 15s → 10s",
+        "sens": "nerf"
+      }
+    ]
+  },
+  "equilibrage_vehicules": [
+    "Les missiles TV-guidés peuvent désormais être interceptés et détruits en vol.",
+    "Les Wheeled Tank Destroyers conservent une vitesse élevée même moteur détruit — un tir au point faible moteur ne les immobilise plus.",
+    "Perturber un véhicule ennemi avec un gadget tactique donne une notification de score, un assist si le véhicule est détruit et alerte automatiquement l'équipe.",
+    "Les largages de véhicules peuvent être protégés temporairement par un système de défense active payant.",
+    "LAV-G1 : la zone de verrouillage de ce véhicule est désormais plus étroite."
+  ],
+  "events": [
+    {
+      "nom": "Collaboration Phantom Blade Zero",
+      "mode": "Tous",
+      "debut": "2026-11-10",
+      "fin": "2026-12-10",
+      "recompenses": "Charm Flaming Mane, Calling Card collab, Avatar Lion Dance, Spray Red Threads, Action Boundless Thirst, emotes solo/duo"
+    },
+    {
+      "nom": "Collab Legendary Gift",
+      "mode": "Tous",
+      "debut": "2026-11-10",
+      "fin": "2026-12-03",
+      "recompenses": "Seven-Star Sword - G3 (apparence légendaire gratuite) + Tactical Armament Vouchers — cumuler du temps de survie en match"
+    },
+    {
+      "nom": "Collab Limited Red — Soul · Roaming Blade",
+      "mode": "Operations",
+      "debut": "2026-11-10",
+      "fin": "2027-01-25",
+      "recompenses": "Collectible figurine dans les nids d'oiseaux de toutes les cartes"
+    },
+    {
+      "nom": "New Operator Trials (Martelo)",
+      "mode": "Operations + Warfare",
+      "debut": "2026-11-10",
+      "fin": "2026-12-10",
+      "recompenses": "Tactical Armament Vouchers, Calling Card Taunt"
+    },
+    {
+      "nom": "AN-94 Kill Missions",
+      "mode": "Operations + Warfare",
+      "debut": "2026-11-10",
+      "fin": "2026-12-10",
+      "recompenses": "Avatar Breakout, Armament Vouchers"
+    },
+    {
+      "nom": "Battle of Zenith Port",
+      "mode": "Warfare",
+      "debut": "2026-11-10",
+      "fin": "2026-11-19",
+      "recompenses": "Toro Scatenato - Tank, Premium Weapon EXP Token",
+      "statut": "TERMINÉ"
+    },
+    {
+      "nom": "Brakkesh Renewed",
+      "mode": "Operations",
+      "debut": "2026-11-10",
+      "fin": "2026-12-10",
+      "recompenses": "Contacts de faction, missions, badge, milestones, hunts"
+    },
+    {
+      "nom": "Faction Badge",
+      "mode": "Operations",
+      "debut": "2026-11-10",
+      "fin": "2026-11-26",
+      "recompenses": "Badge de faction ; Lv.2 débloque milestones et hunts"
+    },
+    {
+      "nom": "Brakkesh Arsenal",
+      "mode": "Operations",
+      "debut": "2026-11-10",
+      "fin": "2026-11-26",
+      "recompenses": "Ammo Selection Packs, gun packs Brakkesh, Tactical Armament Vouchers, emblèmes Haavk et Ahsarah"
+    },
+    {
+      "nom": "Faction Front",
+      "mode": "Operations",
+      "debut": "2026-11-10",
+      "fin": "2026-11-26",
+      "recompenses": "Brakkesh Tokens (ramasser un ID Tag de faction + terminer une mission milestone)"
+    },
+    {
+      "nom": "Renewed Recon / Weapon Trial / Shades Bounty / Hunting Hour",
+      "mode": "Operations",
+      "debut": "2026-11-10",
+      "fin": "2026-11-26",
+      "recompenses": "Brakkesh Tokens pour la boutique d'event"
+    },
+    {
+      "nom": "Find Sleepy Zoya",
+      "mode": "Operations",
+      "debut": "2026-11-10",
+      "fin": "2026-11-23",
+      "recompenses": "Figurine Sleepy Zoya (mallettes)"
+    },
+    {
+      "nom": "Tekniq Alloy Store",
+      "mode": "Operations",
+      "debut": "2026-11-10",
+      "fin": "2026-11-19",
+      "recompenses": "Quantum Keys, Logistics Vouchers, Advanced Secure Container 7-Day Access Card",
+      "statut": "TERMINÉ"
+    },
+    {
+      "nom": "DFI Sweden World Championship Prediction",
+      "mode": "Operations",
+      "debut": "2026-11-11",
+      "fin": "2026-12-03",
+      "recompenses": "Northern Frontier - Assault Vehicle, Overtime - AK-12"
+    },
+    {
+      "nom": "Season Challenge",
+      "mode": "Warfare",
+      "debut": "2026-11-10",
+      "fin": "2027-01-25",
+      "recompenses": "M700 Serenity, Claymore Zero-Grav, Badge Aurora, FSV Ahsarah Guard, Avatar Vehicle Enthusiast"
+    },
+    {
+      "nom": "Weekend Select",
+      "mode": "Operations",
+      "debut": "2026-11-10",
+      "fin": "2027-01-25",
+      "recompenses": "Tokens → Gear Tickets, keycard copy packs, loadouts tournants"
+    },
+    {
+      "nom": "Colorful Sleepy Zoya",
+      "mode": "Operations",
+      "debut": "2026-11-10",
+      "fin": "2027-01-25",
+      "recompenses": "Version cachée rare depuis les conteneurs"
+    }
+  ],
+  "season_pass": {
+    "martelo_gratuit": true,
+    "recompenses_majeures": [
+      "Nouvel opérateur Martelo (déblocage gratuit)",
+      "Gizmo - Lone Path (apparence légendaire d'opérateur)",
+      "Lone Path - MK47",
+      "Série Horoscope : AR-57, UZI, MCX LT",
+      "Série Pulse Stalker : SVCH, .357 Revolver, M870",
+      "Astronavigation - GTQ-35 Tank",
+      "Desert - Respawn Beacon",
+      "Season Safe Box (2x2 et 2x3)",
+      "TurBrick, Delta Tickets, Armament Vouchers, Weapon EXP Tokens"
+    ]
+  },
+  "autres_cosmetiques": [
+    "Apparence légendaire AK-12 liée à la finale du Delta Force Invitational",
+    "K437 MandelBrick (série Proto Blade)",
+    "Apparences épiques SV-98, K437, FS-12",
+    "Ultimate Raptor (apparence d'opérateur)",
+    "Collection de charms Asgard",
+    "Lucky draw K437 / P90 / QJB201",
+    "Séries Sanguine (AKM, SCAR-H, mêlée) et White Serpent & Crimson Viper"
+  ],
+  "priorites_joueur": [
+    "Les attachements Haavk limités (PKM Bullpup Kit, HVK Binary Stock Kit) ferment le 17 novembre.",
+    "Battle of Zenith Port s'est terminé le 19 novembre.",
+    "Rejoindre une faction sur Brakkesh tôt : le badge doit atteindre Lv.2 avant la fin des events Brakkesh le 26 novembre.",
+    "Collab Legendary Gift (Seven-Star Sword - G3) avant le 3 décembre.",
+    "AZ3 Supercritical ouvre le 18 décembre — préparer Operations Level 30 et le ticket d'entrée."
+  ],
+  "equilibrage_chiffre": {
+    "note": "Valeurs exactes relevées dans les notes de patch officielles. ↑ = amélioration, ↓ = nerf.",
+    "tous_modes": [
+      {
+        "arme": "MCX LT",
+        "detail": "Portée d'audibilité du tir : 500 m → 350 m",
+        "sens": "↑"
+      },
+      {
+        "arme": "SVCH (chargeur étendu)",
+        "detail": "Pénalité de rechargement supprimée ; maniabilité −6 → −4",
+        "sens": "↑"
+      }
+    ],
+    "operations": [
+      {
+        "arme": "K416",
+        "detail": "Dégâts 31 → 32 ; multiplicateur à 27 m 0,85 → 0,90 ; 2ᵉ seuil de perte 54 m → 40 m",
+        "sens": "↑ de près, ↓ de loin"
+      },
+      {
+        "arme": "AR-57",
+        "detail": "Pénétration d'armure 31 → 32 ; multiplicateur bras 0,4 → 0,5 (15 dégâts au lieu de 12)",
+        "sens": "↑"
+      },
+      {
+        "arme": "Thompson",
+        "detail": "Multiplicateur de perte initiale à 20 m : 0,85 → 0,80",
+        "sens": "↓"
+      },
+      {
+        "arme": "AKM",
+        "detail": "Seuils de portée 42/74 m → 30/45 m ; bonus de combinaison de canon supprimés",
+        "sens": "↓"
+      },
+      {
+        "arme": "AUG",
+        "detail": "Chargeur 45 coups : maniabilité −8 → −5",
+        "sens": "↑"
+      },
+      {
+        "arme": "MCX (canon Fierce)",
+        "detail": "Multiplicateur abdomen 0,9 → 1,0",
+        "sens": "↑"
+      }
+    ],
+    "detonation_seulement": [
+      {
+        "arme": "G17",
+        "detail": "Dégâts 27 → 30",
+        "sens": "↑"
+      },
+      {
+        "arme": "KC-17",
+        "detail": "Pénétration d'armure 48 → 44",
+        "sens": "↓"
+      },
+      {
+        "arme": "725",
+        "detail": "Dégâts 18×8 → 16×8 ; perte à 10/15 m 0,9/0,8 → 0,8/0,7",
+        "sens": "↓"
+      }
+    ],
+    "vehicule_neural": {
+      "libelle": "Véhicule à contrôle neuronal (Desmoulins) — multiplicateurs de dégâts contre blindage véhicule, par niveau de munition",
+      "valeurs": [
+        "Niveau 0 : 0,2× → 0,9×",
+        "Niveau 1 : 0,2× → 0,9×",
+        "Niveau 2 : 0,5× → 1×",
+        "Niveau 3 : 0,9× → 1×",
+        "Niveau 4 : 1× → 1,1×",
+        "Niveau 5 : 1,2× → 1,2× (inchangé)"
+      ],
+      "lecture": "Les petits calibres deviennent enfin capables d'entamer ce véhicule : il n'est plus intouchable au fusil d'assaut."
+    }
+  },
+  "echeances": {
+    "titre": "Calendrier à surveiller",
+    "note": "Fin des événements de saison : 25 janvier 2027.",
+    "items": [
+      {
+        "date": "17/11/2026",
+        "quoi": "Accessoires Haavk (mods SR-25 et PKM)",
+        "statut": "Échéance dépassée"
+      },
+      {
+        "date": "19/11/2026",
+        "quoi": "Battle of Zenith Port — apparence Toro Scatenato (Tank)",
+        "statut": "Dernier jour"
+      },
+      {
+        "date": "26/11/2026",
+        "quoi": "Tous les événements Brakkesh (Faction Badge, Arsenal, Renewed Recon, Weapon Trial, Shades Bounty, Faction Front, Hunting Hour)",
+        "statut": "En cours"
+      },
+      {
+        "date": "10/12/2026",
+        "quoi": "Essais d'opérateur Martelo (Calling Card exclusive) et AN-94 Kill Missions",
+        "statut": "En cours"
+      },
+      {
+        "date": "10/12/2026",
+        "quoi": "Collaboration Phantom Blade Zero et carte Zenith Port",
+        "statut": "En cours"
+      },
+      {
+        "date": "18/12/2026",
+        "quoi": "AZ3 Supercritical — exige le niveau Operations 30",
+        "statut": "À préparer"
+      },
+      {
+        "date": "—",
+        "quoi": "Loading Plans — exige le niveau Operations 35",
+        "statut": "À préparer"
+      }
+    ]
+  },
+  "equilibrage_operateurs_detail": {
+    "avertissement": "Deux listes à ne surtout pas confondre. La première s'applique à tous les modes. La seconde est EXCLUSIVE à Detonation — c'est l'erreur la plus répandue dans les guides en ligne.",
+    "tous_modes": [
+      {
+        "operateur": "Rover",
+        "changement": "Clover détecte les adversaires au son et peut bondir sur eux ; dégâts des munitions niveau 6 et plus contre Clover ×1 → ×2"
+      },
+      {
+        "operateur": "N-Two",
+        "changement": "Fiole cryogénique 10 s → 7 s, dégâts de zone 4 → 7 PV par demi-seconde, recharge 55 s → 45 s ; grenade étourdissante à tête chercheuse 45 s → 40 s ; en Warfare, dégâts de zone 8 → 10"
+      },
+      {
+        "operateur": "Nox",
+        "changement": "Assaut silencieux : 25 s avec un seul Nox dans l'escouade, 15 s avec deux ou trois, 25 s s'il n'en reste qu'un en vie"
+      },
+      {
+        "operateur": "Polaris / Desmoulins",
+        "changement": "Portée du véhicule téléguidé 150 m → 120 m ; multiplicateurs de munition contre blindage relevés (niveau 7 ×2 → ×3) ; bombe chercheuse véhicule 15 s → 10 s"
+      },
+      {
+        "operateur": "Polaris Patrol — Garde Comms",
+        "changement": "PV de la fusée 50 → 1 ; portée de détection 40 m → 45 m"
+      }
+    ],
+    "detonation_seulement": [
+      {
+        "operateur": "Rover",
+        "changement": "Charges de Clover 7 → 6 ; réduction de PV max du fusil à fléchettes 30 → 45 ; fumée irritante 15 s → 18 s"
+      },
+      {
+        "operateur": "Vlinder",
+        "changement": "Charges de drone 8 → 7 ; soin de secours 100 → 50"
+      },
+      {
+        "operateur": "Toxik",
+        "changement": "Gaz aveuglant maximum 2 → 3 ; recharge 60 s → 75 s"
+      },
+      {
+        "operateur": "Nox",
+        "changement": "Fusée de la grenade aveuglante raccourcie de 0,05 s ; immunité aux impacts répétés supprimée"
+      },
+      {
+        "operateur": "D-Wolf",
+        "changement": "Points de charge d'exosquelette 6 → 5 ; durée 20 s → 25 s ; recharge de la fumée tactique 60 s → 45 s"
+      },
+      {
+        "operateur": "Raptor",
+        "changement": "Charges de Wing Cam 6 → 4 ; vitesse mobile Silver Wing 7 → 8 m/s"
+      },
+      {
+        "operateur": "Morse",
+        "changement": "Rayon du brouilleur 7 m → 10 m ; fusée de la grenade retardée raccourcie de 0,05 s ; immunité supprimée"
+      },
+      {
+        "operateur": "Uluru",
+        "changement": "Munition rôdeuse : rayon de dégâts pleins 1 m → 2 m, explosion principale 50 → 80, réduction d'armure 60 % → 80 %, sous-munition 100 → 60 ; incendiaire composite 300 → 250"
+      },
+      {
+        "operateur": "Gizmo",
+        "changement": "Mine fumigène 15 s → 18 s"
+      },
+      {
+        "operateur": "Stinger",
+        "changement": "Écran de fumée 250 → 300 ; auto-soin du pistolet Hive-Tech 20 s → 15 s"
+      },
+      {
+        "operateur": "Mai Xiaowen",
+        "changement": "Délai du drone flash allongé de 0,05 s ; portée 50 m → 40 m"
+      },
+      {
+        "operateur": "Luna et Shepherd",
+        "changement": "Dégâts minimum de la GE2 Frag 10 → 5 ; portée de l'icône d'avertissement 10 m → 20 m"
+      }
+    ]
+  },
+  "note_garena": "Attention si vous ne jouez pas sur la version globale : Garena exploite Delta Force en Asie du Sud-Est, en Amérique latine et au Moyen-Orient selon son PROPRE calendrier de saisons. Une annonce Garena ne signifie pas que la Saison Aurora y est déployée aux mêmes dates.",
+  "az3_supercritical": {
+    "titre": "AZ3 — Supercritical",
+    "pitch": "Un mode Difficile sur AZ3, bâti autour d'une contamination qui se propage dans la zone.",
+    "fenetre": "18 décembre 2026 → 25 janvier 2027",
+    "niveau_requis": "Operations niveau 30",
+    "cout_entree": "600 000 Tekniq Alloys",
+    "polaris_patrol": "Pris en charge",
+    "conseil": "Le ticket d'entrée est plus de cinq fois celui d'AZ3 Normal (112 500). Montez votre niveau Operations à 30 AVANT le 18 décembre, puis à 35 pour débloquer les Loading Plans — sinon vous regarderez le mode se terminer le 25 janvier sans y avoir mis les pieds."
+  },
+  "zenith_port": {
+    "titre": "Zenith Port — la carte Warfare de la saison",
+    "pitch": "Un assaut amphibie : les forces G.T.I. prennent le port sous couverture de la flotte, en ignorant les avertissements du département du Renseignement sur l'instabilité des fonds marins.",
+    "mecanique_riptide": {
+      "nom": "Événement Riptide",
+      "declencheur": "Aucun bouton, aucun appel d'escouade. Le raz-de-marée se déclenche quand un barrage soutenu de missiles guidés est intercepté par la défense anti-aérienne du port : les missiles explosent en mer et lèvent d'énormes vagues.",
+      "effet": "L'objectif bas est inondé, un nouvel objectif s'ouvre sur les toits. Le combat monte d'un étage.",
+      "physique": "Les véhicules amphibies et les embarcations montent et descendent avec les vagues — une physique propre à cette carte pour l'instant."
+    },
+    "technique": "Seule carte à bénéficier du nouveau mixage audio Verity Mode (en avant-première). Sur PC s'ajoute le Full Verity Mode : éclairage, géométrie et ombres UE5.",
+    "retrait": "Akh Canal a été retirée de la rotation Warfare dans la même mise à jour. Les notes officielles ne donnent aucune raison.",
+    "evenement": "Battle of Zenith Port — 10 → 19 novembre 2026. Récompenses à paliers dont l'apparence de char Toro Scatenato et des jetons d'EXP d'arme Premium."
+  },
+  "brakkesh_factions": {
+    "titre": "Brakkesh 2.0 et le conflit de factions",
+    "refonte": "La zone Babel est entièrement retravaillée, le tracé de la Zone de Commandement Central également. Vos anciennes routes, entrées de bâtiment et positions de combat sont à réapprendre.",
+    "factions": [
+      "Haavk Corp",
+      "Garde d'Ahsarah"
+    ],
+    "fonctionnement": [
+      "Trouvez les contacts cachés des deux factions sur la carte pendant un raid.",
+      "Choisissez un camp et récupérez son badge de faction.",
+      "Montez le badge via les missions de faction.",
+      "Au niveau 2 du badge, les jalons de faction et les chasses de faction s'ouvrent."
+    ],
+    "arsenal_brakkesh": "Explorez la zone centrale et complétez les missions pour obtenir des packs de sélection de munitions, des packs d'armes adaptés à Brakkesh, des bons et les emblèmes Haavk et Ahsarah.",
+    "fenetres": "Sept événements Brakkesh du 10 au 26 novembre (jetons Brakkesh pour la boutique d'événement). « Brakkesh Renewed » court jusqu'au 10 décembre."
+  },
+  "attachements_limites": {
+    "titre": "Les trois kits Haavk en temps limité",
+    "fenetre": "10 → 17 novembre 2026 pour les kits SR-25 et PKM",
+    "lignes": [
+      {
+        "nom": "Kit crosse à détente binaire SR-25 HVK",
+        "controle": "+8",
+        "stabilite": "+3",
+        "precision": "-12",
+        "maniabilite": "+3",
+        "effet": "Mode de tir spécial"
+      },
+      {
+        "nom": "Kit bullpup PKM",
+        "controle": "-4",
+        "stabilite": "+6",
+        "precision": "+16",
+        "maniabilite": "+12",
+        "effet": "Supprime le délai de détente"
+      },
+      {
+        "nom": "Chargeur Monolith M250",
+        "controle": "+8",
+        "stabilite": "+4",
+        "precision": "-16",
+        "maniabilite": "+8",
+        "effet": "Supprime le délai de détente"
+      }
+    ],
+    "note": "⚠️ La fenêtre SR-25 / PKM est close depuis le 17 novembre. Conservé ici pour mémoire et pour anticiper un éventuel retour en boutique."
+  },
+  "patch_detail": {
+    "titre": "Ce que le patch Aurora a vraiment changé",
+    "source": "Notes de version officielles S12 (10/11/2026) et correctif du 12/11/2026.",
+    "intro": "La moitié des changements d'Aurora ne figure dans aucun guide parce qu'ils ne sont pas spectaculaires. Ce sont pourtant ceux qui modifient vos habitudes.",
+    "groupes": [
+      {
+        "nom": "Mécaniques de tir",
+        "accent": "red",
+        "items": [
+          "Nouvelle mécanique de pénétration : une seule balle peut désormais traverser plusieurs adversaires alignés.",
+          "Multiplicateur de dégâts à la tête du Thompson réduit.",
+          "Munitions en réserve de l'arc à poulies réduites.",
+          "Affichage de la durabilité du casque et du gilet ajouté.",
+          "Correction du tir qui se poursuivait au début de la manche suivante en mode Detonation."
+        ]
+      },
+      {
+        "nom": "Opérateurs",
+        "accent": "blue",
+        "items": [
+          "Capacité passive de Nox en Warfare renommée : Traumatisme profond devient Revenant.",
+          "Le piège sonique de Shepherd ne bloque plus les balles ; sa zone de détection d'impact revient à son état antérieur.",
+          "Portée réelle du drone sonique de Shepherd alignée sur ce qu'affiche la mini-carte.",
+          "D-Wolf peut nager à grande vitesse après activation de Surcharge avec une fracture.",
+          "Nouveau réglage pour personnaliser le comportement de détection de Clover selon l'état d'action.",
+          "Rover voit désormais la position de Clover sur la mini-carte et les parties du corps blessées de ses coéquipiers.",
+          "Correction d'un grappin de Sineva traversant les murs en mauvaise connexion.",
+          "Correction du pistolet de Stinger tirant plusieurs projectiles en une pression.",
+          "12/11 : atténuation sonore de Smoke Halo ajustée ; le son que Martelo entend en tournant avec l'équipement lui est devenu privé."
+        ]
+      },
+      {
+        "nom": "Véhicules & Warfare",
+        "accent": "orange",
+        "items": [
+          "Les missiles guidés par télévision peuvent désormais être interceptés et détruits en vol.",
+          "Les chasseurs de chars à roues conservent une vitesse élevée moteur détruit.",
+          "Vitesse du missile filoguidé du bateau d'assaut UCB-95 réduite.",
+          "Le lance-flammes du LSV amphibie chauffe plus vite et refroidit plus vite.",
+          "Véhicules amphibies et embarcations suivent désormais la houle — uniquement sur Zenith Port.",
+          "Perturber un véhicule ennemi avec de l'équipement tactique affiche un score, donne une assistance si le véhicule est détruit et alerte automatiquement votre camp.",
+          "Points d'assistance du pilote d'hélicoptère de transport portés à 120.",
+          "Le tableau des scores classe désormais par dégâts réels, en excluant le surplus au-delà du nécessaire.",
+          "12/11 : points d'apparition attaquants du secteur B, répartition des véhicules des secteurs B et C et bases de déploiement post-Riptide du secteur C ajustés."
+        ]
+      },
+      {
+        "nom": "Detonation",
+        "accent": "gold",
+        "items": [
+          "Les MandelBricks peuvent maintenant tomber en Detonation, avec une limite hebdomadaire partagée avec le Warfare.",
+          "Support des manettes ajouté.",
+          "Classement Légende et au-delà : file limitée au solo et au duo.",
+          "À partir du rang Chouette ardente, une victoire rapporte moins de points si votre coéquipier est à plus de 600 points d'écart.",
+          "Les classements serveur et régionaux se règlent désormais chaque semaine, récompenses distribuées en conséquence.",
+          "Les rangs de Detonation ne sont pas réinitialisés avec cette mise à jour."
+        ]
+      },
+      {
+        "nom": "Confort & systèmes",
+        "accent": "green",
+        "items": [
+          "Bataille libre : nombre minimum de joueurs pour lancer une partie abaissé de 20 à 2.",
+          "Nouveau succès « Génie du rat » : trouver dans une seule partie d'Operations des objets rouges occupant au moins 24 emplacements dans des conteneurs non ouverts, puis s'extraire (Carburant de matière noire exclu).",
+          "Raccourcis ajoutés dans le hall pour les cartes 2× Mérite et les cartes de protection de Mérite.",
+          "Échange direct d'un lot de sélection de munitions pendant la constitution de l'équipement.",
+          "Durabilité de casque et de gilet enregistrable dans un équipement sauvegardé.",
+          "Aperçu des matériaux du Bazar trois jours avant son renouvellement.",
+          "Stand de tir : cibles mobiles, test des capacités d'opérateur, réglage de la santé, de l'armure et du caractère allié ou hostile des mannequins.",
+          "Signalement avec envoi d'images et de vidéos sur PC.",
+          "Chat vocal ajouté dans les salons et parties 1v1.",
+          "Les personnages, armes et véhicules se salissent progressivement en zone urbaine.",
+          "Carte Akh Canal retirée du Warfare."
+        ]
+      },
+      {
+        "nom": "Ce qui a été réinitialisé",
+        "accent": "red",
+        "items": [
+          "Toute la progression des missions de la Saison 11 a été effacée.",
+          "Les accès saisonniers Ultimate Safe Box et les cartes d'essai de coffre-fort des saisons précédentes ont expiré.",
+          "La S12 démarre une nouvelle ligne de missions et une nouvelle apparence Ultimate Safe Box Deluxe Collection."
+        ]
+      }
+    ],
+    "collab": {
+      "titre": "Collaboration Phantom Blade Zero",
+      "dates": "10/11 → 03/12/2026",
+      "detail": "Un objet de collection rouge nommé Soul apparaît dans les nids d'oiseaux de toutes les cartes d'Operations, accompagné d'une arme de mêlée katana et de cosmétiques. Si vous faites déjà les nids par réflexe, cet événement ne vous coûte aucun détour."
+    }
+  }
+}

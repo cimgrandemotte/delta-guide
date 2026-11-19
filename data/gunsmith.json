@@ -1,0 +1,165 @@
+{
+  "_meta": {
+    "titre": "Gunsmith — lire les statistiques et construire une arme qui tient",
+    "derniere_maj": "2026-11-19",
+    "saison": "S12 — Aurora",
+    "sources": [
+      "guides-factory.com — Gunsmith, attachments & recoil control explained (23/10/2026)",
+      "guides-factory.com — How to read the Gunsmith and make the best build (28/10/2026)",
+      "aimsector.com — Weapon stats explained (13/10/2026)",
+      "timesaver.gg — Gunsmith guide, missions & share codes (26/10/2026)",
+      "r/DeltaForceGlobal — « Brief guide on gunsmithing, attachments and stats »"
+    ]
+  },
+
+  "le_malentendu": {
+    "titre": "L'erreur n°1 : confondre Contrôle et Stabilité",
+    "contenu": "Le recul ne vit pas dans l'onglet Stabilité. Il vit dans l'onglet Contrôle. Si vous lisez les infobulles d'accessoires en cherchant le mot « stabilité » pour réduire la montée de votre réticule, vous choisissez systématiquement les mauvaises pièces. Tout accessoire dont la description dit qu'il « augmente le Contrôle » est celui qui réduit réellement la montée et la dérive de l'arme pendant que vous maintenez la détente.",
+    "corollaire": "Deuxième malentendu de même ampleur : la Précision ne concerne QUE le tir à la hanche. Elle n'améliore jamais, en aucune circonstance, la précision en visée. On peut donc la sacrifier intégralement sur une arme que l'on joue épaulée."
+  },
+
+  "statistiques": [
+    {
+      "nom": "Dégâts",
+      "controle": "Dégâts par impact selon la zone touchée, et décroissance avec la distance.",
+      "ne_fait_pas": "Ne donne pas à lui seul le temps d'élimination : il faut le croiser avec la cadence et le calibre.",
+      "modifie_par": "Quasiment fixe par arme. Quelques munitions et rares accessoires le déplacent à la marge.",
+      "compte_pour": "Comparer le potentiel brut de deux armes."
+    },
+    {
+      "nom": "Contrôle",
+      "controle": "C'est LA statistique de recul. Elle se décompose en quatre sous-attributs : multiplicateur de recul vertical et horizontal en automatique, et les deux mêmes en coup par coup / rafale.",
+      "ne_fait_pas": "Ne calme pas l'oscillation de la lunette au repos — c'est le rôle de la Stabilité.",
+      "modifie_par": "Canons, poignées, crosses, bouches. Cherchez le mot « Contrôle » dans l'infobulle.",
+      "compte_pour": "Tout ce qui se joue en automatique : fusils d'assaut, PM, mitrailleuses."
+    },
+    {
+      "nom": "Maniabilité",
+      "controle": "Fourre-tout de toutes les vitesses : temps de mise en joue, délai sprint-tir, vitesse de déplacement en visée, vitesse de marche, rechargement plein et à vide, temps de rangement et de changement d'arme.",
+      "ne_fait_pas": "Ne touche ni au recul ni à la dispersion.",
+      "modifie_par": "Chargeurs, crosses, poignées — et c'est presque toujours elle qui paie vos gains de Contrôle.",
+      "compte_pour": "Le jeu agressif et le combat rapproché."
+    },
+    {
+      "nom": "Stabilité",
+      "controle": "Amplitude de l'oscillation respiratoire, durée de blocage de la respiration, réduction de recul pendant ce blocage, multiplicateur de tressaillement quand on vous touche, stabilité de la caméra en tir.",
+      "ne_fait_pas": "Ne remplace jamais le Contrôle pour le recul.",
+      "modifie_par": "Crosses, poignées, certaines optiques.",
+      "compte_pour": "Les armes qu'on tient longtemps en joue : snipers, tireurs d'élite, tenue d'angle sous le feu."
+    },
+    {
+      "nom": "Précision",
+      "controle": "Dispersion au tir à la hanche. Uniquement.",
+      "ne_fait_pas": "N'affecte JAMAIS la précision en visée. Jamais.",
+      "modifie_par": "Principalement les poignées avant.",
+      "compte_pour": "PM et fusils à pompe joués à la hanche. Négligeable partout ailleurs."
+    },
+    {
+      "nom": "Portée",
+      "controle": "Distance sur laquelle s'étend le premier palier de dégâts, en mètres.",
+      "ne_fait_pas": "Ne définit pas la distance maximale que parcourt la balle.",
+      "modifie_par": "Canons, kits de conversion.",
+      "compte_pour": "Les engagements à moyenne et longue distance."
+    },
+    {
+      "nom": "Vitesse initiale",
+      "controle": "Vitesse de la balle en m/s.",
+      "ne_fait_pas": "Ne change pas la cadence de tir.",
+      "modifie_par": "Canons, silencieux.",
+      "compte_pour": "Toucher une cible mobile à distance : moins d'anticipation à donner."
+    },
+    {
+      "nom": "Pénétration d'armure",
+      "controle": "Dégâts infligés à la durabilité de l'armure, en Operations.",
+      "ne_fait_pas": "Ne signifie PAS la même chose que le niveau de pénétration de la munition. Ce sont deux systèmes distincts.",
+      "modifie_par": "Certains canons et kits.",
+      "compte_pour": "Les duels contre des cibles bien protégées."
+    }
+  ],
+
+  "calibration": {
+    "titre": "La calibration : la seule optimisation gratuite du jeu",
+    "ou": "Modifier → Calibrer, sur les pièces déjà achetées.",
+    "principe": "Chaque curseur est un troc direct, pas un bonus. Déplacer le poids d'un canon échange de la stabilité de tir contre de la vitesse de déplacement en visée — la lecture s'affiche en direct, par exemple +3,84 % de vitesse de déplacement en visée contre −3,84 % de stabilité de tir. Le curseur de longueur échange, lui, vitesse de mise en joue contre vitesse initiale.",
+    "regles": [
+      "Calibrez EN DERNIER, une fois tous les accessoires verrouillés. C'est une seconde couche par-dessus le montage, pas un substitut.",
+      "C'est gratuit. Pressez cette citron avant d'acheter une pièce plus chère : c'est le moyen le moins coûteux de gagner du contrôle quand le budget est épuisé.",
+      "Déplacez le curseur vers ce dont l'arme a besoin, pas vers le plus gros chiffre affiché.",
+      "Sur une arme de contact : calibrez le poids du canon vers la vitesse de mise en joue. Dégainer plus vite vaut mieux qu'un gain marginal de stabilité.",
+      "Sur une arme d'arrosage : poussez les curseurs de poids de la poignée arrière et de la crosse au maximum. Vous payez un peu de vitesse de visée pour un gros gain de contrôle.",
+      "Repassez chaque curseur par petits crans en vérifiant à chaque fois que la statistique visée bouge vraiment : certains curseurs ont des zones mortes où vous payez sans rien gagner."
+    ]
+  },
+
+  "methode_build": {
+    "titre": "Construire une arme en cinq étapes",
+    "etapes": [
+      {
+        "n": 1,
+        "titre": "Décidez du métier de l'arme",
+        "detail": "Une arme qu'on arrose veut du Contrôle. Une arme à un coup — sniper, tireur d'élite — veut de la Stabilité et de la tenue de visée : vous ne corrigerez jamais un recul entre deux tirs, donc seul compte le fait que la première balle parte où vous visez."
+      },
+      {
+        "n": 2,
+        "titre": "Attaquez le recul horizontal en premier",
+        "detail": "La dérive latérale est la plus difficile à corriger à la souris. Réduisez d'abord le multiplicateur de recul horizontal en automatique, puis le vertical. Si votre arme n'a presque pas de dérive latérale d'origine, inversez l'ordre."
+      },
+      {
+        "n": 3,
+        "titre": "Stabilisez l'image",
+        "detail": "Améliorez ensuite la stabilité de l'arme en tir, puis la stabilité de l'optique si le réticule saute encore. Une arme au recul faible mais dont l'image tremble reste injouable."
+      },
+      {
+        "n": 4,
+        "titre": "Payez avec la Précision, puis la Maniabilité",
+        "detail": "Sur une arme épaulée, videz la Précision sans état d'âme : elle ne sert qu'à la hanche. Sacrifiez ensuite de la Maniabilité, mais surveillez le seuil : un basculement vers une pièce orientée stabilité a fait tomber la Maniabilité de 60 à 49, et avec elle la mise en joue de 289 à 316 ms, le délai sprint-tir de 209 à 242 ms, et le rechargement de 2,3 s à 3 s pleines."
+      },
+      {
+        "n": 5,
+        "titre": "Calibrez, puis testez au stand",
+        "detail": "Videz un chargeur entier sur un mur à distance fixe sans corriger : vous lisez la trajectoire réelle. Changez UN accessoire à la fois et refaites le test. C'est la seule méthode qui distingue un gain réel d'un gain affiché."
+      }
+    ]
+  },
+
+  "pieges": [
+    {
+      "titre": "Un gros chiffre de Contrôle sans réduction de recul",
+      "detail": "Certaines pièces affichent par exemple +6 en Contrôle mais n'apportent aucune réduction de recul : leur effet réel, listé juste au-dessus des chiffres dans la section Effet, est « stabilité de l'arme en tir ». Lisez la section Effet, pas la ligne de statistique."
+    },
+    {
+      "titre": "Operations et Warfare ne partagent pas les valeurs",
+      "detail": "La même pièce n'a pas les mêmes statistiques dans les deux modes. Un build réglé pour l'un ne se transpose pas à l'autre. C'est aussi pourquoi les codes de build portent la mention du mode."
+    },
+    {
+      "titre": "Les chiffres bruts ne décident pas du recul",
+      "detail": "Deux builds de Contrôle identique peuvent ne pas tressauter pareil. C'est le multiplicateur de recul qui compte, et le graphique de trajectoire comparée est le seul juge fiable."
+    },
+    {
+      "titre": "Une forte optique sur une arme qui bouge",
+      "detail": "Un grossissement élevé amplifie visuellement tout ce que l'arme fait. Sur une arme automatique nerveuse, une lunette puissante dégrade le build au lieu de l'aider."
+    },
+    {
+      "titre": "L'écran Détails n'est pas l'écran Loadout",
+      "detail": "Comparez votre build enregistré à vos modifications en cours depuis la page Loadouts plutôt qu'en vous fiant à l'écran Détails."
+    },
+    {
+      "titre": "Le laser n'est pas cosmétique",
+      "detail": "Il réduit nettement le temps de mise en joue, même sur une arme à faible maniabilité. En contrepartie il signale votre position : apprenez à l'allumer et l'éteindre selon la situation."
+    }
+  ],
+
+  "profils": [
+    { "arme": "Fusil d'assaut polyvalent", "priorite": "Contrôle > Stabilité > Maniabilité > Précision", "note": "Le profil par défaut. Visez un recul vertical maîtrisable sur un chargeur entier." },
+    { "arme": "PM / arme de contact", "priorite": "Maniabilité > Contrôle > Stabilité", "note": "Calibrez le canon vers la vitesse de mise en joue. La Précision devient pertinente si vous tirez à la hanche." },
+    { "arme": "Mitrailleuse", "priorite": "Contrôle > Stabilité > capacité", "note": "Le temps de mise en joue n'est pas votre problème : la tenue de la gerbe sur 60 balles l'est." },
+    { "arme": "Tireur d'élite semi-auto", "priorite": "Stabilité ≈ Contrôle > Maniabilité", "note": "Construisez d'abord la plus forte réduction de recul possible, puis testez : ajustez ensuite oscillation et durée de blocage de souffle selon votre ressenti." },
+    { "arme": "Sniper à verrou", "priorite": "Stabilité > Maniabilité > Contrôle", "note": "Videz le Contrôle : vous ne corrigez rien entre deux tirs. Ce qui compte, c'est que la première balle parte droit et que la lunette ne danse pas." },
+    { "arme": "Fusil à pompe", "priorite": "Précision > Maniabilité > Contrôle", "note": "Le seul cas où la Précision est une vraie priorité, puisque le tir à la hanche y est courant." }
+  ],
+
+  "astuce_souffle": {
+    "titre": "Le blocage de souffle est un multiplicateur de recul",
+    "contenu": "Bloquer sa respiration ne fait pas que stabiliser l'image : cela applique un multiplicateur de réduction de recul (de l'ordre de 0,95× sur un build relevé). Sur une arme à forte Stabilité, le gain est substantiel. Prenez l'habitude de bloquer dès que vous épaulez pour un engagement à distance — et notez que la réduction de tressaillement à l'impact, sur le même axe, change l'issue des duels où vous êtes touché le premier."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "fichier": "mandel_brick.json",
+    "description": "Farm du Mandel Brick en Operations (Hazard Ops) : rendement, mécaniques, routes et contre-jeu.",
+    "derniere_maj": "2026-11-19",
+    "confiance": "Élevée sur les mécaniques, Moyenne sur les rendements horaires (mesures communautaires, non officielles)",
+    "sources": [
+      "news.bittopup.com — Delta Force MandelBrick Farming Guide: 12 Locations & Routes",
+      "overgear.com — Ranked Mode in Detail",
+      "mmoexp.com — Season 12 3x3 Safe Box Low-PvP Guide (11/11/2026)"
+    ]
+  },
+  "essentiel": [
+    "Un seul Mandel Brick existe par match d'Operations. Ce n'est pas une ressource que l'on empile en boucle.",
+    "Le conteneur doit être décodé pendant 4 minutes, protégé, avant de livrer la brique.",
+    "Si l'extraction réussit, CHAQUE membre de l'escouade repart avec une brique — pas seulement le porteur.",
+    "Mécanique de copie : s'approcher du conteneur d'un coéquipier pendant la dernière minute de décodage permet de dupliquer la récompense.",
+    "Système de pity : au bout de 75 scans, une brique est garantie. Chaque scan consomme une Quantum Key, et une Quantum Key gratuite est distribuée chaque semaine.",
+    "Terminer dans le Top 25 % du classement Warfare hebdomadaire rapporte 2 briques, sans aucun risque d'extraction."
+  ],
+  "rendement": [
+    {
+      "contexte": "Solo",
+      "par_heure": "1,2 – 1,8 brique",
+      "detail": "Décodage non protégé : chaque minute du timer est une invitation. Privilégier les spawns périphériques."
+    },
+    {
+      "contexte": "Escouade complète",
+      "par_heure": "2,4 – 3,6 briques",
+      "detail": "Deux joueurs tiennent les angles, un troisième décode, le quatrième surveille l'extraction. La mécanique de copie double le rendement effectif."
+    },
+    {
+      "contexte": "Pity (scans)",
+      "par_heure": "Garanti à 75 scans",
+      "detail": "Voie lente mais sans risque. 1 brique + 1 Quantum Key par scan réussi."
+    },
+    {
+      "contexte": "Top 25 % Warfare hebdo",
+      "par_heure": "2 briques / semaine",
+      "detail": "Aucune extraction à réussir. La voie la plus sûre pour un joueur qui subit le PvP."
+    }
+  ],
+  "procedure": [
+    "Repérer le conteneur : Space City concentre 12 points d'apparition connus, surtout autour des zones Administrative et Laboratoire.",
+    "Avant de lancer le décodage, verrouiller les accès : poser des mines/capteurs sur les deux entrées les plus proches.",
+    "Lancer les 4 minutes seulement quand l'escouade est en place. Un décodage interrompu, c'est un match perdu.",
+    "À 1 minute de la fin, les coéquipiers se rapprochent du conteneur pour déclencher la copie.",
+    "Choisir l'extraction AVANT la fin du décodage : 8 points d'extraction sont disponibles, prendre le moins fréquenté même s'il est plus loin.",
+    "Ne jamais ranger la brique dans la Safe Box en espérant valider un objectif : déposer un objet dans la Safe Box ne compte pas comme une extraction."
+  ],
+  "contre_jeu": [
+    "Le son du décodage porte loin : si vous l'entendez, quelqu'un est immobilisé pendant 4 minutes.",
+    "N'attaquez pas pendant le décodage — attaquez à la seconde où il se termine, quand l'escouade adverse se regroupe pour partir.",
+    "Couper la route d'extraction rapporte plus que de contester le conteneur."
+  ]
+}

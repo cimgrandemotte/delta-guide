@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "titre": "Artisanat du Black Site & hôtel des ventes — la machine à Alloys",
+    "derniere_maj": "2026-11-19",
+    "saison": "S12 — Aurora",
+    "avertissement": "⚠ TOUS les chiffres de profit de cette page sont des instantanés de marché, pas des constantes du jeu. Les prix de l'hôtel des ventes bougent chaque jour, à chaque patch et à chaque saison. Les marges ci-dessous sont des ordres de grandeur relevés entre 2025 et fin 2026 : utilisez-les pour comprendre QUELS artisanats sont rentables, jamais comme des promesses de gain. Recalculez toujours avec le calculateur avant de lancer une production.",
+    "sources": [
+      "thegamer.com — How to make money in Delta Force",
+      "deltaforcetools.gg — Black Site profit tracker (23/09/2026)",
+      "rnkd.gg — Blacksite production tracker",
+      "gamer.org — Black Site crafting guide",
+      "overgear.com — How to make money",
+      "timesaver.gg — Auction House flipping (28/09/2026)",
+      "r/DeltaForceGlobal — « Most profitable items to craft in Black Site? » et « How are you maximizing Black Site profits? »"
+    ]
+  },
+
+  "frais": {
+    "titre": "Les 15 % que tout le monde oublie",
+    "taux": 15,
+    "contenu": "L'hôtel des ventes prélève environ 15 % du prix de vente. Ce n'est pas un détail comptable : c'est le chiffre qui décide si un artisanat est rentable ou s'il vous fait travailler à perte. Une production affichant 20 % de marge brute n'en garde que 5 une fois la commission payée — et vous avez immobilisé un atelier pendant huit heures pour cela.",
+    "formule": "Profit net = (prix de vente × 0,85) − coût des matériaux",
+    "regle_5s": "La règle des cinq secondes : si le prix à l'hôtel des ventes ne dépasse le prix du marchand que de quelques centaines d'Alloys, vendez au marchand. La commission mange la marge et vous avez immobilisé un emplacement de vente pour rien. Ne listez que ce qui dégage plusieurs milliers d'Alloys d'écart.",
+    "supply_station": "La Supply Station vend la plupart de ses articles environ 25 % moins cher que l'hôtel des ventes. Avant d'acheter des matériaux aux enchères, vérifiez toujours si la Supply Station les propose — c'est le réflexe qui sépare un artisan rentable d'un artisan occupé."
+  },
+
+  "principe": {
+    "titre": "Pourquoi l'artisanat bat le butin",
+    "contenu": "Extraire reste le plus gros revenu brut du jeu. Mais l'artisanat est le seul revenu qui tombe pendant que vous ne jouez pas. Un atelier lancé avant de se déconnecter produit huit à dix-huit heures durant ; la seule compétence requise est de savoir lire une marge. Les joueurs qui franchissent les dix millions ne sont pas ceux qui tuent le plus, ce sont ceux qui n'ont jamais un atelier vide.",
+    "regle_or": "Un atelier vide est une perte sèche. Avant chaque déconnexion, lancez une production dans chacun des quatre ateliers, même une production médiocre : zéro Alloy à l'heure est toujours le pire rendement possible."
+  },
+
+  "ateliers": [
+    { "nom": "Division Cyberguerre", "produit": "Accessoires d'arme, optiques, puis armes complètes", "rythme": "4 à 9 h", "profil": "Marges moyennes, cycles courts. Idéal pour les sessions de journée." },
+    { "nom": "Atelier", "produit": "Munitions, de rareté croissante avec le niveau de l'atelier", "rythme": "7 à 8 h", "profil": "La meilleure production du jeu une fois au palier doré. Cycle calé sur une nuit." },
+    { "nom": "Pharmacie", "produit": "Soins, stimulants, kits de réparation", "rythme": "12 à 18 h", "profil": "Marges unitaires modestes mais parmi les meilleurs rendements horaires relevés. Cycle long." },
+    { "nom": "Établi d'armure", "produit": "Gilets, casques, porte-plaques, sacs à dos", "rythme": "8 à 14 h", "profil": "Grosses marges unitaires. Les gilets d'élite restent la valeur sûre historique." }
+  ],
+
+  "rentables": [
+    { "objet": "Munitions dorées 5,7×28", "atelier": "Atelier", "cout": "≈ 163 000", "vente": "≈ 443 000", "marge": "≈ 280 000 net", "duree": "8 h", "note": "L'exemple chiffré le plus documenté. Un seul achat de carburant couvre souvent deux productions." },
+    { "objet": "Munitions dorées 7,62×51", "atelier": "Atelier", "cout": "variable", "vente": "500 000 +", "marge": "très élevée", "duree": "8 h", "note": "Régulièrement citée comme la production la plus lucrative par cycle." },
+    { "objet": "Munitions dorées hybrides", "atelier": "Atelier", "cout": "≈ 650 000 – 700 000 pour 240 balles", "vente": "≈ 1 000 000 – 1 100 000", "marge": "≈ 400 000 sur deux cycles", "duree": "2 × 8 h", "note": "Marge dépendante du prix du café, matériau volatil." },
+    { "objet": "Gilet d'élite", "atelier": "Établi d'armure", "cout": "≈ 200 000 de matériaux", "vente": "≈ 300 000 pièce", "marge": "≈ 300 000 sur deux crafts", "duree": "8 h", "note": "Un achat d'acier titane fournit de quoi produire deux gilets. C'est là qu'est la marge." },
+    { "objet": "Gilet DT-AVS", "atelier": "Établi d'armure", "cout": "≈ 80 000", "vente": "≈ 140 000", "marge": "≈ 39 000 net", "duree": "—", "note": "Alternative d'entrée de gamme, accessible tôt." },
+    { "objet": "180 × 7,62×51 BPZ", "atelier": "Atelier", "cout": "≈ 40 000", "vente": "≈ 110 000", "marge": "≈ 53 500 net", "duree": "—", "note": "Le meilleur rapport marge/prérequis pour un joueur de niveau moyen." },
+    { "objet": "Lunette LPVO", "atelier": "Cyberguerre", "cout": "≈ 20 000", "vente": "≈ 50 000", "marge": "≈ 22 500 net", "duree": "9 h", "note": "Accessible dès le niveau 1 de l'atelier." },
+    { "objet": "Kit de réparation de gilet de précision", "atelier": "Pharmacie", "cout": "—", "vente": "—", "marge": "≈ 38 000", "duree": "12 h", "note": "Niveau 2 requis. Un des meilleurs rendements horaires relevés en pharmacie." },
+    { "objet": "Caisse médicale de campagne", "atelier": "Pharmacie", "cout": "—", "vente": "—", "marge": "≈ 47 900", "duree": "12 h", "note": "Niveau 2 requis. La meilleure marge brute de la pharmacie sur le relevé de septembre 2026." },
+    { "objet": "Stimulant de combat OE2", "atelier": "Pharmacie", "cout": "—", "vente": "—", "marge": "≈ 24 000", "duree": "18 h", "note": "Niveau 1. Produisez-en en lot et vendez groupé." },
+    { "objet": "Activateur d'endurance", "atelier": "Pharmacie", "cout": "≈ 10 000", "vente": "≈ 23 000", "marge": "≈ 9 500 net", "duree": "18 h", "note": "Petite marge, mais un prérequis minimal." },
+    { "objet": "Point rouge OSIGHT", "atelier": "Cyberguerre", "cout": "—", "vente": "—", "marge": "≈ 9 400", "duree": "9 h", "note": "Niveau 1. Production d'appoint quand rien d'autre n'est débloqué." }
+  ],
+
+  "methode": [
+    { "n": 1, "titre": "Lisez le marché avant l'atelier", "detail": "Ouvrez l'hôtel des ventes et relevez le prix de vente réel de ce que vous comptez produire, puis le prix des matériaux. Les deux bougent indépendamment : une production rentable hier peut être à perte aujourd'hui." },
+    { "n": 2, "titre": "Vérifiez la Supply Station avant d'acheter", "detail": "Environ 25 % moins cher que les enchères sur la plupart des articles. C'est le poste d'économie le plus facile du jeu." },
+    { "n": 3, "titre": "Appliquez les 15 %", "detail": "Multipliez le prix de vente par 0,85 AVANT de soustraire le coût des matériaux. Une marge qui ne survit pas à cette multiplication n'existe pas." },
+    { "n": 4, "titre": "Comparez en Alloys par heure, pas en Alloys", "detail": "Une production à 40 000 en quatre heures bat une production à 60 000 en dix-huit heures. Le temps d'atelier est la vraie ressource rare." },
+    { "n": 5, "titre": "Calez les cycles sur votre vie, pas sur l'optimum", "detail": "Une production de huit heures lancée avant de dormir vaut mieux qu'une production de quatre heures que vous ne récolterez que douze heures plus tard. Le meilleur cycle est celui que vous récupérez à temps." },
+    { "n": 6, "titre": "Gardez une partie de votre production", "detail": "Les munitions dorées que vous fabriquez pour vendre sont aussi celles qui gagnent vos duels. Consommer sa propre production réduit le coût de vos runs sans passer par la caisse." }
+  ],
+
+  "pieges": [
+    "Lancer une production sans vérifier le marché. L'erreur n°1, et elle coûte huit heures d'atelier.",
+    "Oublier les 15 % de commission et croire à une marge qui n'existe pas.",
+    "Acheter les matériaux aux enchères sans vérifier la Supply Station d'abord.",
+    "Laisser un atelier vide pendant la nuit. Zéro à l'heure est le pire rendement possible.",
+    "Lister aux enchères un objet qui ne dépasse le prix marchand que de quelques centaines d'Alloys.",
+    "Suivre un guide chiffré sans recalculer. Tous les nombres publiés — y compris ceux de cette page — sont périmés au moment où vous les lisez.",
+    "Négliger que les objets fabriqués ne sont PAS liés au compte : tout ce que vous produisez est revendable."
+  ],
+
+  "encheres": {
+    "titre": "Que vendre, et où",
+    "lignes": [
+      { "rarete": "Gris / vert", "ou": "Marchand", "pourquoi": "La marge aux enchères ne couvre jamais la commission." },
+      { "rarete": "Bleu", "ou": "Enchères", "pourquoi": "Le pilier du revenu régulier : environ 10 000 à 15 000 Alloys par case d'inventaire, assez commun pour en trouver à chaque run." },
+      { "rarete": "Violet et plus", "ou": "Enchères", "pourquoi": "Marge franche, commission absorbée sans douleur." },
+      { "rarete": "Rouge / accessoires rares", "ou": "Enchères", "pourquoi": "Le vrai gros revenu : parfois des centaines de milliers d'Alloys l'unité." }
+    ],
+    "slots": "Le nombre d'objets que vous pouvez lister simultanément dépend des paliers du QG de Commandement Central au Black Site. C'est le plafond réel de votre revenu passif : montez cette station avant toute autre si vous vendez sérieusement."
+  }
+}

@@ -1,0 +1,317 @@
+---
+# ═══════════════════════════════════════════════════════════════════════════
+#  WORKFLOW MASTER — DELTA FORCE : THE ULTIMATE OPERATOR'S GUIDE
+#  Référence unique de pilotage de l'agent. Toute décision de build
+#  doit être traçable ici. Mise à jour à chaque transition d'état.
+# ═══════════════════════════════════════════════════════════════════════════
+
+projet:
+  nom: "Delta Force — The Ultimate Operator's Guide"
+  slogan: "Every Raid. Every Operator. Every Edge."
+  racine: "/home/user/delta-force-ultimate-guide"
+  langue_principale: "fr-FR"
+  langue_technique: "en (termes gaming conservés)"
+  ton: "Militaire, tactique, immersif, cinématographique, expert gaming"
+  auteur: "Arena.ai Agent — Autonomous Build"
+  statut_legal: "Fan-site non officiel — Delta Force © Team Jade / TiMi Studio Group / Level Infinite / Garena"
+  saison_cible: "S12 Aurora (déploiement annoncé 10/11/2026)"
+  date_build: "2026-11-19"
+  url_jeu_officiel: "https://www.playdeltaforce.com/fr/"
+
+# ───────────────────────────────────────────────────────────────────────────
+# 1. RÈGLES ABSOLUES (contrat non négociable avec l'utilisateur)
+# ───────────────────────────────────────────────────────────────────────────
+regles_absolues:
+  - id: R01
+    regle: "JAMAIS d'archive ZIP ni de fichier compressé."
+  - id: R02
+    regle: "JAMAIS de fichier PDF."
+  - id: R03
+    regle: "Images générées : JPG exclusivement (.jpg). Jamais PNG/WebP/AVIF."
+  - id: R04
+    regle: "Maximum 10 images JPG générées par réponse de l'agent."
+  - id: R05
+    regle: "Audios générés : MP3 exclusivement (.mp3)."
+  - id: R06
+    regle: "Maximum 10 audios MP3 générés par réponse de l'agent."
+  - id: R07
+    regle: "Arrêt + demande explicite de 'CONTINUER' à chaque transition d'état S0→S9."
+  - id: R08
+    regle: "Autonomie totale À L'INTÉRIEUR d'un état : aucune question bloquante hors transitions."
+  - id: R09
+    regle: "JAMAIS inventer une donnée de gameplay. Toute stat/date/nom provient d'une source web vérifiée et horodatée."
+  - id: R10
+    regle: "Toute donnée non confirmée est marquée 'À CONFIRMER' dans le JSON et affichée avec un badge d'incertitude sur le site."
+  - id: R11
+    regle: "Crédits + disclaimer légal Team Jade / TiMi / Level Infinite / Garena sur chaque page (footer)."
+  - id: R12
+    regle: "Images hyperréalistes / photoréalistes / cinématographiques (rendu UE5, éclairage volumétrique)."
+
+# ───────────────────────────────────────────────────────────────────────────
+# 2. CONTRAINTES PLATEFORME IDENTIFIÉES EN S0 (limites réelles de l'outillage)
+#    → Déclarées à l'utilisateur à la fin de S0 pour arbitrage.
+# ───────────────────────────────────────────────────────────────────────────
+contraintes_plateforme:
+  audio:
+    capacite_reelle: "Synthèse vocale (text-to-speech) multi-voix, export .mp3. Voix sélectionnée par l'utilisateur via audition."
+    non_disponible: "Musique, nappes d'ambiance, bruitages réalistes (artillerie, rechargement, moteur) : non générables par TTS."
+    strategie_retenue:
+      - "A. Briefings / guides opérateurs / intro de section → TTS MP3 (voix militaire FR). 100% faisable."
+      - "B. Sons d'UI (hover, clic, copy, alerte, countdown) → synthèse procédurale Web Audio API (oscillateurs + enveloppes) dans assets/js/sfx.js. Zéro fichier, zéro latence, 100% hors-ligne."
+      - "C. Ambiances de carte → générées localement par synthèse DSP (bruit filtré + modulations) encodées en MP3 si un encodeur est disponible, sinon remplacées par des nappes Web Audio."
+    validation_s0: "FAIT — ffmpeg/lame/sox absents du sandbox MAIS encodeur `lameenc` (libmp3lame) installé avec succès en Python. => L'encodage MP3 local de nappes DSP synthétisées est CONFIRMÉ possible (vent, rumble de barrage, drone électronique, radio statique). Les bruitages réalistes échantillonnés (vraie artillerie, vrai rechargement d'arme) restent hors de portée."
+  images:
+    capacite_reelle: "Génération texte→image, 1 image par appel, sortie .jpg."
+    budget: "10 JPG max par réponse → le plan d'assets est séquencé par lots de 10 (voir section 7)."
+  donnees_live:
+    contrainte: "Le site est statique (pas de backend). Les 'données live' (codes de portes, prix marché) ne peuvent pas être scrapées côté navigateur (CORS)."
+    strategie_retenue: "Fichiers data/daily_codes.json et data/market_prices.json alimentés au build + horodatage visible + lien vers la source officielle + instructions de mise à jour manuelle documentées dans le README."
+
+# ───────────────────────────────────────────────────────────────────────────
+# 3. NORMALISATION DE L'ARBORESCENCE (décisions prises en S0)
+#    Le prompt source contenait des doublons de chemins. Canon retenu :
+# ───────────────────────────────────────────────────────────────────────────
+normalisation_chemins:
+  - decision: "pages/hazard-operations/ ET pages/hazard-ops/ → canon : pages/hazard-ops/"
+  - decision: "pages/cartes-interactives/ ET pages/cartes/ → canon : pages/cartes/"
+  - decision: "pages/campagne/ ET pages/black-hawk-down/ → canon : pages/black-hawk-down/"
+  - decision: "pages/astuces/ ET pages/astuces-pro/ → canon : pages/astuces-pro/"
+  - decision: "Aucun caractère accentué ni espace dans les noms de fichiers (stratégies.html → strategies.html, avancé.html → avance.html, d-wolf.html retenu contre dwolf.html)."
+  - decision: "Scripts outils : noms canoniques = ttk_calculator.js, ammo_penetration.js, build_copier.js, maps_leaflet.js, blacksite_planner.js, loot_calculator.js, daily_codes.js, market_prices.js, tier_list.js, quiz.js, search.js, sfx.js, utils.js."
+  - decision: "Toutes les URL internes sont relatives (déploiement sous-dossier GitHub Pages compatible)."
+
+# ───────────────────────────────────────────────────────────────────────────
+# 4. MACHINE À ÉTATS — vue synthétique (détail machine : fsm_states.json)
+# ───────────────────────────────────────────────────────────────────────────
+machine_a_etats:
+  modele: "FSM linéaire à checkpoints utilisateur. Une transition = un 'CONTINUER'."
+  etats:
+    - id: S0
+      nom: INIT
+      objectif: "Workflow, FSM, arborescence, fichiers de configuration."
+      livrables: [workflow_master.yaml, fsm_states.json, package.json, vercel.json, netlify.toml, .github/workflows/deploy.yml, robots.txt, manifest.json, sitemap.xml, .gitignore, LICENSE]
+      sortie: "Structure créée + contraintes plateforme déclarées → CONTINUER"
+    - id: S1
+      nom: RESEARCH
+      objectif: "Recherche web exhaustive et horodatée sur toutes les sources listées."
+      livrables: [research/research_data.json, research/sources_log.json, data/season12.json, data/operators.json, data/weapons.json, data/ammo.json, data/keycards.json, data/bosses.json, data/vehicles.json, data/blacksite.json, data/builds.json, data/tier_list.json]
+      regle_qualite: "Chaque fait porte: valeur, source_url, date_source, niveau_confiance (confirme|probable|a_confirmer)."
+      sortie: "Top 10 des trouvailles S12 + liste des points non vérifiables → CONTINUER"
+    - id: S2
+      nom: DESIGN_SYSTEM
+      objectif: "Charte graphique, CSS, JS socle, 10 premières images JPG, voix TTS + premiers MP3."
+      livrables: [assets/css/design_system.css, assets/css/animations.css, assets/css/components.css, assets/css/responsive.css, assets/js/main.js, assets/js/components.js, assets/js/animations.js, assets/js/sfx.js, assets/js/utils.js, "10 JPG lot 1", "voix TTS enregistrées"]
+      sortie: "Aperçu design + assets lot 1 → CONTINUER"
+    - id: S3
+      nom: BUILD_CORE
+      objectif: "index.html (QG), navbar globale, footer, composants réutilisables, recherche globale."
+      livrables: [index.html, assets/js/search.js, "composants injectés (navbar/footer/audio player/back-to-top/cookie)"]
+      sortie: "Preview live du QG → CONTINUER"
+    - id: S4
+      nom: BUILD_CONTENT_BATCH1
+      objectif: "Opérateurs (hub + fiches), Armurerie & Balistique, Hazard Operations."
+      cadence: "Groupes de 2-3 pages, ≤10 JPG et ≤10 MP3 par réponse."
+      sortie: "CONTINUER après chaque groupe"
+    - id: S5
+      nom: BUILD_CONTENT_BATCH2
+      objectif: "Cartes interactives, Havoc Warfare & véhicules, Black Hawk Down, Encyclopédie & économie."
+      sortie: "CONTINUER après chaque groupe"
+    - id: S6
+      nom: BUILD_CONTENT_BATCH3
+      objectif: "Astuces pro, codes quotidiens, tier list, hub Saison Aurora, news."
+      sortie: "CONTINUER"
+    - id: S7
+      nom: INTERACTIVE_TOOLS
+      objectif: "13 outils interactifs opérationnels sur données réelles."
+      sortie: "CONTINUER"
+    - id: S8
+      nom: QA_AND_POLISH
+      objectif: "Responsive, perf, SEO, accessibilité WCAG 2.1 AA, liens, polish."
+      sortie: "Rapport QA → CONTINUER"
+    - id: S9
+      nom: FINAL_DELIVERY
+      objectif: "README, LICENSE, arborescence finale, instructions de déploiement, rappel /download-workspace."
+      sortie: "FIN — état terminal"
+
+# ───────────────────────────────────────────────────────────────────────────
+# 5. CARTE DES PAGES (canon) — 60+ pages cibles
+# ───────────────────────────────────────────────────────────────────────────
+pages:
+  racine:
+    - { file: "index.html", nom: "QG — Quartier Général", priorite: CRITICAL, etat: S3 }
+  operateurs:
+    base: "pages/operateurs/"
+    fichiers:
+      - { file: "index.html", nom: "Hub Opérateurs + Tier List S12", priorite: CRITICAL, etat: S4 }
+      - { file: "martelo.html", nom: "Martelo (Veronica Cardozo) — NEW S12", priorite: CRITICAL, etat: S4 }
+      - { file: "d-wolf.html", nom: "D-Wolf (Kai Silva)", priorite: HIGH, etat: S4 }
+      - { file: "luna.html", priorite: HIGH, etat: S4 }
+      - { file: "hackclaw.html", priorite: HIGH, etat: S4 }
+      - { file: "stinger.html", priorite: HIGH, etat: S4 }
+      - { file: "shepherd.html", priorite: HIGH, etat: S4 }
+      - { file: "gizmo.html", priorite: HIGH, etat: S4 }
+      - { file: "vyron.html", priorite: MEDIUM, etat: S4 }
+      - { file: "nox.html", priorite: MEDIUM, etat: S4 }
+      - { file: "tempest.html", priorite: MEDIUM, etat: S4 }
+      - { file: "toxik.html", priorite: MEDIUM, etat: S4 }
+      - { file: "vlinder.html", priorite: MEDIUM, etat: S4 }
+      - { file: "rover.html", priorite: MEDIUM, etat: S4 }
+      - { file: "branko.html", priorite: MEDIUM, etat: S4, note: "présence à confirmer en S1" }
+      - { file: "uluru.html", priorite: MEDIUM, etat: S4 }
+      - { file: "sineva.html", priorite: MEDIUM, etat: S4 }
+      - { file: "n-two.html", priorite: MEDIUM, etat: S4 }
+      - { file: "raptor.html", priorite: MEDIUM, etat: S4 }
+      - { file: "morse.html", priorite: MEDIUM, etat: S4 }
+  armurerie:
+    base: "pages/armurerie/"
+    fichiers:
+      - { file: "index.html", nom: "Hub Armurerie & Balistique", priorite: CRITICAL, etat: S4 }
+      - { file: "fusils-assaut.html", nom: "Fusils d'assaut (+ AN-94 S12)", etat: S4 }
+      - { file: "battle-rifles.html", etat: S4 }
+      - { file: "lmg.html", etat: S4 }
+      - { file: "smg.html", etat: S4 }
+      - { file: "snipers-dmr.html", etat: S4 }
+      - { file: "shotguns.html", etat: S4 }
+      - { file: "pistolets.html", etat: S4 }
+      - { file: "accessoires.html", etat: S4 }
+      - { file: "munitions.html", nom: "Munitions T1→T6 + .300BLK S12", etat: S4 }
+      - { file: "builds.html", nom: "Codes builds + copieur 1 clic", etat: S4 }
+      - { file: "ttk-calculator.html", nom: "Calculateur TTK/STK/DPS", priorite: CRITICAL, etat: S7 }
+  hazard_ops:
+    base: "pages/hazard-ops/"
+    fichiers:
+      - { file: "index.html", priorite: CRITICAL, etat: S4 }
+      - { file: "mecaniques.html", etat: S4 }
+      - { file: "guide-debutant.html", etat: S4 }
+      - { file: "strategies.html", etat: S4 }
+      - { file: "zero-dam.html", etat: S5 }
+      - { file: "layali-grove.html", etat: S5 }
+      - { file: "space-city.html", etat: S5 }
+      - { file: "brakkesh.html", nom: "Brakkesh 2.0 (rework S12)", etat: S5 }
+      - { file: "tide-prison.html", etat: S5 }
+      - { file: "az3.html", nom: "AZ3 Supercritical (S12)", etat: S5 }
+      - { file: "codes-portes.html", nom: "Codes de portes quotidiens", etat: S6 }
+  cartes:
+    base: "pages/cartes/"
+    fichiers:
+      - { file: "index.html", nom: "Hub 6 cartes Leaflet.js", priorite: CRITICAL, etat: S5 }
+  havoc_warfare:
+    base: "pages/havoc-warfare/"
+    fichiers:
+      - { file: "index.html", priorite: HIGH, etat: S5 }
+      - { file: "vehicules.html", etat: S5 }
+      - { file: "zenith-port.html", nom: "Zenith Port (NEW S12) + Riptide", etat: S5 }
+      - { file: "modes.html", etat: S5 }
+      - { file: "strategies.html", etat: S5 }
+  black_hawk_down:
+    base: "pages/black-hawk-down/"
+    fichiers:
+      - { file: "index.html", priorite: HIGH, etat: S5 }
+      - { file: "missions.html", etat: S5 }
+      - { file: "coop.html", etat: S5 }
+      - { file: "lore.html", etat: S5 }
+  encyclopedie:
+    base: "pages/encyclopedie/"
+    fichiers:
+      - { file: "index.html", etat: S5 }
+      - { file: "keycards.html", nom: "101 keycards", priorite: HIGH, etat: S5 }
+      - { file: "black-site.html", nom: "11 stations + Planner", priorite: HIGH, etat: S5 }
+      - { file: "hotel-ventes.html", etat: S5 }
+      - { file: "bosses.html", etat: S5 }
+      - { file: "economie.html", etat: S5 }
+  astuces_pro:
+    base: "pages/astuces-pro/"
+    fichiers:
+      - { file: "index.html", etat: S6 }
+      - { file: "debutants.html", etat: S6 }
+      - { file: "avance.html", etat: S6 }
+      - { file: "tierlist.html", etat: S6 }
+      - { file: "meta.html", etat: S6 }
+      - { file: "settings.html", etat: S6 }
+  saison_aurora:
+    base: "pages/saison-aurora/"
+    fichiers:
+      - { file: "index.html", priorite: CRITICAL, etat: S6 }
+  news:
+    base: "pages/news/"
+    fichiers:
+      - { file: "index.html", etat: S6 }
+  outils:
+    base: "pages/outils/"
+    fichiers:
+      - { file: "index.html", nom: "Hub outils + Quiz tactique", etat: S7 }
+
+# ───────────────────────────────────────────────────────────────────────────
+# 6. OUTILS INTERACTIFS — spécifications et dépendances
+# ───────────────────────────────────────────────────────────────────────────
+outils:
+  - { id: T01, nom: "TTK / STK / DPS Calculator", script: "assets/js/ttk_calculator.js", page: "pages/armurerie/ttk-calculator.html", depend_de: [data/weapons.json, data/ammo.json], etat: S7 }
+  - { id: T02, nom: "Simulateur pénétration munitions × armures", script: "assets/js/ammo_penetration.js", page: "pages/armurerie/ttk-calculator.html", depend_de: [data/ammo.json], etat: S7 }
+  - { id: T03, nom: "Copieur de codes de builds (1 clic)", script: "assets/js/build_copier.js", page: "pages/armurerie/builds.html", depend_de: [data/builds.json], etat: S7 }
+  - { id: T04, nom: "6 cartes interactives Leaflet.js", script: "assets/js/maps_leaflet.js", page: "pages/cartes/index.html", depend_de: [data/maps_markers.json, "images/maps/*"], etat: S7 }
+  - { id: T05, nom: "Black Site Upgrade Planner", script: "assets/js/blacksite_planner.js", page: "pages/encyclopedie/black-site.html", depend_de: [data/blacksite.json], etat: S7 }
+  - { id: T06, nom: "Crafting Calculator", script: "assets/js/blacksite_planner.js", page: "pages/encyclopedie/black-site.html", depend_de: [data/blacksite.json], etat: S7 }
+  - { id: T07, nom: "Loot / Backpack Value Calculator", script: "assets/js/loot_calculator.js", page: "pages/encyclopedie/hotel-ventes.html", depend_de: [data/market_prices.json], etat: S7 }
+  - { id: T08, nom: "Market Calculator (fees, marge, flip)", script: "assets/js/loot_calculator.js", page: "pages/encyclopedie/hotel-ventes.html", etat: S7 }
+  - { id: T09, nom: "Codes de portes quotidiens + countdown", script: "assets/js/daily_codes.js", page: "pages/hazard-ops/codes-portes.html", depend_de: [data/daily_codes.json], etat: S7 }
+  - { id: T10, nom: "Tier List interactive drag & drop", script: "assets/js/tier_list.js", page: "pages/astuces-pro/tierlist.html", depend_de: [data/tier_list.json], etat: S7 }
+  - { id: T11, nom: "Générateur de loadout aléatoire", script: "assets/js/utils.js", page: "index.html", etat: S7 }
+  - { id: T12, nom: "eDPI Calculator", script: "assets/js/utils.js", page: "pages/astuces-pro/settings.html", etat: S7 }
+  - { id: T13, nom: "Quiz tactique (30 questions S12)", script: "assets/js/quiz.js", page: "pages/outils/index.html", etat: S7 }
+  - { id: T14, nom: "Recherche globale floue (Ctrl+K)", script: "assets/js/search.js", page: "global", depend_de: [data/search_index.json], etat: S3 }
+  - { id: T15, nom: "Checklists de progression (localStorage)", script: "assets/js/utils.js", page: "multi", etat: S7 }
+
+# ───────────────────────────────────────────────────────────────────────────
+# 7. PLAN D'ASSETS — séquencement par lots de 10 (contrainte R04/R06)
+# ───────────────────────────────────────────────────────────────────────────
+plan_images:
+  lot_1_S2: [homepage_hero_operators_night_ops_01.jpg, operators_martelo_ariete_hero_fullbody_01.jpg, operators_dwolf_fullgear_tactical_01.jpg, weapons_an94_closeup_hero_01.jpg, maps_brakkesh2_towerbabel_cinematic_01.jpg, maps_zerodam_dam_cinematic_01.jpg, vehicles_attack_helicopter_01.jpg, bosses_saeed_zerodam_01.jpg, blacksite_interior_command_01.jpg, hazard_extraction_hero_night_01.jpg]
+  lot_2_S4a: "Hub opérateurs : lineup Aurora, portraits Luna / Hackclaw / Stinger / Shepherd / Gizmo / Vyron / Nox / Tempest / Raptor"
+  lot_3_S4b: "Armurerie : arsenal briefing table, AUG, AKM, PKM, SR-25, AWM, M870, UZI, munitions T1-T6, accessoires"
+  lot_4_S5a: "Cartes : Layali Grove, Space City, Tide Prison, AZ3, Zenith Port, vue satellite hub, salle keycard, extraction squad"
+  lot_5_S5b: "Warfare & BHD : bataille 32v32, char GTQ-35, VCI, Black Hawk Mogadiscio, Task Force Ranger, convoi"
+  lot_6_S5c: "Encyclopédie : keycard rare, Black Site stations, hôtel des ventes holographique, bosses Reis / Desmoulins / Warden"
+  lot_7_S6: "Saison Aurora artwork, Phantom Blade Zero collab, tier list, settings pro, news war room"
+plan_audio:
+  lot_1_S2: "Voix TTS FR (narrateur militaire) : briefing d'accueil QG, briefing Saison Aurora, briefing Martelo, briefing D-Wolf"
+  lot_2_S4: "Briefings opérateurs supplémentaires + intro Armurerie + intro Hazard Ops"
+  lot_3_S5: "Intro Warfare, intro Black Hawk Down, intro Cartes, intro Black Site"
+  sfx: "Non-TTS → assets/js/sfx.js (Web Audio API procédural) : hover, click, copy, alert, success, countdown"
+
+# ───────────────────────────────────────────────────────────────────────────
+# 8. CHECKPOINTS DE VALIDATION (critères de sortie d'état)
+# ───────────────────────────────────────────────────────────────────────────
+checkpoints:
+  S0:
+    - "Arborescence complète créée (37 dossiers)."
+    - "workflow_master.yaml + fsm_states.json valides (parse OK)."
+    - "Fichiers de configuration déploiement présents (vercel, netlify, GH Actions)."
+    - "Contraintes plateforme déclarées à l'utilisateur."
+  S1:
+    - "≥ 25 sources interrogées, chacune horodatée dans research/sources_log.json."
+    - "Chaque fait S12 porte un niveau de confiance."
+    - "Les contradictions entre sources sont listées explicitement."
+  S2:
+    - "4 CSS + 5 JS socle créés, aucune dépendance externe bloquante pour le rendu de base."
+    - "10 JPG lot 1 générés et placés dans les bons sous-dossiers."
+    - "Voix TTS validée par l'utilisateur (audition)."
+  S3:
+    - "index.html se charge sans erreur console, navbar/footer injectés sur toutes les pages."
+    - "Serveur de preview lancé et accessible."
+  S4-S6:
+    - "Chaque page : titre unique, meta description, OG tags, breadcrumb, alt sur toutes les images."
+    - "Aucun lien interne cassé (vérif script link_check)."
+  S7:
+    - "Chaque outil testé avec un jeu de données réel et un cas limite."
+  S8:
+    - "Responsive vérifié à 320/768/1024/1440 px."
+    - "Contraste ≥ 4.5:1, navigation clavier complète, prefers-reduced-motion respecté."
+    - "sitemap.xml exhaustif, JSON-LD VideoGame valide."
+  S9:
+    - "README complet, LICENSE MIT, récapitulatif chiffré, rappel /download-workspace."
+
+# ───────────────────────────────────────────────────────────────────────────
+# 9. JOURNAL DES TRANSITIONS
+# ───────────────────────────────────────────────────────────────────────────
+journal:
+  - { date: "2026-11-19", etat: S0, action: "Arborescence + workflow + FSM + configs créés.", statut: "TERMINÉ — en attente de CONTINUER" }

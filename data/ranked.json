@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "fichier": "ranked.json",
+    "description": "Mode Classé (Ranked) Delta Force : conditions de déblocage et barème de points de Mérite.",
+    "derniere_maj": "2026-11-19",
+    "confiance": "Élevée",
+    "sources": [
+      "overgear.com — Delta Force Ranked Mode in Detail",
+      "mmoexp.com — Season 12 3x3 Safe Box Low-PvP Guide"
+    ]
+  },
+  "deblocage": [
+    {
+      "mode": "Havoc Warfare classé",
+      "condition": "Compte niveau 6"
+    },
+    {
+      "mode": "Operations classé",
+      "condition": "Compte niveau 8"
+    }
+  ],
+  "regle_cle": "Le score d'un match est plafonné à 75 points de Mérite. Une partie parfaite ne vaut pas trois parties correctes : la régularité prime.",
+  "bareme_operations": [
+    {
+      "action": "Insérer le Mandel Brick",
+      "points": "20",
+      "cap": "Aucun plafond",
+      "note": "Le premier joueur à insérer encaisse les points. Dans une escouade, désignez-le à l'avance."
+    },
+    {
+      "action": "Éliminer un joueur",
+      "points": "20",
+      "cap": "Aucun plafond",
+      "note": "La source de points la plus rentable après la brique."
+    },
+    {
+      "action": "Assistance sur joueur",
+      "points": "5 – 10",
+      "cap": "Aucun plafond",
+      "note": "Varie selon les dégâts infligés avant l'élimination."
+    },
+    {
+      "action": "Contrat accompli",
+      "points": "5",
+      "cap": "10 maximum",
+      "note": "Deux contrats suffisent, le troisième ne rapporte rien."
+    },
+    {
+      "action": "Éliminer une IA",
+      "points": "1",
+      "cap": "10 maximum",
+      "note": "Farmer les bots est une impasse : 10 points, puis plus rien."
+    },
+    {
+      "action": "Évacuation avec butin",
+      "points": "10",
+      "cap": "Par million de valeur",
+      "note": "Récompense la sortie riche, pas la sortie rapide."
+    }
+  ],
+  "lecture": [
+    "Le plafond de 10 points sur les IA et les contrats est volontaire : le mode classé veut du PvP et de l'objectif, pas du nettoyage de PvE.",
+    "Deux éliminations de joueurs (40 pts) + une insertion de brique (20 pts) + une évacuation à 1 M (10 pts) = 70 pts, soit quasiment le plafond en un seul match.",
+    "Mourir ne retire pas de points acquis, mais annule l'évacuation : le ratio risque/temps restant doit décider de chaque engagement après 60 points."
+  ],
+  "echelle": [
+    {
+      "grade": "Private III",
+      "points": "0 – 299"
+    },
+    {
+      "grade": "Private II",
+      "points": "300 – 599"
+    },
+    {
+      "grade": "Private I",
+      "points": "600 – 899"
+    },
+    {
+      "grade": "Corporal III",
+      "points": "900 – 1199"
+    },
+    {
+      "grade": "Corporal II",
+      "points": "1200 – 1499"
+    },
+    {
+      "grade": "Corporal I",
+      "points": "1500 – 1799"
+    },
+    {
+      "grade": "Sergeant IV",
+      "points": "1800 – 2099"
+    }
+  ],
+  "cartes_merite": {
+    "effet": "La carte 2× Mérite double le Mérite gagné sur une seule manche.",
+    "regles": [
+      "Les cartes ne se cumulent pas.",
+      "L'effet dure une manche, pas une session.",
+      "À réserver aux parties où un score élevé est probable : mode à objectifs, escouade coordonnée."
+    ],
+    "obtention": "Événements, passe de combat, boutique."
+  },
+  "climb_warfare": [
+    "Le classé est une bascule sur les parties Warfare et Operations ordinaires, pas une file d'attente séparée.",
+    "Jouer soutien (Médecin ou Ingénieur) fait monter le score par minute plus vite que la chasse aux éliminations : soins, réanimations, réapprovisionnement, réparations.",
+    "Détruire chars et véhicules de combat d'infanterie rapporte énormément ; l'anti-véhicule à l'AT4 est la voie de montée la plus rapide en Warfare.",
+    "Rester sur une seule arme par session : chaque arme a plus de 70 niveaux, alterner divise la progression entre deux barres."
+  ],
+  "interrupteur": {
+    "titre": "Le Classé est un interrupteur, pas une file d'attente",
+    "contenu": "Il n'existe pas de file classée séparée. Vous activez le Classé dans le menu avant de lancer une partie, et vous jouez dans le même vivier que tout le monde. Conséquence directe : rien ne vous oblige à l'activer pour un run d'apprentissage, et rien ne vous empêche de le couper quand vous testez une arme. Beaucoup de joueurs perdent des points sur des parties qu'ils n'avaient aucune intention de jouer sérieusement."
+  },
+  "ce_qui_compte": [
+    {
+      "mode": "Havoc Warfare",
+      "mesure": "Score Par Minute",
+      "detail": "La durée de la partie est neutralisée : c'est le rythme qui compte, pas le total. Une partie courte et dense vaut mieux qu'une longue partie molle."
+    },
+    {
+      "mode": "Operations",
+      "mesure": "Valeur extraite, contrats, IA, joueurs, première livraison de Mandel Brick",
+      "detail": "Le butin ramené à bon port pèse lourd, mais il n'est pas seul : les contrats remplis, les adversaires non joueurs, les joueurs éliminés et la première livraison de brick de la partie comptent tous."
+    }
+  ],
+  "echelle_alternative": {
+    "titre": "Seconde échelle de paliers relevée",
+    "avertissement": "Deux grilles de paliers circulent selon les régions et les versions. Celle-ci est relevée sur une source distincte de la grille principale ci-dessus. Vérifiez celle qui s'affiche dans votre client.",
+    "paliers": [
+      {
+        "grade": "Private",
+        "points": "0 – 899"
+      },
+      {
+        "grade": "Corporal",
+        "points": "900 – 1 799"
+      },
+      {
+        "grade": "Sergeant",
+        "points": "1 800 – 2 999"
+      },
+      {
+        "grade": "Lieutenant",
+        "points": "3 000 – 4 199"
+      },
+      {
+        "grade": "Colonel",
+        "points": "4 200 – 5 699"
+      },
+      {
+        "grade": "General",
+        "points": "5 700 – 7 199"
+      },
+      {
+        "grade": "General of the Army",
+        "points": "7 200 +"
+      }
+    ],
+    "recompenses": "Les paliers débloquent des récompenses cosmétiques de saison — apparences d'armes et avatars, dont un skin ASV et une finition M700. Elles sont cosmétiques : aucun avantage de jeu n'est attaché au grade."
+  },
+  "montee_operations": {
+    "titre": "Monter en classé Operations sans gagner de combats",
+    "avertissement": "Barème relevé par des joueurs au palier Platine. Les valeurs changent selon le palier — prenez-les comme un ordre de grandeur.",
+    "bareme": [
+      {
+        "action": "Élimination d'un garde ou d'un personnage géré par l'ordinateur",
+        "pts": "5"
+      },
+      {
+        "action": "Élimination d'un autre opérateur",
+        "pts": "33"
+      },
+      {
+        "action": "Décodage d'un MandelBrick",
+        "pts": "20"
+      },
+      {
+        "action": "Extraction réussie",
+        "pts": "10"
+      }
+    ],
+    "strategie": {
+      "nom": "La méthode du récupérateur",
+      "detail": "Elle fonctionne en solo comme en file aléatoire. Zero Dam en difficulté normale. Au départ, trouvez immédiatement une position discrète et ne bougez pas. Laissez les six à huit dernières minutes arriver : les équipes se sont déjà croisées, beaucoup sont parties. Vous fouillez alors tranquillement les alentours en remontant vers une extraction, et vous partez entre dix secondes et une minute avant la fin du temps imparti.",
+      "eviter": "Évitez l'Administration : c'est là que tout le monde se replie pour une dernière fouille.",
+      "verdict": "Ce n'est pas la méthode la plus rapide — c'est la plus fiable. Atteignez le palier qui débloque la récompense que vous visez par cette méthode, puis cessez de regarder le classement et jouez pour progresser réellement."
+    },
+    "nuance": "Une élimination d'opérateur rapporte souvent des points même si l'extraction échoue ensuite. Trois éliminations par partie suffisent à monter régulièrement."
+  }
+}

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gunsmith — Contrôle, Stabilité et calibration expliqués | Delta Force Guide</title>
+<meta name="description" content="Comprendre le Gunsmith de Delta Force : ce que gouvernent réellement Contrôle, Maniabilité, Stabilité et Précision, pourquoi le recul n'est pas la Stabilité, comment calibrer gratuitement et quelle priorité adopter selon la famille d'arme.">
+<meta name="theme-color" content="#080B0F">
+<meta name="author" content="Guide fan-made communautaire">
+<link rel="canonical" href="https://delta-guide.duckdns.org/pages/armurerie/gunsmith.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Delta Force — The Ultimate Operator's Guide">
+<meta property="og:title" content="Gunsmith — Contrôle, Stabilité et calibration expliqués | Delta Force Guide">
+<meta property="og:description" content="Comprendre le Gunsmith de Delta Force : ce que gouvernent réellement Contrôle, Maniabilité, Stabilité et Précision, pourquoi le recul n'est pas la Stabilité, comment calibrer gratuitement et quelle priorité adopter selon la famille d'arme.">
+<meta property="og:url" content="https://delta-guide.duckdns.org/pages/armurerie/gunsmith.html">
+<meta property="og:image" content="https://delta-guide.duckdns.org/assets/images/heroes/gunsmith_hero_01.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gunsmith — Contrôle, Stabilité et calibration expliqués | Delta Force Guide">
+<meta name="twitter:description" content="Comprendre le Gunsmith de Delta Force : ce que gouvernent réellement Contrôle, Maniabilité, Stabilité et Précision, pourquoi le recul n'est pas la Stabilité, comment calibrer gratuitement et quelle priorité adopter selon la famille d'arme.">
+<meta name="twitter:image" content="https://delta-guide.duckdns.org/assets/images/heroes/gunsmith_hero_01.jpg">
+<link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/armurerie/gunsmith.html">
+<link rel="alternate" hreflang="x-default" href="https://delta-guide.duckdns.org/pages/armurerie/gunsmith.html">
+<link rel="manifest" href="../../manifest.json">
+<link rel="icon" type="image/jpeg" href="../../assets/images/logos/favicon.jpg"><link rel="apple-touch-icon" href="../../assets/images/logos/apple-touch-icon.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Orbitron:wght@700;900&family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Orbitron:wght@700;900&family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&display=swap"></noscript>
+<link rel="stylesheet" href="../../assets/css/design-system.css">
+<link rel="stylesheet" href="../../assets/css/animations.css">
+<link rel="stylesheet" href="../../assets/css/components.css">
+<link rel="stylesheet" href="../../assets/css/responsive.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Gunsmith — Contrôle, Stabilité et calibration expliqués | Delta Force Guide", "description": "Comprendre le Gunsmith de Delta Force : ce que gouvernent réellement Contrôle, Maniabilité, Stabilité et Précision, pourquoi le recul n'est pas la Stabilité, comment calibrer gratuitement et quelle priorité adopter selon la famille d'arme.", "inLanguage": "fr-FR", "isPartOf": {"@type": "WebSite", "name": "Delta Force — The Ultimate Operator's Guide", "url": "https://delta-guide.duckdns.org"}, "about": {"@type": "VideoGame", "name": "Delta Force", "publisher": [{"@type": "Organization", "name": "Level Infinite"}, {"@type": "Organization", "name": "Garena"}], "author": {"@type": "Organization", "name": "Team Jade"}, "gamePlatform": ["PC", "PlayStation 5", "Xbox Series X|S", "iOS", "Android"], "genre": ["Tactical shooter", "Extraction shooter", "FPS"]}}</script>
+
+</head>
+<body>
+<a class="skip-link" href="#main">Aller au contenu principal</a>
+<div class="scanlines" aria-hidden="true"></div>
+<div class="noise" aria-hidden="true"></div>
+<div class="boot" aria-hidden="true"><div class="boot-inner">
+  <div class="hud txt-green" style="font-size:.78rem;letter-spacing:.3em">INITIALISATION DU SYSTÈME</div>
+  <div class="boot-bar"><i></i></div>
+</div></div>
+<nav class="site-nav" aria-label="Navigation principale">
+  <div class="wrap nav-inner">
+    <a class="brand" href="../../index.html" aria-label="Accueil — Delta Force Ultimate Operator's Guide">
+      <span class="brand-mark" aria-hidden="true">DF</span>
+      <span class="brand-txt"><b>Delta Force</b><span>Operator's Guide</span></span>
+    </a>
+    <div class="nav-links" id="nav-links"><a href="../../index.html">QG</a><a href="../../pages/debutant/index.html">Débutant</a><div class="nav-group"><a href="../../pages/operateurs/index.html">Opérateurs</a><div class="nav-panel"><a href="../../pages/operateurs/index.html">Les 19 opérateurs</a><a href="../../pages/operateurs/contre-jeu.html">Contre-jeu des capacités</a></div></div><div class="nav-group"><a href="../../pages/armurerie/index.html">Armurerie</a><div class="nav-panel"><a href="../../pages/armurerie/index.html">Toutes les armes</a><a href="../../pages/armurerie/munitions.html">Munitions &amp; pénétration</a><a href="../../pages/armurerie/builds.html">Codes de build</a><a href="../../pages/armurerie/gunsmith.html">Gunsmith expliqué</a></div></div><a href="../../pages/detonation/index.html">Detonation</a><div class="nav-group"><a href="../../pages/hazard-ops/index.html">Hazard Ops</a><div class="nav-panel"><a href="../../pages/hazard-ops/index.html">Guide du mode</a><a href="../../pages/hazard-ops/mandel-brick.html">Mandel Brick &amp; Classé</a><a href="../../pages/hazard-ops/black-site.html">Black Site</a><a href="../../pages/hazard-ops/boss.html">Les 8 boss</a><a href="../../pages/hazard-ops/keycards.html">Keycards</a><a href="../../pages/hazard-ops/hot-zone.html">Hot Zone 3v3v3</a><a href="../../pages/hazard-ops/departements.html">Départements</a></div></div><div class="nav-group"><a href="../../pages/cartes/index.html">Cartes</a><div class="nav-panel"><a href="../../pages/cartes/index.html">Les 12 cartes</a><a href="../../pages/cartes/az3-supercritical.html">AZ3 &amp; Supercritical</a><a href="../../pages/cartes/brakkesh-factions.html">Brakkesh &amp; factions</a></div></div><a href="../../pages/havoc-warfare/index.html">Warfare</a><a href="../../pages/black-hawk-down/index.html">BHD</a><a href="../../pages/saison-aurora/index.html">Aurora</a><div class="nav-group"><a href="../../pages/astuces-pro/index.html">Pro</a><div class="nav-panel"><a href="../../pages/astuces-pro/index.html">Réglages &amp; astuces</a><a href="../../pages/astuces-pro/duels.html">Duels &amp; jeu en solo</a><a href="../../pages/astuces-pro/codes-portes.html">Codes de portes</a></div></div><div class="nav-group"><a href="../../pages/encyclopedie/index.html">Encyclopédie</a><div class="nav-panel"><a href="../../pages/encyclopedie/index.html">Lexique &amp; univers</a><a href="../../pages/encyclopedie/tier-list.html">Tier list S12</a><a href="../../pages/encyclopedie/economie.html">Économie</a><a href="../../pages/news/index.html">News</a></div></div><div class="nav-group"><a href="../../pages/outils/index.html">Outils</a><div class="nav-panel"><a href="../../pages/outils/index.html">Calculateurs tactiques</a><a href="../../pages/outils/artisanat.html">Artisanat &amp; enchères</a></div></div></div>
+    <div class="nav-actions">
+      <button class="search-trigger" aria-label="Ouvrir la recherche globale">
+        <span aria-hidden="true">⌕</span><span class="sr-only">Rechercher</span><kbd>Ctrl K</kbd>
+      </button>
+      <button class="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links"><span></span></button>
+    </div>
+  </div>
+</nav>
+<div class="search-modal" role="dialog" aria-modal="true" aria-label="Recherche globale">
+  <div class="search-box">
+    <input type="search" placeholder="Rechercher un opérateur, une arme, une carte, un outil…" aria-label="Champ de recherche" autocomplete="off">
+    <div class="search-results"></div>
+  </div>
+</div>
+<main id="main">
+<header class="page-hero">
+  <div class="hero-bg" aria-hidden="true"><img src="../../assets/images/heroes/gunsmith_hero_01.jpg" alt="" loading="eager" decoding="async"></div>
+  <div class="wrap page-hero-content">
+    <div class="eyebrow">Atelier</div>
+    <h1 class="display">Comprendre le <span class='grad-text'>Gunsmith</span> </h1>
+    <p class="lead mt-3">Contrôle, Maniabilité, Stabilité, Précision : quatre mots que presque tout le monde interprète de travers. Voici ce que chaque statistique fait réellement — et comment construire une arme à partir de son métier plutôt que de ses chiffres.</p>
+  </div>
+</header>
+
+<section class="section-sm"><div class="wrap">
+  <nav class="crumbs" aria-label="Fil d'Ariane"><a href="../../index.html">QG</a><span class="sep" aria-hidden="true">›</span><a href="../../index.html">Armurerie</a><span class="sep" aria-hidden="true">›</span><span aria-current="page">Gunsmith</span></nav>
+  <div class="mb-4" style="max-width:560px"><div class="audio-player" data-reveal>
+  <button class="play" aria-label="Lire le briefing audio : Gunsmith">▶</button>
+  <div class="meta">
+    <b>Briefing audio — Gunsmith</b>
+    <span>NARRATION FR · SYNTHÈSE VOCALE</span>
+  </div>
+  <div class="audio-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+  <audio preload="none" src="../../assets/audio/briefings/gunsmith_briefing_01.mp3"></audio>
+</div></div>
+  <div class="alert alert-red" data-reveal><span class="ico" aria-hidden="true">⚠</span>
+  <div class="small"><strong>L'erreur n°1 : confondre Contrôle et Stabilité</strong><br>Le recul ne vit pas dans l'onglet Stabilité. Il vit dans l'onglet Contrôle. Si vous lisez les infobulles d'accessoires en cherchant le mot « stabilité » pour réduire la montée de votre réticule, vous choisissez systématiquement les mauvaises pièces. Tout accessoire dont la description dit qu'il « augmente le Contrôle » est celui qui réduit réellement la montée et la dérive de l'arme pendant que vous maintenez la détente.</div></div>
+  <div class="alert alert-orange mt-3" data-reveal><span class="ico" aria-hidden="true">!</span>
+  <div class="small">Deuxième malentendu de même ampleur : la Précision ne concerne QUE le tir à la hanche. Elle n'améliore jamais, en aucune circonstance, la précision en visée. On peut donc la sacrifier intégralement sur une arme que l'on joue épaulée.</div></div>
+</div></section>
+
+<section class="section" id="statistiques"><div class="wrap">
+  <div class="section-head" data-reveal>
+    <div class="eyebrow">Les 8 statistiques</div><h2>Ce que chaque chiffre fait vraiment</h2>
+    <p class="lead">La colonne rouge est la plus utile : elle liste ce que la statistique ne fait PAS, c'est-à-dire l'erreur que tout le monde commet.</p>
+  </div>
+  <div class="table-wrap" data-reveal><table class="df" style="min-width:980px">
+    <thead><tr><th>Statistique</th><th>Ce qu'elle gouverne</th><th>Ce qu'elle ne fait pas</th><th>Modifiée par</th><th>Compte pour</th></tr></thead>
+    <tbody><tr>
+    <td><strong class="txt-green">Dégâts</strong></td>
+    <td class="small">Dégâts par impact selon la zone touchée, et décroissance avec la distance.</td>
+    <td class="small txt-red">Ne donne pas à lui seul le temps d'élimination : il faut le croiser avec la cadence et le calibre.</td>
+    <td class="small muted">Quasiment fixe par arme. Quelques munitions et rares accessoires le déplacent à la marge.</td>
+    <td class="small muted">Comparer le potentiel brut de deux armes.</td>
+  </tr><tr>
+    <td><strong class="txt-green">Contrôle</strong></td>
+    <td class="small">C'est LA statistique de recul. Elle se décompose en quatre sous-attributs : multiplicateur de recul vertical et horizontal en automatique, et les deux mêmes en coup par coup / rafale.</td>
+    <td class="small txt-red">Ne calme pas l'oscillation de la lunette au repos — c'est le rôle de la Stabilité.</td>
+    <td class="small muted">Canons, poignées, crosses, bouches. Cherchez le mot « Contrôle » dans l'infobulle.</td>
+    <td class="small muted">Tout ce qui se joue en automatique : fusils d'assaut, PM, mitrailleuses.</td>
+  </tr><tr>
+    <td><strong class="txt-green">Maniabilité</strong></td>
+    <td class="small">Fourre-tout de toutes les vitesses : temps de mise en joue, délai sprint-tir, vitesse de déplacement en visée, vitesse de marche, rechargement plein et à vide, temps de rangement et de changement d'arme.</td>
+    <td class="small txt-red">Ne touche ni au recul ni à la dispersion.</td>
+    <td class="small muted">Chargeurs, crosses, poignées — et c'est presque toujours elle qui paie vos gains de Contrôle.</td>
+    <td class="small muted">Le jeu agressif et le combat rapproché.</td>
+  </tr><tr>
+    <td><strong class="txt-green">Stabilité</strong></td>
+    <td class="small">Amplitude de l'oscillation respiratoire, durée de blocage de la respiration, réduction de recul pendant ce blocage, multiplicateur de tressaillement quand on vous touche, stabilité de la caméra en tir.</td>
+    <td class="small txt-red">Ne remplace jamais le Contrôle pour le recul.</td>
+    <td class="small muted">Crosses, poignées, certaines optiques.</td>
+    <td class="small muted">Les armes qu'on tient longtemps en joue : snipers, tireurs d'élite, tenue d'angle sous le feu.</td>
+  </tr><tr>
+    <td><strong class="txt-green">Précision</strong></td>
+    <td class="small">Dispersion au tir à la hanche. Uniquement.</td>
+    <td class="small txt-red">N'affecte JAMAIS la précision en visée. Jamais.</td>
+    <td class="small muted">Principalement les poignées avant.</td>
+    <td class="small muted">PM et fusils à pompe joués à la hanche. Négligeable partout ailleurs.</td>
+  </tr><tr>
+    <td><strong class="txt-green">Portée</strong></td>
+    <td class="small">Distance sur laquelle s'étend le premier palier de dégâts, en mètres.</td>
+    <td class="small txt-red">Ne définit pas la distance maximale que parcourt la balle.</td>
+    <td class="small muted">Canons, kits de conversion.</td>
+    <td class="small muted">Les engagements à moyenne et longue distance.</td>
+  </tr><tr>
+    <td><strong class="txt-green">Vitesse initiale</strong></td>
+    <td class="small">Vitesse de la balle en m/s.</td>
+    <td class="small txt-red">Ne change pas la cadence de tir.</td>
+    <td class="small muted">Canons, silencieux.</td>
+    <td class="small muted">Toucher une cible mobile à distance : moins d'anticipation à donner.</td>
+  </tr><tr>
+    <td><strong class="txt-green">Pénétration d'armure</strong></td>
+    <td class="small">Dégâts infligés à la durabilité de l'armure, en Operations.</td>
+    <td class="small txt-red">Ne signifie PAS la même chose que le niveau de pénétration de la munition. Ce sont deux systèmes distincts.</td>
+    <td class="small muted">Certains canons et kits.</td>
+    <td class="small muted">Les duels contre des cibles bien protégées.</td>
+  </tr></tbody>
+  </table></div>
+  <figure class="img-frame mt-6" data-reveal>
+    <img src="../../assets/images/weapons/armurerie_recul_01.jpg" alt="Vue en enfilade d'un fusil au stand de tir, départ de coup et douille éjectée" loading="lazy" decoding="async">
+    <figcaption>Un chargeur entier sur un mur, sans corriger : la seule mesure fiable de votre recul (illustration générée par IA, pas une capture du jeu)</figcaption>
+  </figure>
+</div></section>
+
+<section class="section" id="calibration"><div class="wrap">
+  <div class="grid g-2 gap-6">
+    <div>
+      <div class="section-head" data-reveal><div class="eyebrow">Modifier → Calibrer, sur les pièces déjà achetées.</div><h2>La calibration : la seule optimisation gratuite du jeu</h2>
+        <p class="lead">Chaque curseur est un troc direct, pas un bonus. Déplacer le poids d'un canon échange de la stabilité de tir contre de la vitesse de déplacement en visée — la lecture s'affiche en direct, par exemple +3,84 % de vitesse de déplacement en visée contre −3,84 % de stabilité de tir. Le curseur de longueur échange, lui, vitesse de mise en joue contre vitesse initiale.</p></div>
+      <div class="card card-accent-gold" data-reveal><ul class="small"><li>Calibrez EN DERNIER, une fois tous les accessoires verrouillés. C'est une seconde couche par-dessus le montage, pas un substitut.</li><li>C'est gratuit. Pressez cette citron avant d'acheter une pièce plus chère : c'est le moyen le moins coûteux de gagner du contrôle quand le budget est épuisé.</li><li>Déplacez le curseur vers ce dont l'arme a besoin, pas vers le plus gros chiffre affiché.</li><li>Sur une arme de contact : calibrez le poids du canon vers la vitesse de mise en joue. Dégainer plus vite vaut mieux qu'un gain marginal de stabilité.</li><li>Sur une arme d'arrosage : poussez les curseurs de poids de la poignée arrière et de la crosse au maximum. Vous payez un peu de vitesse de visée pour un gros gain de contrôle.</li><li>Repassez chaque curseur par petits crans en vérifiant à chaque fois que la statistique visée bouge vraiment : certains curseurs ont des zones mortes où vous payez sans rien gagner.</li></ul></div>
+    </div>
+    <div>
+      <figure class="img-frame" data-reveal>
+        <img src="../../assets/images/weapons/gunsmith_calibration_01.jpg" alt="Gros plan macro sur un tournevis dynamométrique réglant un rail de garde-main" loading="lazy" decoding="async">
+        <figcaption>Chaque curseur est un troc, jamais un bonus (illustration générée par IA, pas une capture du jeu)</figcaption>
+      </figure>
+      <div class="card card-accent-blue mt-4" data-reveal>
+        <h3 class="card-title" style="font-size:1rem">Le blocage de souffle est un multiplicateur de recul</h3>
+        <p class="small">Bloquer sa respiration ne fait pas que stabiliser l'image : cela applique un multiplicateur de réduction de recul (de l'ordre de 0,95× sur un build relevé). Sur une arme à forte Stabilité, le gain est substantiel. Prenez l'habitude de bloquer dès que vous épaulez pour un engagement à distance — et notez que la réduction de tressaillement à l'impact, sur le même axe, change l'issue des duels où vous êtes touché le premier.</p>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section class="section" id="methode"><div class="wrap">
+  <div class="section-head" data-reveal><div class="eyebrow">Méthode</div><h2>Construire une arme en cinq étapes</h2></div>
+  <div class="grid g-auto-md gap-4"><article class="card card-accent-orange" data-reveal data-delay="0">
+    <div class="hud tiny txt-orange mb-2">ÉTAPE 01</div>
+    <h3 class="card-title" style="font-size:1rem">Décidez du métier de l'arme</h3>
+    <p class="small muted">Une arme qu'on arrose veut du Contrôle. Une arme à un coup — sniper, tireur d'élite — veut de la Stabilité et de la tenue de visée : vous ne corrigerez jamais un recul entre deux tirs, donc seul compte le fait que la première balle parte où vous visez.</p>
+  </article><article class="card card-accent-orange" data-reveal data-delay="70">
+    <div class="hud tiny txt-orange mb-2">ÉTAPE 02</div>
+    <h3 class="card-title" style="font-size:1rem">Attaquez le recul horizontal en premier</h3>
+    <p class="small muted">La dérive latérale est la plus difficile à corriger à la souris. Réduisez d'abord le multiplicateur de recul horizontal en automatique, puis le vertical. Si votre arme n'a presque pas de dérive latérale d'origine, inversez l'ordre.</p>
+  </article><article class="card card-accent-orange" data-reveal data-delay="140">
+    <div class="hud tiny txt-orange mb-2">ÉTAPE 03</div>
+    <h3 class="card-title" style="font-size:1rem">Stabilisez l'image</h3>
+    <p class="small muted">Améliorez ensuite la stabilité de l'arme en tir, puis la stabilité de l'optique si le réticule saute encore. Une arme au recul faible mais dont l'image tremble reste injouable.</p>
+  </article><article class="card card-accent-orange" data-reveal data-delay="210">
+    <div class="hud tiny txt-orange mb-2">ÉTAPE 04</div>
+    <h3 class="card-title" style="font-size:1rem">Payez avec la Précision, puis la Maniabilité</h3>
+    <p class="small muted">Sur une arme épaulée, videz la Précision sans état d'âme : elle ne sert qu'à la hanche. Sacrifiez ensuite de la Maniabilité, mais surveillez le seuil : un basculement vers une pièce orientée stabilité a fait tomber la Maniabilité de 60 à 49, et avec elle la mise en joue de 289 à 316 ms, le délai sprint-tir de 209 à 242 ms, et le rechargement de 2,3 s à 3 s pleines.</p>
+  </article><article class="card card-accent-orange" data-reveal data-delay="280">
+    <div class="hud tiny txt-orange mb-2">ÉTAPE 05</div>
+    <h3 class="card-title" style="font-size:1rem">Calibrez, puis testez au stand</h3>
+    <p class="small muted">Videz un chargeur entier sur un mur à distance fixe sans corriger : vous lisez la trajectoire réelle. Changez UN accessoire à la fois et refaites le test. C'est la seule méthode qui distingue un gain réel d'un gain affiché.</p>
+  </article></div>
+</div></section>
+
+<section class="section" id="profils"><div class="wrap">
+  <div class="section-head" data-reveal>
+    <div class="eyebrow">Par famille</div><h2>Quelle priorité pour quelle arme</h2>
+    <p class="lead">Une arme à un coup et une arme d'arrosage ne se construisent pas du tout de la même façon.</p>
+  </div>
+  <div class="table-wrap" data-reveal><table class="df" style="min-width:780px">
+    <thead><tr><th>Famille</th><th>Ordre de priorité</th><th>Note</th></tr></thead>
+    <tbody><tr>
+    <td><strong>Fusil d'assaut polyvalent</strong></td>
+    <td class="small txt-green mono">Contrôle &gt; Stabilité &gt; Maniabilité &gt; Précision</td>
+    <td class="small muted">Le profil par défaut. Visez un recul vertical maîtrisable sur un chargeur entier.</td>
+  </tr><tr>
+    <td><strong>PM / arme de contact</strong></td>
+    <td class="small txt-green mono">Maniabilité &gt; Contrôle &gt; Stabilité</td>
+    <td class="small muted">Calibrez le canon vers la vitesse de mise en joue. La Précision devient pertinente si vous tirez à la hanche.</td>
+  </tr><tr>
+    <td><strong>Mitrailleuse</strong></td>
+    <td class="small txt-green mono">Contrôle &gt; Stabilité &gt; capacité</td>
+    <td class="small muted">Le temps de mise en joue n'est pas votre problème : la tenue de la gerbe sur 60 balles l'est.</td>
+  </tr><tr>
+    <td><strong>Tireur d'élite semi-auto</strong></td>
+    <td class="small txt-green mono">Stabilité ≈ Contrôle &gt; Maniabilité</td>
+    <td class="small muted">Construisez d'abord la plus forte réduction de recul possible, puis testez : ajustez ensuite oscillation et durée de blocage de souffle selon votre ressenti.</td>
+  </tr><tr>
+    <td><strong>Sniper à verrou</strong></td>
+    <td class="small txt-green mono">Stabilité &gt; Maniabilité &gt; Contrôle</td>
+    <td class="small muted">Videz le Contrôle : vous ne corrigez rien entre deux tirs. Ce qui compte, c'est que la première balle parte droit et que la lunette ne danse pas.</td>
+  </tr><tr>
+    <td><strong>Fusil à pompe</strong></td>
+    <td class="small txt-green mono">Précision &gt; Maniabilité &gt; Contrôle</td>
+    <td class="small muted">Le seul cas où la Précision est une vraie priorité, puisque le tir à la hanche y est courant.</td>
+  </tr></tbody>
+  </table></div>
+</div></section>
+
+<section class="section" id="pieges"><div class="wrap">
+  <div class="section-head" data-reveal><div class="eyebrow">6 pièges</div><h2>Ce qui fait rater un build</h2></div>
+  <div class="grid g-auto-md gap-4"><div class="card card-accent-red" data-reveal data-delay="0">
+    <div class="hud tiny txt-red mb-2">PIÈGE 01</div>
+    <h4 class="card-title" style="font-size:.95rem">Un gros chiffre de Contrôle sans réduction de recul</h4>
+    <p class="small muted">Certaines pièces affichent par exemple +6 en Contrôle mais n'apportent aucune réduction de recul : leur effet réel, listé juste au-dessus des chiffres dans la section Effet, est « stabilité de l'arme en tir ». Lisez la section Effet, pas la ligne de statistique.</p>
+  </div><div class="card card-accent-red" data-reveal data-delay="50">
+    <div class="hud tiny txt-red mb-2">PIÈGE 02</div>
+    <h4 class="card-title" style="font-size:.95rem">Operations et Warfare ne partagent pas les valeurs</h4>
+    <p class="small muted">La même pièce n'a pas les mêmes statistiques dans les deux modes. Un build réglé pour l'un ne se transpose pas à l'autre. C'est aussi pourquoi les codes de build portent la mention du mode.</p>
+  </div><div class="card card-accent-red" data-reveal data-delay="100">
+    <div class="hud tiny txt-red mb-2">PIÈGE 03</div>
+    <h4 class="card-title" style="font-size:.95rem">Les chiffres bruts ne décident pas du recul</h4>
+    <p class="small muted">Deux builds de Contrôle identique peuvent ne pas tressauter pareil. C'est le multiplicateur de recul qui compte, et le graphique de trajectoire comparée est le seul juge fiable.</p>
+  </div><div class="card card-accent-red" data-reveal data-delay="150">
+    <div class="hud tiny txt-red mb-2">PIÈGE 04</div>
+    <h4 class="card-title" style="font-size:.95rem">Une forte optique sur une arme qui bouge</h4>
+    <p class="small muted">Un grossissement élevé amplifie visuellement tout ce que l'arme fait. Sur une arme automatique nerveuse, une lunette puissante dégrade le build au lieu de l'aider.</p>
+  </div><div class="card card-accent-red" data-reveal data-delay="200">
+    <div class="hud tiny txt-red mb-2">PIÈGE 05</div>
+    <h4 class="card-title" style="font-size:.95rem">L'écran Détails n'est pas l'écran Loadout</h4>
+    <p class="small muted">Comparez votre build enregistré à vos modifications en cours depuis la page Loadouts plutôt qu'en vous fiant à l'écran Détails.</p>
+  </div><div class="card card-accent-red" data-reveal data-delay="250">
+    <div class="hud tiny txt-red mb-2">PIÈGE 06</div>
+    <h4 class="card-title" style="font-size:.95rem">Le laser n'est pas cosmétique</h4>
+    <p class="small muted">Il réduit nettement le temps de mise en joue, même sur une arme à faible maniabilité. En contrepartie il signale votre position : apprenez à l'allumer et l'éteindre selon la situation.</p>
+  </div></div>
+</div></section>
+
+<section class="section-sm"><div class="wrap">
+  <div class="grid g-3 gap-4">
+    <a class="card card-accent" href="builds.html" data-reveal><h3 class="card-title" style="font-size:1rem">Codes de build</h3>
+      <p class="small muted">48 configurations prêtes à importer.</p></a>
+    <a class="card card-accent" href="munitions.html" data-reveal data-delay="80"><h3 class="card-title" style="font-size:1rem">Munitions &amp; pénétration</h3>
+      <p class="small muted">Pourquoi la pénétration d'armure n'est pas le niveau de munition.</p></a>
+    <a class="card card-accent" href="../outils/index.html" data-reveal data-delay="160"><h3 class="card-title" style="font-size:1rem">Calculateurs</h3>
+      <p class="small muted">Temps d'élimination et pénétration, en direct.</p></a>
+  </div>
+</div></section>
+</main><footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="brand mb-3" href="../../index.html">
+          <span class="brand-mark" aria-hidden="true">DF</span>
+          <span class="brand-txt"><b>Delta Force</b><span>Operator's Guide</span></span>
+        </a>
+        <p class="small muted">Guide communautaire francophone ultra-complet sur Delta Force.
+        Opérateurs, armes, cartes, boss, économie, outils tactiques — mis à jour pour la Saison 12 — Aurora.</p>
+        <p class="hud tiny txt-green mt-3">Every Raid. Every Operator. Every Edge.</p>
+      </div>
+      <div class="footer-col"><h4>Modes de jeu</h4><ul><li><a href="../../pages/hazard-ops/index.html">Hazard Operations</a></li><li><a href="../../pages/havoc-warfare/index.html">Havoc Warfare</a></li><li><a href="../../pages/black-hawk-down/index.html">Black Hawk Down</a></li><li><a href="../../pages/cartes/index.html">Cartes interactives</a></li></ul></div><div class="footer-col"><h4>Références</h4><ul><li><a href="../../pages/operateurs/index.html">Les 19 opérateurs</a></li><li><a href="../../pages/armurerie/index.html">Armurerie complète</a></li><li><a href="../../pages/armurerie/munitions.html">Munitions &amp; pénétration</a></li><li><a href="../../pages/encyclopedie/tier-list.html">Tier list Saison 12</a></li></ul></div><div class="footer-col"><h4>Outils &amp; astuces</h4><ul><li><a href="../../pages/outils/index.html">Outils tactiques</a></li><li><a href="../../pages/astuces-pro/codes-portes.html">Codes de portes du jour</a></li><li><a href="../../pages/hazard-ops/black-site.html">Black Site Planner</a></li><li><a href="../../pages/astuces-pro/index.html">Réglages pro</a></li></ul></div>
+    </div>
+    <div class="legal-box">
+      <strong>Mentions légales &amp; crédits.</strong> Ce site est un <strong>guide fan-made non officiel</strong>,
+      réalisé par des joueurs pour des joueurs, à but informatif et sans but lucratif.
+      <em>Delta Force</em> est développé par <strong>Team Jade</strong> (<strong>TiMi Studio Group</strong>) et édité par
+      <strong>Level Infinite</strong> et <strong>Garena</strong> selon les régions.
+      Toutes les marques, noms, logos, images, personnages et éléments de jeu cités appartiennent à leurs propriétaires respectifs.
+      Ce site n'est ni affilié, ni approuvé, ni sponsorisé par Team Jade, TiMi Studio Group, Level Infinite, Garena ou Tencent.
+      Les illustrations du site sont des <strong>créations originales générées par IA</strong> à usage d'ambiance : elles ne
+      représentent pas des captures du jeu. Les données de gameplay proviennent de sources publiques datées, listées dans
+      <code>research/sources_log.json</code>. Le jeu évoluant en continu, vérifiez toujours les patch notes officiels sur
+      <a href="https://www.playdeltaforce.com/" rel="noopener nofollow" target="_blank">playdeltaforce.com</a>.
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> — Guide fan-made. Contenu sous licence MIT (code).</span>
+      <span class="hud">BUILD 2026-11-19 · SAISON 12 — AURORA</span>
+    </div>
+  </div>
+</footer>
+<script src="../../assets/js/app.js"></script>
+<script src="../../assets/js/search.js" defer></script>
+
+</body>
+</html>

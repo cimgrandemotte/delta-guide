@@ -1,0 +1,221 @@
+{
+  "_meta": {
+    "titre": "Parcours débutant — de la première heure au premier million",
+    "derniere_maj": "2026-11-19",
+    "saison": "S12 — Aurora",
+    "avertissement": "Les montants en Tekniq Alloys fluctuent avec l'hôtel des ventes. Les ordres de grandeur comptent plus que les chiffres exacts.",
+    "sources": [
+      "forgeguides.com — Beginner Guide 2026 : First 10 Hours",
+      "switchbladegaming.com — Warfare vs Operations",
+      "deltaforcetools.gg — 15 common beginner mistakes",
+      "game-delta.asia — Beginner complete guide",
+      "boostroom.com — Beginner guide operators & weapons",
+      "r/DeltaForceGlobal — fils « Tips For Operations », « Budget Loadouts for Normal », « Cost and profit »"
+    ]
+  },
+
+  "regle_d_or": "Commencez par Warfare, où mourir ne coûte rien. Passez en Operations seulement quand vous avez un kit gratuit à perdre. L'erreur qui ruine un débutant n'est jamais la visée : c'est d'emporter du matériel qu'il ne peut pas se permettre de perdre sur une carte qu'il ne connaît pas.",
+
+  "quel_mode_dabord": {
+    "titre": "Warfare ou Operations en premier ?",
+    "verdict": "Warfare. Toujours.",
+    "comparaison": [
+      {
+        "question": "Que coûte la mort ?",
+        "warfare": "Une réapparition. Rien d'autre.",
+        "operations": "Tout ce que vous portiez, sauf le contenu du coffre sécurisé."
+      },
+      {
+        "question": "Qu'est-ce que ça vous apprend ?",
+        "warfare": "La visée, le recul, les rôles de classe, le jeu d'objectif.",
+        "operations": "La connaissance des cartes, le son, le couple munition/armure, la discipline d'extraction."
+      },
+      {
+        "question": "Que gagne-t-on ?",
+        "warfare": "EXP d'arme, Mérite classé, bons d'armement événementiels.",
+        "operations": "Tekniq Alloys en revendant le butin, niveaux de département."
+      },
+      {
+        "question": "Combien de temps y rester ?",
+        "warfare": "5 à 10 heures, le temps que le maniement d'une arme devienne un réflexe.",
+        "operations": "Le reste de votre vie de joueur."
+      }
+    ]
+  },
+
+  "dix_premieres_heures": [
+    {
+      "tranche": "Heures 0 → 2",
+      "titre": "Tutoriel et stand de tir",
+      "objectif": "Comprendre le maniement, pas gagner.",
+      "actions": [
+        "Terminez les invites du tutoriel : elles couvrent déplacement et tir plus vite que n'importe quel guide écrit.",
+        "Passez 15 minutes au stand de tir (Firing Range 2.0 en S12). Apprenez le recul d'UNE arme.",
+        "Tirez en rafales courtes. Maintenir la détente est le réflexe le plus coûteux du jeu.",
+        "Ne touchez pas à la calibration. C'est un réglage fin pour quelqu'un qui sait déjà ce qu'il veut d'une arme."
+      ]
+    },
+    {
+      "tranche": "Heures 2 → 5",
+      "titre": "Warfare uniquement",
+      "objectif": "Jouer l'objectif, pas le tableau des scores.",
+      "actions": [
+        "Prenez D-Wolf : exosquelette, glissade, lance-grenade. Le kit le plus pardonnant du roster de départ.",
+        "Restez sur le point de capture. Les éliminations seules ne prennent aucun terrain.",
+        "Testez les quatre rôles — Assaut, Soutien, Ingénieur, Reconnaissance — au moins une partie chacun.",
+        "Utilisez le bouton de marquage à chaque contact visuel : il rapporte des points et renseigne l'équipe."
+      ]
+    },
+    {
+      "tranche": "Heures 5 → 8",
+      "titre": "Premiers raids Operations en mode Facile",
+      "objectif": "Sortir vivant cinq fois d'affilée. Le butin est secondaire.",
+      "actions": [
+        "Zero Dam en Facile, avec un ticket d'équipement. Le ticket ne vous coûte rien : s'il meurt, vous ne perdez rien.",
+        "Repérez votre point d'extraction AVANT de ramasser quoi que ce soit.",
+        "Marchez. Courir diffuse votre position à toute la zone.",
+        "Mettez immédiatement au coffre sécurisé ce que vous ne voulez pas perdre.",
+        "Jouez Hackclaw : ses couteaux de lancer tuent l'IA en un coup sans faire de bruit."
+      ]
+    },
+    {
+      "tranche": "Heures 8 → 10",
+      "titre": "Les runs au couteau",
+      "objectif": "Constituer un premier capital sans aucun risque financier.",
+      "actions": [
+        "Entrez avec un couteau, un petit sac et rien d'autre. Vous ne pouvez littéralement pas perdre d'argent.",
+        "Tuez le premier porte-bouclier croisé : il lâche souvent un gilet violet, parfois doré.",
+        "Récupérez l'arme et le sac d'un soldat IA dans la première minute.",
+        "Visez les conteneurs rentables : caisses de transport aérien, petits coffres, serveurs, piles médicales.",
+        "Ressortez. Un run au couteau qui rapporte 200 000 Alloys est un run parfait."
+      ]
+    }
+  ],
+
+  "roadmap_30j": [
+    {
+      "semaine": "Semaine 1",
+      "focus": "Runs au couteau sur Zero Dam Facile",
+      "objectif": "Premier demi-million d'Alloys, tous les points d'extraction mémorisés."
+    },
+    {
+      "semaine": "Semaine 2",
+      "focus": "Premier loadout budget (≈ 100-200 k)",
+      "objectif": "Premiers runs armés rentables. Deux cartes maîtrisées."
+    },
+    {
+      "semaine": "Semaine 3",
+      "focus": "Passage en mode Normal, montée des ateliers du Black Site au niveau 3",
+      "objectif": "Bénéfice régulier de 300 k+ par run. Trouver une escouade fixe."
+    },
+    {
+      "semaine": "Semaine 4",
+      "focus": "Brakkesh et Space City, production passive au Black Site",
+      "objectif": "Un million de trésorerie et un taux d'extraction supérieur à 50 %."
+    }
+  ],
+
+  "loadout_budget": {
+    "titre": "Le kit « rat » — rentable dès le premier run",
+    "principe": "Moins vous emportez, moins il vous faut ramener pour être bénéficiaire. Un joueur à 50 % d'extraction et 300 k de butin moyen doit rester sous 150 k de kit — idéalement sous 75 k.",
+    "lignes": [
+      { "poste": "Casque", "choix": "N'importe quel casque avec bonus d'écoute (même une casquette grise)", "cout": "≈ 10-30 k", "pourquoi": "L'audio vaut plus que les points d'armure. Le DICH monte à +50 % de portée d'écoute." },
+      { "poste": "Gilet", "choix": "Aucun — ou un gilet bleu bon marché", "cout": "0 à 25 k", "pourquoi": "On le ramasse sur le premier porte-bouclier. Payer pour du violet avant de savoir extraire, c'est le livrer à l'adversaire." },
+      { "poste": "Arme", "choix": "93R silencieux, Vityaz, CAR-15 ou M16", "cout": "≈ 45-60 k", "pourquoi": "Tout ce qui est en 9×19 suffit : on ramasse les munitions bleues sur l'IA." },
+      { "poste": "Munitions", "choix": "Une pile verte en poche, une pile violette au coffre", "cout": "≈ 30-50 k", "pourquoi": "Le vert pour l'IA, le violet pour les joueurs. Transporter cinq boîtes de violet, c'est offrir 500 k à son tueur." },
+      { "poste": "Sac & gilet tactique", "choix": "Sac de 28 slots, gilet tactique 13-14 slots", "cout": "≈ 25 k", "pourquoi": "La capacité prime sur la protection quand l'objectif est le butin." },
+      { "poste": "Soins", "choix": "Trousse de base, garrot, anti-douleur", "cout": "≈ 20-30 k", "pourquoi": "Trois objets, pas plus. Le reste encombre." }
+    ],
+    "total": "≈ 150 k maximum, 75 k en version optimisée"
+  },
+
+  "distances_sonores": {
+    "titre": "Ce que votre déplacement raconte à l'adversaire",
+    "avertissement": "⚠️ Deux relevés communautaires circulent et ne concordent pas. Les ordres de grandeur sont fiables, les mètres exacts ne le sont pas. Traitez le tableau comme une hiérarchie, pas comme une mesure.",
+    "lignes": [
+      { "mouvement": "Sprint", "releve_a": "≈ 40 m", "releve_b": "48-49 m", "verdict": "Vous êtes entendu de l'autre bout du secteur." },
+      { "mouvement": "Marche", "releve_a": "≈ 25 m", "releve_b": "≈ 34 m", "verdict": "Audible dans le bâtiment entier." },
+      { "mouvement": "Accroupi", "releve_a": "≈ 10 m", "releve_b": "≈ 19 m", "verdict": "Audible dans la pièce voisine." },
+      { "mouvement": "Marche lente (Verr. Maj par défaut)", "releve_a": "quasi nul", "releve_b": "≈ 7 m", "verdict": "Le seul déplacement qui approche vraiment quelqu'un." }
+    ],
+    "regle": "Par défaut, marchez. Courez seulement en terrain découvert déjà vérifié. Si vous entendez quelque chose, arrêtez-vous complètement : l'immobilité est le meilleur capteur du jeu."
+  },
+
+  "erreurs": [
+    {
+      "titre": "Devenir livreur",
+      "symptome": "Vous atteignez un million, vous achetez le kit méta, vous mourez, vous repartez de zéro.",
+      "cause": "Emporter du matériel cher avant de connaître la carte.",
+      "correctif": "Plafonnez la dépense par run à 20 % de votre trésorerie tant que vous n'êtes pas régulièrement bénéficiaire."
+    },
+    {
+      "titre": "Perdre des duels que la visée avait gagnés",
+      "symptome": "Vous touchez le premier, l'adversaire ne tombe pas.",
+      "cause": "Munition d'un niveau inférieur à l'armure en face.",
+      "correctif": "Consultez la matrice de pénétration. Du niveau 3 contre une armure 5, c'est 10 % de dégâts transmis."
+    },
+    {
+      "titre": "Piller avant d'avoir nettoyé",
+      "symptome": "Vous mourez le regard dans un inventaire.",
+      "cause": "Le combat n'était pas fini.",
+      "correctif": "Terminez l'engagement, repositionnez-vous, PUIS fouillez."
+    },
+    {
+      "titre": "Repiquer deux fois le même angle",
+      "symptome": "Vous vous faites toucher à la deuxième tête sortie au même endroit.",
+      "cause": "L'adversaire a préchargé l'angle.",
+      "correctif": "Changez de hauteur ou d'ouverture. Jamais deux fois la même fenêtre."
+    },
+    {
+      "titre": "Sprinter vers l'extraction",
+      "symptome": "Mort dans les 30 dernières secondes, sac plein.",
+      "cause": "Les extractions sont campées, et 70 % des morts PvP tombent dans les cinq dernières minutes.",
+      "correctif": "Approchez par un angle inattendu, observez 20 secondes, ne restez jamais plus de 90 secondes sur un même spot."
+    },
+    {
+      "titre": "Ignorer le coffre sécurisé",
+      "symptome": "Vous perdez un objet rouge sur une mort stupide.",
+      "cause": "L'objet était resté dans le sac.",
+      "correctif": "Rangez immédiatement. Le pass saisonnier offre un coffre 2×3 qui vaut à lui seul son prix."
+    },
+    {
+      "titre": "Changer d'arme en permanence",
+      "symptome": "Aucune arme n'est maîtrisée, aucun accessoire débloqué.",
+      "cause": "Le niveau d'arme est une progression isolée qui va jusqu'à 70+.",
+      "correctif": "Une arme, jusqu'à ce que son recul soit un réflexe. Les tickets d'EXP sont généreux, mais la mémoire musculaire ne s'achète pas."
+    },
+    {
+      "titre": "Jouer Warfare comme du Deathmatch",
+      "symptome": "Vous êtes premier au score et votre équipe perd.",
+      "cause": "Les éliminations ne capturent rien.",
+      "correctif": "Restez à portée de l'objectif actif. Le classé Warfare se calcule surtout sur le score par minute."
+    }
+  ],
+
+  "valeur_par_slot": {
+    "titre": "La seule arithmétique qui compte en raid",
+    "regle": "Divisez la valeur de l'objet par le nombre de cases qu'il occupe. Un objet bleu de 16 000 sur 4 cases vaut moins qu'un objet bleu de 8 000 sur une seule.",
+    "cible": "Visez environ 12 000 Alloys par case d'inventaire.",
+    "consequences": [
+      "Priorisez accessoires d'arme, clés, munitions haut de gamme et consommables rares : compacts et très demandés.",
+      "Sur une arme adverse encombrante, faites clic droit → Détails et démontez les accessoires violets et bleus. Vous gardez la valeur sans le volume.",
+      "Regroupez régulièrement vos piles de munitions : les rechargements les fragmentent et dévorent des cases.",
+      "Ignorez tout ce qui est gris ou vert dès que votre sac se remplit."
+    ]
+  },
+
+  "operateurs_demarrage": [
+    { "nom": "D-Wolf", "role": "Assaut", "difficulte": "Facile", "verdict": "Le meilleur départ en Warfare. Vitesse et glissade pour apprendre les cartes.", "attention": "Le kit pousse aux pushs solo, que Operations punit sévèrement." },
+    { "nom": "Stinger", "role": "Soutien", "difficulte": "Facile", "verdict": "Soigne au pistolet et relève vite. Toujours utile, difficile à mal jouer.", "attention": "Il faut des coéquipiers à proximité pour exister." },
+    { "nom": "Hackclaw", "role": "Infiltration", "difficulte": "Moyenne", "verdict": "Reine des runs au couteau : lames de jet silencieuses, pas accroupis muets.", "attention": "Peu d'impact en combat frontal." },
+    { "nom": "Luna", "role": "Reconnaissance", "difficulte": "Moyenne", "verdict": "La flèche de détection est le meilleur outil d'information du jeu. Premier déblocage conseillé.", "attention": "L'information ne sert que si l'escouade l'exploite." }
+  ],
+
+  "a_ne_pas_faire_au_demarrage": [
+    "Dépenser la monnaie premium en cosmétiques dans la première semaine.",
+    "Monter le stockage avant d'avoir des ateliers de niveau 3 : les slots supplémentaires coûtent cher et rapportent peu.",
+    "Acheter une carte magnétique à plusieurs millions avant de savoir extraire de la carte concernée.",
+    "Prendre un opérateur complexe avant que la carte soit une seconde nature.",
+    "Jouer sans casque audio. C'est le seul réglage qui double un taux de survie."
+  ]
+}

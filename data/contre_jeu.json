@@ -1,0 +1,160 @@
+{
+  "_meta": {
+    "titre": "Contre-jeu — neutraliser les capacités adverses",
+    "derniere_maj": "2026-11-19",
+    "saison": "S12 — Aurora",
+    "avertissement": "Les portées et les angles ci-dessous proviennent de relevés communautaires et de tests de joueurs, pas de documentation officielle. Les ordres de grandeur sont fiables ; les valeurs exactes bougent à chaque patch.",
+    "sources": [
+      "r/DeltaForceGlobal — « Countering operator abilities »",
+      "r/DeltaForceGlobal — « Is there a counter operator to being detected by the scout class in Operations? »",
+      "r/DeltaForceGlobal — « How does one go about countering D-Wolf »",
+      "r/DeltaForceGlobal — « Hackclaw is way too overpowered for operations »",
+      "r/DeltaForceMobile — « My Thoughts on Operations Operators »",
+      "store.epicgames.com — Breaking down all operatives",
+      "news.bittopup.com — Luna & D-Wolf guide 2026"
+    ]
+  },
+
+  "principe": "Delta Force n'est pas un hero shooter : les capacités sont un supplément, pas la grammaire du jeu. La plupart des « contres » ne sont donc pas des capacités opposées mais des réflexes — s'immobiliser, détruire un objet, casser la ligne de vue, ou simplement tirer plus vite. Mais chaque capacité a une fenêtre, une portée et un angle, et c'est en connaissant ces trois limites qu'on cesse de la subir.",
+
+  "regle_universelle": {
+    "titre": "Trois questions avant de paniquer",
+    "questions": [
+      "Quelle est la portée réelle de ce qui vient de me toucher ? Presque toutes les détections ont un rayon court — sortir de la zone suffit souvent.",
+      "L'objet est-il destructible ? Drones, grappins et projectiles ont des boîtes de collision généreuses. Un tir bien placé annule la capacité à coup sûr.",
+      "La capacité réagit-elle au mouvement ? Plusieurs scans ne repèrent que les cibles qui bougent. L'immobilité est une contre-mesure active."
+    ]
+  },
+
+  "menaces": [
+    {
+      "nom": "Luna",
+      "role": "Reconnaissance",
+      "menace": "Flèche de détection",
+      "ce_que_ca_fait": "Illumine brièvement les ennemis sur sa trajectoire et les marque pour toute l'escouade. Contre-pouvoir direct aux fumigènes : elle voit à travers.",
+      "limites": [
+        "Le scan part vers le bas depuis la flèche, dans un rayon d'environ 10 m au pire — soit un couloir d'une vingtaine de mètres.",
+        "Il ne traverse pas les objets ni les planchers. Être à l'intérieur d'un bâtiment est déjà une protection.",
+        "Le feuillage ne compte pas comme un couvert.",
+        "Le premier signalement est inévitable. Mais la flèche ne répète son balayage que sur les cibles EN MOUVEMENT."
+      ],
+      "contre": "Dès que la mention de balayage apparaît à l'écran, arrêtez-vous net. Vous ne serez pas repéré au second passage et vous avez jusqu'au balayage suivant pour vous déplacer. À l'intérieur, vous êtes quasiment invisible. Et une esquive bien chronométrée entre deux signalements trompe complètement la flèche.",
+      "piege_pour_le_lanceur": "Un adversaire expérimenté se met à plat ventre dès qu'il entend la flèche partir. Déclenchez-la plutôt au moment où l'ennemi est OBLIGÉ de bouger : capture d'objectif, tentative de relevage, poussée dans un goulot.",
+      "danger_reel": "Ses flèches de choc verrouillent un couloir entier et ses grenades vous délogent d'un couvert. C'est son utilitaire, pas son scan, qui tue."
+    },
+    {
+      "nom": "Hackclaw",
+      "role": "Infiltration / renseignement",
+      "menace": "Décodeur de signal, drone aveuglant et couteau de données",
+      "ce_que_ca_fait": "Un balayage ciblé qui suit une équipe entière à travers les murs — et renseigne même sur son armure. Le drone aveugle. Le couteau de données coupe les capacités adverses dans un rayon d'environ 10 m et neutralise les appareils électroniques.",
+      "limites": [
+        "Le balayage couvre un cône devant elle — les relevés communautaires parlent de 120° à 180° et d'une portée de 25 à 60 m selon la version. Ce n'est jamais 360°.",
+        "La durée de détection est courte, de l'ordre d'une dizaine de secondes.",
+        "Les lignes de suivi n'apparaissent plus si la cible cesse de bouger après avoir été accrochée.",
+        "Son ultime met très longtemps à revenir."
+      ],
+      "contre": "Sortez du cône : devinez sa position et partez franchement dans l'autre sens. Pour les drones, tirez-les — leur boîte de collision est large, l'annulation est garantie. Faites-le le plus tôt possible : si elle pousse derrière le drone, vous basculez instantanément sur elle. Se détourner atténue l'éblouissement mais ne l'annule pas : désapprenez le réflexe « regarder ailleurs » hérité des autres jeux tactiques, ici il faut détruire.",
+      "piege_pour_le_lanceur": "Ses éblouissements n'affectent pas ses coéquipiers : attendez-vous à une poussée immédiate derrière.",
+      "danger_reel": "Le couteau de données. Une fois trouvé, vous perdez l'accès à vos propres capacités pendant un moment — c'est bien plus handicapant que d'être simplement vu."
+    },
+    {
+      "nom": "Nox",
+      "role": "Reconnaissance",
+      "menace": "Mode furtif",
+      "ce_que_ca_fait": "Rend les pas quasi silencieux en course et en saut, et fausse les détections : un scan ne montre que la position qu'il occupait à l'instant du balayage.",
+      "limites": ["Fenêtre limitée dans le temps.", "Ne protège pas d'un contact visuel direct."],
+      "contre": "C'est le contre naturel de Hackclaw et de Luna — donc si vous affrontez un Nox, cessez de vous fier à l'information et revenez aux fondamentaux : tenez les angles d'approche connus, préchargez les entrées, ne vous laissez pas prendre à dos.",
+      "piege_pour_le_lanceur": "Le mode furtif n'efface pas les bruits d'environnement : portes, vitres, échelles vous trahissent quand même.",
+      "danger_reel": "Il punit sévèrement les ennemis à terre ou blessés."
+    },
+    {
+      "nom": "D-Wolf",
+      "role": "Assaut",
+      "menace": "Exosquelette motorisé et triple lanceur",
+      "ce_que_ca_fait": "Vitesse de sprint augmentée ; une charge directe dans un adversaire lui rend de la vie et prolonge l'effet. Le triple lanceur est un lance-grenades antivéhicule redoutable sur les blindés.",
+      "limites": [
+        "Aucune capacité ne le rend plus résistant aux balles : il va juste plus vite.",
+        "La régénération sur mise à terre perd presque tout son intérêt en Operations, où une seule élimination met fin au run."
+      ],
+      "contre": "Supprimez-le AVANT qu'il ne réduise la distance — c'est tout le contre. Les outils anti-poussée fonctionnent : pièges soniques et mines de Shepherd (qui infligent 40 de dégâts forfaitaires en ignorant l'armure — deux mines bien placées suffisent presque), flèche de choc de Luna, fumigène pour casser sa ligne droite. Ne reculez pas en ligne : coupez l'angle.",
+      "piege_pour_le_lanceur": "Son kit pousse au duel solo, que le mode extraction punit sans pitié.",
+      "danger_reel": "En Warfare, sur un objectif où les engagements s'enchaînent, sa régénération le rend vraiment difficile à décrocher."
+    },
+    {
+      "nom": "Sineva",
+      "role": "Assaut lourd",
+      "menace": "Bouclier balistique et grappin",
+      "ce_que_ca_fait": "Verrouille un goulot d'étranglement ou accompagne une poussée. Le grappin est la seule capacité du jeu qui entrave réellement le déplacement d'un adversaire.",
+      "limites": [
+        "La petite vitre du bouclier est destructible — c'est le point faible évident.",
+        "Le grappin se détruit en vol : sa boîte de collision est large, l'annulation est garantie.",
+        "L'opérateur a été fortement affaibli au fil des patchs."
+      ],
+      "contre": "Gardez vos distances et tirez dans la vitre. Les grenades le délogent efficacement : il ne peut pas se protéger de ce qui arrive par rebond ou par le haut. Les flèches de Luna cassent le bouclier rapidement.",
+      "piege_pour_le_lanceur": "En espace ouvert, le bouclier n'est qu'un ralentisseur.",
+      "danger_reel": "Dans un couloir unique sans contournement possible, il reste un vrai problème."
+    },
+    {
+      "nom": "Toxik",
+      "role": "Soutien agressif",
+      "menace": "Essaim « Dragonfly », gaz aveuglant et UAV d'adrénaline",
+      "ce_que_ca_fait": "L'essaim augmente la résistance alliée tout en réduisant les PV maximum, l'écoute et la vision des adversaires pris dedans. Le gaz aveuglant ne se contente pas de masquer : il handicape. L'UAV améliore la tenue d'arme des alliés et réduit leur tressaillement.",
+      "limites": [
+        "Les effets sont localisés : ils cessent dès qu'on quitte la zone.",
+        "Son accélération des soins n'est un avantage que hors combat."
+      ],
+      "contre": "Si l'essaim vous touche, repositionnez-vous immédiatement : rester dedans trois secondes vous met en infériorité totale pour le duel qui suit. Ne contestez jamais un nuage de gaz — contournez-le ou attendez. Son ultime peut faire fondre une grosse partie de vos PV si vous choisissez de l'encaisser.",
+      "piege_pour_le_lanceur": "Sa compétence active n'est rentable que si des éliminations tombent pendant sa durée.",
+      "danger_reel": "Son passif de réduction du temps d'utilisation des consommables en Operations est sous-estimé : il lui fait gagner des secondes décisives à chaque soin."
+    },
+    {
+      "nom": "Shepherd",
+      "role": "Ingénieur",
+      "menace": "Pièges soniques, mines et drone de suppression",
+      "ce_que_ca_fait": "Déni de zone et contrôle des véhicules. Le drone supprime et réduit la cadence de tir adverse. Les mines infligent des dégâts forfaitaires qui ignorent l'armure.",
+      "limites": ["Les pièges sont des objets physiques : visibles et destructibles.", "Le placement est tout — un piège mal posé ne sert à rien."],
+      "contre": "Balayez les entrées et les angles morts du regard avant d'y poser le pied, et détruisez les pièges à distance. Contre le porte-bouclier allié qu'il accompagne, tirez directement sur la mine plutôt que de vider un chargeur dans le bouclier.",
+      "piege_pour_le_lanceur": "Un bon Shepherd choisit des passages obligés, pas des chemins évidents.",
+      "danger_reel": "C'est le meilleur contre naturel aux opérateurs de poussée rapide."
+    },
+    {
+      "nom": "Vyron",
+      "role": "Assaut mobile",
+      "menace": "Propulsion dynamique",
+      "ce_que_ca_fait": "Esquive et repositionnement instantané, y compris pour se dégager d'un engagement perdu ou tromper une détection entre deux balayages.",
+      "limites": ["Trajectoire prévisible une fois lancée.", "Temps de recharge réel."],
+      "contre": "Ne suivez pas son esquive à la souris : visez l'endroit où elle se termine. Et surtout, ne vous retournez pas pour la poursuivre — c'est exactement ce que le kit cherche à provoquer.",
+      "piege_pour_le_lanceur": "L'esquive pendant le laps entre deux signalements de Luna est une utilisation avancée réelle.",
+      "danger_reel": "La capacité à réinitialiser un duel perdu, encore et encore."
+    },
+    {
+      "nom": "Martelo",
+      "role": "Assaut (nouvelle S12)",
+      "menace": "Charge Ariete, Smoke Halo et grenade HE",
+      "ce_que_ca_fait": "30 % de réduction des dégâts frontaux pendant la charge, un anneau de fumée qui couvre une entrée, et un passif fondé sur l'élan.",
+      "limites": [
+        "La réduction est FRONTALE. Son flanc et son dos ne bénéficient d'aucun bonus.",
+        "La charge est un engagement : une fois lancée, la trajectoire est lisible."
+      ],
+      "contre": "Ne la combattez jamais de face pendant la charge. Décalez-vous latéralement et tirez sur le flanc — le bonus disparaît. Son anneau de fumée sert surtout à couvrir une entrée : au lieu de tirer dedans, préchargez la sortie que la fumée masque.",
+      "piege_pour_le_lanceur": "Le passif récompense le mouvement continu : une Martelo immobilisée est une Martelo neutralisée.",
+      "danger_reel": "Gratuite via le pass saisonnier, donc omniprésente ce mois-ci. Attendez-vous à la croiser dans presque chaque partie."
+    }
+  ],
+
+  "compositions": {
+    "titre": "Penser en composition, pas en opérateur",
+    "lignes": [
+      "Une escouade sans aucun fumigène est une escouade qui ne peut ni se replier ni relever un allié sous le feu. Si personne n'en a, Toxik ou D-Wolf résout le problème à lui seul.",
+      "Un seul opérateur d'information suffit. Deux reconnaissances dans une escouade de trois, c'est une escouade sans contrôle de zone.",
+      "L'association la plus redoutable reste scan + fumigène : vous voyez à travers ce que l'adversaire ne traverse pas.",
+      "Contre une escouade qui empile l'information, la réponse n'est pas plus d'information mais plus de déni : mines, pièges, gaz. On ne gagne pas la guerre du renseignement en la jouant.",
+      "En Detonation, un seul exemplaire de chaque opérateur par équipe : la composition se décide avant la partie, pas pendant."
+    ]
+  },
+
+  "sonore": {
+    "titre": "Reconnaître une composition à l'oreille",
+    "contenu": "Chaque capacité a une signature sonore. Apprenez-en trois et vous saurez à qui vous avez affaire avant de voir qui que ce soit : le sifflement d'une flèche qui part, le bourdonnement d'un drone qui se déploie, le cliquetis d'un piège qui s'arme. En Operations, cette information vaut plus qu'un niveau d'armure supplémentaire — et elle est gratuite."
+  }
+}

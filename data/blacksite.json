@@ -1,0 +1,288 @@
+{
+  "_meta": {
+    "fichier": "blacksite.json",
+    "derniere_maj": "2026-11-19",
+    "sources": [
+      "https://timesaver.gg/blog/delta-force-black-site-upgrade-guide-priority",
+      "https://www.th.gl/apps/delta-force",
+      "https://overgear.com/guides/delta-force/season-12-guide/"
+    ],
+    "nombre_stations": 11,
+    "regle_or": "TOUTES les améliorations du Black Site se paient en Tekniq Alloys, jamais en Delta Coins (monnaie premium). Ne jamais dépenser de Delta Coins ici.",
+    "bonne_nouvelle": "Il n'y a PAS de wipe de stash dans Delta Force : chaque amélioration est un investissement permanent."
+  },
+  "principe": "Le Black Site est la base personnelle du joueur en mode Operations. Les stations produisent des ressources, augmentent le stockage, réparent l'équipement, fabriquent des consommables et débloquent des bonus d'EXP et d'économie.",
+  "stations": [
+    {
+      "id": "stash",
+      "nom": "Stash",
+      "priorite": 1,
+      "categorie": "Stockage",
+      "effet": "Augmente le nombre de slots de stockage permanents.",
+      "pourquoi": "Priorité absolue. Sans place, on est forcé de vendre du butin de valeur à perte ou de le laisser derrière. Tout le reste du jeu dépend de cette station.",
+      "conseil": "Améliorer jusqu'au palier confortable avant de toucher à quoi que ce soit d'autre."
+    },
+    {
+      "id": "central-command",
+      "nom": "Central Command (HQ)",
+      "priorite": 2,
+      "categorie": "Progression",
+      "effet": "Débloque et plafonne les niveaux des autres stations, augmente l'EXP Operations et les slots de l'Hôtel des Ventes.",
+      "paliers": [
+        {
+          "niveau": 1,
+          "exp_ops": "+0%",
+          "slots_hotel_des_ventes": 0
+        },
+        {
+          "niveau": 2,
+          "exp_ops": "+1%",
+          "slots_hotel_des_ventes": 2
+        },
+        {
+          "niveau": 3,
+          "exp_ops": "+2%",
+          "slots_hotel_des_ventes": 4
+        },
+        {
+          "niveau": 4,
+          "exp_ops": "+2%",
+          "slots_hotel_des_ventes": 6
+        },
+        {
+          "niveau": 5,
+          "exp_ops": "+3%",
+          "slots_hotel_des_ventes": 8
+        },
+        {
+          "niveau": 6,
+          "exp_ops": "+4%",
+          "slots_hotel_des_ventes": 10
+        }
+      ],
+      "pourquoi": "Gate technologique de toute la base : c'est lui qui autorise les niveaux supérieurs partout ailleurs."
+    },
+    {
+      "id": "cyber-warfare",
+      "nom": "Cyber Warfare Center",
+      "priorite": 3,
+      "categorie": "Production",
+      "effet": "Produit des composants électroniques et des objets technologiques de valeur.",
+      "pourquoi": "Un des meilleurs retours sur investissement en production passive."
+    },
+    {
+      "id": "armor-bench",
+      "nom": "Armor Bench",
+      "priorite": 3,
+      "categorie": "Production / Réparation",
+      "effet": "Fabrique et répare casques et gilets.",
+      "pourquoi": "Réparer au Black Site préserve mieux la durabilité maximale permanente qu'une réparation de terrain."
+    },
+    {
+      "id": "pharmacy",
+      "nom": "Pharmacy",
+      "priorite": 3,
+      "categorie": "Production",
+      "effet": "Produit soins, stimulants et consommables médicaux.",
+      "pourquoi": "Alimente gratuitement chaque raid en consommables — économie directe à chaque sortie."
+    },
+    {
+      "id": "workbench",
+      "nom": "Workbench",
+      "priorite": 3,
+      "categorie": "Production",
+      "effet": "Fabrique munitions, accessoires et composants d'armement.",
+      "pourquoi": "Produire ses munitions de niveau élevé coûte beaucoup moins cher que les acheter."
+    },
+    {
+      "id": "decontamination",
+      "nom": "Decontamination Chamber",
+      "priorite": "Situationnelle",
+      "categorie": "Utilitaire",
+      "effet": "Réduit les effets de la radiation, notamment sur AZ3 Nuclear Plant.",
+      "paliers_deblocage": [
+        "Operations Level 9",
+        "Operations Level 14",
+        "Operations Level 27"
+      ],
+      "pourquoi": "Indispensable SI vous farmez AZ3, inutile sinon. Ne pas la rusher par réflexe."
+    },
+    {
+      "id": "intel-center",
+      "nom": "Intelligence Center",
+      "priorite": 4,
+      "categorie": "Utilitaire",
+      "effet": "Informations de raid, suivi de missions et bonus liés au renseignement."
+    },
+    {
+      "id": "training",
+      "nom": "Training Facility",
+      "priorite": 4,
+      "categorie": "Progression",
+      "effet": "Bonus d'expérience et d'entraînement d'opérateur."
+    },
+    {
+      "id": "logistics",
+      "nom": "Logistics Center",
+      "priorite": 4,
+      "categorie": "Économie",
+      "effet": "Améliore les flux de ressources et les capacités logistiques."
+    },
+    {
+      "id": "power",
+      "nom": "Power Station",
+      "priorite": 4,
+      "categorie": "Infrastructure",
+      "effet": "Alimente les autres stations et conditionne leurs niveaux supérieurs."
+    }
+  ],
+  "ordre_recommande": [
+    {
+      "rang": 1,
+      "action": "Stash",
+      "raison": "Le stockage débloque tout le reste de l'économie."
+    },
+    {
+      "rang": 2,
+      "action": "Central Command",
+      "raison": "Lève le plafond de niveau des autres stations + EXP et slots d'Hôtel des Ventes."
+    },
+    {
+      "rang": 3,
+      "action": "Bancs de production (Cyber Warfare, Armor Bench, Pharmacy, Workbench)",
+      "raison": "Revenu passif et autonomie en consommables/munitions."
+    },
+    {
+      "rang": 4,
+      "action": "Decontamination Chamber",
+      "raison": "Uniquement si AZ3 fait partie de votre rotation."
+    },
+    {
+      "rang": 5,
+      "action": "Stations utilitaires restantes",
+      "raison": "Optimisations de confort et de rendement."
+    }
+  ],
+  "outil_planificateur": {
+    "nom": "Black Site Upgrade Planner",
+    "description": "Sélectionner une station et un niveau cible : l'outil liste les matériaux et le total de Tekniq Alloys nécessaires, et calcule le déficit par rapport à l'inventaire saisi.",
+    "reference_externe": "https://www.th.gl/apps/delta-force (mise à jour du 12/11/2026)"
+  },
+  "couts_de_reference": {
+    "entree_az3_normal": "112 500 Tekniq Alloys",
+    "note": "Les coûts précis par station et par niveau évoluent à chaque saison. Le planificateur du site se base sur les valeurs communautaires datées du 12/11/2026 et affiche un avertissement de vérification."
+  },
+  "erreurs_frequentes": [
+    "Dépenser des Delta Coins pour accélérer une amélioration : jamais nécessaire.",
+    "Monter une station de production avant le Stash : on se retrouve sans place pour stocker la production.",
+    "Rusher la Decontamination Chamber sans jouer AZ3.",
+    "Oublier que Central Command plafonne les autres stations : on bloque et on croit à un bug."
+  ],
+  "priorite_consolidee": {
+    "principe": "Revenu et stockage avant les bonus de combat. Aucun ordre officiel n'a jamais été publié par le studio — c'est un consensus de la communauté, mais il est unanime.",
+    "ordre": [
+      {
+        "rang": 1,
+        "departement": "Stash (stockage)",
+        "raison": "On ne peut pas s'enrichir si l'on ne peut rien garder. Fondation de tout le reste."
+      },
+      {
+        "rang": 2,
+        "departement": "Central Command",
+        "raison": "XP de partie et emplacements de vente à l'hôtel des ventes : les deux se composent directement en revenu."
+      },
+      {
+        "rang": 3,
+        "departement": "Cyber Warfare / Armor Bench / Pharmacy",
+        "raison": "Fabriquer accessoires, armures et consommables au lieu de les acheter."
+      },
+      {
+        "rang": 4,
+        "departement": "Workbench",
+        "raison": "Munitions de rareté supérieure, rentable une fois la méta d'arme stabilisée."
+      },
+      {
+        "rang": 5,
+        "departement": "Combat Skills Development / Firing Range",
+        "raison": "Endurance, vitesse au sol et capacité de charge. Confort, une fois l'économie saine."
+      },
+      {
+        "rang": 6,
+        "departement": "Decontamination Chamber",
+        "raison": "Situationnel : uniquement si vous farmez AZ3. Paliers aux niveaux Operations 9, 14 et 27."
+      }
+    ],
+    "avertissement_missions": "Piège fréquent : ce sont les missions de DÉPARTEMENT qui font monter les niveaux de département et débloquent les améliorations — pas les missions de saison. Les missions de saison débloquent la Safe Box 3x3 temporaire."
+  },
+  "artisanat_rentable": [
+    "Cycler en permanence un gilet de niveau 5 et une munition de niveau 4 est la boucle la plus citée pour atteindre le million par jour.",
+    "Produire la munition de l'arme que jouent les streamers du moment (9×39 pour l'AS Val, 5.7 pour l'AR-57) : la demande à l'hôtel des ventes suit.",
+    "Ne jamais fabriquer aveuglément l'objet le plus cher : comparer le prix actuel à l'hôtel des ventes avec le coût des matériaux avant chaque cycle.",
+    "Réparer une armure dorée coûte parfois 50 000 Alloys de moins que son prix de revente.",
+    "Réparer son armure au stash préserve plus de durabilité maximale permanente qu'un kit de réparation utilisé en partie — ne garder les kits que pour l'urgence."
+  ],
+  "departements": {
+    "titre": "Les départements : la progression qu'on oublie de monter",
+    "principe": "Operations repose sur quatre piliers : le Stash, les Départements, le Black Site et le Gunsmith. Les départements sont le plus discret des quatre, et celui qui débloque tout le reste. Chacun monte jusqu'au niveau 4, et chaque palier ouvre de nouveaux objets à l'achat en Supply Station — ainsi que des améliorations du Black Site qui exigent un niveau de département précis. Ignorer cet arbre, c'est plafonner volontairement.",
+    "regles": [
+      "Chaque département plafonne au niveau 4. Il n'y a pas d'au-delà : c'est un objectif atteignable, pas un puits sans fond.",
+      "Monter un département débloque des articles permanents à la Supply Station. Ce que vous achetez en boutique dépend directement de cet arbre.",
+      "Certaines améliorations du Black Site sont verrouillées derrière un niveau de département. Si une station refuse de monter, vérifiez cet arbre avant de chercher les matériaux.",
+      "Les missions de département sont la source de progression la plus régulière du mode : elles se remplissent pendant que vous jouez normalement.",
+      "La mission finale « Dawn's Light » exige les cinq départements au niveau 4. C'est l'objectif de fin de parcours d'Operations."
+    ],
+    "cash_is_king": {
+      "titre": "L'arbre « Cash is King »",
+      "contenu": "Une chaîne de missions économiques qui jalonne toute la progression : 2 millions, puis 10, puis 25, puis 50 millions de Havoc Coins accumulés. Elle se remplit passivement si vous jouez l'économie correctement — et elle récompense exactement le comportement que le mode veut encourager : extraire, revendre, réinvestir."
+    },
+    "methode": [
+      "Lisez vos missions de département AVANT de lancer une partie, pas après. La moitié se remplit en modifiant légèrement votre itinéraire.",
+      "Beaucoup de missions demandent des objets précis à rapporter : notez-les, et n'alimentez pas le marchand avec ces objets par réflexe.",
+      "Montez en priorité le département qui débloque la station de Black Site qui vous bloque. La progression n'est pas linéaire : elle est circulaire.",
+      "Les niveaux 1 et 2 tombent presque tout seuls. Les niveaux 3 et 4 demandent de la planification : réservez-leur des runs dédiés."
+    ]
+  },
+  "priorites_communaute": {
+    "titre": "L'ordre d'amélioration que recommandent les joueurs expérimentés",
+    "avertissement": "Retour de terrain de joueurs à fort niveau de jeu, pas une donnée officielle. Il contredit l'ordre « intuitif » que suivent la plupart des débutants.",
+    "lignes": [
+      {
+        "station": "CSD",
+        "priorite": "1 — en premier, sans hésiter",
+        "accent": "green",
+        "pourquoi": "C'est la seule amélioration du Black Site qui vous donne un avantage DANS la partie. L'endurance supplémentaire change tout : vous traversez la carte plus vite, vous atteignez les zones de butin avant les autres, et vous pouvez jouer plus agressivement parce que vous avez toujours de quoi décrocher."
+      },
+      {
+        "station": "Atelier d'armure et atelier de munitions",
+        "priorite": "2 — la machine à argent",
+        "accent": "gold",
+        "pourquoi": "Montez-les au niveau 3 et fabriquez de l'armure et des munitions dorées en boucle. L'ordre de grandeur rapporté est d'environ 800 000 par cycle de 8 heures, dont à peu près 500 000 de profit net selon l'état du marché. Aucune autre station n'approche ce rendement."
+      },
+      {
+        "station": "Stand de tir — niveau 2",
+        "priorite": "3 — l'optimisation oubliée",
+        "accent": "blue",
+        "pourquoi": "Le niveau 2 débloque la réparation intermédiaire d'équipement, actuellement moins chère ET plus efficace que la réparation de base. C'est une économie permanente sur chaque sortie, pour un coût d'amélioration modeste."
+      },
+      {
+        "station": "Atelier d'armes",
+        "priorite": "4 — utile, pas rentable",
+        "accent": "blue",
+        "pourquoi": "Correct, mais il ne vous enrichira pas. Fabriquez-y les accessoires violets que vous utilisez réellement : vous économisez un peu à chaque équipement monté."
+      },
+      {
+        "station": "Pharmacie",
+        "priorite": "5 — à ne monter que par obligation",
+        "accent": "grey",
+        "pourquoi": "Le verdict communautaire est sévère : la Pharmacie est une blague. Ne l'améliorez que lorsqu'une autre station exige son niveau en prérequis. Nos propres données de rentabilité sont d'ailleurs contradictoires sur ce point (15-20 k contre 47 900 selon les sources), ce qui va dans le même sens : rien de solide."
+      },
+      {
+        "station": "Réserve (Stash)",
+        "priorite": "Au coup par coup",
+        "accent": "orange",
+        "pourquoi": "N'améliorez jamais la réserve pour les emplacements eux-mêmes : ils sont négligeables au regard du coût, surtout dans les derniers paliers. Améliorez-la uniquement quand vous prévoyez d'acheter une caisse."
+      }
+    ],
+    "charge_max": "La charge maximale n'entre presque jamais en jeu, et un stimulant règle le problème quand il se présente. N'en faites pas un objectif."
+  }
+}

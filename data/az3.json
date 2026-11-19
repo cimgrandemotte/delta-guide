@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "titre": "AZ3 Centrale nucléaire & mode Supercritical",
+    "derniere_maj": "2026-11-19",
+    "saison": "S12 — Aurora",
+    "statut": "Supercritical n'est PAS encore jouable. Annoncé pour le 18/12/2026.",
+    "sources": [
+      "deltaforce.garena.com — S12 Version Patch Notes | Aurora (10/11/2026)",
+      "theclick.gg — AZ3 Supercritical: December 18 launch and entry requirements (13/11/2026)",
+      "timesaver.gg — Season Aurora patch notes (09/11/2026)",
+      "senseos.gg — Operations difficulty and rotation (15/11/2026)",
+      "mmoexp.com — Season 12 patch notes (10/11/2026)",
+      "overgear.com — Nuclear Power Plant guide",
+      "ldshop.gg — AZ3 complete guide: mission, boss info"
+    ]
+  },
+
+  "supercritical": {
+    "titre": "Supercritical — ce qui est officiel, et ce qui ne l'est pas",
+    "annonce": "Mode Operations de difficulté Hard sur la carte AZ3, thématisé autour d'une contamination qui se propage.",
+    "officiel": [
+      { "quoi": "Fenêtre d'ouverture", "valeur": "18 décembre 2026 → 25 janvier 2027", "note": "Dates données comme « attendues » par l'éditeur, pas garanties." },
+      { "quoi": "Niveau requis", "valeur": "Operations niveau 30", "note": "Le seul vrai verrou. Montez-le maintenant." },
+      { "quoi": "Valeur d'entrée", "valeur": "600 000 Tekniq Alloys", "note": "C'est une valeur d'ÉQUIPEMENT exigée, pas nécessairement une somme prélevée. Vérifiez l'écran de file d'attente le jour J avant de conclure." },
+      { "quoi": "Polaris Patrol", "valeur": "Pris en charge", "note": "Confirmé dans les notes officielles." }
+    ],
+    "non_officiel": "Les notes de novembre ne publient NI les emplacements d'extraction, NI la promesse d'un accès permanent. Tout guide qui vous donne déjà un itinéraire de farm optimisé pour Supercritical invente : le mode n'a pas pu être testé.",
+    "preparation": [
+      { "n": 1, "titre": "Atteindre Operations 30", "detail": "C'est le seul prérequis que vous ne pouvez pas rattraper en une soirée. Si vous êtes en dessous, c'est votre unique priorité d'ici le 18 décembre." },
+      { "n": 2, "titre": "Constituer la valeur d'entrée", "detail": "600 000 Alloys de valeur d'équipement, c'est trois à six fois une sortie Normal ordinaire. Commencez à mettre de côté maintenant plutôt que de vendre dans l'urgence à la mi-décembre." },
+      { "n": 3, "titre": "Apprendre AZ3 en Easy d'abord", "detail": "Cartographiez les zones de radiation et les salles de décontamination avant de payer une entrée Hard. C'est gratuit et ça vous évitera la plus coûteuse des erreurs." },
+      { "n": 4, "titre": "Ne pas surinvestir dans un build « spécial Supercritical »", "detail": "Les munitions .300BLK détonantes et les Plans de chargement existent, mais rien n'indique qu'ils soient nécessaires. Attendez le 18 décembre et les règles réelles avant de dépenser." }
+    ]
+  },
+
+  "radiation": {
+    "titre": "La radiation : le vrai adversaire d'AZ3",
+    "principe": "AZ3 est la seule carte où l'environnement vous tue indépendamment de ce que font les autres joueurs. La radiation s'accumule par paliers, et chaque palier réduit votre santé maximale.",
+    "regles": [
+      "Au palier 4 de radiation, votre santé maximale tombe à 60 points. Vous pouvez continuer à piller, mais vous devenez extrêmement fragile pour tout le reste de la partie.",
+      "Les antidouleurs ordinaires ne font RIEN contre la radiation. Ils achètent du temps sur les symptômes, pas sur la cause. Il vous faut des médicaments anti-radiation.",
+      "Des salles de décontamination sont réparties dans chaque secteur : entrez, actionnez le bouton, votre niveau redescend vite.",
+      "Les unités de lavage et les opérateurs de lance peuvent aussi vous décontaminer, mais ils vous infligent des dégâts pendant l'opération.",
+      "Le masque à gaz n'est pas une option, c'est une pièce d'équipement obligatoire. Emportez-le à chaque sortie.",
+      "Emportez plus de médicaments anti-radiation que vous ne pensez en avoir besoin. C'est l'erreur la plus répandue sur cette carte."
+    ]
+  },
+
+  "extractions_supercritical": {
+    "titre": "Trois voies de sortie annoncées",
+    "avertissement": "Relevé de prévisualisation, non vérifiable avant le 18 décembre.",
+    "voies": [
+      { "nom": "Sortie standard", "detail": "Un compte à rebours de quatre minutes se déclenche avant que l'extraction ne devienne disponible.", "risque": "Moyen" },
+      { "nom": "Mission d'arrêt d'urgence", "detail": "Accomplir l'objectif d'arrêt d'urgence active une extraction par ascenseur. Vous échangez du temps et du risque contre une sortie que personne n'attend.", "risque": "Élevé" },
+      { "nom": "Sortie sans sac", "detail": "Un point restreint, une seule place de joueur, et il faut abandonner son sac à dos. La sortie de secours.", "risque": "Faible" }
+    ]
+  },
+
+  "mission_arret": {
+    "titre": "La mission d'arrêt d'urgence (mode normal)",
+    "contenu": "Elle existe déjà hors Supercritical et vaut la peine d'être connue : c'est la chaîne scénarisée la plus rentable de la carte, et elle affaiblit le gardien de zone.",
+    "etapes": [
+      "Acceptez la mission : elle est marquée sur la carte, dans la zone du cœur au sud.",
+      "Libérez le scientifique à l'étage, dans la salle indiquée.",
+      "Escortez-le jusqu'à la salle de contrôle. Il court devant : restez collé et nettoyez les arrivées.",
+      "Récupérez la clé d'accès après qu'il a manipulé la console, puis utilisez-la sur la tablette qui surplombe le réacteur.",
+      "Descendez le long du cœur du réacteur. La radiation grimpe violemment ici.",
+      "Traversez l'ancien réacteur sous pression constante — vous atteignez le palier 3 très vite.",
+      "Finale sur le toit : après la scène, vous sautez en parachute et atterrissez gravement blessé, souvent autour de 23 points de vie, avec un plafond de santé réduit à environ 60 par la radiation.",
+      "Fouillez les barres de combustible autour de vous : c'est là que se trouve le butin rare. Un point d'extraction spécial s'ouvre à proximité avec deux minutes au compteur."
+    ],
+    "conseil": "Faites l'arrêt d'urgence AVANT d'affronter le gardien de zone : son armure affaiblie rend le combat nettement plus simple."
+  },
+
+  "paliers_operations": {
+    "titre": "Ce que chaque niveau d'Operations débloque",
+    "note": "Il n'existe pas de table d'expérience publiée : seuls les paliers eux-mêmes sont documentés.",
+    "lignes": [
+      { "niveau": "4", "debloque": "La fonction carte" },
+      { "niveau": "9", "debloque": "AZ3 en Easy · premier palier de la Chambre de décontamination" },
+      { "niveau": "14", "debloque": "AZ3 en Normal · deuxième palier de la Chambre de décontamination" },
+      { "niveau": "17", "debloque": "La pêche" },
+      { "niveau": "30", "debloque": "AZ3 Supercritical — Hard Operation (à partir du 18/12/2026)" },
+      { "niveau": "33", "debloque": "Les dossiers de gardiens de zone · le Centre de plongée" },
+      { "niveau": "35", "debloque": "Les Plans de chargement (ordre des munitions dans le chargeur)" }
+    ],
+    "s12": "Depuis Aurora, la Chambre de décontamination se débloque simplement en terminant une partie AZ3 si vous ne l'aviez pas encore, et le Centre de plongée passe au niveau 33. Les installations déjà débloquées ne sont pas affectées."
+  },
+
+  "survie": [
+    "Apprenez AZ3 en Easy avant de payer une entrée Normal ou Hard.",
+    "Masque à gaz obligatoire, médicaments anti-radiation en surnombre.",
+    "Apprenez UN itinéraire latéral sûr avant de viser le cœur.",
+    "N'affrontez jamais le gardien de zone avec vos réserves anti-radiation entamées.",
+    "Surveillez l'état du réacteur à chaque rotation et décidez tôt, en équipe : les rotations improvisées coûtent du temps et de la radiation.",
+    "Partez dès que les deux extractions commencent à se peupler."
+  ]
+}

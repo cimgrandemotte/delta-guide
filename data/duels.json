@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "titre": "Duels, angles et jeu en solo",
+    "derniere_maj": "2026-11-19",
+    "saison": "S12 — Aurora",
+    "sources": [
+      "r/DeltaForceGlobal — « Any tips or tricks to peeking? »",
+      "r/DeltaForceGlobal — « Solo Operations Advice »",
+      "r/DeltaForceGlobal — « New Player, Solo Operator looking for survival strategies vs Recon »",
+      "r/DeltaForceGlobal — « I made most of my money playing solo on Operations, AMA »",
+      "r/DeltaForceGlobal — « How can I improve in Operations? »",
+      "deltaforcehawkops.com — Advanced Combat & Movement Guide"
+    ]
+  },
+
+  "principe": "La plupart des duels sont décidés avant le premier tir. Qui a l'information, qui a l'angle, qui a choisi le moment. Le réflexe et la visée arrivent en troisième position — ce qui est une excellente nouvelle, parce que les deux premiers s'apprennent.",
+
+  "peek": {
+    "titre": "L'art de montrer le moins possible",
+    "regles": [
+      {
+        "nom": "Le pas de côté double",
+        "detail": "Utilisez les DEUX touches d'inclinaison, pas une seule. Sortir par la gauche et rentrer par la droite réduit nettement le temps passé exposé par rapport à un aller-retour sur le même côté. C'est le gain mécanique le plus simple et le plus immédiat de tout le jeu."
+      },
+      {
+        "nom": "L'inclinaison droite est meilleure",
+        "detail": "Pencher à droite expose moins de corps, parce que l'arme est déjà de ce côté. Pencher à gauche sort l'épaule et une partie du torse avant que le canon n'apparaisse. À angle égal, privilégiez systématiquement la droite."
+      },
+      {
+        "nom": "Le pas dansé",
+        "detail": "Entrer et sortir du couvert par petits mouvements irréguliers déstabilise la visée adverse. Efficace contre un joueur moyen, nettement moins contre un joueur qui attend simplement que vous vous arrêtiez."
+      },
+      {
+        "nom": "Ne repiquez jamais le même angle",
+        "detail": "Si vous apparaissez et que l'adversaire est déjà épaulé sur votre position, ne revenez pas au même endroit. Décalez-vous d'un mètre, changez de hauteur, ou faites-le patienter. Reprendre le même angle, c'est offrir le duel."
+      },
+      {
+        "nom": "Préchargez l'angle",
+        "detail": "Si vous savez où est l'adversaire, soyez déjà épaulé sur sa position avant d'apparaître. Apparaître puis viser, c'est deux actions ; apparaître déjà visant, c'en est une."
+      },
+      {
+        "nom": "Le saut est une mauvaise idée",
+        "detail": "Le saut en guise d'esquive fonctionne beaucoup moins bien ici que dans d'autres jeux de tir. Il gèle votre trajectoire et ralentit votre remise en joue. Gardez-le pour les cas où vous devez franchir une ouverture, pas pour gagner un duel."
+      }
+    ],
+    "latence": "Un détail que la communauté relève souvent : entre votre clic et le départ du coup, la chaîne matériel et système ajoute un délai réel. L'avantage dit « de celui qui sort » n'est pas qu'une impression, et il grandit avec la latence. Ce n'est pas une excuse, c'est un paramètre : acceptez que celui qui tient l'angle part avec un handicap et jouez en conséquence."
+  },
+
+  "vitesses": {
+    "titre": "Trois délais que l'on ne sent pas mais qui décident",
+    "contenu": "La vitesse de mise en joue, le délai sprint-tir et la vitesse de déplacement en visée ne se ressentent pas manette en main, mais ils tranchent les duels serrés. La vitesse de déplacement en visée peut tomber quasiment à zéro si vous calibrez une arme à fond vers le contrôle — vous devenez une cible fixe pendant que vous tirez. Compensez avec une crosse ou une poignée orientée maniabilité pour revenir au moins au niveau d'origine.",
+    "pratique": [
+      "Marchez plus que vous ne sprintez : le sprint impose un délai avant de pouvoir tirer, et s'entend de très loin.",
+      "La marche silencieuse (verrouillage du déplacement lent) est sous-utilisée. Elle coûte du temps et achète de l'information.",
+      "Le laser réduit nettement le temps de mise en joue même sur une arme lourde — mais il signale votre position. Apprenez à l'allumer et l'éteindre selon la situation plutôt que de le laisser allumé en permanence."
+    ]
+  },
+
+  "solo": {
+    "titre": "Jouer seul contre des escouades",
+    "principe": "Le solo n'est pas une version dégradée de l'escouade, c'est un autre jeu. Vous perdez le soutien, vous gagnez le silence et l'initiative. Une escouade de trois fait trois fois plus de bruit, prend trois fois plus d'informations, et doit coordonner trois décisions. Un solo n'a qu'à décider.",
+    "regles": [
+      { "titre": "Ralentissez", "detail": "C'est le conseil le plus répété par les joueurs solo rentables, et le plus ignoré. Marchez, écoutez, attendez. Vous n'avez personne pour vous relever : chaque engagement non choisi est un engagement perdu d'avance." },
+      { "titre": "Apprenez les apparitions avant la carte", "detail": "Savoir où les autres commencent vaut plus que savoir où est le butin. Vous saurez quels endroits sont dangereux la première minute et lesquels sont vides." },
+      { "titre": "Isolez, puis disparaissez", "detail": "Ne combattez jamais une escouade groupée. Attendez que l'un d'eux traîne, prenez-le, récupérez ce qui vaut la peine et partez immédiatement. Rester sur place après une élimination, c'est se faire signaler." },
+      { "titre": "Repositionnez-vous après chaque échange", "detail": "Dès que vous avez tiré, votre position est connue. Bougez. Et si vous entendez un relevage, attaquez celui qui relève : il est immobile et occupé." },
+      { "titre": "Ils ne savent pas que vous êtes seul", "detail": "C'est votre meilleur atout psychologique. Si vous éliminez un membre d'une escouade de trois, les deux autres jouent comme s'ils affrontaient une escouade. Ils se regrouperont au lieu de vous chasser." },
+      { "titre": "Chargez la boîte sécurisée avant de partir", "detail": "Les munitions correctes et les soins placés dans la boîte sécurisée AVANT la partie peuvent être glissés dans l'arme en cours de run. Une partie sans rien à perdre n'a que des gains possibles." },
+      { "titre": "L'eau n'enregistre pas les pas", "detail": "Traverser une étendue d'eau brouille votre trace sonore et vous permet de ressortir dans un endroit inattendu." },
+      { "titre": "Tracez vos itinéraires", "detail": "Les joueurs solo les plus rentables suivent des trajets fixes qu'ils ont construits eux-mêmes : des trajets où ils récupèrent le coût de leur équipement dans les deux premières minutes, et dont ils sortent en quatre à sept minutes. Pas d'improvisation, pas de cupidité." }
+    ],
+    "operateurs": [
+      { "nom": "D-Wolf", "pourquoi": "Le roi du solo : fumigènes pour couper les lignes, vitesse pour décrocher, soin sur élimination. Il ne vous rend pas plus fort en duel, il vous rend impossible à attraper." },
+      { "nom": "Hackclaw", "pourquoi": "Savoir exactement combien d'adversaires sont devant vous change toutes les décisions. Son passif accroupi réduit le bruit, et le couteau de lancer élimine silencieusement les adversaires non joueurs." },
+      { "nom": "Nox", "pourquoi": "Pour le jeu en intérieur. Ses pas quasi muets et le brouillage des détections lui permettent de fractionner une escouade en duels successifs." },
+      { "nom": "Vyron", "pourquoi": "Pour les cartes verticales. Sa propulsion crée des décrochages que personne ne peut suivre." }
+    ]
+  },
+
+  "ecoute": {
+    "titre": "L'oreille avant l'œil",
+    "lignes": [
+      "Distinguer les pas d'un adversaire non joueur de ceux d'un joueur est la compétence la plus rentable du mode extraction. Les premiers suivent des trajets fixes, les seconds hésitent.",
+      "Les tirs au loin sont une carte en temps réel : ils vous disent où les autres sont occupés, donc où ils ne sont pas.",
+      "Le casque DICH augmente la portée d'écoute d'environ 50 %. Certains joueurs rapportent entendre un sprint à près de 80 mètres avec.",
+      "Un silencieux ne rend pas inaudible : il réduit la portée et masque la direction. Cela suffit souvent à transformer une escouade qui vous cherche en une escouade qui cherche ailleurs.",
+      "Avant d'ouvrir un conteneur bruyant, écoutez cinq secondes. Le bruit d'ouverture est une invitation."
+    ]
+  },
+
+  "erreurs": [
+    "Sprinter partout. C'est l'erreur qui tue le plus de joueurs, tous niveaux confondus.",
+    "Aller droit aux points chauds au début de la partie, avant de connaître la carte.",
+    "Prolonger un combat gagné. Vous avez l'élimination : partez.",
+    "Rester au même endroit après avoir tiré.",
+    "Combattre de face. Contourner coûte dix secondes et gagne le duel.",
+    "Tirer sans être sûr. Une rafale ratée transforme votre embuscade en signal lumineux.",
+    "Apporter de l'équipement cher avant de connaître les cartes — la façon la plus rapide de livrer son matériel aux autres."
+  ],
+
+  "checklist": {
+    "titre": "Routine quotidienne",
+    "contenu": "Quatre systèmes de progression distincts coexistent et ne partagent aucun point d'expérience. Les enchaîner dans le bon ordre au cours d'une même session vaut plusieurs heures de jeu désorganisé.",
+    "items": [
+      { "id": "login", "label": "Connexion quotidienne et récupération des récompenses d'événement", "duree": "1 min" },
+      { "id": "field", "label": "Lire l'Entraînement de terrain avant de lancer une partie (3 missions par jour)", "duree": "1 min" },
+      { "id": "dept", "label": "Lire les missions de département et noter les objets à rapporter", "duree": "2 min" },
+      { "id": "ateliers", "label": "Lancer une production dans les quatre ateliers du Black Site", "duree": "3 min" },
+      { "id": "ventes", "label": "Relever les ventes terminées et relister les emplacements libres", "duree": "3 min" },
+      { "id": "merit", "label": "Activer une carte 2× Mérite seulement si la session est sérieuse", "duree": "—" },
+      { "id": "warfare", "label": "Session Warfare en jeu d'objectif, avec la classe utile à l'équipe", "duree": "30-45 min" },
+      { "id": "ops", "label": "Une ou deux parties d'Operations orientées missions de département", "duree": "20-30 min" },
+      { "id": "recolte", "label": "Récolter les ateliers et relancer avant de se déconnecter", "duree": "3 min" }
+    ]
+  },
+
+  "warfare": {
+    "titre": "Warfare : le score se gagne ailleurs que dans les éliminations",
+    "contenu": "En Classé Warfare, c'est le Score Par Minute qui compte, et les éliminations en sont une part étonnamment faible. Les actions sous-jouées rapportent davantage, de manière plus fiable, et personne ne vous les dispute.",
+    "lignes": [
+      "Réparer un véhicule allié rapporte du score en continu. Un char activement réparé est pratiquement increvable et tient un point à lui seul.",
+      "Attention : les points de réparation ne comptent que si les dégâts viennent de l'ennemi, et plusieurs joueurs rapportent qu'un coéquipier doit être à bord.",
+      "Ne réparez jamais à découvert derrière un véhicule endommagé : l'adversaire sait déjà qu'il est faible et surveille cette position. Laissez-le se replier d'abord.",
+      "Détruire un véhicule est l'une des contributions les plus lourdes du mode. Prenez l'Ingénieur avec un lance-missiles dès le début de partie : les aéronefs apparaissent tôt et sont des cibles faciles.",
+      "Depuis S12, perturber un véhicule adverse avec un équipement tactique affiche un score, donne un assist s'il est détruit, et alerte automatiquement votre camp.",
+      "Ranimer, soigner et ravitailler génèrent du score en continu. Jouer loin de l'objectif en comptant sur les éliminations est l'erreur de débutant la plus coûteuse.",
+      "Dans un duel de chars où les deux rechargent à faible vie, sortez du véhicule et tirez une roquette : vous gagnez l'échange avant la fin du rechargement adverse.",
+      "Les véhicules, y compris les quads, arrêtent les balles. Garez-en un en travers pour créer un couvert là où il n'y en a pas."
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "cleanUrls": false,
+  "headers": [
+    {
+      "source": "**/*.@(jpg|jpeg|png|webp|svg|mp3|woff2)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }]
+    },
+    {
+      "source": "**/*.@(html|json|xml)",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "_meta": {
+    "fichier": "vehicles.json",
+    "derniere_maj": "2026-11-19",
+    "sources": [
+      "https://epiccarry.com/blogs/delta-force-havoc-warfare-guide/",
+      "https://gamingonphone.com/guides/delta-force-vehicle-tier-list/",
+      "https://guides-factory.com/delta-force-vehicles/",
+      "https://timesaver.gg/blog/delta-force-season-aurora-patch-notes"
+    ],
+    "mode": "Havoc Warfare (32v32)"
+  },
+  "equilibrage_s12": [
+    "Les véhicules blindés subissent désormais des dégâts supplémentaires des armes anti-véhicule et des explosifs.",
+    "Le temps de réparation des véhicules lourds a été allongé.",
+    "Les rechargements et les cooldowns d'armes de véhicules ont été ajustés.",
+    "Le spawn du LAV-AA défenseur du Secteur A de Cyclone a été déplacé.",
+    "Zenith Port introduit une physique amphibie : les engins et embarcations montent et descendent avec les vagues de l'événement Riptide.",
+    "Zenith Port — LSV amphibie : coût ramené de 5 000 à 4 000 points de demande.",
+    "Zenith Port — mortier, lance-roquettes et caisse de réapprovisionnement : −500 points chacun.",
+    "Lance-flammes : monte en température ET refroidit plus vite ; rafales courtes désormais préférables.",
+    "UCB-95 : le missile filoguidé se déplace plus lentement, ce qui laisse à l'adversaire le temps de rompre la ligne de vue.",
+    "Pilote d'hélicoptère de transport : 120 points d'assistance crédités quand les passagers déposés marquent — transporter rapporte enfin."
+  ],
+  "vehicules": [
+    {
+      "id": "m1a4",
+      "nom": "M1A4 Battle Tank",
+      "categorie": "Char lourd",
+      "tier": "S",
+      "places": "3 (pilote, canonnier, mitrailleur)",
+      "roles": "Percée blindée, destruction de couverts, contrôle d'objectif",
+      "forces": [
+        "Blindage le plus épais du jeu",
+        "Canon principal à dégâts massifs",
+        "Survit à plusieurs roquettes"
+      ],
+      "faiblesses": [
+        "Lent et bruyant",
+        "Arrière vulnérable",
+        "Ciblé en priorité par toute l'équipe adverse"
+      ],
+      "conseils": [
+        "Ne jamais avancer sans infanterie en couverture",
+        "Reculer pour réparer dès 40% de coque",
+        "Le temps de réparation allongé en S12 rend les engagements imprudents bien plus punitifs"
+      ]
+    },
+    {
+      "id": "lav-g1",
+      "nom": "LAV-G1 IFV",
+      "categorie": "Véhicule de combat d'infanterie",
+      "tier": "S",
+      "places": "Équipage + passagers",
+      "roles": "Transport blindé, appui-feu rapproché, prise d'objectif",
+      "forces": [
+        "Excellent rapport mobilité/protection",
+        "Transporte une escouade complète",
+        "Canon automatique très efficace contre l'infanterie"
+      ],
+      "faiblesses": [
+        "Blindage insuffisant face à un char",
+        "Vulnérable aux lanceurs guidés"
+      ],
+      "conseils": [
+        "Le meilleur véhicule polyvalent du mode : capturer puis repartir",
+        "Ne pas duel un M1A4 de face"
+      ]
+    },
+    {
+      "id": "ah-1035d",
+      "nom": "AH-1035D Attack Helicopter",
+      "categorie": "Hélicoptère d'attaque",
+      "tier": "S",
+      "places": "2 (pilote + canonnier)",
+      "roles": "Supériorité aérienne, suppression d'objectif, chasse aux blindés",
+      "forces": [
+        "Domine une partie entière avec un bon duo",
+        "Mobilité totale sur la carte",
+        "Missiles anti-blindage"
+      ],
+      "faiblesses": [
+        "Fond comme neige face au LAV-AA et aux lanceurs guidés",
+        "Dépend entièrement de la qualité du pilote"
+      ],
+      "conseils": [
+        "Voler bas et utiliser le relief",
+        "Se retirer avant les 30% de coque",
+        "Le canonnier doit annoncer les lock-ons"
+      ]
+    },
+    {
+      "id": "lav-aa",
+      "nom": "LAV-AA",
+      "categorie": "Anti-aérien",
+      "tier": "A",
+      "places": "2+",
+      "roles": "Déni aérien, appui anti-infanterie à distance",
+      "forces": [
+        "Chasse les hélicoptères de la carte",
+        "Très bon contre l'infanterie à découvert"
+      ],
+      "faiblesses": [
+        "Blindage moyen",
+        "Position trahie dès le premier tir"
+      ],
+      "conseils": [
+        "Tirer, se repositionner, recommencer",
+        "Spawn modifié sur Cyclone Secteur A en S12"
+      ]
+    },
+    {
+      "id": "fsv",
+      "nom": "FSV Wheeled Tank Destroyer",
+      "categorie": "Chasseur de chars",
+      "tier": "A",
+      "places": "2-3",
+      "roles": "Anti-blindé mobile, embuscade",
+      "forces": [
+        "Canon très puissant",
+        "Plus rapide qu'un char"
+      ],
+      "faiblesses": [
+        "Blindage léger",
+        "Ne survit pas à un échange frontal"
+      ],
+      "conseils": [
+        "Jouer les angles et les flancs, jamais la ligne droite"
+      ]
+    },
+    {
+      "id": "gtq-35",
+      "nom": "GTQ-35 Light Tank",
+      "categorie": "Char léger",
+      "tier": "A",
+      "places": "2-3",
+      "roles": "Appui rapide, flanquement",
+      "forces": [
+        "Bon compromis vitesse/puissance"
+      ],
+      "faiblesses": [
+        "Perd tout duel contre un M1A4"
+      ],
+      "conseils": [
+        "Excellent pour prendre un objectif faiblement défendu avant l'arrivée des lourds"
+      ]
+    },
+    {
+      "id": "recon-helicopter",
+      "nom": "Recon Helicopter",
+      "categorie": "Hélicoptère de reconnaissance",
+      "tier": "A",
+      "places": "2",
+      "roles": "Renseignement, insertion rapide",
+      "forces": [
+        "Agile",
+        "Donne un avantage informationnel énorme"
+      ],
+      "faiblesses": [
+        "Armement léger",
+        "Cible facile pour le LAV-AA"
+      ]
+    },
+    {
+      "id": "blackhawk",
+      "nom": "Black Hawk",
+      "categorie": "Hélicoptère de transport",
+      "tier": "B",
+      "places": "Escouade complète",
+      "roles": "Insertion d'escouade, point de respawn mobile",
+      "forces": [
+        "Déplace une équipe entière derrière les lignes"
+      ],
+      "faiblesses": [
+        "Perdre le Black Hawk c'est perdre toute l'escouade"
+      ],
+      "conseils": [
+        "Déposer puis dégager immédiatement"
+      ]
+    },
+    {
+      "id": "csv-35",
+      "nom": "CSV-35 Transport Helicopter",
+      "categorie": "Hélicoptère de transport",
+      "tier": "B",
+      "places": "Escouade complète",
+      "roles": "Logistique et rotation rapide"
+    },
+    {
+      "id": "assault-vehicle",
+      "nom": "Assault Vehicle",
+      "categorie": "Véhicule léger armé",
+      "tier": "B",
+      "places": "4",
+      "roles": "Rotation rapide avec un minimum de protection",
+      "conseils": [
+        "Idéal pour les rotations d'objectif en début de match"
+      ]
+    },
+    {
+      "id": "atv",
+      "nom": "ATV",
+      "categorie": "Quad",
+      "tier": "B",
+      "places": "1-2",
+      "roles": "Mobilité pure",
+      "faiblesses": [
+        "Aucune protection"
+      ],
+      "conseils": [
+        "Outil de rotation, pas de combat"
+      ]
+    },
+    {
+      "id": "ucb-95",
+      "nom": "UCB-95 Assault Boat",
+      "categorie": "Embarcation",
+      "tier": "B",
+      "places": "4+",
+      "roles": "Assaut amphibie",
+      "note_s12": "Prend tout son sens sur Zenith Port : les vagues de l'événement Riptide modifient réellement sa trajectoire et sa hauteur."
+    },
+    {
+      "id": "f-45a",
+      "nom": "F-45A Fighter",
+      "categorie": "Chasseur",
+      "tier": "Situationnel",
+      "places": "1",
+      "roles": "Supériorité aérienne, frappes",
+      "forces": [
+        "Vitesse et frappes dévastatrices"
+      ],
+      "faiblesses": [
+        "Très difficile à maîtriser",
+        "Inutile entre des mains inexpérimentées"
+      ]
+    }
+  ],
+  "contre_vehicules": [
+    "Les lanceurs anti-char et les explosifs infligent désormais des dégâts accrus aux blindés (changement S12).",
+    "Shepherd peut réparer les véhicules alliés : un bon Shepherd double la durée de vie d'un char.",
+    "Le LAV-AA est la réponse structurelle aux hélicoptères : en poser un tôt change le match.",
+    "Le temps de réparation allongé signifie qu'un blindé endommagé reste hors-jeu plus longtemps : harceler plutôt que chercher la destruction immédiate.",
+    "Les missiles à guidage TV sont désormais interceptables en vol par les systèmes de protection active : tirer un leurre ou une seconde roquette pour saturer la défense avant le tir utile.",
+    "Le Wheeled Tank Destroyer conserve sa vitesse de pointe moteur détruit : ne jamais le considérer immobilisé tant que la carcasse n'a pas brûlé.",
+    "Perturber un véhicule (fumigène, brouillage, dégâts de module) déclenche une notification de score, alerte l'équipe et crédite une assistance si le véhicule est détruit ensuite.",
+    "Un véhicule largué par air peut toucher le sol avec sa protection active déjà engagée : attendre l'atterrissage complet avant de dépenser une roquette."
+  ],
+  "tactiques_avancees": {
+    "titre": "Tactiques avancées — ce que les bons joueurs font et que les autres ignorent",
+    "blindes": [
+      {
+        "nom": "Position « coque enterrée »",
+        "detail": "N'exposez jamais tout le char. Trouvez une butte, des gravats ou un fossé, cachez la caisse et ne laissez dépasser que la tourelle. La surface touchable devient minuscule."
+      },
+      {
+        "nom": "Tirer, reculer, repositionner",
+        "detail": "Un obus, puis marche arrière immédiate derrière un couvert dur pendant le rechargement. Un char immobile est un char mort : l'infanterie le contourne et les hélicoptères le fixent."
+      },
+      {
+        "nom": "L'ingénieur de poche",
+        "detail": "Si un joueur de l'escouade pilote un blindé, un autre DOIT jouer ingénieur et le réparer derrière le couvert. Un char réparé en continu tient un point à lui seul."
+      },
+      {
+        "nom": "Obus perforants sur les véhicules",
+        "detail": "Changez de munition selon la cible. Vous gagnerez davantage de duels de blindés, et vous pourrez toujours tirer sur l'infanterie ensuite."
+      },
+      {
+        "nom": "Ne réparez jamais à découvert",
+        "detail": "Un blindé endommagé attire mécaniquement les tirs antichar. Mettez-vous à l'abri avant de sortir la soudeuse."
+      },
+      {
+        "nom": "Les véhicules sont des couverts",
+        "detail": "Y compris les quads. Garez-les intelligemment et servez-vous-en comme protection improvisée pendant un échange de tirs."
+      }
+    ],
+    "antivehicule": [
+      {
+        "nom": "Le combo marqueur laser",
+        "detail": "La lunette d'observation du reconnaissance marque un véhicule ; l'AT4 devient alors guidé, contre blindés comme contre hélicoptères. Marquez, laissez l'adversaire brûler ses leurres en panique, attendez le temps de recharge, puis marquez à nouveau et tirez pour de bon."
+      },
+      {
+        "nom": "Deux roquettes pour un hélicoptère",
+        "detail": "Verrouillez et maintenez le verrouillage. Attendez que le pilote lâche ses leurres. Dès qu'ils sont consommés, tirez. Mais gardez la pression : un hélicoptère se répare."
+      },
+      {
+        "nom": "L'AT4 n'est pas qu'antichar",
+        "detail": "Il perce les murs pour créer des raccourcis et efface les couverts adverses — sacs de sable compris. Beaucoup le considèrent comme le meilleur fusil de précision du jeu."
+      },
+      {
+        "nom": "Priorité à la DCA",
+        "detail": "Quand un véhicule anti-aérien est disponible côté défense, prenez-le plutôt que le lance-missiles portable. Il règle le problème aérien puis harcèle le sol à distance."
+      },
+      {
+        "nom": "Abattez les largages",
+        "detail": "Un véhicule largué par parachute est protégé temporairement à l'atterrissage. Attendez deux secondes l'annonce de votre équipe : si personne ne le réclame, détruisez-le avant qu'il touche le sol."
+      },
+      {
+        "nom": "Les véhicules vides ne se verrouillent pas",
+        "detail": "Ne gaspillez pas de missile guidé sur une carcasse inoccupée."
+      }
+    ],
+    "score_et_streaks": [
+      {
+        "nom": "La caisse de munitions bat la caisse de soins",
+        "detail": "Posez-la sur un point de passage ou un goulot d'étranglement. Les coéquipiers se réapprovisionnent en boucle et vous encaissez un flux d'XP passif — et elle recharge les grenades, qui n'ont pas de temps de recharge propre."
+      },
+      {
+        "nom": "Marquez en permanence",
+        "detail": "Chaque marquage direct rapporte des points, et un allié qui tue une cible marquée vous donne une assistance. À terre, spammez le marquage sur la position de votre tueur : votre équipe saura si une réanimation est sûre."
+      },
+      {
+        "nom": "Cible de haute valeur",
+        "detail": "Quand l'alerte apparaît, poussez. Si l'adversaire la défend assez longtemps, c'est LUI qui encaisse les points — et finance ses propres frappes."
+      },
+      {
+        "nom": "La sirène, c'est la frappe lourde",
+        "detail": "Si vous entendez la sirène, fuyez — surtout en véhicule. Aucun abri ne protège : seule la sortie du rayon (100 m et plus) sauve. Revenez ensuite : le point visé était presque toujours un objectif."
+      },
+      {
+        "nom": "Frappes à éviter",
+        "detail": "Le largage de buggy et de voiture d'escouade ne fait que vous déplacer plus vite — mauvais rapport qualité-prix. L'écran de fumée sert autant l'adversaire que vous, et les opérateurs en fournissent déjà. La vision nocturne ne sert pratiquement nulle part."
+      },
+      {
+        "nom": "Artillerie : attention au mythe",
+        "detail": "Hors d'un objectif très densément occupé, elle touche rarement. Mieux vaut capitaliser sur une frappe décisive ou poser des balises de réapparition sûres."
+      }
+    ],
+    "infanterie": [
+      {
+        "nom": "La balise de réapparition est gratuite",
+        "detail": "Pour le reconnaissance, c'est l'outil le plus rentable du mode. Placez-la à couvert, hors des lignes de vue évidentes, et détruisez systématiquement celles de l'adversaire : une balise vivante recrée en boucle un flanc que vous croyiez nettoyé."
+      },
+      {
+        "nom": "Le laser réduit le temps de visée",
+        "detail": "Même avec une faible maniabilité, un laser accélère nettement la mise en joue. Apprenez à l'allumer et l'éteindre selon la situation : il trahit aussi votre position."
+      },
+      {
+        "nom": "Ne restez pas sur une crête",
+        "detail": "Votre silhouette se découpe sur le ciel. Si vous devez y tirer, ne soyez jamais immobile ni prévisible."
+      },
+      {
+        "nom": "Le saut vertical de reconnaissance",
+        "detail": "Depuis un couvert, un saut sur place donne un aperçu de l'autre côté — parfois même un tir surprise."
+      },
+      {
+        "nom": "Le piège du porte-bouclier",
+        "detail": "Tirez directement sur sa mine plutôt que de vider un chargeur dans le bouclier."
+      },
+      {
+        "nom": "Changez de classe",
+        "detail": "Deux chars adverses dominent ? Devenez ingénieur. Rester assaut par habitude est la première cause de défaite évitable."
+      }
+    ]
+  }
+}

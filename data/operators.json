@@ -1,0 +1,319 @@
+{
+  "_meta": {
+    "fichier": "operators.json",
+    "total": 19,
+    "classes": ["Assault", "Support", "Engineer", "Recon"],
+    "derniere_maj": "2026-11-19",
+    "note_tier": "Tiers issus du snapshot timesaver.gg daté du 15 novembre 2026 (post-patch 12/11). Le méta évolue : re-vérifier à chaque patch.",
+    "sources": [
+      "https://timesaver.gg/blog/delta-force-best-operators-tier-list",
+      "https://senseos.gg/guides/delta-force/operators-list/",
+      "https://dfloadouts.com/guides/delta-force-operator-tier-list/",
+      "https://delta-force.fandom.com/wiki/Operators"
+    ]
+  },
+  "operateurs": [
+    {
+      "id": "martelo", "nom": "Martelo", "nom_reel": "Veronica Cardozo", "classe": "Assault",
+      "arrivee": "Saison 12 Aurora — 10 novembre 2026", "deblocage": "Gratuit via le Season Pass S12",
+      "badge": "NEW S12", "tier_ops": "B", "tier_warfare": "A",
+      "resume": "Opératrice de brèche. Elle ouvre les positions fortifiées à la charge et crée l'ouverture que son escouade doit exploiter.",
+      "capacites": [
+        { "nom": "Ariete", "type": "Capacité signature", "desc": "Charge frontale avec un bélier-bouclier. Réduit les dégâts reçus de face pendant la charge. L'impact contre un ennemi ou un mur déclenche un Heavy Strike qui inflige des dégâts et renverse les adversaires proches. La charge peut être interrompue par un saut-slam au sol.", "note": "La réduction de dégâts frontaux a été abaissée de 50% à 30% lors du réglage pré-saison." },
+        { "nom": "Smoke Halo", "type": "Tactique (double input)", "desc": "Lanceur d'épaule. Appui court = anneau de fumée autour de Martelo (3 grenades). Appui maintenu = tir unique visé sur une zone choisie. Durée de la fumée ≈ 8 secondes.", "note": "Patch 12/11 : atténuation sonore 50 m, chute plus forte au-delà de 30 m, son de rotation caméra privé à Martelo." },
+        { "nom": "Grenade HE", "type": "Létale", "desc": "Grenade explosive à délai court. Dégâts maximum 60 quelle que soit l'armure ; ne réduit pas la durabilité de l'armure. Sert surtout à interrompre les réanimations et déloger." },
+        { "nom": "Guerreira", "type": "Passif", "desc": "Augmente temporairement la vitesse de déplacement et la vitesse de rechargement après avoir renversé un ennemi ou en passant sous un seuil de PV bas." }
+      ],
+      "forces": ["Entrée en force sur position fortifiée", "Excellente en CQB et couloirs", "Fumée offensive placeable à distance"],
+      "faiblesses": ["Charge très lisible : un ennemi qui casse la ligne derrière un mur l'annule", "Bruyante — en Operations une charge ratée coûte tout le kit", "30% de réduction frontale seulement"],
+      "conseils": ["Choisir la DESTINATION de la charge, pas seulement la cible : viser une position avec couverture et sortie.", "Smoke Halo maintenu AVANT la charge pour couvrir l'approche, pas après.", "Combo avec D-Wolf ou Vyron pour le suivi immédiat.", "Fate Contract S12 : 3 impacts d'Ariete (réduit de 6 le 12/11)."],
+      "counters": ["Rester derrière une couverture solide et casser la ligne de charge", "Sineva et son bouclier EOD", "Gizmo / N-Two : ralentissement et contrôle de zone", "Fusils à pompe en embuscade à la sortie de fumée"]
+    },
+    {
+      "id": "d-wolf", "nom": "D-Wolf", "nom_reel": "Kai Silva", "classe": "Assault",
+      "arrivee": "Lancement (Open Beta)", "deblocage": "500 Delta Coins",
+      "badge": "META", "tier_ops": "A", "tier_warfare": "S",
+      "resume": "Le meilleur choix tout-terrain pour débuter. Autonome, rapide, utile dans toutes les situations sans coordination.",
+      "capacites": [
+        { "nom": "Motorized Exoskeleton", "type": "Capacité signature", "desc": "Exosquelette augmentant fortement la vitesse de déplacement ; restaure des PV sur les mises à terre." },
+        { "nom": "Triple Blaster", "type": "Tactique", "desc": "Lance-grenades à trois coups pour le déni de zone." },
+        { "nom": "Tactical Smoke Grenade", "type": "Tactique", "desc": "Fumée de couverture pour pousser ou se replier." },
+        { "nom": "Tactical Slide", "type": "Passif", "desc": "Glissade tactique prolongée — pièce maîtresse du mouvement." }
+      ],
+      "forces": ["Mobilité la plus élevée du jeu", "Auto-suffisant (soin sur knockdown)", "Excellent en Warfare sur les grandes distances à couvrir"],
+      "faiblesses": ["Pas d'intel", "Dépend de la prise d'angle, punissable par une bonne défense"],
+      "conseils": ["Premier opérateur à acheter pour un nouveau joueur.", "Exo + Tactical Slide = rotations impossibles à suivre en Warfare.", "En Operations, l'exo sert surtout à DÉCROCHER, pas à entrer."],
+      "counters": ["Shepherd (Sonic Trap / ralentissement)", "N-Two (Cryo-Flask)", "Mines et pièges sur les rotations rapides"]
+    },
+    {
+      "id": "vyron", "nom": "Vyron", "nom_reel": "Wang Yuhao", "classe": "Assault",
+      "arrivee": "Lancement (Open Beta)", "deblocage": "Gratuit (connexion 3 jours OU 30 matchs + 100 kills)",
+      "badge": "GRATUIT", "tier_ops": "B", "tier_warfare": "A",
+      "resume": "Assault explosif. Ses charges sont parmi les meilleurs outils anti-véhicule d'infanterie en Warfare.",
+      "capacites": [
+        { "nom": "Charges explosives", "type": "Capacité signature", "desc": "Charges de démolition redoutables contre véhicules et positions retranchées." },
+        { "nom": "Dash", "type": "Mobilité", "desc": "Repositionnement rapide après élimination." }
+      ],
+      "forces": ["Anti-véhicule d'infanterie", "Opérateur gratuit le plus solide", "Très bon sur objectifs serrés"],
+      "faiblesses": ["Peu de valeur passive hors combat", "Moins pertinent en Operations"],
+      "conseils": ["Opérateur de démarrage gratuit idéal avant d'investir 500 DC.", "En Warfare, ses charges valent souvent mieux qu'un lance-roquettes contre les blindés."],
+      "counters": ["Engagements longue distance", "Maintien de la distance par les véhicules"]
+    },
+    {
+      "id": "nox", "nom": "Nox", "nom_reel": "Hélie de Montbel", "classe": "Assault",
+      "arrivee": "Saison 3", "deblocage": "500 Delta Coins",
+      "badge": "NERF S12", "tier_ops": "A", "tier_warfare": "B",
+      "resume": "Assassin silencieux. Le meilleur opérateur de flanc solo en Operations — à condition d'être le SEUL Nox de l'escouade.",
+      "capacites": [
+        { "nom": "Silent Assault", "type": "Capacité signature", "desc": "Supprime les bruits de pas et la signature radar. S12 : 25 s avec un seul Nox dans l'escouade, 15 s avec deux ou trois (cap d'empilement)." },
+        { "nom": "Whirlwind Disc", "type": "Tactique", "desc": "Disque offensif." },
+        { "nom": "Tactical Flashbang", "type": "Tactique", "desc": "Aveuglement. S12 : plus d'immunité accordée après impacts répétés (Detonation)." },
+        { "nom": "Revenant", "type": "Passif Warfare", "desc": "Renommé depuis Deep Trauma dans les notes Aurora." }
+      ],
+      "forces": ["Infiltration et flanc indétectables", "Conserve ses 25 s complètes en solo", "Décrochages impossibles à suivre"],
+      "faiblesses": ["Cap d'empilement S12 : inutile de stacker deux Nox", "Faible en Warfare 64 joueurs"],
+      "conseils": ["En solo Operations, Nox reste un top pick : le cap ne s'applique pas.", "Ne JAMAIS doubler Nox dans une escouade depuis Aurora."],
+      "counters": ["Luna et Hackclaw (détection)", "Raptor (Wing Cam)", "Claymores et pièges sonores"]
+    },
+    {
+      "id": "tempest", "nom": "Tempest", "nom_reel": "Claire Ann Byers", "classe": "Assault",
+      "arrivee": "Saison Break — 9 juillet 2025", "deblocage": "Piste gratuite du Season Pass (saison d'arrivée)",
+      "badge": "", "tier_ops": "C", "tier_warfare": "C",
+      "resume": "Assault à très haute vitesse via colonne vertébrale auxiliaire. Toujours pénalisée par les nerfs de la Saison Meltdown.",
+      "capacites": [
+        { "nom": "Drill Charge", "type": "Capacité signature", "desc": "Désarme et réduit au silence les ennemis derrière une couverture." },
+        { "nom": "Emergency Evasion Device", "type": "Tactique", "desc": "Auto-réanimation et fuite d'urgence." }
+      ],
+      "forces": ["Vitesse de déplacement extrême", "Dégagement d'ennemis retranchés"],
+      "faiblesses": ["Nerfs Meltdown toujours actifs hors Detonation", "Valeur d'escouade faible comparée aux S-tier"],
+      "conseils": ["Pick de niche. À éviter si l'objectif est le classement."],
+      "counters": ["Contrôle de zone (Toxik, N-Two, Gizmo)"]
+    },
+    {
+      "id": "stinger", "nom": "Stinger", "nom_reel": "Roy Smee", "classe": "Support",
+      "arrivee": "Lancement (Open Beta)", "deblocage": "500 Delta Coins",
+      "badge": "NERF S12", "tier_ops": "B", "tier_warfare": "A",
+      "resume": "Medic agressif. Soins continus, réanimations sous fumée et réapprovisionnement.",
+      "capacites": [
+        { "nom": "Hive-Tech Pistol", "type": "Capacité signature", "desc": "Pistolet de soin : HoT, retrait de debuffs. S12 (Detonation) : auto-soin 20 s → 15 s." },
+        { "nom": "Smokescreen", "type": "Tactique", "desc": "Champ de fumée soignant. S12 (Detonation) : prix 250 → 300." },
+        { "nom": "Hive-Tech Smoke Grenade", "type": "Tactique", "desc": "Fumée tactique." },
+        { "nom": "Expertly Rescue", "type": "Passif", "desc": "Réanimations accélérées." }
+      ],
+      "forces": ["Sustain d'escouade", "Réanimation sous fumée = reprise de fights perdus", "Fonctionne dans tous les modes"],
+      "faiblesses": ["Nerfs successifs sur l'auto-soin", "Dépend de la proximité de l'escouade"],
+      "conseils": ["Choix sûr n°2 pour débuter après D-Wolf.", "Fumée + réanimation = la combinaison la plus rentable du jeu en Warfare."],
+      "counters": ["Toxik (gaz dans la fumée)", "Grenades HE sur les réanimations"]
+    },
+    {
+      "id": "toxik", "nom": "Toxik", "nom_reel": "Zoya Pomchenkova", "classe": "Support",
+      "arrivee": "Saison Genesis — 5 décembre 2024", "deblocage": "Niveau 15 du Season Pass Genesis",
+      "badge": "TOP META", "tier_ops": "S", "tier_warfare": "S",
+      "resume": "Meilleur buff d'escouade du jeu et déni de zone par le gaz. Top tier dans les deux modes principaux.",
+      "capacites": [
+        { "nom": "Adreno-Boost", "type": "Capacité signature", "desc": "Buff de zone sur 20 m pour toute l'escouade — le meilleur buff collectif du jeu." },
+        { "nom": "Dragonfly Swarm System", "type": "Capacité", "desc": "Essaim de drones qui draine les PV ennemis, trouble leur vision et renforce les alliés sur son passage." },
+        { "nom": "Blinding Gas", "type": "Tactique", "desc": "Gaz aveuglant. S12 (Detonation) : quantité max 2 → 3, cooldown 60 s → 75 s." }
+      ],
+      "forces": ["Buff de zone le plus puissant du jeu", "Couvre un objectif entier en Warfare", "Modifie la vitesse de soin de toute l'équipe"],
+      "faiblesses": ["Peu d'impact en 1v1 isolé", "Essaim contrable par le déplacement"],
+      "conseils": ["Si l'escouade ne sait pas quoi prendre, prendre Toxik.", "Adreno-Boost avant un push d'objectif, jamais après."],
+      "counters": ["Engagements à longue distance", "Sortir du rayon de 20 m"]
+    },
+    {
+      "id": "vlinder", "nom": "Vlinder", "nom_reel": "Lina Van der Meer", "classe": "Support",
+      "arrivee": "Saison Morphosis — 3 février 2026", "deblocage": "Gratuit sur le Season Pass (saison d'arrivée)",
+      "badge": "", "tier_ops": "A", "tier_warfare": "A",
+      "resume": "Support de stabilisation : maintient les alliés à terre en vie bien plus longtemps que tout autre opérateur.",
+      "capacites": [
+        { "nom": "Drone de secours", "type": "Capacité signature", "desc": "Stabilise et relève les alliés à distance. S12 (Detonation) : restaure 50 PV au lieu de 100." },
+        { "nom": "Stabilisation prolongée", "type": "Passif", "desc": "Allonge fortement la fenêtre de réanimation des coéquipiers." }
+      ],
+      "forces": ["Sauve des fights perdus", "Excellente en escouade coordonnée"],
+      "faiblesses": ["Valeur quasi nulle en solo", "Nerf du drone en Detonation"],
+      "conseils": ["Pick d'escouade organisée. En solo-queue, préférer Stinger."],
+      "counters": ["Finir les ennemis à terre immédiatement", "Déni de zone sur les corps"]
+    },
+    {
+      "id": "rover", "nom": "Rover", "nom_reel": "Rowan Walsh", "classe": "Support",
+      "arrivee": "Saison Reorientation — 8 septembre 2026", "deblocage": "Piste gratuite du Season Pass (saison d'arrivée)",
+      "badge": "BUFF S12", "tier_ops": "A", "tier_warfare": "S",
+      "resume": "Grand gagnant Warfare de la saison Aurora. Son compagnon Clover détecte au son et bondit sur les cibles.",
+      "capacites": [
+        { "nom": "Clover", "type": "Capacité signature", "desc": "Compagnon robotisé. S12 : détecte les ennemis au bruit qu'ils font et peut bondir sur eux à distance. En Operations, les munitions de niveau 6+ lui infligent 2x dégâts." },
+        { "nom": "Dart Rifle", "type": "Capacité", "desc": "Fusil à fléchettes. S12 (Detonation) : réduction de PV max 30 → 45." },
+        { "nom": "Fumée irritante", "type": "Tactique", "desc": "S12 (Detonation) : 15 s → 18 s." }
+      ],
+      "forces": ["Buff tous modes sans pénalité en Warfare", "Détection sonore automatique", "Pression continue sur les flancs"],
+      "faiblesses": ["Clover fragile face aux munitions niveau 6+ en Operations"],
+      "conseils": ["Fate Contract S12 : 6 impacts de Dart Rifle dans une Operation Hard.", "En Warfare, Clover est un radar gratuit permanent sur un objectif."],
+      "counters": ["Munitions T6 pour tuer Clover instantanément en Ops", "Jouer silencieusement (accroupi)"]
+    },
+    {
+      "id": "branko", "nom": "Branko", "nom_reel": "Non publié", "classe": "Support",
+      "arrivee": "Non confirmée", "deblocage": "Non confirmé",
+      "badge": "À CONFIRMER", "tier_ops": "B", "tier_warfare": "B",
+      "resume": "Support de logistique : caisse de munitions, caisse médicale et lance-fumigènes. Données officielles limitées.",
+      "capacites": [
+        { "nom": "Ammo Box", "type": "Logistique", "desc": "Réapprovisionnement de l'escouade." },
+        { "nom": "Med Crate", "type": "Logistique", "desc": "Soins de zone." },
+        { "nom": "Smoke Launcher", "type": "Tactique", "desc": "Fumée de couverture." }
+      ],
+      "forces": ["Soutien logistique continu en Warfare"],
+      "faiblesses": ["Impact par gadget inférieur aux supports A/S tier"],
+      "conseils": ["Flex pick. Données constructeur incomplètes — vérifier en jeu."],
+      "counters": ["Détruire les caisses déployées"]
+    },
+    {
+      "id": "shepherd", "nom": "Shepherd", "nom_reel": "Terry Musa", "classe": "Engineer",
+      "arrivee": "Lancement (Open Beta)", "deblocage": "500 Delta Coins",
+      "badge": "BUFF S12", "tier_ops": "A", "tier_warfare": "S",
+      "resume": "Ingénieur de contrôle de couloir. Son Sonic Trap retrouve sa hitbox pleine en Aurora.",
+      "capacites": [
+        { "nom": "Sonic Trap", "type": "Capacité signature", "desc": "Piège sonore : ralentissement et dégâts sur 4 m. S12 : hitbox revenue à sa taille d'origine (annulation du nerf du 15/10) et ne bloque plus les balles." },
+        { "nom": "Sonic Paralysis Drone", "type": "Capacité", "desc": "Drone de suppression sur 30 m : réduit la cadence de tir et trouble la vision des ennemis dans la zone. Mode sentinelle possible." },
+        { "nom": "Welding Gun", "type": "Outil", "desc": "Réparation de véhicules et de structures." },
+        { "nom": "GE2 Frag Grenade", "type": "Létale", "desc": "S12 (Detonation) : dégâts minimum 10 → 5, portée de l'icône d'alerte 10 m → 20 m." }
+      ],
+      "forces": ["Déni de couloir imbattable", "Excellent sur Brakkesh et les cartes à chokepoints", "Réparation de véhicules en Warfare"],
+      "faiblesses": ["Statique : perd de la valeur en rotation rapide"],
+      "conseils": ["Must-pick sur Brakkesh : Sonic Trap + drone se cumulent dans les couloirs étroits.", "En Warfare, le drone sentinelle sur un point capturé rapporte énormément de points."],
+      "counters": ["Détruire les pièges à distance", "Raptor (EMP Grenade)"]
+    },
+    {
+      "id": "uluru", "nom": "Uluru", "nom_reel": "David Feller", "classe": "Engineer",
+      "arrivee": "Lancement (Open Beta)", "deblocage": "500 Delta Coins",
+      "badge": "", "tier_ops": "B", "tier_warfare": "A",
+      "resume": "Ingénieur défensif orienté véhicules et zone. Bien meilleur en Warfare qu'en Operations.",
+      "capacites": [
+        { "nom": "Loitering Munition", "type": "Capacité signature", "desc": "Munition rôdeuse. S12 (Detonation) : explosion principale 50 → 80 (rayon pleins dégâts 2 m), sous-munitions 100 → 60." },
+        { "nom": "Composite Incendiary", "type": "Tactique", "desc": "Couverture incendiaire. S12 (Detonation) : prix 300 → 250." }
+      ],
+      "forces": ["Déni de zone contre l'infanterie", "Optimisé pour les cartes à forte densité de véhicules"],
+      "faiblesses": ["Chute à B-tier en Operations (peu de véhicules)"],
+      "conseils": ["Pick Warfare. En Operations, préférer Shepherd ou N-Two."],
+      "counters": ["Dispersion de l'escouade", "Destruction du drone"]
+    },
+    {
+      "id": "sineva", "nom": "Sineva", "nom_reel": "Alexei Petrov", "classe": "Engineer",
+      "arrivee": "Lancement (Open Beta)", "deblocage": "500 Delta Coins",
+      "badge": "ANTI-MARTELO", "tier_ops": "A", "tier_warfare": "B",
+      "resume": "Porteur de bouclier EOD. Le contre naturel des entrées en force comme l'Ariete de Martelo.",
+      "capacites": [
+        { "nom": "EOD Shield", "type": "Capacité signature", "desc": "Bouclier déployable lourd qui bloque la ligne de tir et les charges." },
+        { "nom": "Outils de démolition", "type": "Capacité", "desc": "Gestion des explosifs et des points de passage." }
+      ],
+      "forces": ["Tient un couloir à lui seul", "Contre direct de Martelo et des pushs frontaux"],
+      "faiblesses": ["Très lent", "Vulnérable aux flancs et aux explosifs"],
+      "conseils": ["Pick de counter S12 : déployer le bouclier sur la ligne de charge attendue.", "Toujours accompagné — un Sineva seul se fait contourner."],
+      "counters": ["Grenades HE", "Flanc par Nox ou Hackclaw"]
+    },
+    {
+      "id": "gizmo", "nom": "Gizmo", "nom_reel": "Rashid Rahal", "classe": "Engineer",
+      "arrivee": "Saison 8", "deblocage": "500 Delta Coins",
+      "badge": "", "tier_ops": "C", "tier_warfare": "C",
+      "resume": "Spécialiste du piégeage de couloir. Les buffs Aurora ne concernent QUE le mode Detonation.",
+      "capacites": [
+        { "nom": "Crawler Nest", "type": "Capacité signature", "desc": "Trois araignées explosives ; la corrosion réduit l'armure avant un push." },
+        { "nom": "Smoke Mine", "type": "Tactique", "desc": "Mine fumigène. S12 (Detonation) : durée 15 s → 18 s." },
+        { "nom": "Anti-Vehicle / Repair Tool", "type": "Outil", "desc": "Lance-roquettes anti-véhicule et outil de réparation." },
+        { "nom": "Defensive Vanguard", "type": "Passif", "desc": "Renforcement défensif sur position tenue." }
+      ],
+      "forces": ["Corrosion d'armure avant engagement", "Très fort sur un couloir unique"],
+      "faiblesses": ["Se perd sur une carte 64 joueurs", "Nerfs Meltdown toujours actifs hors Detonation"],
+      "conseils": ["Pick de défense d'objectif serré uniquement.", "La corrosion d'armure change les seuils de TTK de toute l'escouade : à annoncer."],
+      "counters": ["Détection des pièges", "Distance"]
+    },
+    {
+      "id": "n-two", "nom": "N-Two", "nom_reel": "Gabriel Mercier", "classe": "Engineer",
+      "arrivee": "Saison Meltdown — 30 juin 2026", "deblocage": "Piste gratuite du Season Pass (saison d'arrivée)",
+      "badge": "BUFF MAJEUR S12", "tier_ops": "S", "tier_warfare": "A",
+      "resume": "Le plus grand gagnant de la saison Aurora en Operations. Contrôle cryogénique des entrées.",
+      "capacites": [
+        { "nom": "Cryo-Flask", "type": "Capacité signature", "desc": "Zone de gel. S12 : durée 10 s → 7 s (tous modes) MAIS dégâts Operations 4 → 7 PV/0.5 s et cooldown 55 s → 45 s ; Warfare 8 → 10 PV/0.5 s. Ralentit la maniabilité des véhicules." },
+        { "nom": "Homing Stun Grenade", "type": "Tactique", "desc": "Grenade assourdissante à guidage. S12 : cooldown 45 s → 40 s." }
+      ],
+      "forces": ["Peut geler une porte et bloquer un push entier", "Dégâts de zone fortement augmentés en Aurora", "Le jeu vise partiellement à votre place avec la grenade à guidage"],
+      "faiblesses": ["Durée de zone réduite à 7 s", "Demande du placement précis"],
+      "conseils": ["Priorité d'achat n°1 en Operations depuis Aurora.", "Geler une entrée de bâtiment = 7 s de déni total pendant que l'escouade loot."],
+      "counters": ["Contourner la zone", "Pousser avant le placement"]
+    },
+    {
+      "id": "luna", "nom": "Luna", "nom_reel": "Luna Kim", "classe": "Recon",
+      "arrivee": "Lancement (Open Beta)", "deblocage": "500 Delta Coins",
+      "badge": "TOP META", "tier_ops": "S", "tier_warfare": "A",
+      "resume": "L'intel la plus fiable du jeu. En Operations, savoir où est l'autre escouade vaut plus que n'importe quelle arme.",
+      "capacites": [
+        { "nom": "Detection Arrow", "type": "Capacité signature", "desc": "Flèche de détection : marque les ennemis à travers les murs le long de sa trajectoire et applique des dégâts sur la durée." },
+        { "nom": "Volt Arrow", "type": "Capacité", "desc": "Flèche électrique de zone." },
+        { "nom": "GE2 Frag Grenade", "type": "Létale", "desc": "S12 (Detonation) : dégâts minimum 10 → 5, portée de l'icône d'alerte 10 m → 20 m." },
+        { "nom": "Enemy Analysis", "type": "Passif", "desc": "Marque brièvement tout ennemi que Luna blesse." },
+        { "nom": "Tactical Beacon", "type": "Capacité", "desc": "Accès aux stations de reconnaissance : points d'extraction et boss." }
+      ],
+      "forces": ["Intel qui profite à TOUTE l'escouade, quel que soit leur opérateur", "Meilleur pick solo d'Operations", "Marquage à travers les murs"],
+      "faiblesses": ["Léger nerf de la GE2 en Detonation", "Peu de puissance de feu directe"],
+      "conseils": ["Si vous ne devez débloquer qu'un seul opérateur pour Operations : Luna.", "Tirer la Detection Arrow AVANT d'entrer dans un bâtiment, jamais pendant."],
+      "counters": ["Nox (Silent Assault)", "Hackclaw (Silent Step)", "Casser les lignes de vue"]
+    },
+    {
+      "id": "hackclaw", "nom": "Hackclaw", "nom_reel": "Mai Xiaowen", "classe": "Recon",
+      "arrivee": "Lancement (Open Beta)", "deblocage": "200 Ahsarah Gold (défis d'event) — meilleur rapport valeur/prix",
+      "badge": "NERF S12", "tier_ops": "S", "tier_warfare": "B",
+      "resume": "Reconnaissance furtive. Le Signal Decoder dit si l'ennemi est là AVANT d'entrer.",
+      "capacites": [
+        { "nom": "Signal Decoder", "type": "Capacité signature", "desc": "Scanne les positions ennemies dans un rayon d'environ 60 m. Cooldown réduit à 90 s depuis la saison Reorientation (anciennement 120 s)." },
+        { "nom": "Flash Drone", "type": "Tactique", "desc": "Drone aveuglant. S12 (Detonation) : portée max 50 m → 40 m, délai légèrement allongé." },
+        { "nom": "Silent Step", "type": "Passif", "desc": "Réduit fortement le bruit en déplacement accroupi." }
+      ],
+      "forces": ["Scan sans s'exposer", "Furtivité réelle (Silent Step)", "Déblocable sans Delta Coins"],
+      "faiblesses": ["Nerf Flash Drone en Detonation", "Moins pertinente sur les grandes cartes Warfare"],
+      "conseils": ["Combo Brakkesh : helmet DICH violet (+50% portée auditive) + Silent Step = sortie d'extraction quasi garantie.", "Scanner avant chaque escalier, pas après."],
+      "counters": ["Nox", "Raptor et ses caméras", "Pièges sonores de Shepherd"]
+    },
+    {
+      "id": "raptor", "nom": "Raptor", "nom_reel": "Landon Harrison", "classe": "Recon",
+      "arrivee": "Saison War Ablaze — septembre 2025", "deblocage": "500 Delta Coins",
+      "badge": "", "tier_ops": "B", "tier_warfare": "B",
+      "resume": "Reconnaissance aérienne et guerre électronique. Ses caméras cartographient un secteur entier.",
+      "capacites": [
+        { "nom": "Wing Cam", "type": "Capacité signature", "desc": "Caméra volante de surveillance. S12 (Detonation) : coût 6 → 4 points de charge." },
+        { "nom": "Silver Wing", "type": "Capacité", "desc": "Drone mobile. S12 (Detonation) : vitesse 7 → 8 m/s." },
+        { "nom": "EMP Grenade", "type": "Tactique", "desc": "Neutralise les déployables électroniques ennemis — contre direct des Engineers." }
+      ],
+      "forces": ["Intel longue durée sans exposition", "EMP contre les setups d'Engineer"],
+      "faiblesses": ["Les buffs Aurora sont Detonation-only", "Dépend du placement des caméras"],
+      "conseils": ["Combo avec Luna : marquage instantané + surveillance persistante.", "EMP avant d'attaquer une position tenue par Shepherd ou Gizmo."],
+      "counters": ["Abattre les caméras", "Jouer hors champ"]
+    },
+    {
+      "id": "morse", "nom": "Morse", "nom_reel": "Non publié", "classe": "Recon",
+      "arrivee": "Saison 9", "deblocage": "500 Delta Coins",
+      "badge": "", "tier_ops": "C", "tier_warfare": "C",
+      "resume": "Guerre électronique : brouillage et flashbangs retardés. Encore pénalisé par les nerfs Meltdown.",
+      "capacites": [
+        { "nom": "Throwable Jammer", "type": "Capacité signature", "desc": "Brouilleur lançable. S12 (Detonation) : rayon 7 m → 10 m." },
+        { "nom": "Delayed Flashbang", "type": "Tactique", "desc": "Flashbang à retardement. S12 (Detonation) : mèche raccourcie de 0.05 s. Plus d'immunité après impacts répétés." }
+      ],
+      "forces": ["Coupe l'intel ennemie sur un objectif"],
+      "faiblesses": ["Nerfs Meltdown actifs hors Detonation", "Faible impact direct"],
+      "conseils": ["Pick de niche compétitif en Detonation."],
+      "counters": ["Sortir du rayon de brouillage"]
+    }
+  ],
+  "synergies": [
+    { "nom": "Le socle équilibré", "composition": ["Luna", "Toxik", "Shepherd", "D-Wolf"], "pourquoi": "Intel + buff d'escouade + déni de couloir + mobilité. Fonctionne sur toutes les cartes et tous les modes." },
+    { "nom": "Breach Aurora", "composition": ["Martelo", "D-Wolf", "Stinger"], "pourquoi": "Martelo ouvre à l'Ariete sous Smoke Halo, D-Wolf suit immédiatement au Tactical Slide, Stinger réanime sous fumée si la charge échoue." },
+    { "nom": "Verrou Operations S12", "composition": ["N-Two", "Luna", "Hackclaw"], "pourquoi": "Cryo-Flask gèle l'entrée pendant que les deux Recon confirment l'absence de troisième partie. Méta post-Aurora." },
+    { "nom": "Contre-breach", "composition": ["Sineva", "Gizmo", "Shepherd"], "pourquoi": "Bouclier EOD sur la ligne de charge, corrosion d'armure et Sonic Trap : une Martelo qui charge dans ça meurt." },
+    { "nom": "Solo Operations", "composition": ["Luna", "ou Hackclaw", "ou Nox"], "pourquoi": "Luna pour l'intel, Hackclaw pour la furtivité, Nox pour les 25 s complètes de Silent Assault (le cap ne s'applique pas en solo)." }
+  ],
+  "ordre_deblocage_recommande": [
+    { "rang": 1, "operateur": "Vyron", "cout": "Gratuit", "raison": "Opérateur gratuit le plus solide — à prendre immédiatement." },
+    { "rang": 2, "operateur": "Martelo", "cout": "Gratuit (Season Pass S12)", "raison": "Déblocage gratuit cette saison, A-tier en Warfare." },
+    { "rang": 3, "operateur": "Hackclaw", "cout": "200 Ahsarah Gold", "raison": "S-tier Operations sans dépenser de Delta Coins." },
+    { "rang": 4, "operateur": "Luna", "cout": "500 Delta Coins", "raison": "Impact le plus élevé par achat unique, toutes cartes." },
+    { "rang": 5, "operateur": "Toxik", "cout": "500 Delta Coins", "raison": "S-tier dans les deux modes principaux." },
+    { "rang": 6, "operateur": "N-Two", "cout": "500 Delta Coins", "raison": "Plus gros buff d'Aurora en Operations." },
+    { "rang": 7, "operateur": "D-Wolf", "cout": "500 Delta Coins", "raison": "S-tier Warfare, le plus autonome." }
+  ]
+}

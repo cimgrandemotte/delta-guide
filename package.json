@@ -1,0 +1,53 @@
+{
+  "name": "delta-force-ultimate-guide",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Delta Force — The Ultimate Operator's Guide. Guide communautaire non officiel : opérateurs, armurerie & balistique, Hazard Operations, Havoc Warfare, campagne Black Hawk Down, cartes interactives, calculateurs TTK, Black Site planner. Saison 12 Aurora.",
+  "keywords": [
+    "delta-force",
+    "hawk-ops",
+    "guide",
+    "wiki",
+    "ttk-calculator",
+    "hazard-operations",
+    "havoc-warfare",
+    "black-hawk-down",
+    "season-12-aurora",
+    "team-jade"
+  ],
+  "author": "Arena.ai Agent — Autonomous Build",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes serve . -l 4173",
+    "start": "npx --yes serve . -l 4173",
+    "build": "echo \"Site statique — aucun build requis. Minification optionnelle : npm run minify\"",
+    "minify": "echo \"Étape S8 : minification CSS/JS\"",
+    "check:links": "node tools/link_check.mjs",
+    "check:assets": "node tools/asset_check.mjs"
+  },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions",
+    "iOS >= 15",
+    "Android >= 10"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "frontend": {
+    "stack": "HTML5 sémantique + CSS3 (Grid/Flex/Variables) + JavaScript ES6+ vanilla",
+    "cdn_libraries": {
+      "leaflet": "1.9.4 — cartes interactives",
+      "gsap": "3.x — animations avancées",
+      "swiper": "11.x — carrousels",
+      "chart.js": "4.x — graphiques balistiques",
+      "fuse.js": "7.x — recherche floue",
+      "countup.js": "2.x — compteurs animés"
+    },
+    "fonts": ["Exo 2", "Rajdhani", "Inter", "JetBrains Mono", "Orbitron", "Share Tech Mono"]
+  },
+  "disclaimer": "Fan-site non officiel. Delta Force est une marque de Team Jade / TiMi Studio Group, éditée par Level Infinite et Garena. Projet communautaire éducatif, sans but lucratif."
+}

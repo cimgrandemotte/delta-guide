@@ -1,0 +1,165 @@
+{
+  "_meta": {
+    "fichier": "bosses.json",
+    "derniere_maj": "2026-11-19",
+    "sources": [
+      "https://timesaver.gg/blog/delta-force-bosses-guide",
+      "https://timesaver.gg/blog/delta-force-tide-prison-map-loot-extraction-guide",
+      "https://deltaforce.th.gl/"
+    ],
+    "nombre_boss": 8,
+    "regle_butin": "Depuis la mise à jour de septembre 2025, le butin des boss appartient au joueur qui porte le coup fatal ou qui a contribué le plus de dégâts. Finir un boss déjà entamé par une autre escouade ne garantit plus le loot.",
+    "regle_apparition": "Les boss n'apparaissent pas à chaque match. Les sorties des gardes d'élite et les audios d'ambiance signalent leur présence — écouter avant d'engager."
+  },
+  "boss": [
+    {
+      "id": "saeed",
+      "nom": "Saeed",
+      "surnom": "Fiery Owl",
+      "carte": "Zero Dam",
+      "role": "Capitaine de la garde",
+      "difficulte": "Débutant",
+      "arme": "M249 Light Machine Gun",
+      "escorte": "Gardes d'élite en patrouille rapprochée",
+      "tactique": "Premier boss recommandé. Garder une couverture dure contre le tir de suppression du M249, pousser par les flancs, ne jamais traverser son champ de tir à découvert.",
+      "drops": [
+        "M249 LMG",
+        "Équipement de garde de haute rareté",
+        "Clés et objets de valeur locaux"
+      ],
+      "note": "Peut être tenté en Easy pour apprendre le pattern. ⚠️ Écart de sources : plusieurs guides de farm Mandel Brick situent un « Saeed Ziaten » au nord de la zone Administrative de Space City, en armure de niveau 4 avec M249 et munitions premium (drops : Suppression Helmet, Samurai Ballistic Vest, attachements haut de gamme, conteneur Mandel Brick possible). Statut : À CONFIRMER — il peut s'agir d'une apparition secondaire ou d'une confusion de carte."
+    },
+    {
+      "id": "reis",
+      "nom": "Reis",
+      "surnom": "Abyss Shark",
+      "carte": "Layali Grove",
+      "role": "Commandant Ahsarah",
+      "difficulte": "Intermédiaire",
+      "tactique": "Souvent lié à la tâche Bounty: Breaking Waves. Approche par les couverts végétaux, éviter les lignes de vue longues depuis l'hôtel.",
+      "drops": [
+        "Reis Black Card (keycard, prix guide 50 000)",
+        "Équipement Ahsarah haute rareté"
+      ],
+      "note": "Contact de mission : vérifier le journal de tâches avant de partir."
+    },
+    {
+      "id": "blue-eagle",
+      "nom": "Blue Eagle HAAVK-64",
+      "carte": "Brakkesh",
+      "role": "Hélicoptère de patrouille",
+      "difficulte": "Élevée",
+      "type": "Boss véhicule aérien",
+      "tactique": "Il ne se combat pas au sol comme un humain : rester sous couvert dur, utiliser les lanceurs et les armes à haute pénétration, et ne l'engager qu'avec une escouade. Fuir en intérieur s'il vous accroche en terrain ouvert.",
+      "drops": [
+        "Composants Haavk de haute valeur",
+        "Matériel aéronautique rare"
+      ],
+      "note": "Sa présence rend les traversées à découvert de Brakkesh beaucoup plus dangereuses."
+    },
+    {
+      "id": "desmoulins",
+      "nom": "Desmoulins",
+      "carte": "Space City",
+      "role": "Directeur Haavk",
+      "difficulte": "Élevée",
+      "apparition": "Chances égales avec Hudson à chaque apparition de commandant",
+      "tactique": "Combat intérieur vertical : contrôler les escaliers, dégager les gardes avant d'engager le boss, prévoir une sortie.",
+      "drops": [
+        "Desmoulins File (prérequis pour le jouer)",
+        "Équipement de direction Haavk"
+      ],
+      "jouable": {
+        "statut": "Opérateur jouable temporaire",
+        "prerequis": [
+          "Operations Level 33",
+          "Posséder le Desmoulins File",
+          "Obtenir le badge dédié en accumulant 250 000 Tekniq Alloys en un seul match"
+        ],
+        "fin_de_disponibilite": "26 janvier 2027"
+      }
+    },
+    {
+      "id": "hudson",
+      "nom": "Hudson",
+      "carte": "Space City",
+      "role": "Directeur Haavk",
+      "difficulte": "Élevée",
+      "apparition": "Chances égales avec Desmoulins",
+      "tactique": "Même logique que Desmoulins : jeu de salles, nettoyage des escortes, pas de duel en terrain ouvert.",
+      "drops": [
+        "Équipement de direction Haavk",
+        "Objets technologiques haute rareté"
+      ]
+    },
+    {
+      "id": "warden-ghroth",
+      "nom": "Warden Ghroth",
+      "carte": "Tide Prison",
+      "role": "Directeur de la prison",
+      "difficulte": "Très élevée",
+      "localisation": "Administration Block",
+      "escorte": "3 Elite Warden Guards + 2 Shieldbearers",
+      "phases": [
+        {
+          "phase": 1,
+          "capacites": [
+            "Heavy Slam — onde de choc de zone à esquiver",
+            "Chain Pull — attire la cible ; casser la ligne de vue l'annule"
+          ]
+        },
+        {
+          "phase": 2,
+          "capacites": [
+            "Gaz hallucinogène — à dissiper en activant les ventilateurs de la salle",
+            "Ground Rupture — onde de choc au sol à franchir en sautant"
+          ]
+        }
+      ],
+      "points_faibles": [
+        "Épaules",
+        "Dos"
+      ],
+      "arme": "ASh-12 Battle Rifle",
+      "drops": [
+        "Ghroth Judgement Card — ouvre UNE des trois salles de haute valeur. NON extractible, valable uniquement pour le match en cours.",
+        "ASh-12 Battle Rifle + munitions",
+        "Armure Haavk légendaire",
+        "Chest rig Haavk épique"
+      ],
+      "loadout_recommande": "M4A1 (DPS principal) + ASh-12 (casse d'armure, dès Operations Lv.40) + S12K pour la phase rapprochée.",
+      "astuce_majeure": "Avec la mission High-Value Operation Ravenhunter active, Ghroth est initialement AMICAL : il faut l'aider à abattre Raven avant qu'il ne redevienne hostile."
+    },
+    {
+      "id": "raven",
+      "nom": "Raven",
+      "carte": "Tide Prison",
+      "role": "Cible de haute valeur",
+      "difficulte": "Très élevée",
+      "apparition": "Via les missions High-Value Operation Ravenhunter et Starslayer",
+      "tactique": "Apparaît dans un contexte scénarisé où Ghroth peut être un allié temporaire. Gérer les deux menaces dans le bon ordre.",
+      "drops": [
+        "Récompenses de mission de haute valeur"
+      ]
+    },
+    {
+      "id": "h1000",
+      "nom": "Neural Device Agent H1000",
+      "carte": "AZ3 Nuclear Plant",
+      "role": "Agent expérimental",
+      "difficulte": "Élite",
+      "tactique": "Combat en zone irradiée : la gestion du timer de radiation compte autant que le DPS. Emporter de quoi se soigner et se décontaminer, et prévoir l'extraction avant d'engager.",
+      "drops": [
+        "Technologie neurale de haute valeur",
+        "Équipement Élite AZ3"
+      ],
+      "note": "La Decontamination Chamber du Black Site (paliers Ops Lv.9 / 14 / 27) améliore nettement la survie sur cette carte."
+    }
+  ],
+  "conseils_generaux": [
+    "Ne jamais engager un boss sans plan d'extraction : la vraie difficulté est de sortir vivant avec le butin.",
+    "Les autres escouades écoutent le combat. Un boss abattu bruyamment attire systématiquement du PvP.",
+    "Emporter des munitions de niveau 4 minimum : les gardes d'élite portent des armures élevées.",
+    "Laisser le boss à une autre escouade et la punir juste après (third party) reste la stratégie la plus rentable en Hard."
+  ]
+}

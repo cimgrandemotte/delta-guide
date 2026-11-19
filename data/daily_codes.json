@@ -1,0 +1,33 @@
+{
+  "_meta": {
+    "fichier": "daily_codes.json",
+    "date_releve": "2026-11-18",
+    "fuseau_reset": "Les codes changent chaque jour au reset quotidien du jeu.",
+    "sources": [
+      "https://www.playdeltaforce.com/events/hq/",
+      "https://deltaforceitems.com/",
+      "https://dfloadout.gg/en/mat-khau-hang-ngay"
+    ],
+    "avertissement_majeur": "CES CODES CHANGENT TOUS LES JOURS. Ceux affichés ici sont ceux du 18 novembre 2026 et servent d'exemple de format. Vérifiez toujours la source officielle avant votre raid.",
+    "note_technique": "Les restrictions CORS empêchent de récupérer ces codes automatiquement depuis le navigateur. Ce fichier est mis à jour manuellement (procédure documentée dans le README)."
+  },
+  "codes": [
+    { "carte": "Zero Dam", "code": "8865", "emplacement": "Côté droit de la Major Substation : ramper dans le pipeline souterrain jusqu'au bout du passage." },
+    { "carte": "Layali Grove", "code": "4565", "emplacement": "Entrée souterraine près du point marqué dans le coin inférieur droit de la carte." },
+    { "carte": "Brakkesh", "code": "6468", "emplacement": "Côté nord du Hammam (Old Bath)." },
+    { "carte": "Space City", "code": "8572", "emplacement": "Industrial Zone — Assembly Room, 2e étage." },
+    { "carte": "Tide Prison", "code": "2161", "emplacement": "Prison Administrative Area, 1er étage, coin de l'escalier du hall." },
+    { "carte": "AZ3 Nuclear Plant", "code": "2430", "emplacement": "Bâtiments situés près de la Seawater Treatment Area." }
+  ],
+  "secret_cracked": {
+    "carte": "Zero Dam",
+    "description": "Une porte secrète porte l'inscription CRACKED. Son code ne se trouve pas en mode Operations mais en Havoc Warfare, sur la carte Cracked en Attack/Defend.",
+    "methode": "Des symboles en code morse sont cachés au niveau des objectifs A1, B1, C1 et D1. Les traduire donne les chiffres du code.",
+    "pieges": ["Le code change toutes les 24 heures.", "Il peut être différent d'un joueur à l'autre : il faut le trouver soi-même."]
+  },
+  "conseils": [
+    "Noter le code avant d'entrer en raid : impossible de consulter un site une fois en match.",
+    "Les salles à code sont des points de camping connus : entrer vite, piller vite, ressortir par un autre chemin.",
+    "Un code refusé = code périmé : revérifier la date du relevé."
+  ]
+}

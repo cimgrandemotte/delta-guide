@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "fichier": "keycards.json",
+    "derniere_maj": "2026-11-19",
+    "sources": [
+      "https://deltaforce.th.gl/guides/all-layali-grove-keycards",
+      "https://deltaforce.th.gl/guides/all-brakkesh-keycards",
+      "https://deltaforce.th.gl/"
+    ],
+    "total_keycards": 101,
+    "avertissement": "Les prix sont ceux affichés par les guides communautaires de référence. Le prix réel à l'Hôtel des Ventes fluctue selon l'offre et la demande."
+  },
+  "regles": [
+    "Toutes les keycards pèsent 0,05 kg et occupent un slot 1×1 : elles ne coûtent quasiment rien à transporter.",
+    "Chaque carte possède un nombre d'usages limité (souvent 20, parfois 1 seul pour les plus précieuses).",
+    "Une carte à usage unique consommée est définitivement perdue : la rentabiliser ou la revendre.",
+    "Les keycards se trouvent au sol, sur les PNJ, dans les conteneurs, ou s'achètent à l'Hôtel des Ventes.",
+    "Une carte de grande valeur vaut parfois plus revendue que la salle qu'elle ouvre : vérifier le prix avant de l'utiliser."
+  ],
+  "rarete": [
+    {
+      "niveau": "Blue",
+      "couleur": "#2196F3",
+      "desc": "Salles communes, loot correct"
+    },
+    {
+      "niveau": "Purple",
+      "couleur": "#9C27B0",
+      "desc": "Salles de valeur moyenne/élevée"
+    },
+    {
+      "niveau": "Gold",
+      "couleur": "#FFD700",
+      "desc": "Salles de haute valeur"
+    },
+    {
+      "niveau": "Red",
+      "couleur": "#FF2D2D",
+      "desc": "Salles d'élite, souvent usage unique"
+    }
+  ],
+  "par_carte": [
+    {
+      "carte": "Layali Grove",
+      "nombre": 22,
+      "repartition": {
+        "Gold": 12,
+        "Blue": 4,
+        "Purple": 3,
+        "Red": 3
+      },
+      "usages": "17 cartes à 20 usages, 5 cartes à usage unique",
+      "fourchette_prix": "6 000 → 2 363 076",
+      "notables": [
+        {
+          "nom": "King's Suite",
+          "rarete": "Red",
+          "prix": "2 363 076",
+          "usages": 1,
+          "zone": "Sparkling Empress Hotel",
+          "note": "Keycard la plus chère du jeu."
+        },
+        {
+          "nom": "Reis Black Card",
+          "rarete": "Red",
+          "prix": "50 000",
+          "usages": 1,
+          "note": "Drop du boss Reis."
+        }
+      ]
+    },
+    {
+      "carte": "Brakkesh",
+      "nombre": 19,
+      "portes_couvertes": 34,
+      "notables": [
+        {
+          "nom": "Master Keycard",
+          "rarete": "Red",
+          "prix": "200 000",
+          "usages": 1,
+          "note": "Ouvre les portes les plus verrouillées de la carte."
+        },
+        {
+          "nom": "Brakkesh Master Keycard",
+          "rarete": "Gold",
+          "prix": "20 000",
+          "note": "Version intermédiaire, bien plus abordable."
+        }
+      ],
+      "note": "19 cartes pour 34 portes : certaines keycards ouvrent plusieurs portes."
+    },
+    {
+      "carte": "Zero Dam",
+      "note": "Keycards de salles administratives et techniques ; cartographiées sur deltaforce.th.gl."
+    },
+    {
+      "carte": "Space City",
+      "note": "Forte densité de salles à keycard (Bon Lab, Black Chamber, CEO Office)."
+    },
+    {
+      "carte": "Tide Prison",
+      "note": "Inclut la Ghroth Judgement Card, obtenue sur le boss et non extractible."
+    },
+    {
+      "carte": "AZ3 Nuclear Plant",
+      "note": "Salles techniques en zone irradiée."
+    }
+  ],
+  "strategie": [
+    "Emporter systématiquement les keycards trouvées : poids négligeable, revente immédiate.",
+    "Avant d'utiliser une carte à usage unique, comparer son prix de revente à la valeur moyenne de la salle.",
+    "Les salles à keycard sont des points de camping connus : entrer vite, piller vite, sortir par un autre chemin.",
+    "Acheter une keycard bon marché à l'Hôtel des Ventes pour un run ciblé est souvent plus rentable que de la farmer."
+  ],
+  "economie": {
+    "titre": "Une carte d'accès est un pari, sauf quand elle ne l'est pas",
+    "principe": "La quasi-totalité des cartes d'accès sont des paris : vous payez un prix fixe pour un contenu aléatoire. Mais deux catégories échappent à cette règle, et ce sont les seules que la communauté recommande d'acheter en routine — les salles qu'on peut INSPECTER avant de dépenser, et les cartes qui ouvrent un itinéraire plutôt qu'un butin.",
+    "avertissement": "Les prix ci-dessous sont des relevés communautaires datés de 2025-2026. Ils fluctuent énormément. Vérifiez toujours en jeu.",
+    "categories": [
+      {
+        "nom": "Les salles à fenêtre — profit garanti",
+        "accent": "green",
+        "regle": "Certaines salles ont une vitre ou une baie qui laisse voir le contenu AVANT de passer la carte. Vous n'ouvrez que si ça vaut le coup. Le pari disparaît.",
+        "exemples": [
+          "Salle technique de la Sous-station (Zero Dam) — la meilleure du jeu selon la communauté : on repère depuis l'extérieur si une carte d'accès ou un serveur lame est posé sur la table",
+          "Salle de collecte d'équipement (Admin aile est, rez-de-chaussée, ≈ 350 000) — contenu visible derrière la vitre"
+        ]
+      },
+      {
+        "nom": "Les cartes bon marché à rentabilité quasi certaine",
+        "accent": "blue",
+        "regle": "Si la carte coûte moins que deux objets violets, vous ne pouvez pratiquement pas perdre. Et certaines contiennent un emplacement d'apparition de carte d'accès — vous pouvez en ressortir avec une carte valant dix fois la mise.",
+        "exemples": [
+          "Dortoir de la Sous-station (≈ 30 000) — l'avis le plus unanime du sous-forum : emplacement de carte à l'intérieur, rentabilité quasi garantie",
+          "Infirmerie de l'aile ouest (≈ 100 000) — conteneurs médicaux plus apparitions rares aléatoires"
+        ]
+      },
+      {
+        "nom": "Les cartes d'itinéraire — utilitaires, pas du butin",
+        "accent": "orange",
+        "regle": "Elles n'ouvrent pas un coffre mais un passage. Sur une carte aussi verrouillée que Space City, c'est la différence entre atteindre le cœur en premier et arriver sur des salles déjà vidées.",
+        "exemples": [
+          "Space City : Passage souterrain, Porte Ouest, Pont suspendu est, Passage employés",
+          "Brakkesh : la carte qui ouvre la Tour"
+        ]
+      },
+      {
+        "nom": "Les grosses cartes — du vrai pari",
+        "accent": "red",
+        "regle": "Beaucoup de conteneurs, beaucoup de potentiel, zéro garantie — et presque toujours dans les zones les plus fréquentées de la carte. N'y allez que si vous êtes certain de pouvoir ressortir.",
+        "exemples": [
+          "Bureau du directeur de l'aile est (Zero Dam) — 7 conteneurs, le plus gros potentiel du jeu, mais au cœur du bâtiment le plus disputé",
+          "Space City : Noyau du Champ de tir (≈ 3,6 M), Réception du bureau du PDG (≈ 580 000), Labo 2F de l'Atelier d'assemblage (≈ 780 000)"
+        ]
+      }
+    ],
+    "astuce_usages": "Les cartes ont un nombre d'utilisations limité, et ce décompte varie selon la difficulté. Astuce communautaire : utilisez vos premières charges en Easy, où le risque de mourir avant d'avoir ouvert la porte est faible, et gardez le reste pour le Normal. Vous tirez davantage d'ouvertures réelles de la même carte.",
+    "ou_les_trouver": [
+      "Barracks 2ᵉ étage — bureau face à la planche à dessin",
+      "Centre administratif, bibliothèque du rez-de-chaussée",
+      "Bureau de l'usine à ciment — deux emplacements (bureau et étagère à vêtements)",
+      "Sous-station principale — salle technique et dortoir"
+    ],
+    "regle_finale": "Ramassez TOUJOURS une carte d'accès trouvée au sol, même si vous n'avez pas l'intention de l'utiliser. C'est de la valeur pure à revendre, et certaines valent plus qu'un raid entier."
+  }
+}

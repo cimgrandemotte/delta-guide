@@ -1,0 +1,507 @@
+{
+  "_meta": {
+    "fichier": "builds.json",
+    "derniere_maj": "2026-11-19",
+    "sources": [
+      "https://codmunity.gg/delta-force-operations",
+      "https://deltahub.gg/meta/operations",
+      "https://deltaforcebuilds.com/latest",
+      "https://zilliongamer.com/delta-force/c/weapons/best-an-94-build-delta-force",
+      "https://bittopup.com/article/Delta-Force-Jan-2026-Meta-Best-Loadouts-Import-Codes"
+    ],
+    "comment_importer": "Dans le jeu : Armurerie (Armory) > sélectionner l'arme > Modifier > Loadout > Importer un code. Coller la chaîne complète, nom de l'arme inclus.",
+    "avertissement": "Un code est lié à une version du jeu et à une région (Global vs Garena). Un code peut cesser de fonctionner après un patch majeur."
+  },
+  "meta_operations": {
+    "libelle": "Méta Operations — taux de sélection observés",
+    "pick_rates": [
+      {
+        "arme": "AUG",
+        "taux": "8.3%",
+        "tier": "S"
+      },
+      {
+        "arme": "AWM",
+        "taux": "5.5%",
+        "tier": "S"
+      },
+      {
+        "arme": "P90",
+        "taux": "5.5%",
+        "tier": "A"
+      },
+      {
+        "arme": "SMG-45",
+        "taux": "2.8%",
+        "tier": "S"
+      },
+      {
+        "arme": "SCAR-H",
+        "taux": "1.8%",
+        "tier": "A"
+      }
+    ]
+  },
+  "builds": [
+    {
+      "id": "aug-ops",
+      "arme": "AUG",
+      "mode": "Operations",
+      "role": "Polyvalent longue portée",
+      "tier": "S",
+      "code": "AUG Assault Rifle-Operations-6I04C2G0FSH6GRF76DG60",
+      "accessoires": [
+        "AUG Elite Bipod Long Barrel",
+        "Angled Hand Stop",
+        "AUG 60-Round Drum Mag",
+        "Recon 1.5/5 Adjustable Scope"
+      ],
+      "note": "Le build le plus sûr du mode extraction. Stabilité et portée avant tout."
+    },
+    {
+      "id": "aug-warfare",
+      "arme": "AUG",
+      "mode": "Warfare",
+      "role": "Tenue de ligne",
+      "tier": "S",
+      "code": "AUG Assault Rifle-Warfare-6HLOB6009MFFCME3G7LT2"
+    },
+    {
+      "id": "awm-ops",
+      "arme": "AWM",
+      "mode": "Operations",
+      "role": "Sniper longue portée",
+      "tier": "S",
+      "code": "AWM Sniper Rifle-Operations-6I01TBC0FSH6GRF76DG60",
+      "accessoires": [
+        "AWM Skyline Long Barrel",
+        "Resonant Sniper Rifle Suppressor",
+        "Optical Sniper 8x Scope",
+        "AWM M-Lok Kit"
+      ],
+      "note": "Avec les munitions rouges : one-tap torse jusqu'à 30 m."
+    },
+    {
+      "id": "awm-warfare",
+      "arme": "AWM",
+      "mode": "Warfare",
+      "role": "Sniper",
+      "tier": "S",
+      "code": "AWM Sniper Rifle-Warfare-6HLOCT009MFFCME3G7LT2"
+    },
+    {
+      "id": "smg45-warfare",
+      "arme": "SMG-45",
+      "mode": "Warfare",
+      "role": "CQB",
+      "tier": "S",
+      "code": "SMG-45 Submachine Gun-Warfare-6HLOBLC09MFFCME3G7LT2",
+      "accessoires": [
+        "SMG-45 Fission Long Barrel",
+        "Secret Order Bevel Foregrip",
+        "AR Heavy Tower Grip"
+      ]
+    },
+    {
+      "id": "m4a1-ops",
+      "arme": "M4A1",
+      "mode": "Operations",
+      "role": "Polyvalent / anti-boss",
+      "tier": "A",
+      "code": "M4A1 Assault Rifle-Operations-6FINC4G0CQTV1IBVCBQVT",
+      "note": "Build de référence pour le DPS sur Warden Ghroth."
+    },
+    {
+      "id": "m4a1-warfare",
+      "arme": "M4A1",
+      "mode": "Warfare",
+      "role": "Polyvalent",
+      "tier": "S",
+      "code": "M4A1 Assault Rifle-Warfare-6HLOBES09MFFCME3G7LT2",
+      "accessoires": [
+        "Recon 1.5/5 Adjustable Scope",
+        "Resonant Ergonomic Grip",
+        "Sandstorm Vertical Compensator",
+        "UR Spec Ops Tactical Stock"
+      ]
+    },
+    {
+      "id": "an94-ops",
+      "arme": "AN-94",
+      "mode": "Operations",
+      "role": "Burst haute cadence",
+      "badge": "NOUVEAU S12",
+      "code": "AN-94 Assault Rifle-Operations (Extraction Mode)-6LTCFRC05E7GMC01NIUGE",
+      "cout": "≈ 255 498 Tekniq Alloy",
+      "note": "Les deux premières balles partent à 1800 RPM : privilégier les rafales courtes."
+    },
+    {
+      "id": "an94-warfare",
+      "arme": "AN-94",
+      "mode": "Warfare",
+      "role": "Assaut",
+      "badge": "NOUVEAU S12",
+      "code": "AN-94 Assault Rifle-Warfare-6LTC9JG05E7GMC01NIUGE"
+    },
+    {
+      "id": "an94-mouvement",
+      "arme": "AN-94",
+      "mode": "Warfare",
+      "role": "Mobilité",
+      "badge": "NOUVEAU S12",
+      "code": "AN-94 Assault Rifle-Warfare-6LUNO6001NFLCIOJPMIHI",
+      "source": "deltaforcebuilds.com, 16/11/2026"
+    },
+    {
+      "id": "an94-cqb",
+      "arme": "AN-94",
+      "mode": "Warfare",
+      "role": "CQB / moyenne portée",
+      "badge": "NOUVEAU S12",
+      "code": "AN-94 Assault Rifle-Warfare-6LUNA3O073PLAH3U4N65D",
+      "source": "deltaforcebuilds.com, 16/11/2026"
+    },
+    {
+      "id": "an94-norecoil",
+      "arme": "AN-94",
+      "mode": "Warfare",
+      "role": "Full auto recul faible",
+      "badge": "NOUVEAU S12",
+      "code": "AN-94 Assault Rifle-Warfare-6LU1VIS0CRBT6ULJ1UNAD",
+      "source": "deltaforcebuilds.com, 15/11/2026"
+    },
+    {
+      "id": "ci19-ops",
+      "arme": "CI-19",
+      "mode": "Operations",
+      "role": "Polyvalent",
+      "code": "CI-19 Assault Rifle-Operations-6FIN5OG0CQTV1IBVCBQVT"
+    },
+    {
+      "id": "ci19-warfare",
+      "arme": "CI-19",
+      "mode": "Warfare",
+      "role": "Tenue de ligne",
+      "tier": "S",
+      "code": "CI-19 Assault Rifle-Warfare-6HLOANO09MFFCME3G7LT2",
+      "note": "Combo classique : chargeur tambour 60 coups + Luna, efficace jusqu'à 55 m."
+    },
+    {
+      "id": "k416-warfare",
+      "arme": "K416",
+      "mode": "Warfare",
+      "role": "Assaut",
+      "code": "K416 Assault Rifle-Warfare-6HLOB8G09MFFCME3G7LT2"
+    },
+    {
+      "id": "k416-lowrecoil",
+      "arme": "K416",
+      "mode": "Warfare",
+      "role": "Recul faible 30 m+",
+      "code": "K416 Assault Rifle-Warfare-6LUFIMC03CD3AKN5DP4OI",
+      "source": "communauté, 15/11/2026"
+    },
+    {
+      "id": "m250-ops",
+      "arme": "M250",
+      "mode": "Operations",
+      "role": "Suppression",
+      "code": "M250 General Machine Gun-Operations-6FIAPV406L5PA4U76HE30"
+    },
+    {
+      "id": "m250-warfare",
+      "arme": "M250",
+      "mode": "Warfare",
+      "role": "Suppression",
+      "code": "M250 General Machine Gun-Warfare-6HLOC9809MFFCME3G7LT2"
+    },
+    {
+      "id": "pkm-warfare",
+      "arme": "PKM",
+      "mode": "Warfare",
+      "role": "Suppression",
+      "code": "PKM General Machine Gun-Warfare-6LUPD1G0637L6FN3DT06F",
+      "source": "deltaforcebuilds.com, 16/11/2026"
+    },
+    {
+      "id": "sr3m-ops",
+      "arme": "SR-3M",
+      "mode": "Operations",
+      "role": "CQB compact",
+      "code": "SR-3M Compact Assault Rifle-Operations-6I5KMSC00RR8JACO27GDL"
+    },
+    {
+      "id": "sr3m-warfare",
+      "arme": "SR-3M",
+      "mode": "Warfare",
+      "role": "CQB compact",
+      "code": "SR-3M Compact Assault Rifle-Warfare-6HLOBK009MFFCME3G7LT2"
+    },
+    {
+      "id": "asval-ops",
+      "arme": "AS Val",
+      "mode": "Operations",
+      "role": "CQC silencieux",
+      "code": "AS Val Assault Rifle-Operations-6K5TDKO073PJM0S450OEV"
+    },
+    {
+      "id": "asval-ops2",
+      "arme": "AS Val",
+      "mode": "Operations",
+      "role": "CQC silencieux (variante)",
+      "code": "AS Val Assault Rifle-Operations-6FIN6LS0CQTV1IBVCBQVT"
+    },
+    {
+      "id": "asval-warfare",
+      "arme": "AS Val",
+      "mode": "Warfare",
+      "role": "CQC silencieux",
+      "code": "AS Val Assault Rifle-Warfare-6F5I6D009B793ILS11ON5"
+    },
+    {
+      "id": "mk47-ops",
+      "arme": "MK47",
+      "mode": "Operations",
+      "role": "Dégâts bruts",
+      "code": "MK47 Assault Rifle-Operations-6I0476C0FSH6GRF76DG60",
+      "note": "En configuration chargeur 5 coups : mise à terre mesurée en 0,5–0,8 s sous 45 m."
+    },
+    {
+      "id": "m14-ops",
+      "arme": "M14",
+      "mode": "Operations",
+      "role": "Marksman haute cadence",
+      "code": "M14 Marksman Rifle-Operations-6HSGI580FSH6GRF76DG60"
+    },
+    {
+      "id": "sr25-ops",
+      "arme": "SR-25",
+      "mode": "Operations",
+      "role": "Marksman 140 m",
+      "code": "SR-25 Marksman Rifle-Operations-6K5TJV4073PJM0S450OEV"
+    },
+    {
+      "id": "mp7-ops",
+      "arme": "MP7",
+      "mode": "Operations",
+      "role": "CQB 950 RPM",
+      "code": "MP7 Submachine Gun-Operations-6HSGGQG0FSH6GRF76DG60",
+      "note": "TTK mesuré à 252 ms."
+    },
+    {
+      "id": "mp7-ops2",
+      "arme": "MP7",
+      "mode": "Operations",
+      "role": "CQB (variante)",
+      "code": "MP7 Submachine Gun-Operations-6H4ST1O088K38R05C0LGG"
+    },
+    {
+      "id": "kc17-ops",
+      "arme": "KC-17",
+      "mode": "Operations",
+      "role": "Casse-armure",
+      "code": "KC-17 Assault Rifle-Operations-6JGIO4C073PLKDGT2OU3K"
+    },
+    {
+      "id": "kc17-ops2",
+      "arme": "KC-17",
+      "mode": "Operations",
+      "role": "Casse-armure (variante)",
+      "code": "KC17 Assault Rifle-Operations-6H6FRPK088K38R05C0LGG"
+    },
+    {
+      "id": "ak12-ops",
+      "arme": "AK-12",
+      "mode": "Operations",
+      "role": "Assaut",
+      "code": "AK-12 Assault Rifle-Operations-6H6RUOC088K38R05C0LGG"
+    },
+    {
+      "id": "m7-ops",
+      "arme": "M7",
+      "mode": "Operations",
+      "role": "Battle rifle polyvalent",
+      "code": "M7 Battle Rifle-Operations-6K5T3F0073PJM0S450OEV"
+    },
+    {
+      "id": "m7-ops2",
+      "arme": "M7",
+      "mode": "Operations",
+      "role": "Battle rifle (variante)",
+      "code": "M7 Battle Rifle-Operations-6H5HR10088K38R05C0LGG"
+    },
+    {
+      "id": "p90-ops",
+      "arme": "P90",
+      "mode": "Operations",
+      "role": "CQB",
+      "code": "P90 Submachine Gun-Operations-6FAN6QS085L6V8LSU2DTN"
+    },
+    {
+      "id": "uzi-ops",
+      "arme": "UZI",
+      "mode": "Operations",
+      "role": "CQB budget",
+      "code": "UZI Submachine Gun-Operations-6H5HBOK088K38R05C0LGG"
+    },
+    {
+      "id": "g18-ops",
+      "arme": "G18",
+      "mode": "Operations",
+      "role": "Secondaire",
+      "code": "G18 Pistol-Operations-6H6RUQC088K38R05C0LGG"
+    },
+    {
+      "id": "mk4-warfare",
+      "arme": "MK4",
+      "mode": "Warfare",
+      "role": "SMG",
+      "code": "MK4 Submachine Gun-Warfare-6ID37M409MFFCME3G7LT2"
+    },
+    {
+      "id": "r93-warfare",
+      "arme": "R93",
+      "mode": "Warfare",
+      "role": "Sniper",
+      "code": "R93 Sniper Rifle-Warfare-6HLOD7809MFFCME3G7LT2"
+    },
+    {
+      "id": "mcxlt-warfare",
+      "arme": "MCX LT",
+      "mode": "Warfare",
+      "role": "Assaut",
+      "code": "MCX LT Assault Rifle-Warfare-6LUDKL80637L6FN3DT06F",
+      "source": "communauté, 15/11/2026"
+    },
+    {
+      "id": "k437-warfare-nov",
+      "arme": "K437",
+      "mode": "Warfare",
+      "role": "Assaut CQB",
+      "tier": "S",
+      "code": "K437-Sturmgewehr-Krieg-6LVE9IK073PHO3H8236UP",
+      "accessoires": [],
+      "note": "Recul étonnamment bas, conçu pour le combat rapproché. (publié le 18/11/2026)"
+    },
+    {
+      "id": "akm-warfare-nov",
+      "arme": "AKM",
+      "mode": "Warfare",
+      "role": "Contrôle de recul",
+      "tier": "A",
+      "code": "AKM Assault Rifle-Warfare-6LUT10K073PMUP0A7O4PN",
+      "accessoires": [],
+      "note": "Build de grind d'éliminations. Attention : l'AKM a été nerfé en Operations (seuils 30/45 m). (publié le 17/11/2026)"
+    },
+    {
+      "id": "qbz-warfare-norecoil",
+      "arme": "QBZ95-1",
+      "mode": "Warfare",
+      "role": "Recul nul",
+      "tier": "A",
+      "code": "QBZ95-1 Assault Rifle-Warfare-6LUBEVS09BMR72BGS9IS8",
+      "accessoires": [],
+      "note": "Build « zéro recul » de la Saison 12. (publié le 15/11/2026)"
+    },
+    {
+      "id": "ci19-ops-long",
+      "arme": "CI-19",
+      "mode": "Operations",
+      "role": "Longue portée",
+      "tier": "S",
+      "code": "6FIN5OG0CQTV1IBVCBQVT",
+      "accessoires": [],
+      "note": "Meilleur multiplicateur de tir à la tête du jeu. Build méta complet autour de 400–450 K. (publié le 17/11/2026)"
+    },
+    {
+      "id": "mp7-ops",
+      "arme": "MP7",
+      "mode": "Operations",
+      "role": "Rapproché équilibré",
+      "tier": "A",
+      "code": "6H4ST1O088K38R05C0LGG",
+      "accessoires": [],
+      "note": "Polyvalent en intérieur, coût modéré. (publié le 17/11/2026)"
+    },
+    {
+      "id": "sr3m-ops-silence",
+      "arme": "SR-3M",
+      "mode": "Operations",
+      "role": "Furtif solo",
+      "tier": "S",
+      "code": "6FFVV9O02IUUSDGSUS7DN",
+      "accessoires": [],
+      "note": "Configuration silencieuse en rafale : réduit fortement la signature sonore pour le jeu en solitaire. (publié le 17/11/2026)"
+    },
+    {
+      "id": "an94-warfare-zg",
+      "arme": "AN-94",
+      "mode": "Warfare",
+      "role": "Fusil d'assaut polyvalent",
+      "tier": "A",
+      "code": "—",
+      "accessoires": "Canon Quick_Release Short · Compensateur vertical Sandstorm · Poignée angulaire X25U · Garde-main DD Python",
+      "note": "Build communautaire relevé le 14/11/2026. Exploite la rafale initiale à 1800 coups/minute : le compensateur vertical est là pour que les deux premières balles partent au même endroit. Code d'import non publié par la source."
+    },
+    {
+      "id": "an94-ops-zg",
+      "arme": "AN-94",
+      "mode": "Operations",
+      "role": "Fusil d'assaut polyvalent",
+      "tier": "A",
+      "code": "—",
+      "accessoires": "Poignée AR Heavy Tower · Base de poignée équilibrée · Crosse Cardinal Stable",
+      "note": "Variante Operations du même relevé, orientée tenue de gerbe plutôt que vitesse de visée. Rappel : les accessoires n'ont PAS les mêmes valeurs en Operations et en Warfare — ne transposez pas le build Warfare."
+    }
+  ],
+  "loadouts_types": [
+    {
+      "nom": "Budget Brakkesh Extract",
+      "cout": "Faible",
+      "contenu": [
+        "Casque DICH violet endommagé (+50% portée auditive)",
+        "Gilet violet",
+        "SMG bon marché à cadence élevée",
+        "Munitions violettes (niveau 4)",
+        "Opérateur : Hackclaw"
+      ],
+      "objectif": "Sortir en vie avec du loot plutôt que gagner des duels. Foncer vers Babel, extraire par la dog tag extraction."
+    },
+    {
+      "nom": "Faction Run Brakkesh",
+      "cout": "Minimal",
+      "contenu": [
+        "Chest rig bleu",
+        "Casque bleu",
+        "Sac bleu",
+        "Pistolet uniquement",
+        "Objet de mission dans la Safe Box"
+      ],
+      "objectif": "Monter le Faction Badge sans rien risquer. La Safe Box survit à la mort."
+    },
+    {
+      "nom": "Boss Hunt Tide Prison",
+      "cout": "Élevé",
+      "contenu": [
+        "M4A1 (DPS)",
+        "ASh-12 (casse-armure, Ops Lv.40+)",
+        "S12K (phase rapprochée)",
+        "Munitions niveau 5",
+        "Kits de réparation d'armure",
+        "Soins en quantité"
+      ],
+      "objectif": "Abattre Warden Ghroth et extraire la Ghroth Judgement Card... qui n'est PAS extractible : l'utiliser en match."
+    },
+    {
+      "nom": "AZ3 Elite Run",
+      "cout": "Très élevé",
+      "contenu": [
+        "Entrée 112 500 Alloys",
+        "Decontamination Chamber améliorée",
+        "Munitions niveau 5",
+        "Armure niveau 5+"
+      ],
+      "objectif": "Rentabiliser le ticket d'entrée : viser les salles à forte valeur, extraire tôt."
+    }
+  ]
+}

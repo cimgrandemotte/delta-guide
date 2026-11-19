@@ -1,0 +1,614 @@
+{
+  "_meta": {
+    "fichier": "ammo.json",
+    "derniere_maj": "2026-11-19",
+    "sources": [
+      "https://games.gg/delta-force/guides/delta-force-ammo-guide-300blk-tiv-cinder-and-more/",
+      "https://www.topuplive.com/news/delta-force-ammo-chart-guide.html",
+      "https://dontlag.com/articles/delta-force-best-weapons"
+    ],
+    "avertissement": "Le jeu raisonne en NIVEAUX DE PÉNÉTRATION (1 à 6) par munition, et en NIVEAUX D'ARMURE (1 à 6) par casque/gilet. La règle de couleur T1→T6 est une convention communautaire pratique, pas un libellé officiel unique."
+  },
+  "regles_fondamentales": [
+    "Tirer une munition de niveau ÉGAL à l'armure cible : les dégâts se répartissent entre l'armure et la santé.",
+    "Tirer une munition de niveau INFÉRIEUR à l'armure cible : seule l'armure encaisse, aucun dégât de santé jusqu'à sa rupture.",
+    "Les munitions dorées (niveau 5) pénètrent les armures de niveau 1 à 5 mais PAS le niveau 6.",
+    "Exemple officiel : une 5.56 inflige 34 à la santé et 48 à la durabilité d'armure ; un gilet niveau 1 divise par deux les dégâts de santé, et contre un gilet niveau 3 les dégâts d'armure tombent à 19.2.",
+    "Conseil communautaire récurrent : en-dessous de T3 (armure ET munition), l'équipement n'a pratiquement aucune valeur en PvP.",
+    "Toujours emporter des kits de réparation pour les armures T4 et supérieures.",
+    "NOUVEAU S12 : une balle peut désormais traverser plusieurs ennemis (pénétration multi-cibles)."
+  ],
+  "convention_couleurs": [
+    {
+      "tier": "T1",
+      "couleur": "#808080",
+      "libelle": "Gris — standard",
+      "usage": "Raids budget, PvE léger"
+    },
+    {
+      "tier": "T2",
+      "couleur": "#4CAF50",
+      "libelle": "Vert",
+      "usage": "Armures de bas niveau"
+    },
+    {
+      "tier": "T3",
+      "couleur": "#2196F3",
+      "libelle": "Bleu",
+      "usage": "Polyvalent — le vrai plancher PvP"
+    },
+    {
+      "tier": "T4",
+      "couleur": "#9C27B0",
+      "libelle": "Violet",
+      "usage": "Armures moyennes à hautes"
+    },
+    {
+      "tier": "T5",
+      "couleur": "#FFD700",
+      "libelle": "Or",
+      "usage": "Armures hautes — ne perce pas le niveau 6"
+    },
+    {
+      "tier": "T6",
+      "couleur": "#FF4444",
+      "libelle": "Rouge",
+      "usage": "Pénétration maximale"
+    }
+  ],
+  "calibres": [
+    {
+      "calibre": "5.56x45mm",
+      "munitions": [
+        {
+          "nom": "RRLP",
+          "penetration": 1,
+          "prix_par_balle": "0 – 100",
+          "usage": "Raids budget"
+        },
+        {
+          "nom": "M855",
+          "penetration": 3,
+          "prix_par_balle": "300 – 500",
+          "usage": "Combat polyvalent"
+        },
+        {
+          "nom": "M855A1",
+          "penetration": 4,
+          "prix_par_balle": "1 500 – 2 000",
+          "usage": "Armures élevées"
+        },
+        {
+          "nom": "M995",
+          "penetration": 5,
+          "prix_par_balle": "4 500 – 5 000",
+          "usage": "Armures très élevées"
+        },
+        {
+          "nom": "CINDER",
+          "penetration": 4,
+          "prix_par_balle": "—",
+          "usage": "Incendiaire — NOUVEAU S12",
+          "nouveau_s12": true,
+          "effet": "Applique une brûlure sur impact. Augmente le recul de l'arme.",
+          "mult_degats": "1x",
+          "mult_penetration": "1x"
+        }
+      ]
+    },
+    {
+      "calibre": "7.62x39mm",
+      "munitions": [
+        {
+          "nom": "LP",
+          "penetration": 1,
+          "prix_par_balle": "0 – 100",
+          "usage": "Raids budget"
+        },
+        {
+          "nom": "T45M",
+          "penetration": 2,
+          "prix_par_balle": "100 – 200",
+          "usage": "Armures basses"
+        },
+        {
+          "nom": "PS",
+          "penetration": 3,
+          "prix_par_balle": "300 – 500",
+          "usage": "Combat polyvalent"
+        },
+        {
+          "nom": "BP",
+          "penetration": 4,
+          "prix_par_balle": "1 500 – 2 000",
+          "usage": "Armures moyennes/hautes"
+        },
+        {
+          "nom": "AP",
+          "penetration": 5,
+          "prix_par_balle": "4 500 – 5 000",
+          "usage": "Armures hautes"
+        }
+      ]
+    },
+    {
+      "calibre": "5.45x39mm",
+      "note": "Calibre de l'AN-94 (nouveauté S12).",
+      "munitions": [
+        {
+          "nom": "PRS",
+          "penetration": 1,
+          "prix_par_balle": "0 – 100",
+          "usage": "Raids budget"
+        },
+        {
+          "nom": "T",
+          "penetration": 2,
+          "prix_par_balle": "0 – 100",
+          "usage": "Armures basses"
+        },
+        {
+          "nom": "PS",
+          "penetration": 3,
+          "prix_par_balle": "300 – 500",
+          "usage": "Combat polyvalent"
+        },
+        {
+          "nom": "BT",
+          "penetration": 4,
+          "prix_par_balle": "1 500 – 2 000",
+          "usage": "Armures moyennes/hautes"
+        },
+        {
+          "nom": "BS",
+          "penetration": 5,
+          "prix_par_balle": "4 500 – 5 000",
+          "usage": "Armures hautes"
+        },
+        {
+          "nom": "SPALL",
+          "penetration": 4,
+          "prix_par_balle": "—",
+          "usage": "Perforante anti-réparation — NOUVEAU S12",
+          "nouveau_s12": true,
+          "effet": "Les impacts ralentissent temporairement la réparation des casques et gilets.",
+          "mult_degats": "1x",
+          "mult_penetration": "1x"
+        }
+      ]
+    },
+    {
+      "calibre": "7.62x51mm",
+      "munitions": [
+        {
+          "nom": "M80",
+          "penetration": 4,
+          "prix_par_balle": "1 000 – 1 500",
+          "usage": "Armures moyennes"
+        },
+        {
+          "nom": "M62",
+          "penetration": 5,
+          "prix_par_balle": "5 500 – 6 000",
+          "usage": "Armures hautes"
+        }
+      ]
+    },
+    {
+      "calibre": "6.8x51mm",
+      "munitions": [
+        {
+          "nom": "PLY-I",
+          "penetration": 3,
+          "prix_par_balle": "500 – 600",
+          "usage": "Combat économique"
+        },
+        {
+          "nom": "FMJ",
+          "penetration": 4,
+          "prix_par_balle": "1 500 – 2 000",
+          "usage": "Armures moyennes"
+        },
+        {
+          "nom": "PLY-II",
+          "penetration": 4,
+          "prix_par_balle": "1 500 – 2 000",
+          "usage": "Armures moyennes"
+        },
+        {
+          "nom": "Hybrid",
+          "penetration": 5,
+          "prix_par_balle": "5 000 – 5 500",
+          "usage": "Armures hautes"
+        },
+        {
+          "nom": "PLY-III",
+          "penetration": 5,
+          "prix_par_balle": "5 000 – 5 500",
+          "usage": "Armures hautes"
+        }
+      ]
+    },
+    {
+      "calibre": ".300 BLK",
+      "note": "Les deux munitions détonantes de la saison Aurora.",
+      "munitions": [
+        {
+          "nom": ".300BLK TIV",
+          "penetration": 4,
+          "nouveau_s12": true,
+          "type": "Détonante",
+          "mult_degats": "0.95x",
+          "mult_penetration": "1x",
+          "rayon_explosion": "4 m",
+          "effet": "Micro-explosifs intégrés : plusieurs impacts dans une fenêtre de 3 secondes déclenchent une détonation de 4 m de rayon. N'explose PAS à chaque impact."
+        },
+        {
+          "nom": ".300BLK TTV",
+          "penetration": 5,
+          "nouveau_s12": true,
+          "type": "Détonante",
+          "mult_degats": "0.95x",
+          "mult_penetration": "1x",
+          "rayon_explosion": "4 m",
+          "effet": "Identique à TIV mais niveau de pénétration 5. Même mécanique d'explosion, même fenêtre de 3 s, même rayon."
+        }
+      ]
+    },
+    {
+      "calibre": "9x19mm",
+      "munitions": [
+        {
+          "nom": "7N30",
+          "penetration": 5,
+          "nouveau_s12": true,
+          "type": "Perforante",
+          "mult_degats": "0.9x",
+          "mult_penetration": "0.85x",
+          "effet": "Poudre de moindre qualité pour un coût réduit : niveau 5 de pénétration MAIS -10% de dégâts, -15% de multiplicateur de pénétration d'armure et recul augmenté. Ce n'est PAS une amélioration gratuite."
+        }
+      ]
+    }
+  ],
+  "nouveautes_s12_resume": [
+    {
+      "munition": ".300BLK TIV",
+      "type": "Détonante",
+      "niveau": 4,
+      "mult_degats": "0.95x",
+      "mult_pen": "1x"
+    },
+    {
+      "munition": ".300BLK TTV",
+      "type": "Détonante",
+      "niveau": 5,
+      "mult_degats": "0.95x",
+      "mult_pen": "1x"
+    },
+    {
+      "munition": "5.56x45mm CINDER",
+      "type": "Incendiaire",
+      "niveau": 4,
+      "mult_degats": "1x",
+      "mult_pen": "1x"
+    },
+    {
+      "munition": "9x19mm 7N30",
+      "type": "Perforante",
+      "niveau": 5,
+      "mult_degats": "0.9x",
+      "mult_pen": "0.85x"
+    },
+    {
+      "munition": "5.45mm SPALL",
+      "type": "Perforante anti-réparation",
+      "niveau": 4,
+      "mult_degats": "1x",
+      "mult_pen": "1x"
+    }
+  ],
+  "armures": {
+    "niveaux": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "types": [
+      "Casque (Helmet)",
+      "Gilet pare-balles (Vest)"
+    ],
+    "regles": [
+      "Chaque pièce a un niveau (1 à 6) et une durabilité courante.",
+      "La durabilité se dégrade à chaque impact ; une armure endommagée protège moins.",
+      "S12 : la durabilité de casque et gilet peut être pré-réglée et sauvegardée dans un loadout.",
+      "Réparer au Black Site plutôt que sur le terrain : les installations améliorées préservent davantage la durabilité maximale permanente.",
+      "Le casque violet DICH offre environ +50% de portée auditive — un des meilleurs rapports qualité/prix du jeu."
+    ]
+  },
+  "matrice_penetration": {
+    "titre": "Taux de pénétration — niveau de munition contre niveau d'armure",
+    "lecture": "Le pourcentage indique la part des dégâts qui traverse l'armure. 100 % ne veut pas dire « dégâts doublés » : cela veut dire que l'armure n'absorbe plus rien. En dessous de 50 %, l'échange devient défavorable.",
+    "niveaux_armure": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "lignes": [
+      {
+        "munition": 1,
+        "taux": [
+          50,
+          25,
+          10,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "munition": 2,
+        "taux": [
+          75,
+          50,
+          25,
+          10,
+          5,
+          5
+        ]
+      },
+      {
+        "munition": 3,
+        "taux": [
+          90,
+          75,
+          50,
+          25,
+          10,
+          5
+        ]
+      },
+      {
+        "munition": 4,
+        "taux": [
+          100,
+          90,
+          75,
+          50,
+          25,
+          10
+        ]
+      },
+      {
+        "munition": 5,
+        "taux": [
+          100,
+          100,
+          90,
+          75,
+          50,
+          25
+        ]
+      },
+      {
+        "munition": 6,
+        "taux": [
+          100,
+          100,
+          100,
+          90,
+          75,
+          50
+        ]
+      }
+    ],
+    "nuance_niveau_6": "Précision importante : l'armure de niveau 6 bloque intégralement tout ce qui est sous le niveau 6 et bloque partiellement la munition de niveau 6. La munition dorée (niveau 5) conserve tout de même 25 % de pénétration contre une armure 6 — ce n'est pas zéro, mais c'est un duel à éviter.",
+    "exemple_chiffre": "Exemple officiel : une 5.56 inflige 34 en santé et 48 en durabilité d'armure. Contre un gilet de niveau 1, les dégâts de santé sont divisés par deux. Contre un gilet de niveau 3, les dégâts d'armure tombent à 19,2."
+  },
+  "prix_par_calibre": [
+    {
+      "calibre": "5.56×45mm",
+      "munitions": [
+        {
+          "nom": "RRLP",
+          "niveau": 1,
+          "prix": "0 – 100",
+          "usage": "Raids économiques"
+        },
+        {
+          "nom": "FMJ",
+          "niveau": 2,
+          "prix": "0 – 100",
+          "usage": "Combat à bas coût"
+        },
+        {
+          "nom": "M855",
+          "niveau": 3,
+          "prix": "300 – 500",
+          "usage": "Polyvalent"
+        },
+        {
+          "nom": "M855A1",
+          "niveau": 4,
+          "prix": "1 500 – 2 000",
+          "usage": "Armures élevées"
+        },
+        {
+          "nom": "M995",
+          "niveau": 5,
+          "prix": "4 500 – 5 000",
+          "usage": "Armures haut de gamme"
+        }
+      ]
+    },
+    {
+      "calibre": "7.62×39mm",
+      "munitions": [
+        {
+          "nom": "LP",
+          "niveau": 1,
+          "prix": "0 – 100",
+          "usage": "Raids économiques"
+        },
+        {
+          "nom": "T45M",
+          "niveau": 2,
+          "prix": "100 – 200",
+          "usage": "Armures basses"
+        },
+        {
+          "nom": "PS",
+          "niveau": 3,
+          "prix": "300 – 500",
+          "usage": "Polyvalent"
+        },
+        {
+          "nom": "BP",
+          "niveau": 4,
+          "prix": "1 500 – 2 000",
+          "usage": "Armures moyennes à hautes"
+        },
+        {
+          "nom": "AP",
+          "niveau": 5,
+          "prix": "4 500 – 5 000",
+          "usage": "Armures haut de gamme"
+        }
+      ]
+    },
+    {
+      "calibre": "5.45×39mm",
+      "munitions": [
+        {
+          "nom": "PRS",
+          "niveau": 1,
+          "prix": "0 – 100",
+          "usage": "Raids économiques"
+        },
+        {
+          "nom": "T",
+          "niveau": 2,
+          "prix": "0 – 100",
+          "usage": "Armures basses"
+        },
+        {
+          "nom": "PS",
+          "niveau": 3,
+          "prix": "300 – 500",
+          "usage": "Polyvalent"
+        },
+        {
+          "nom": "BT",
+          "niveau": 4,
+          "prix": "1 500 – 2 000",
+          "usage": "Armures moyennes à hautes"
+        },
+        {
+          "nom": "BS",
+          "niveau": 5,
+          "prix": "4 500 – 5 000",
+          "usage": "Armures haut de gamme"
+        }
+      ]
+    },
+    {
+      "calibre": "6.8×51mm",
+      "munitions": [
+        {
+          "nom": "PLY-I",
+          "niveau": 3,
+          "prix": "500 – 600",
+          "usage": "Combat économique"
+        },
+        {
+          "nom": "FMJ",
+          "niveau": 4,
+          "prix": "1 500 – 2 000",
+          "usage": "Armures moyennes"
+        },
+        {
+          "nom": "PLY-II",
+          "niveau": 4,
+          "prix": "1 500 – 2 000",
+          "usage": "Armures moyennes"
+        },
+        {
+          "nom": "Hybrid",
+          "niveau": 5,
+          "prix": "5 000 – 5 500",
+          "usage": "Armures haut de gamme"
+        },
+        {
+          "nom": "PLY-III",
+          "niveau": 5,
+          "prix": "5 000 – 5 500",
+          "usage": "Armures haut de gamme"
+        }
+      ]
+    }
+  ],
+  "munitions_s12": {
+    "titre": "Les cinq munitions ajoutées par Aurora",
+    "source": "Notes de version officielles S12 du 10/11/2026 — valeurs publiées par Team Jade.",
+    "principe": "Aucune de ces cinq munitions n'est un simple palier au-dessus de l'existant. Chacune échange quelque chose contre son effet : du recul, des dégâts, ou une condition de déclenchement. Lisez toujours le niveau de pénétration ET le multiplicateur séparément — ce sont deux statistiques distinctes.",
+    "lignes": [
+      {
+        "nom": ".300BLK TIV",
+        "type": "Détonante",
+        "pen": "Niveau 4",
+        "deg": "0,95×",
+        "ap": "1×",
+        "accent": "orange",
+        "effet": "Micro-charge intégrée. Plusieurs impacts en moins de 3 secondes déclenchent une explosion de 4 mètres de rayon.",
+        "verdict": "Récompense le tir soutenu et précis, pas le coup isolé. Redoutable contre un groupe serré."
+      },
+      {
+        "nom": ".300BLK TTV",
+        "type": "Détonante",
+        "pen": "Niveau 5",
+        "deg": "0,95×",
+        "ap": "1×",
+        "accent": "red",
+        "effet": "Identique à la TIV : explosion de 4 mètres après impacts consécutifs en moins de 3 secondes.",
+        "verdict": "La seule différence publiée avec la TIV est le palier de pénétration. Tout le reste est identique."
+      },
+      {
+        "nom": "5.56×45mm CINDER",
+        "type": "Incendiaire",
+        "pen": "Niveau 4",
+        "deg": "1×",
+        "ap": "1×",
+        "accent": "orange",
+        "effet": "Composé incendiaire au zirconium qui s'auto-enflamme à l'impact et inflige des dégâts sur plusieurs secondes. Augmente le recul.",
+        "verdict": "Les dégâts continus dissuadent de se replier pour se soigner. Le recul supplémentaire se paie en tir soutenu."
+      },
+      {
+        "nom": "9×19mm 7N30",
+        "type": "Perforante",
+        "pen": "Niveau 5",
+        "deg": "0,9×",
+        "ap": "0,85×",
+        "accent": "blue",
+        "effet": "Poudre de qualité inférieure : bon marché mais augmente le recul tant qu'elle est chargée.",
+        "verdict": "Du niveau 5 abordable pour PM et pistolets. Ce n'est pas une montée en gamme gratuite : −10 % de dégâts, −15 % de pénétration et plus de recul."
+      },
+      {
+        "nom": "5.45mm SPALL",
+        "type": "Perforante",
+        "pen": "Niveau 4",
+        "deg": "1×",
+        "ap": "1×",
+        "accent": "green",
+        "effet": "Un impact allonge temporairement la durée de réparation du casque et du gilet de la cible.",
+        "verdict": "La plus tactique des cinq. Elle punit le réflexe le plus répandu du jeu : rompre le contact pour réparer son armure en plein échange."
+      }
+    ],
+    "note_calibre": "La SPALL partage le calibre de l'AN-94 et de la famille AK-74 — c'est l'association naturelle de cette saison.",
+    "mecanique_nouvelle": "Aurora introduit aussi une mécanique de pénétration permettant à une seule balle de traverser plusieurs cibles."
+  }
+}

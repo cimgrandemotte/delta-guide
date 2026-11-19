@@ -1,0 +1,237 @@
+{
+  "_meta": {
+    "fichier": "communaute.json",
+    "description": "Savoir communautaire : conseils de joueurs vérifiés, itinéraire faible-PvP et outils tiers légitimes.",
+    "derniere_maj": "2026-11-19",
+    "confiance": "Moyenne à élevée — conseils de terrain issus de r/DeltaForceGlobal, recoupés quand c'était possible",
+    "sources": [
+      "reddit.com/r/DeltaForceGlobal — « I really suck at Operations/Extraction, any tips? »",
+      "mmoexp.com — Season 12 3x3 Safe Box Low-PvP Guide (11/11/2026)",
+      "github.com — dépôts publics d'outils communautaires"
+    ]
+  },
+  "conseils_terrain": [
+    {
+      "titre": "Le casque DICH change la donne audio",
+      "detail": "Le casque DICH (rareté violette) supprime la quasi-totalité du bruit ambiant et augmente d'environ 50 % la portée d'écoute. Entendre une escouade trois pièces avant qu'elle ne vous entende vaut plus que n'importe quelle statistique de protection.",
+      "impact": "Fort"
+    },
+    {
+      "titre": "De bonnes munitions valent mieux qu'une bonne armure",
+      "detail": "Un kit à environ 70 000 avec des munitions de haut niveau reste compétitif face à des kits à 400 000 – 600 000. La pénétration décide de l'échange, pas la classe d'armure que vous portez.",
+      "impact": "Fort"
+    },
+    {
+      "titre": "Ne sortez qu'avec ~18 cartouches violettes",
+      "detail": "Emporter tout son stock de munitions chères, c'est l'offrir au premier joueur qui vous tue. Gardez un chargeur de bonnes munitions sur vous, le reste reste dans la Safe Box.",
+      "impact": "Moyen"
+    },
+    {
+      "titre": "Consommez vos Gear Tickets gratuits",
+      "detail": "Les tickets d'équipement distribués gratuitement permettent de jouer des raids à perte nulle. Les laisser expirer dans l'inventaire est la fuite d'économie la plus courante chez les débutants.",
+      "impact": "Moyen"
+    },
+    {
+      "titre": "Mettre un objet dans la Safe Box ne valide pas une extraction",
+      "detail": "Erreur classique sur les objectifs de mission : seul le fait de sortir vivant de la carte avec l'objet dans l'inventaire principal compte. La Safe Box sécurise la valeur, pas l'objectif.",
+      "impact": "Fort"
+    }
+  ],
+  "itineraire_3x3": {
+    "titre": "Parcours 3x3 Safe Box à faible exposition PvP",
+    "contexte": "Saison 12 — missions Broad Knowledge et Cleaning Work ouvertes le 17/11/2026.",
+    "etapes": [
+      "Phase 1 : viser 300 000 de valeur extraite, pas un ratio d'éliminations.",
+      "Prioriser les collectibles violets : énergie, carburant, renseignement, électronique. Ils remplissent la Safe Box 3x3 sans combat.",
+      "Un contrat de brèche caché se trouve à proximité de Major Sub : environ 20 000 pour un détour de quelques secondes.",
+      "Éviter les zones à forte densité de contrats publics aux huit premières minutes du match."
+    ],
+    "fate_contract": {
+      "nom": "Thrifty",
+      "exigence": "Extraire deux cibles de 3 millions sur deux groupes de cartes DIFFÉRENTS, sans le moindre échec d'extraction entre les deux.",
+      "piege": "Un seul raid raté réinitialise la chaîne. Faire la première cible sur une carte facile, puis changer de groupe de cartes en jouant volontairement bas de gamme."
+    }
+  },
+  "outils_tiers": {
+    "avertissement": "⚠️ Une grande partie des dépôts publics nommés « delta-force » sont des logiciels de triche ou des malwares déguisés (aimbot, ESP, « companion tool » demandant des droits administrateur). Ils entraînent un bannissement matériel et compromettent votre machine. Les projets ci-dessous sont listés parce qu'ils fonctionnent hors du processus du jeu — aucune lecture mémoire, aucune injection.",
+    "legitimes": [
+      {
+        "nom": "BranchworkStudio/delta-force-live",
+        "role": "Suivi de données de match en direct",
+        "nature": "Lecture de données publiques"
+      },
+      {
+        "nom": "siyamhosan/DeltaForceProfitTracker",
+        "role": "Calcul de profit par raid",
+        "nature": "OCR sur captures d'écran — aucune lecture mémoire du jeu"
+      },
+      {
+        "nom": "SSSTTTTTE/delta-force-extraction-leaderboard",
+        "role": "Classement d'extractions communautaire",
+        "nature": "Application web"
+      },
+      {
+        "nom": "coolxitech/deltaforce",
+        "role": "Client d'API non officielle en PHP",
+        "nature": "Requêtes HTTP"
+      },
+      {
+        "nom": "l1n6yun/DeltaForceAPI",
+        "role": "Enveloppe d'API non officielle",
+        "nature": "Requêtes HTTP"
+      },
+      {
+        "nom": "dezmathio/delta-force-map-tracker",
+        "role": "Rotation des cartes en temps réel + codes de portes du jour",
+        "nature": "Page web statique, licence MIT"
+      },
+      {
+        "nom": "TaiGiap/df-loadout-scanner",
+        "role": "Reconnaissance d'arme à l'écran et copie du code de build correspondant",
+        "nature": "OCR Windows uniquement — aucune injection, aucune lecture mémoire"
+      },
+      {
+        "nom": "Zhoyi011/delta-force-core",
+        "role": "Bibliothèque de données (opérateurs, armes, équipement, munitions)",
+        "nature": "Paquet npm TypeScript"
+      },
+      {
+        "nom": "M0ch3n/marku-fps-config-code-library",
+        "role": "Bibliothèque de codes de configuration d'armes",
+        "nature": "JavaScript, fonctionnement local"
+      },
+      {
+        "nom": "metacodexgg-tools/deltaforcetools-discord-bot",
+        "role": "Bot Discord : builds, codes quotidiens, prix de l'hôtel des ventes, cartes",
+        "nature": "Requêtes HTTP"
+      },
+      {
+        "nom": "VsatCS2/Delta-Force-Profit-Tracker",
+        "role": "Suivi de valeur de stock et de profit",
+        "nature": "Python, licence MIT"
+      }
+    ],
+    "endpoint_observe": {
+      "base": "sg-act.playerinfinite.com/api/proxy/logicial/DfTools/*",
+      "statut": "Non officiel, non documenté, susceptible de disparaître sans préavis.",
+      "parametres": [
+        "report_type : 1 = Operations, 2 = Warfare",
+        "result : 1 = extrait / victoire, 2 = échec / défaite, 3 = match nul"
+      ]
+    },
+    "signaux_d_alerte": {
+      "titre": "Comment reconnaître un faux outil en dix secondes",
+      "intro": "Sur les 89 dépôts publics indexés sous l'étiquette « delta-force », une large majorité sont des logiciels de triche ou des maliciels déguisés. Les signaux suivants suffisent presque toujours à trancher.",
+      "signaux": [
+        "Le dépôt réclame des droits d'administrateur. Un outil qui ne fait que lire l'écran n'en a jamais besoin.",
+        "La page explique à l'avance que l'antivirus va le signaler et qualifie cela de « faux positif ». C'est l'aveu le plus fréquent.",
+        "La description contient « full working installer », « all features active » ou « ready to run » sans aucun code source visible.",
+        "Le dépôt ne contient que des fichiers de publication, jamais de sources lisibles.",
+        "Les étiquettes du dépôt mentionnent aimbot, ESP, wallhack, radar, triggerbot ou no-recoil — y compris quand le nom du projet évoque un simple « tracker » ou « companion ».",
+        "Le projet promet de contourner un anti-triche nommément cité."
+      ],
+      "consequence": "Ces logiciels entraînent un bannissement matériel et compromettent la machine. Rappel technique : sur PC, Delta Force exige Secure Boot et TPM 2.0 pour son anti-triche — un outil qui demande de les désactiver est disqualifié d'office.",
+      "exemples_a_eviter": [
+        "delta-force-companion-tool",
+        "delta-force-trainer-tool (plusieurs clones)",
+        "Delta-Force-Cheat",
+        "Delta_Force_DMA_Cheat_AFG",
+        "delta-force-enhchaner",
+        "Delta-Force-Stats-Tracker (ESP et visée déguisés en suivi de statistiques)",
+        "delta-force-tactical-helper",
+        "delta-force-enhancement-suite",
+        "Delta-Menu-Force-Hack"
+      ]
+    },
+    "note_automatisation": "Une autre famille de dépôts automatise des mini-jeux, notamment la pêche. Même lorsqu'ils n'injectent rien et se contentent d'écouter le son, ils jouent à votre place : c'est de l'automatisation, généralement contraire aux conditions d'utilisation. Nous ne les recommandons pas."
+  },
+  "mecaniques_cachees": [
+    {
+      "titre": "Les bruits d'animaux signalent du butin",
+      "detail": "Un couinement de rongeur indique une plaque d'égout contenant du bon butin. Un pépiement d'oiseau indique un nid. Ces emplacements reviennent souvent dans les missions quotidiennes."
+    },
+    {
+      "titre": "Le bouton « récompense » sur un joueur abattu",
+      "detail": "En fouillant un joueur tué, un bouton « récompense » apparaît en haut de son inventaire. S'il avait validé des contrats, vous encaissez sa prime. La plupart des joueurs ne cliquent jamais dessus."
+    },
+    {
+      "titre": "Démonter les armes avant de les laisser",
+      "detail": "Clic droit sur une arme pour décharger les munitions et retirer les accessoires. Les accessoires valent souvent plus que l'arme, et des munitions dorées se cachent régulièrement dans les armes de boss."
+    },
+    {
+      "titre": "Les missions quotidiennes se relancent trois fois",
+      "detail": "Une quotidienne mal adaptée peut être relancée jusqu'à trois fois. Boucler les trois quotidiennes ouvre une caisse à fort potentiel."
+    },
+    {
+      "titre": "Le fumigène du Médecin devient un nuage de soin",
+      "detail": "Tirer dans son propre fumigène avec le pistolet de Médecin le transforme en nuage soignant. Technique de maintien d'extraction très peu utilisée."
+    },
+    {
+      "titre": "La flèche de Luna a un mode rebond",
+      "detail": "Son arc bascule entre flèche à rebond et flèche directe avant de délivrer la charge électrique."
+    },
+    {
+      "titre": "Activer l'escalade automatique",
+      "detail": "Le réglage « auto-mantle » dans les options générales simplifie énormément les parcours verticaux et les énigmes de saut des zones secrètes."
+    },
+    {
+      "titre": "Le stand de tir du Black Site est gratuit",
+      "detail": "Toute arme, tout accessoire et toute munition peuvent y être testés sans frais, y compris la pénétration contre des mannequins portant des armures de niveaux différents."
+    }
+  ],
+  "discipline_extraction": {
+    "titre": "Les règles chiffrées de la sortie",
+    "regles": [
+      "Jamais plus de 90 secondes au même point de butin : au-delà, une escouade a le temps de vous repérer et de vous encercler.",
+      "Les pas portent à environ 30 mètres, les tirs sur toute la carte. Casque obligatoire, musique du jeu coupée.",
+      "Un raid dure environ 25 minutes. À mi-parcours, si le sac est rempli à 60 %, on part.",
+      "Les cinq dernières minutes concentrent environ 70 % des morts en joueur contre joueur.",
+      "Arbre de décision : 300 000 de butin et 8 minutes au compteur ? On extrait. Sinon on continue prudemment.",
+      "Le combat à proximité réinitialise la progression d'extraction : il faut nettoyer la zone avant de lancer le compte à rebours.",
+      "Si une extraction aléatoire s'ouvre (fumée verte), on la prend, même si ce n'était pas le plan."
+    ],
+    "formule_valeur": "Valeur par emplacement = prix de référence ÷ nombre d'emplacements occupés. En dessous de 8 000, l'objet ne mérite pas la place qu'il prend.",
+    "note_munitions": "À partir du niveau 3, une munition occupe un emplacement pour 60 cartouches — le rapport valeur/place devient excellent."
+  },
+  "types_extraction": [
+    {
+      "type": "Permanente",
+      "detail": "Toujours disponible, compte à rebours de 10 à 30 secondes. La plus campée."
+    },
+    {
+      "type": "Conditionnelle",
+      "detail": "Exige d'actionner un interrupteur ou de retirer son équipement."
+    },
+    {
+      "type": "Payante",
+      "detail": "Se règle avec des pièces gagnées en mission."
+    },
+    {
+      "type": "Aléatoire",
+      "detail": "Apparaît en cours de partie et disparaît si personne ne l'utilise."
+    }
+  ],
+  "outils_open_source": {
+    "titre": "Outils communautaires — et comment reconnaître un piège",
+    "avertissement": "Le mot-clé « delta-force » sur GitHub est massivement pollué par des logiciels de triche et des malwares. Les signaux d'alarme sont constants : fichiers aux noms aléatoires, lien « Download » vers un hébergeur externe, mention « Archive passkey », promesses d'ESP / wallhack / aimbot, et un « For educational purposes only » en guise de paratonnerre. N'exécutez jamais ces projets. Au mieux vous perdez votre compte, au pire votre machine.",
+    "legitimes": [
+      {
+        "nom": "DeltaForceProfitTracker",
+        "auteur": "siyamhosan",
+        "licence": "MIT",
+        "quoi": "Suivi de la valeur de votre réserve et de votre profit dans le temps, par capture d'écran et reconnaissance de texte. Aucune lecture mémoire, donc aucun risque de bannissement.",
+        "stack": "React, Tauri (Rust), Bun, PostgreSQL, OCR DocTR",
+        "pourquoi": "C'est l'approche propre : l'outil ne touche jamais au processus du jeu, il lit une image que vous lui donnez."
+      },
+      {
+        "nom": "delta-force-map-tracker",
+        "auteur": "dezmathio",
+        "licence": "MIT",
+        "quoi": "Suivi en temps réel de la rotation des cartes d'Operations, avec les codes de portes quotidiens récupérés via l'API publique officielle et affichés dans votre fuseau horaire.",
+        "stack": "JavaScript, Luxon",
+        "pourquoi": "Il s'appuie sur le point d'accès public officiel plutôt que sur une extraction sauvage."
+      }
+    ],
+    "critere": "Le test en une phrase : si l'outil a besoin de lire la mémoire du jeu ou de s'injecter dans le processus, il vous expose à un bannissement, quel que soit le discours de sa page. S'il se contente d'une capture d'écran, d'un export, ou d'une API publique, il est sans danger."
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "_meta": {
+    "titre": "Départements, réputation et paliers du Black Site",
+    "derniere_maj": "2026-11-19",
+    "saison": "S12 — Aurora",
+    "avertissement": "Les niveaux d'Operations et les matériaux ci-dessous sont compilés à partir de bases communautaires recoupées (wiki Fandom, thedeltahandbook, yekbot, buffbuff, r/DeltaForceGlobal). Ils changent à chaque saison : vérifiez toujours l'écran en jeu avant d'investir.",
+    "sources": [
+      "deltaforce.garena.com — Operations Mode 101 (20/02/2026)",
+      "delta-force.fandom.com — BlackSite (29/07/2026)",
+      "thedeltahandbook.com — Black Site Upgrades",
+      "buffbuff.com — Black Site Upgrade Reference by Department (22/07/2026)",
+      "yekbot.com — Black Site Upgrade Guide",
+      "r/DeltaForceGlobal — Black Site Upgrade Requirements"
+    ]
+  },
+
+  "principe": {
+    "titre": "Le pilier que personne ne monte",
+    "contenu": "Operations repose sur quatre piliers : le Stash, les Départements, le Black Site et le Gunsmith. Les trois premiers sont visibles, le deuxième est invisible — et c'est lui qui débloque les deux autres. Les départements ne sont pas un menu décoratif : ce sont des réputations que vous montez en remplissant des missions, et chaque palier ouvre des articles permanents à la Supply Station ainsi que des améliorations du Black Site autrement inaccessibles.",
+    "boucle": "Missions de département → réputation → articles de Supply Station + déverrouillage d'améliorations du Black Site → production et capacité accrues → runs plus rentables → plus de missions remplies. Casser cette boucle au premier maillon, c'est plafonner volontairement."
+  },
+
+  "departements": [
+    {
+      "nom": "Unité de Guerre Tactique",
+      "nom_en": "Tactical Warfare Unit",
+      "role": "Équipement de combat, armement et consommables tactiques.",
+      "pourquoi": "C'est la réputation la plus souvent exigée en prérequis croisé. Le 6ᵉ palier du Stash réclame sa réputation niveau 2, le 8ᵉ son niveau 3.",
+      "priorite": "Première",
+      "accent": "orange"
+    },
+    {
+      "nom": "Bataillon d'Assaut",
+      "nom_en": "Assault Battalion",
+      "role": "Gouverne le Centre de Développement des Compétences de Combat (CSD) au Black Site.",
+      "pourquoi": "Le 10ᵉ et dernier palier du Stash exige sa réputation niveau 4. C'est le verrou de fin de parcours.",
+      "priorite": "Deuxième",
+      "accent": "red"
+    },
+    {
+      "nom": "Laboratoire T&E",
+      "nom_en": "T&E Lab",
+      "role": "Couvre la Division Cyberguerre et le Quartier Général de Commandement Central.",
+      "pourquoi": "Le QG central augmente l'EXP Operations et surtout le nombre d'emplacements de vente en attente à l'Hôtel des ventes — directement votre plafond de revenu passif.",
+      "priorite": "Troisième",
+      "accent": "blue"
+    },
+    {
+      "nom": "Infirmerie",
+      "nom_en": "Medical Bay",
+      "role": "Pharmacie, soins, kits de réparation et stimulants.",
+      "pourquoi": "Moins spectaculaire, mais la Pharmacie est l'un des ateliers les plus réguliers en production : des marges modestes et prévisibles qui tournent pendant que vous dormez.",
+      "priorite": "Quatrième",
+      "accent": "green"
+    },
+    {
+      "nom": "Soutien de Base",
+      "nom_en": "Base Support",
+      "role": "Logistique, stockage et infrastructure.",
+      "pourquoi": "Participe aux prérequis groupés des paliers hauts. Négligé jusqu'au moment où il bloque tout le reste.",
+      "priorite": "Cinquième",
+      "accent": ""
+    }
+  ],
+
+  "regles": [
+    "Chaque département monte jusqu'au niveau 4. C'est un objectif fini, pas un puits sans fond.",
+    "La mission finale d'Operations, « Dawn's Light », exige les cinq départements au niveau 4.",
+    "Les missions de département se remplissent pendant que vous jouez normalement — à condition de les avoir lues AVANT de lancer la partie.",
+    "Beaucoup de missions réclament un objet précis à rapporter. Si vous vendez vos trouvailles par réflexe, vous revendez l'objet dont vous aviez besoin.",
+    "Les niveaux 1 et 2 tombent presque seuls. Les niveaux 3 et 4 demandent des runs dédiés : traitez-les comme des contrats, pas comme un bonus."
+  ],
+
+  "stations": [
+    {
+      "nom": "QG de Commandement Central",
+      "paliers": [
+        { "palier": "Niveau 1", "requis": "Débloqué par défaut", "gain": "—" },
+        { "palier": "2ᵉ", "requis": "Ops 7", "gain": "+1 % EXP Operations · +2 emplacements de vente en attente" },
+        { "palier": "3ᵉ", "requis": "Ops 12", "gain": "+4 emplacements de vente en attente" },
+        { "palier": "4ᵉ", "requis": "Ops 22", "gain": "+2 % EXP Operations · +6 emplacements" },
+        { "palier": "5ᵉ", "requis": "Ops 30", "gain": "+8 emplacements" },
+        { "palier": "6ᵉ", "requis": "Ops 44", "gain": "+4 % EXP Operations · +10 emplacements" }
+      ],
+      "verdict": "La station la plus rentable du jeu si vous vendez. Chaque palier élargit le nombre d'objets que vous pouvez lister simultanément — c'est un multiplicateur direct de revenu."
+    },
+    {
+      "nom": "Stand de tir",
+      "paliers": [
+        { "palier": "1ᵉʳ", "requis": "Ops 18", "gain": "+3 % charge maximale" },
+        { "palier": "2ᵉ", "requis": "Ops 26", "gain": "+6 % charge maximale" },
+        { "palier": "3ᵉ", "requis": "Ops 34", "gain": "+9 % charge maximale" },
+        { "palier": "4ᵉ", "requis": "Ops 40", "gain": "+12 % charge maximale" },
+        { "palier": "5ᵉ", "requis": "Ops 48", "gain": "+15 % charge maximale" },
+        { "palier": "6ᵉ", "requis": "Ops 54", "gain": "+20 % charge maximale" },
+        { "palier": "7ᵉ", "requis": "Ops 58", "gain": "+25 % charge maximale" }
+      ],
+      "verdict": "Plus de charge maximale, c'est plus de butin extrait par run. Le rendement est linéaire et permanent : à monter tôt."
+    },
+    {
+      "nom": "CSD — Centre de Compétences de Combat",
+      "paliers": [
+        { "palier": "1ᵉʳ", "requis": "Ops 16", "gain": "+1 % vitesse à terre · +5 endurance max · +5 % récupération" },
+        { "palier": "2ᵉ", "requis": "Ops 24", "gain": "+10 endurance max · +10 % récupération" },
+        { "palier": "3ᵉ", "requis": "Ops 32", "gain": "+3 % vitesse à terre · +16 endurance · +16 % récupération" },
+        { "palier": "4ᵉ", "requis": "Ops 38", "gain": "+22 endurance · +22 % récupération" },
+        { "palier": "5ᵉ", "requis": "Ops 46", "gain": "+6 % vitesse à terre · +30 endurance · +30 % récupération" },
+        { "palier": "6ᵉ", "requis": "Ops 50", "gain": "+38 endurance · +38 % récupération" },
+        { "palier": "7ᵉ", "requis": "Ops 56", "gain": "+10 % vitesse à terre · +50 endurance · +50 % récupération" }
+      ],
+      "verdict": "L'endurance décide de votre capacité à décrocher d'un combat perdu. Sous-estimée par presque tout le monde."
+    },
+    {
+      "nom": "Établi d'armure",
+      "paliers": [
+        { "palier": "1ᵉʳ", "requis": "Ops 9", "gain": "Déverrouille la production d'armures" },
+        { "palier": "2ᵉ", "requis": "Ops 21", "gain": "Recettes de rang supérieur" },
+        { "palier": "3ᵉ", "requis": "Ops 33", "gain": "Gilets et casques haut de gamme" }
+      ],
+      "verdict": "Les gilets d'élite restent l'un des deux artisanats les plus rentables du jeu."
+    },
+    {
+      "nom": "Division Cyberguerre",
+      "paliers": [
+        { "palier": "1ᵉʳ", "requis": "Ops 13", "gain": "Accessoires d'arme" },
+        { "palier": "2ᵉ", "requis": "Ops 25", "gain": "Accessoires avancés" },
+        { "palier": "3ᵉ", "requis": "Ops 37", "gain": "Optiques et pièces rares, puis armes complètes" }
+      ],
+      "verdict": "Prérequis du 8ᵉ palier du Stash. À monter même si vous ne fabriquez pas d'accessoires."
+    },
+    {
+      "nom": "Pharmacie",
+      "paliers": [
+        { "palier": "1ᵉʳ", "requis": "Ops 11", "gain": "Soins de base" },
+        { "palier": "2ᵉ", "requis": "Ops 23", "gain": "Kits de réparation et stimulants" },
+        { "palier": "3ᵉ", "requis": "Ops 35", "gain": "Consommables haut de gamme" }
+      ],
+      "verdict": "Marges modestes mais régulières. Les retours communautaires divergent : certains la jugent peu rentable, d'autres y font tourner leurs meilleures marges horaires."
+    },
+    {
+      "nom": "Atelier (munitions)",
+      "paliers": [
+        { "palier": "1ᵉʳ", "requis": "Ops 15", "gain": "Munitions de base" },
+        { "palier": "2ᵉ", "requis": "Ops 27", "gain": "Munitions violettes" },
+        { "palier": "3ᵉ", "requis": "Ops 39", "gain": "Munitions dorées — le vrai palier rentable" }
+      ],
+      "verdict": "La rareté des munitions produites monte avec le niveau de l'atelier. Le palier 3 est celui qui transforme l'atelier en machine à Alloys."
+    },
+    {
+      "nom": "Stash",
+      "paliers": [
+        { "palier": "6ᵉ", "requis": "Ops 28 + Unité de Guerre Tactique niv. 2", "gain": "Espace de rangement" },
+        { "palier": "8ᵉ", "requis": "Ops 42 + Guerre Tactique niv. 3 + Cyberguerre niv. 3", "gain": "+108 espaces · +7 emplacements de caisse d'extension" },
+        { "palier": "9ᵉ", "requis": "Ops 52", "gain": "+8 emplacements de caisse d'extension" },
+        { "palier": "10ᵉ", "requis": "Ops 60 + Bataillon d'Assaut niv. 4", "gain": "Capacité maximale" }
+      ],
+      "verdict": "La station aux prérequis croisés les plus durs. C'est elle qui rend les départements obligatoires plutôt qu'optionnels."
+    }
+  ],
+
+  "cash_is_king": {
+    "titre": "L'arbre « Cash is King »",
+    "contenu": "Une chaîne de missions économiques qui jalonne tout le parcours : 2 millions, puis 10, puis 25, puis 50 millions de Havoc Coins accumulés. Elle se remplit passivement si vous jouez l'économie correctement, et elle récompense exactement le comportement que le mode veut encourager : extraire, revendre, réinvestir.",
+    "paliers": ["2 M", "10 M", "25 M", "50 M"]
+  },
+
+  "ordre_recommande": [
+    { "n": 1, "quoi": "QG de Commandement Central jusqu'au palier accessible", "pourquoi": "Chaque emplacement de vente en attente supplémentaire augmente votre revenu passif. Rien d'autre n'a ce rendement composé." },
+    { "n": 2, "quoi": "Stand de tir", "pourquoi": "La charge maximale est le seul bonus qui augmente la valeur de chaque run sans rien changer à votre jeu." },
+    { "n": 3, "quoi": "Atelier jusqu'au palier 3", "pourquoi": "Les munitions dorées sont la production la plus rentable du Black Site. Tout l'atelier existe pour ce palier." },
+    { "n": 4, "quoi": "Établi d'armure", "pourquoi": "Les gilets d'élite sont la seconde production la plus rentable, et vous les utilisez aussi vous-même." },
+    { "n": 5, "quoi": "Réputation Unité de Guerre Tactique puis Bataillon d'Assaut", "pourquoi": "Ce sont les deux verrous croisés du Stash. Les monter tard, c'est se bloquer tard." },
+    { "n": 6, "quoi": "CSD, Pharmacie, Cyberguerre au fil de l'eau", "pourquoi": "Utiles mais jamais urgents. Montez-les quand un prérequis les réclame." }
+  ]
+}

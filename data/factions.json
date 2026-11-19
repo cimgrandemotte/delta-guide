@@ -1,0 +1,115 @@
+{
+  "_meta": {
+    "maj": "2026-11-19",
+    "statut": "Mode d'affrontement de factions — Brakkesh uniquement",
+    "sources": "Notes officielles Garena du 08/11, carnet de développement du 15/11, correctif du 12/11, guides recoupés",
+    "avertissement": "Team Jade n'a publié AUCUNE coordonnée pour les postes de contact. Les cartes non officielles antérieures au lancement mondial ne correspondent pas forcément à la version actuelle. Fiez-vous aux indices en partie."
+  },
+  "principe": "Brakkesh 2.0 greffe une couche de camp sur une partie d'extraction classique. Babel a été entièrement retravaillée, ainsi que la Zone de Commandement Central. Vous y trouvez des postes de contact dissimulés appartenant à deux factions rivales, vous choisissez un camp, et vous récupérez un insigne qui progresse d'une partie à l'autre. C'est la première progression du jeu qui survit à votre mort : même une sortie ratée fait avancer l'insigne.",
+  "camps": [
+    {
+      "nom": "Haavk Corp",
+      "role": "Protéger une livraison de fret",
+      "accent": "blue",
+      "style": "Tenue de position",
+      "detail": "L'objectif d'ouverture de Haavk est défensif : le fret se déplace, vous tenez le terrain autour. Vous savez à l'avance où vous devrez être, ce qui vous laisse préparer les angles — mais les autres le savent aussi.",
+      "image": "misc/faction_haavk_01.jpg",
+      "alt": "Bureau de terrain d'entreprise improvisé dans un entrepôt, caisses grises scellées et éclairage LED froid"
+    },
+    {
+      "nom": "Garde Ahsarah",
+      "role": "Prendre la tour",
+      "accent": "orange",
+      "style": "Progression offensive",
+      "detail": "L'objectif d'ouverture d'Ahsarah est offensif : il faut entrer dans la tour et y progresser. Vous choisissez le moment de l'engagement, mais vous entrez dans un volume vertical que quelqu'un d'autre tient déjà.",
+      "image": "misc/faction_ahsarah_01.jpg",
+      "alt": "Poste de milice improvisé dans une alcôve de grès, murs de sacs de sable et radio de campagne"
+    }
+  ],
+  "neutralite": "Aucun des deux camps n'a d'avantage de butin officiellement confirmé. Les deux donnent des missions, et chacun a son propre emblème dans les récompenses de l'événement. Le vrai critère de choix est bien plus prosaïque : quel contact votre escouade peut-elle atteindre sans y laisser la partie ?",
+  "changement_camp": "Le carnet de développement précise que l'on peut changer de camp en cours de partie, et que le statut de faction enregistre le changement.",
+  "insigne": {
+    "titre": "L'insigne : la seule progression qui ne se perd pas",
+    "etapes": [
+      "Lancez une partie d'Operations sur Brakkesh. La difficulté Normale est une file permanente ; la difficulté Difficile ouvre le week-end.",
+      "Cherchez un poste de contact dissimulé de l'une des deux factions. Les indications en partie vous guident.",
+      "Choisissez votre allégeance au contact et réclamez votre insigne.",
+      "Prenez les missions de faction auprès du contact et terminez-les pendant la partie.",
+      "Chaque mission terminée fait monter l'insigne. La progression est personnelle et se conserve d'une partie à l'autre."
+    ],
+    "palier2": "Le niveau 2 est le premier véritable objectif : il débloque les jalons de faction et les chasses de faction, c'est-à-dire la partie du mode qui vous oppose directement aux escouades du camp adverse.",
+    "palier_max": "Au niveau d'insigne le plus élevé, un nombre limité de gardes ordinaires de Brakkesh deviennent amicaux et ne vous tirent plus dessus à vue. Les gardiens de zone et le reste de la faction restent hostiles — la carte ne devient pas une promenade.",
+    "piege": "Les Jetons Brakkesh ne font PAS monter l'insigne. Ils viennent d'événements séparés et se dépensent en boutique. Seules les missions de faction comptent."
+  },
+  "chasse": {
+    "titre": "La chasse : vous devenez l'objectif",
+    "contenu": "Déclencher une mission de faction majeure peut déclencher une chasse. Les escouades adverses reçoivent alors l'ordre de vous intercepter et suivent votre trace à travers une zone de recherche approximative qui se rafraîchit à intervalles réguliers. Vous n'êtes pas marqué en permanence — vous êtes localisé par à-coups.",
+    "consequences": [
+      "Votre position n'est jamais exacte, mais elle n'est jamais vraiment perdue non plus : bougez entre deux rafraîchissements.",
+      "Terminer la mission le plus vite possible est presque toujours meilleur que la jouer proprement.",
+      "Prévoyez votre itinéraire de sortie AVANT de déclencher la mission majeure, pas après.",
+      "En escouade, séparez le porteur d'objectif du reste du groupe : la zone de recherche suit le porteur."
+    ]
+  },
+  "conseils": [
+    {
+      "titre": "Mettez l'objet de mission en poche sécurisée",
+      "detail": "Tout ce qui s'y trouve survit à votre mort. Réservez-la à l'objet de remise difficile à retrouver, pas à votre butin le plus cher."
+    },
+    {
+      "titre": "Une mission de remise coûte de l'argent réel",
+      "detail": "Si la mission demande de livrer un objet et que vous mourez avec, ce sont des Tekniq Alloys perdus. Évaluez le coût de l'objet avant d'accepter."
+    },
+    {
+      "titre": "Le détour par Babel n'est pas gratuit",
+      "detail": "Les contacts sont dissimulés, et la zone retravaillée est désormais le point chaud de la carte. Le temps que vous y passez est du temps où vous n'êtes ni en train de piller, ni en train de sortir."
+    },
+    {
+      "titre": "Si une remise Haavk a échoué début novembre, réessayez",
+      "detail": "Le correctif du 12 novembre a retravaillé certains flux d'interaction des missions Haavk."
+    }
+  ],
+  "evenements": [
+    {
+      "nom": "Brakkesh Renouvelé",
+      "dates": "10/11 → 10/12",
+      "quoi": "Le cadre général : contacts, missions, progression d'insigne, jalons et chasses."
+    },
+    {
+      "nom": "Insigne de Faction",
+      "dates": "10/11 → 26/11",
+      "quoi": "Réclamation et montée de l'insigne. Le niveau 2 ouvre jalons et chasses."
+    },
+    {
+      "nom": "Arsenal de Brakkesh",
+      "dates": "10/11 → 26/11",
+      "quoi": "Lots de sélection de munitions, lots d'armes adaptés à la carte, bons d'armement, emblèmes Haavk et Ahsarah."
+    },
+    {
+      "nom": "Reconnaissance Renouvelée",
+      "dates": "10/11 → 26/11",
+      "quoi": "Jetons Brakkesh par connexion quotidienne et missions actives."
+    },
+    {
+      "nom": "Essai d'Arme",
+      "dates": "10/11 → 26/11",
+      "quoi": "Jetons Brakkesh pour des parties avec une arme imposée."
+    },
+    {
+      "nom": "Prime des Ombres",
+      "dates": "10/11 → 26/11",
+      "quoi": "Jetons Brakkesh en retrouvant les agents capturés."
+    },
+    {
+      "nom": "Front de Faction",
+      "dates": "10/11 → 26/11",
+      "quoi": "Jetons Brakkesh en ramassant une plaque d'identité de faction et en terminant un jalon."
+    },
+    {
+      "nom": "Heure de Chasse",
+      "dates": "10/11 → 26/11",
+      "quoi": "Jetons Brakkesh sur des décomptes et des défis."
+    }
+  ],
+  "urgence": "Sept des huit événements se terminent le 26 novembre. Si vous voulez l'insigne de niveau 2 et les emblèmes, le week-end du 21 au 22 novembre est votre dernière vraie fenêtre — et c'est aussi un week-end où Brakkesh Difficile est ouverte."
+}

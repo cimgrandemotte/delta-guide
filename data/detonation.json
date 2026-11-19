@@ -1,0 +1,257 @@
+{
+  "_meta": {
+    "fichier": "detonation.json",
+    "description": "Mode Detonation 5v5 (pose/désamorçage de bombe) : règles, économie, cartes et tactiques.",
+    "derniere_maj": "2026-11-19",
+    "confiance": "Élevée sur les règles, Moyenne sur les valeurs économiques (encore en bêta, sujettes à ajustement)",
+    "sources": [
+      "aimsector.com — Delta Force Detonation Guide: Maps, Loadouts & Ranked (03/10/2026)",
+      "timesaver.gg — Detonation Best Loadouts, Maps & the Sept 30 FS-12 Nerf",
+      "allthings.how — Delta Force 5v5 Detonation Mode Explained",
+      "topuplive.com — Detonation Mode Guide",
+      "overgear.com — Season 12 Overview (changements Detonation S12)"
+    ]
+  },
+  "avertissement": "Mode en bêta : les valeurs économiques et l'équilibrage bougent d'un patch à l'autre. Les règles structurelles, elles, sont stables.",
+  "regles": [
+    {
+      "mecanique": "Format",
+      "detail": "5 contre 5, un seul exemplaire de chaque opérateur par équipe."
+    },
+    {
+      "mecanique": "Réapparition",
+      "detail": "Aucune pendant une manche. Un joueur perdu, c'est 20 % de l'équipe."
+    },
+    {
+      "mecanique": "Attaquants",
+      "detail": "Poser le NC8 sur un site et le protéger jusqu'à l'explosion, ou neutraliser les cinq défenseurs."
+    },
+    {
+      "mecanique": "Défenseurs",
+      "detail": "Empêcher la pose, neutraliser les attaquants, ou désamorcer le NC8 une fois posé."
+    },
+    {
+      "mecanique": "Sites",
+      "detail": "Deux sites d'objectif, A et B."
+    },
+    {
+      "mecanique": "Durée de manche",
+      "detail": "Environ 1 minute 55."
+    },
+    {
+      "mecanique": "Pose",
+      "detail": "4 secondes."
+    },
+    {
+      "mecanique": "Désamorçage",
+      "detail": "6 secondes, via un terminal Haavk portatif."
+    },
+    {
+      "mecanique": "Victoire",
+      "detail": "Première équipe à remporter le nombre de manches requis ; les camps s'inversent à la mi-match."
+    },
+    {
+      "mecanique": "Plateformes",
+      "detail": "PC et mobile pour la bêta ; console annoncée ensuite."
+    }
+  ],
+  "economie": {
+    "principe": "Une phase d'achat ouvre chaque manche. Les Alloys y financent armes, accessoires, armure et équipement tactique.",
+    "regles": [
+      "Éliminations, poses, désamorçages et victoires de manche rapportent des Alloys : le succès se compose.",
+      "Gagner une manche permet de conserver son arme pour la suivante.",
+      "Perdre renvoie au minimum vital : vous rachetez tout.",
+      "Ne dépensez pas tout à la première manche. Épargner tôt permet d'acheter de l'équipement de haut niveau ensuite.",
+      "Forcer l'achat sur une manche probablement perdue vous laisse sans rien à la manche suivante : c'est l'erreur économique classique."
+    ],
+    "tokens": "Certaines armes restent verrouillées dans les présélections jusqu'à déblocage permanent par jeton. Les jetons s'obtiennent en accumulant de l'EXP Detonation.",
+    "table_manches": {
+      "avertissement": "Relevés de bêta. Team Jade ajuste ces valeurs fréquemment : raisonnez en « qualité d'achat » plutôt qu'en table mémorisée.",
+      "colonnes": [
+        "Manche",
+        "Alloys de départ",
+        "Armes débloquées"
+      ],
+      "lignes": [
+        [
+          "Manche 1",
+          "800",
+          "Pistolets uniquement"
+        ],
+        [
+          "Manche 2",
+          "1 600",
+          "PM et fusils à pompe d'entrée de gamme"
+        ],
+        [
+          "Manche 3",
+          "2 600",
+          "PM supérieurs et fusils d'assaut intermédiaires"
+        ],
+        [
+          "Manche 4+",
+          "7 000",
+          "Fusils haut de gamme, snipers, mitrailleuses"
+        ]
+      ],
+      "note": "Le palier d'armes s'ouvre progressivement : impossible d'écraser les premières manches avec une arme de fin de partie, même avec l'argent."
+    },
+    "prix_reperes": [
+      {
+        "objet": "G17 (pistolet de secours)",
+        "prix": "Gratuit",
+        "categorie": "Arme"
+      },
+      {
+        "objet": "Grenade aveuglante / Disque Whirlwind",
+        "prix": "200",
+        "categorie": "Utilitaire"
+      },
+      {
+        "objet": "Gilet balistique seul",
+        "prix": "600",
+        "categorie": "Protection"
+      },
+      {
+        "objet": "Casque + gilet balistique",
+        "prix": "1 000",
+        "categorie": "Protection"
+      },
+      {
+        "objet": "SMG-45",
+        "prix": "1 400",
+        "categorie": "Arme"
+      },
+      {
+        "objet": "SR9 2Tap",
+        "prix": "1 800",
+        "categorie": "Arme"
+      },
+      {
+        "objet": "AS Val (baissé à 2 500 le 15/10)",
+        "prix": "2 500",
+        "categorie": "Arme"
+      },
+      {
+        "objet": "MDR (relevé le 15/10)",
+        "prix": "2 700",
+        "categorie": "Arme"
+      },
+      {
+        "objet": "SCAR-H High Caliber",
+        "prix": "2 700",
+        "categorie": "Arme"
+      },
+      {
+        "objet": "K437 (relevé le 15/10)",
+        "prix": "3 000",
+        "categorie": "Arme"
+      },
+      {
+        "objet": "MP7",
+        "prix": "3 300",
+        "categorie": "Arme"
+      },
+      {
+        "objet": "AS Val Armor Pen Expert",
+        "prix": "3 500",
+        "categorie": "Arme"
+      },
+      {
+        "objet": "AWM Instant Kill",
+        "prix": "5 500",
+        "categorie": "Arme"
+      }
+    ],
+    "revenus": {
+      "titre": "Barème de revenus après le correctif du 15 octobre 2026",
+      "lignes": [
+        {
+          "source": "Élimination à l'arme standard",
+          "avant": "+400",
+          "apres": "+500"
+        },
+        {
+          "source": "Victoire de manche",
+          "avant": "+3 200",
+          "apres": "+3 300"
+        },
+        {
+          "source": "Prime de 2ᵉ défaite consécutive",
+          "avant": "+3 000",
+          "apres": "+3 100"
+        },
+        {
+          "source": "Prime de 3ᵉ défaite consécutive",
+          "avant": "+3 600",
+          "apres": "+3 800"
+        }
+      ],
+      "consequence": "Les manches d'économie sont nettement plus pardonnantes qu'avant : une équipe qui perd le début de partie se réarme plus vite. Fraguer dans une manche perdue d'avance reste payant — encaissez les crédits et revenez en achat complet."
+    }
+  },
+  "cartes": [
+    {
+      "nom": "Transit",
+      "profil": "Lignes de vue longues",
+      "conseil": "Récompense un fusil d'assaut stable. Privilégiez le contrôle de recul sur la cadence."
+    },
+    {
+      "nom": "Shariq Manor",
+      "profil": "Couloirs et cour intérieure",
+      "conseil": "Portées courtes à moyennes. Dégagez les angles méthodiquement et ne collez jamais un coéquipier dans un passage étroit : une seule grenade punirait la moitié de l'équipe."
+    }
+  ],
+  "tactiques_attaque": [
+    "Vous contrôlez la seule ressource que les défenseurs n'ont pas : le choix du site. Ne vous engagez pas sur le premier site approché.",
+    "Cherchez l'information, pressez un secteur, et acceptez de tourner si la défense s'est empilée.",
+    "Quand l'équipe exécute, elle exécute ensemble. Cinq poussées espacées de quelques secondes transforment un 5 contre 5 en une série de 1 contre 2.",
+    "Ne lancez pas la pose simplement parce que vous êtes arrivé sur le site. Demandez-vous d'abord qui vous couvre.",
+    "Après la pose, changez complètement d'objectif : vous ne prenez plus le site, vous rendez le désamorçage impossible. Tenez des angles croisés sur l'engin, sur la route de reprise, ou sur le coéquipier qui le garde.",
+    "Ne portez pas le NC8 dans le premier duel dangereux. La bombe est un objectif, pas un trophée."
+  ],
+  "tactiques_defense": [
+    "La défense est affaire d'information et de temps, pas d'éliminations rapides. Vous n'avez pas besoin de neutraliser cinq attaquants en vingt secondes.",
+    "Tenez des positions où l'adversaire doit soit s'exposer, soit dépenser de l'utilitaire pour vous déloger.",
+    "Ne sur-pivotez pas. Un attaquant isolé qui se montre cherche souvent à vous attirer loin du vrai site.",
+    "La bonne information n'est pas « j'entends quelqu'un en A ». C'est « trois en A, bombe vue ».",
+    "Pour une reprise de site, arrivez groupés. Attendre deux secondes un coéquipier vaut mieux qu'un désamorçage solitaire interrompu.",
+    "Même commencer un désamorçage a une valeur tactique : cela force les attaquants à se révéler."
+  ],
+  "changements_s12": [
+    "Classé : à partir du rang Legend, les parties classées sont limitées aux files solo ou duo.",
+    "À partir de Fiery Owl, vous gagnez moins de points de victoire si l'écart de points de rang avec un coéquipier dépasse 600.",
+    "Les classements serveur et régionaux sont désormais arrêtés chaque semaine.",
+    "Le lobby affiche directement votre rang courant.",
+    "Nouvelle mécanique balistique propre au mode : les balles peuvent traverser et toucher plusieurs adversaires."
+  ],
+  "rappel_operateurs": "Les changements d'opérateurs les plus lourds de la Saison 12 (Rover, Vlinder, Toxik, Nox, D-Wolf, Raptor, Morse, Uluru, Gizmo, Stinger, Mai Xiaowen, Luna et Shepherd) sont exclusifs à Detonation. Ne transposez jamais ces notes de patch à Operations ou Warfare.",
+  "patch_15_octobre": {
+    "titre": "Rééquilibrage du 15 octobre 2026 — sans temps d'arrêt",
+    "avertissement": "Mise à jour silencieuse : aucun écran d'annonce. Beaucoup de joueurs utilisent encore des builds périmés.",
+    "gagnants": [
+      "Desert Eagle — multiplicateur torse porté de 1× à 1,375× et vitesse initiale de 340 à 450 m/s. Devient une vraie menace au corps, redoutable en manche pistolet.",
+      "Revolver .357 — mêmes gains de dégâts et de vélocité.",
+      "AS Val — pas de changement de statistiques, mais un prix abaissé à 2 500 qui en fait le meilleur achat d'économie moyenne.",
+      "AK-12 / M4A1 / RM277 — intouchés, donc mécaniquement promus au sommet des achats complets."
+    ],
+    "perdants": [
+      "M700 semi-automatique — ne tue plus d'une balle dans les mêmes conditions.",
+      "Thompson — affaibli.",
+      "MK4 — affaibli.",
+      "FS-12 (fusil à pompe) — affaibli."
+    ],
+    "classe": "Pour les rangs Legend et au-dessus, la victoire pèse désormais plus lourd que la performance individuelle dans le calcul des points. Les files d'attente s'allongent, les adversaires sont mieux appariés : votre rang suit votre taux de victoire, plus votre ratio."
+  },
+  "achat_type": {
+    "titre": "L'achat type après le patch",
+    "contenu": "Un fusil standard (AK-12, M4A1 ou RM277) — ou l'AS Val à 2 500 sur économie serrée — comme arme de travail, et un Desert Eagle ou un .357 en secondaire à chaque manche, y compris en pistolet et en éco où les deux revolvers sont devenus réellement compétitifs."
+  },
+  "erreurs_frequentes": [
+    "Acheter l'arme la plus chère chaque manche. Si l'achat vous laisse sans armure, sans utilitaire et sans réserve pour la manche suivante, ce n'est pas une amélioration.",
+    "Transformer « économiser » en « ne rien faire ». Une manche à bas coût se gagne encore avec de l'utilitaire, une arme de contact et une pression coordonnée sur un site.",
+    "Acheter chacun dans son coin. Si trois joueurs sont fauchés, coordonnez la dépense de l'équipe plutôt que d'équiper deux joueurs à fond.",
+    "Continuer à jouer le site après la pose. L'objectif a changé : il ne s'agit plus de prendre l'espace mais de rendre le désamorçage impossible.",
+    "Entrer en décalé. Cinq pushs séparés de quelques secondes transforment un 5v5 en une série de 1v2."
+  ]
+}

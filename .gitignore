@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+.cache/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+.env
+.env.local
+.vscode/
+.idea/
+*.min.css.map
+*.min.js.map
+__pycache__/
+*.pyc

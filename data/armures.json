@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "fichier": "armures.json",
+    "description": "Casques, audition et arbitrages de protection en Operations.",
+    "derniere_maj": "2026-11-19",
+    "confiance": "Moyenne à élevée",
+    "sources": [
+      "wiki.bittopup.com/deltaforce/protect",
+      "gamer.org — Helmets, Hearing and Survival Guide",
+      "r/DeltaForceGameHQ — T5/FaceShield helmets in higher modes",
+      "deltaforce.garena.com — patch notes S12"
+    ]
+  },
+  "regle_hitbox": "Correction d'une idée reçue très répandue : dans Delta Force, TOUS les casques couvrent le visage dans la même boîte de collision. Une balle dans le visage et une balle dans le crâne sont traitées à l'identique. La visière balistique n'apporte donc aucune protection supplémentaire contre un tir au visage — elle ne fait qu'ajouter un malus d'audition.",
+  "arbitrage": "L'audition est une statistique de combat à part entière. Un casque de niveau 5 qui vous rend sourd vous fera perdre plus de duels qu'il n'en sauvera, parce que vous découvrirez l'adversaire après lui.",
+  "casques": [
+    {
+      "nom": "Casque violet (tier 4)",
+      "niveau": 4,
+      "audition": "+50 %",
+      "contrepartie": "Aucune pénalité majeure",
+      "verdict": "La référence. Le meilleur rapport protection/audition du jeu."
+    },
+    {
+      "nom": "Fiery Owl Ballistic Mask",
+      "niveau": 5,
+      "audition": "+40 %",
+      "contrepartie": "Visée −6 %, déplacement −3 %, visage uniquement, 75 de durabilité",
+      "verdict": "Excellente réduction de bruit, mais ne protège que le visage."
+    },
+    {
+      "nom": "Casque lourd rouge",
+      "niveau": 5,
+      "audition": "+20 %",
+      "contrepartie": "Très haute durabilité",
+      "verdict": "Pour les raids à fort PvP assumé, quand on accepte d'entendre moins."
+    },
+    {
+      "nom": "GT5 Commander Helmet",
+      "niveau": 5,
+      "audition": "Légère amélioration",
+      "contrepartie": "Champ de vision réduit par les lunettes",
+      "verdict": "Bloque la munition niveau 5 ; compromis correct."
+    },
+    {
+      "nom": "GT1 Tactical Helmet",
+      "niveau": 4,
+      "audition": "Légère amélioration",
+      "contrepartie": "Vitesse de déplacement et maniabilité fortement affectées",
+      "verdict": "Le malus de mobilité se paie cher en Operations."
+    },
+    {
+      "nom": "MC201 Helmet",
+      "niveau": 3,
+      "audition": "Légère amélioration",
+      "contrepartie": "Protection modeste",
+      "verdict": "Bon casque économique pour les raids à bas coût."
+    },
+    {
+      "nom": "Mask-1 Iron Helmet",
+      "niveau": 5,
+      "audition": "Fortement réduite",
+      "contrepartie": "Protection faciale renforcée",
+      "verdict": "À éviter sauf stratégie de tenue de position très statique."
+    },
+    {
+      "nom": "D6 Tactical Helmet",
+      "niveau": 4,
+      "audition": "Fortement réduite",
+      "contrepartie": "Maniabilité et champ de vision fortement dégradés",
+      "verdict": "Le pire compromis de la liste pour un joueur mobile."
+    }
+  ],
+  "note_perception": "Associé à des boosters de perception, un casque à forte audition permet de détecter un joueur jusqu'à environ 80 mètres.",
+  "ear_ringing": "Plusieurs munitions appliquent un bourdonnement d'oreilles au tir à la tête, réduisant la portée d'écoute de la cible pendant une dizaine de secondes : 7.62×51mm LS (niveau 5) et toutes les munitions subsoniques à tête BP/AP. C'est une arme d'information autant que de dégâts."
+}

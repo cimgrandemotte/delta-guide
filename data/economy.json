@@ -1,0 +1,225 @@
+{
+  "_meta": {
+    "fichier": "economy.json",
+    "derniere_maj": "2026-11-19",
+    "sources": [
+      "https://timesaver.gg/blog/delta-force-black-site-upgrade-guide-priority",
+      "https://overgear.com/guides/delta-force/season-12-guide/",
+      "https://www.playdeltaforce.com/"
+    ],
+    "avertissement": "Les prix de l'Hôtel des Ventes sont dynamiques et pilotés par les joueurs. Aucun prix affiché ici ne doit être considéré comme fixe."
+  },
+  "monnaies": [
+    {
+      "nom": "Tekniq Alloys",
+      "type": "Monnaie de jeu principale (Operations)",
+      "obtention": "Vente de butin, missions, production au Black Site",
+      "usages": [
+        "Achat d'armes et d'équipement",
+        "Améliorations du Black Site",
+        "Tickets d'entrée (AZ3 Normal : 112 500)",
+        "Hôtel des Ventes"
+      ],
+      "regle": "C'est la seule monnaie nécessaire pour progresser. Tout le contenu de gameplay s'achète en Alloys."
+    },
+    {
+      "nom": "Delta Coins",
+      "type": "Monnaie premium (achat réel)",
+      "obtention": "Achat",
+      "usages": [
+        "Cosmétiques",
+        "Season Pass premium",
+        "Confort"
+      ],
+      "regle": "NE JAMAIS dépenser de Delta Coins pour une amélioration de Black Site ou un raccourci de progression : aucune n'est nécessaire."
+    },
+    {
+      "nom": "Warfare Credits / EXP",
+      "type": "Progression Havoc Warfare",
+      "obtention": "Matchs Warfare",
+      "usages": [
+        "Déblocage d'armes (ex. AN-94 : 5 matchs A/D King of the Hill + 120 min)",
+        "Niveaux d'armurerie (max 77 pour l'AN-94)"
+      ]
+    }
+  ],
+  "hotel_des_ventes": {
+    "nom": "Hôtel des Ventes (Auction House)",
+    "principe": "Marché entre joueurs : mettre en vente son butin, acheter ce qui manque. Les prix fluctuent selon l'offre et la demande, et chutent systématiquement en début de saison quand tout le monde farme la même chose.",
+    "slots": "Le nombre de slots de vente simultanés dépend du niveau de Central Command au Black Site : +2 slots par niveau, jusqu'à +10 au niveau 6.",
+    "strategies": [
+      "Vendre les keycards plutôt que de les utiliser quand leur prix dépasse la valeur attendue de la salle.",
+      "Acheter les munitions de niveau 5 en lot juste après un patch d'équilibrage : les prix baissent quand une arme est nerfée.",
+      "Les casques DICH violets endommagés sont le meilleur achat rapport qualité/prix du marché.",
+      "Surveiller les prix pendant les events : un event qui demande un objet précis fait exploser sa cote.",
+      "Ne jamais acheter au prix fort en début de saison : l'offre augmente vite."
+    ],
+    "objets_a_forte_valeur": [
+      {
+        "objet": "King's Suite Keycard",
+        "prix_guide": "2 363 076",
+        "carte": "Layali Grove"
+      },
+      {
+        "objet": "Master Keycard",
+        "prix_guide": "200 000",
+        "carte": "Brakkesh"
+      },
+      {
+        "objet": "Reis Black Card",
+        "prix_guide": "50 000",
+        "carte": "Layali Grove"
+      },
+      {
+        "objet": "Brakkesh Master Keycard",
+        "prix_guide": "20 000",
+        "carte": "Brakkesh"
+      },
+      {
+        "objet": "Layali Grove Noble Superior Treasure",
+        "prix_guide": "variable",
+        "note": "Un des items de production Black Site les plus rentables."
+      }
+    ]
+  },
+  "progression": {
+    "operations_level": {
+      "role": "Débloque l'accès aux cartes et aux difficultés, ainsi que certaines armes et stations.",
+      "paliers_cles": [
+        {
+          "niveau": 9,
+          "deblocage": "AZ3 Easy + 1er palier Decontamination Chamber"
+        },
+        {
+          "niveau": 14,
+          "deblocage": "AZ3 Normal + 2e palier Decontamination Chamber"
+        },
+        {
+          "niveau": 27,
+          "deblocage": "3e palier Decontamination Chamber"
+        },
+        {
+          "niveau": 30,
+          "deblocage": "AZ3 Supercritical (à partir du 18 décembre 2026)"
+        },
+        {
+          "niveau": 33,
+          "deblocage": "Prérequis pour jouer Desmoulins (avec le Desmoulins File)"
+        },
+        {
+          "niveau": 35,
+          "deblocage": "Loading Plans (nouveauté S12)"
+        },
+        {
+          "niveau": 40,
+          "deblocage": "ASh-12 Battle Rifle"
+        }
+      ],
+      "bonus_exp": "Central Command niveau 6 : +4% d'EXP Operations."
+    },
+    "pas_de_wipe": "Delta Force ne pratique PAS de wipe de stash entre les saisons. Tout investissement dans le Black Site est permanent. En revanche, les missions de la saison précédente sont réinitialisées (reset total des missions S11 à l'arrivée d'Aurora)."
+  },
+  "conseils_debutant": [
+    "Ne jamais emporter en raid ce que l'on n'a pas les moyens de perdre.",
+    "La Safe Box survit à la mort : y placer l'objet de mission critique.",
+    "Un run réussi à 100 000 Alloys vaut mieux que trois runs ratés à 500 000 de kit.",
+    "Les keycards pèsent 0,05 kg : toujours les ramasser.",
+    "Améliorer le Stash AVANT toute station de production.",
+    "Monter Central Command dès que possible : il débloque le reste et augmente vos slots de vente."
+  ],
+  "boucle_profit": {
+    "titre": "La boucle Black Site → Craft → Hôtel des ventes → Réinvestissement",
+    "principe": "Le vrai revenu d'un joueur installé n'est pas le butin d'un raid : c'est une production qui tourne pendant qu'il joue. Deux ateliers suffisent.",
+    "routine": [
+      "Consultez les recommandations de l'atelier du QG.",
+      "Comparez le coût des matériaux au prix de vente actuel de l'objet fini.",
+      "Lancez la recette de munitions la plus rentable du moment.",
+      "Remplissez l'établi d'armure avec un gilet ou un casque rentable.",
+      "Vendez dans une fenêtre de prix favorable, pas dès la fin de la production.",
+      "Réinvestissez une part du produit dans le cycle suivant."
+    ],
+    "avertissement": "Il n'existe aucune recette magique permanente : les prix bougent en permanence. L'objectif n'est pas de produire toujours le même objet, mais celui qui offre le meilleur rendement horaire à l'instant T.",
+    "priorite_ateliers": "Montez l'établi d'armure et l'établi de munitions au niveau 3 en priorité. L'établi d'armes rapporte peu — réservez-le aux accessoires violets que vous consommez vous-même. Le stand de tir au niveau 2 débloque la réparation intermédiaire."
+  },
+  "vendeur_ou_encheres": {
+    "titre": "Marchand ou hôtel des ventes ? La règle des cinq secondes",
+    "regle": "Si le prix aux enchères ne dépasse le marchand que de quelques centaines d'Alloys, vendez au marchand. La commission mange la marge et vous immobilisez un emplacement de vente pour rien.",
+    "seuil": "N'inscrivez un objet aux enchères que s'il dégage plusieurs milliers d'Alloys de marge au-dessus du prix marchand.",
+    "par_rarete": [
+      {
+        "rarete": "Gris / vert",
+        "action": "Marchand, presque toujours.",
+        "note": "La marge ne couvre jamais la commission."
+      },
+      {
+        "rarete": "Bleu",
+        "action": "Enchères.",
+        "note": "Le cheval de bataille : environ 10 000 à 15 000 Alloys par case d'inventaire. Revenu régulier et abondant."
+      },
+      {
+        "rarete": "Violet",
+        "action": "Enchères, après vérification du prix.",
+        "note": "Armures, casques haut de gamme et accessoires recherchés. La demande bouge à chaque patch."
+      },
+      {
+        "rarete": "Rouge",
+        "action": "Enchères, sans hésiter.",
+        "note": "Un seul objet peut valoir plusieurs centaines de milliers d'Alloys et financer une semaine de raids."
+      }
+    ],
+    "a_savoir": [
+      "Les cartes d'Ahsarah ne peuvent pas être mises en vente : le jeu le bloque.",
+      "Accessoires rares : excellent rapport valeur/encombrement, demande constante puisque tout le monde construit des armes.",
+      "Matériaux d'artisanat : demande réelle, ils alimentent les ateliers du Black Site des autres joueurs.",
+      "Clés et cartes magnétiques : leur valeur suit celle de la pièce qu'elles ouvrent.",
+      "⚠️ Aucun moyen officiel de convertir des Alloys en argent réel. Les sites tiers qui le proposent exposent à un bannissement."
+    ]
+  },
+  "tickets_equipement": {
+    "titre": "Les tickets d'équipement sont un outil de farm, pas un lot de consolation",
+    "principe": "Baisser le coût d'entrée est une forme de farm. Sur un run à 200 000 d'extraction, un kit payé 150 000 laisse une marge dérisoire ; le même run couvert par un ticket transforme presque tout en gain net.",
+    "points": [
+      "Les tickets ne pourrissent pas : au-delà du plafond de stock, le surplus est converti en Alloys.",
+      "Plafond observé : 5 tickets bleus et violets, 10 verts, au-delà desquels la conversion se déclenche.",
+      "Utilisez-les en priorité quand vous êtes fauché, ou quand le ticket contient une arme exigée par une mission de département.",
+      "Ticket Élite ≈ 100 000 Alloys de couverture, ticket Standard ≈ 200 000 de valeur d'équipement selon les relevés communautaires."
+    ]
+  },
+  "methodes_terrain": {
+    "titre": "Gagner de l'argent sans gagner les combats",
+    "intro": "La majorité des joueurs rentables ne sont pas les meilleurs tireurs. Ce sont ceux qui ont compris que le profit vient du rapport entre la valeur sortie et le coût de l'équipement engagé — pas du nombre d'éliminations.",
+    "methodes": [
+      {
+        "nom": "La sortie minimaliste",
+        "accent": "green",
+        "detail": "Un ticket d'équipement gratuit, de bonnes munitions dans la poche sécurisée, et un itinéraire court sur les conteneurs discrets. Vous ne ressortez peut-être qu'une partie sur deux, mais comme votre mise est nulle, chaque extraction est du bénéfice pur. Des joueurs rapportent régulièrement 200 000 à 300 000 par sortie de ce type.",
+        "cle": "Un équipement à 70 000 bien pensé rivalise avec un équipement à 500 000."
+      },
+      {
+        "nom": "Les conteneurs d'entreprise",
+        "accent": "gold",
+        "detail": "Les conteneurs HAAVK sont la cible préférée des joueurs qui font des sorties de récupération : on y trouve des processeurs programmables et des cafés en coffret qui se revendent très cher. Ils sont présents sur les cartes en difficulté normale et attirent beaucoup moins de monde que l'Administration.",
+        "cle": "Visez les conteneurs, pas les bâtiments."
+      },
+      {
+        "nom": "La ramasse d'après-combat",
+        "accent": "blue",
+        "detail": "Un grand coffre-fort, quelques cartes d'accès en guise d'investissement, et de la patience : vous attendez que le silence revienne et vous récupérez ce que les échanges ont laissé au sol. Rendement correct, risque faible.",
+        "cle": "Le butin le moins cher à obtenir est celui que quelqu'un d'autre a déjà transporté."
+      },
+      {
+        "nom": "L'avance sur objets de quête",
+        "accent": "orange",
+        "detail": "Vérifiez systématiquement l'usage des objets rouges et dorés avant de les vendre : beaucoup servent aux améliorations tardives du Black Site ou aux échanges de caisses. Gardez tout ce dont les quêtes saisonnières ont besoin, vendez le reste immédiatement.",
+        "cle": "Les quêtes saisonnières rapportent bien plus que les quêtes ordinaires. Elles passent en premier."
+      }
+    ],
+    "astuces_munitions": {
+      "titre": "L'astuce des munitions en poche sécurisée",
+      "detail": "Ne chargez pas vos munitions coûteuses au départ. Partez en vert ou en bleu, et gardez un chargeur de violet dans la poche sécurisée. Dès que vous entendez des joueurs, faites glisser la pile sur l'arme : vous rechargez un chargeur de violet au moment précis où il sert. Si vous mourez avant, vous n'avez rien perdu.",
+      "raccourci": "Maintenez la touche de rechargement pour faire apparaître la roue de sélection des munitions.",
+      "regle": "Les munitions comptent davantage que les accessoires coûteux. Rendez l'arme utilisable, puis mettez tout le reste dans les munitions."
+    },
+    "plafond_easy": "En difficulté Facile, un plafond d'équipement s'applique : rien au-dessus de l'armure violette, rien au-dessus des munitions bleues."
+  }
+}

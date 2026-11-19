@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://delta-guide.duckdns.org/</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/armurerie/builds.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/armurerie/builds.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/armurerie/gunsmith.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/armurerie/gunsmith.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/armurerie/index.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/armurerie/index.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/armurerie/munitions.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/armurerie/munitions.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/astuces-pro/codes-portes.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/astuces-pro/codes-portes.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/astuces-pro/duels.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/astuces-pro/duels.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/astuces-pro/index.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/astuces-pro/index.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/black-hawk-down/index.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/black-hawk-down/index.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/cartes/az3-supercritical.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/cartes/az3-supercritical.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/cartes/brakkesh-factions.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/cartes/brakkesh-factions.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/cartes/index.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/cartes/index.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/debutant/index.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/debutant/index.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/detonation/index.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/detonation/index.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/encyclopedie/economie.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/encyclopedie/economie.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/encyclopedie/index.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/encyclopedie/index.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/encyclopedie/tier-list.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/encyclopedie/tier-list.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/havoc-warfare/index.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/havoc-warfare/index.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/hazard-ops/black-site.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/hazard-ops/black-site.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/hazard-ops/boss.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/hazard-ops/boss.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/hazard-ops/departements.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/hazard-ops/departements.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/hazard-ops/hot-zone.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/hazard-ops/hot-zone.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/hazard-ops/index.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/hazard-ops/index.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/hazard-ops/keycards.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/hazard-ops/keycards.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/hazard-ops/mandel-brick.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/hazard-ops/mandel-brick.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/news/index.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/news/index.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/operateurs/contre-jeu.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/operateurs/contre-jeu.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/operateurs/index.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/operateurs/index.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/outils/artisanat.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/outils/artisanat.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/outils/index.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/outils/index.html"/>
+  </url>
+  <url>
+    <loc>https://delta-guide.duckdns.org/pages/saison-aurora/index.html</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://delta-guide.duckdns.org/pages/saison-aurora/index.html"/>
+  </url>
+</urlset>

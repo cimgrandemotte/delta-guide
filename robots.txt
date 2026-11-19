@@ -1,0 +1,7 @@
+# Delta Force — The Ultimate Operator's Guide (fan-made)
+User-agent: *
+Allow: /
+Disallow: /tools/
+Disallow: /research/
+
+Sitemap: https://delta-guide.duckdns.org/sitemap.xml

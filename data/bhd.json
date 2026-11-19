@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "fichier": "bhd.json",
+    "derniere_maj": "2026-11-19",
+    "sources": [
+      "https://steamcommunity.com/games/2507950/announcements/",
+      "https://www.playdeltaforce.com/"
+    ]
+  },
+  "presentation": {
+    "nom": "Black Hawk Down",
+    "type": "Campagne solo et coopérative (jusqu'à 4 joueurs)",
+    "sortie": "21 février 2025",
+    "prix": "Gratuite pour tous les joueurs depuis sa sortie",
+    "cadre": "Mogadiscio, Somalie, octobre 1993 — Operation Gothic Serpent",
+    "inspiration": "Adaptation du film Black Hawk Down de Ridley Scott (2001) et des événements réels de la bataille de Mogadiscio.",
+    "moteur": "Refonte complète sous le moteur de Delta Force avec cinématiques, doublage et scènes scriptées."
+  },
+  "chapitres": [
+    { "numero": 1, "titre": "Irene", "resume": "Nom de code de l'opération. Insertion héliportée au-dessus du marché de Bakara pour capturer deux lieutenants de Mohamed Farrah Aidid. Chapitre d'introduction : maniement, descente en rappel, premiers contacts urbains." },
+    { "numero": 2, "titre": "The Fuse", "resume": "La situation dégénère. La foule et les miliciens convergent. Gestion des angles urbains, suppression, premiers RPG." },
+    { "numero": 3, "titre": "Black Hawk Down", "resume": "Le Super Six-One est abattu. Chapitre pivot : sécuriser le site du crash sous un feu continu." },
+    { "numero": 4, "titre": "Lost Convoy", "resume": "Le convoi terrestre se perd dans le dédale de Mogadiscio. Combat véhiculé, navigation sous embuscade permanente." },
+    { "numero": 5, "titre": "Valor", "resume": "Les snipers Delta Shughart et Gordon se portent volontaires pour défendre le second site de crash. Chapitre le plus dur émotionnellement de la campagne." },
+    { "numero": 6, "titre": "N.S.D.Q.", "resume": "Night Stalkers Don't Quit — devise du 160th SOAR. Soutien aérien et extraction des éléments isolés." },
+    { "numero": 7, "titre": "Mogadishu Mile", "resume": "Le repli à pied vers le stade pakistanais. Finale : progression sous le feu, gestion des munitions, survie pure." }
+  ],
+  "conseils": [
+    "Jouer en coopératif à 4 : la campagne est calibrée pour la couverture mutuelle et le relevage.",
+    "Les munitions sont comptées : privilégier les tirs courts et ramasser les armes ennemies.",
+    "Les RPG sont la principale cause de mort : ne jamais rester statique à découvert.",
+    "Repérer les points de ravitaillement scriptés avant de pousser un objectif.",
+    "La campagne est la meilleure école de gunplay avant de se lancer en Hazard Operations."
+  ],
+  "liens_univers": [
+    "La carte Warfare The Mog (Saison 11) est directement inspirée de Mogadiscio.",
+    "Plusieurs apparences et collectibles de la campagne alimentent l'univers cosmétique du jeu."
+  ],
+  "disclaimer": "Cette campagne traite d'événements historiques réels ayant coûté la vie à de nombreux soldats américains et à des milliers de Somaliens. Ce guide la présente comme contenu de jeu vidéo, sans jugement historique ni politique."
+}

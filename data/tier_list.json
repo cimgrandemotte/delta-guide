@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "fichier": "tier_list.json",
+    "snapshot": "2026-11-15",
+    "patchs_pris_en_compte": ["Season Aurora — notes du 7 novembre, live le 10 novembre 2026", "Mise à jour d'équilibrage du 12 novembre 2026"],
+    "source_principale": "https://timesaver.gg/blog/delta-force-best-operators-tier-list",
+    "avertissement": "Jeu en service continu : ce classement est un instantané daté. Les tiers d'opérateurs dépendent FORTEMENT du mode.",
+    "correction_importante": "Les tier lists antérieures plaçant Luna en SS et D-Wolf/Stinger/Nox/Shepherd/Gizmo/Raptor/Morse en S ne correspondent plus au méta post-Aurora. Classement ci-dessous = données du 15/11/2026."
+  },
+  "operations": {
+    "libelle": "Hazard Operations (extraction PvPvE)",
+    "tiers": {
+      "S": ["Toxik", "Luna", "Hackclaw", "N-Two"],
+      "A": ["Shepherd", "Rover", "Vlinder", "Nox", "Sineva", "D-Wolf"],
+      "B": ["Martelo", "Vyron", "Uluru", "Stinger", "Branko", "Raptor"],
+      "C": ["Gizmo", "Morse", "Tempest"]
+    },
+    "justifications": {
+      "Toxik": "Adreno-Boost sur 20 m reste le meilleur buff d'escouade du jeu.",
+      "Luna": "Intel la plus propre, marquage à travers les murs, valeur universelle.",
+      "Hackclaw": "Signal Decoder à 90 s de cooldown + Silent Step.",
+      "N-Two": "Plus gros gagnant d'Aurora : Cryo-Flask 7 PV/0.5 s (contre 4) et cooldown 45 s (contre 55).",
+      "Shepherd": "Hitbox du Sonic Trap restaurée.",
+      "Rover": "Clover détecte au son mais subit 2x dégâts des munitions niveau 6+ en Operations.",
+      "Nox": "Toujours excellent comme SEUL Nox de l'escouade (25 s).",
+      "Martelo": "B provisoire : une charge bruyante dans une pièce inconnue peut coûter tout le kit.",
+      "Gizmo": "Les buffs Aurora étaient Detonation-only ; nerfs Meltdown toujours actifs."
+    }
+  },
+  "warfare": {
+    "libelle": "Havoc Warfare (combat interarmes 32v32 / 64 joueurs)",
+    "tiers": {
+      "S": ["Rover", "Shepherd", "Toxik", "D-Wolf"],
+      "A": ["Martelo", "Luna", "Vlinder", "Stinger", "N-Two", "Uluru", "Vyron"],
+      "B": ["Sineva", "Branko", "Nox", "Hackclaw", "Raptor"],
+      "C": ["Gizmo", "Morse", "Tempest"]
+    },
+    "justifications": {
+      "Rover": "Buff Clover tous modes sans la pénalité munitions d'Operations.",
+      "Shepherd": "Sonic Trap restauré + réparation de véhicules.",
+      "D-Wolf": "Ancre les pushs, mobilité inégalée sur grande carte.",
+      "Martelo": "A provisoire : une charge à réduction frontale dans un point vaut beaucoup quand on respawn si ça échoue.",
+      "N-Two": "Cryo-Flask Warfare 8 → 10 PV/0.5 s, ralentit aussi la maniabilité des véhicules.",
+      "Nox": "Passif renommé Revenant ; peu adapté à 64 joueurs.",
+      "Gizmo": "Conçu pour la défense d'un couloir unique, se perd sur une grande carte."
+    }
+  },
+  "solo_operations": {
+    "libelle": "Meilleurs picks en solo (Operations)",
+    "classement": [
+      { "operateur": "Luna", "raison": "Trouver l'autre escouade en premier EST le jeu solo." },
+      { "operateur": "Hackclaw", "raison": "Signal Decoder 90 s + Silent Step." },
+      { "operateur": "Nox", "raison": "Le cap d'empilement ne s'applique pas : 25 s de Silent Assault complètes." }
+    ]
+  },
+  "armes_operations": {
+    "libelle": "Méta armes — Operations",
+    "tiers": {
+      "S": ["AUG", "AWM", "SMG-45"],
+      "A": ["SCAR-H", "P90", "QBZ95-1", "M250", "M7", "MCX LT", "SR-3M", "G18"],
+      "B": ["AK-12", "CAR-15", "R93", "KC-17", "M700", "AS Val", "SV-98", "M4A1", "K416", "K437", "RM277"],
+      "C": ["UZI", "PTR-32", "SR9", "M870", "725", "QJB201", "M1911"]
+    },
+    "note_s12": "L'AN-94 est trop récente pour un tier stabilisé — évaluation en cours. L'AKM perd de la portée en Operations (falloff 42/74 m → 30/45 m), la K416 gagne en dégâts mais perd de la portée."
+  },
+  "armes_warfare": {
+    "libelle": "Méta armes — Warfare",
+    "tiers": {
+      "S": ["M4A1", "CI-19", "K437", "SG552", "CAR-15", "RM277", "M250", "SMG-45"],
+      "A": ["K416", "M7", "AR-57", "SCAR-H", "AWM", "MK4", "Thompson", "AM-17"],
+      "B": ["AK-12", "MDR", "MP5", "M870", "Compound Bow", "SR-3M", "AS Val"],
+      "C": ["P90", "M1911", "MAC-10"]
+    },
+    "note_s12": "Thompson nerfée (headshot 1.9x → 1.6x). Compound Bow nerfé (flèches 30 → 16). MDR .308 buffée (maniabilité)."
+  },
+  "vehicules": {
+    "S": ["M1A4 Battle Tank", "LAV-G1 IFV", "AH-1035D Assault Helicopter"],
+    "A": ["LAV-AA", "FSV Wheeled Tank Destroyer", "GTQ-35 Light Tank", "Recon Helicopter"],
+    "B": ["Assault Vehicle", "ATV", "UCB-95 Assault Boat"]
+  }
+}

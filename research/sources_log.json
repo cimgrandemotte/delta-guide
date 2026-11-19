@@ -1,0 +1,1788 @@
+{
+  "_meta": {
+    "fichier": "sources_log.json",
+    "description": "Journal de toutes les sources web consultées pendant la phase S1 RESEARCH, avec date de publication, date de consultation et niveau de confiance accordé.",
+    "date_recherche": "2026-11-19",
+    "nombre_requetes_web": 18,
+    "vagues": 3,
+    "echelle_confiance": {
+      "officiel": "Éditeur / développeur / plateforme de distribution",
+      "eleve": "Base de données ou site spécialisé à jour, recoupé par au moins une autre source",
+      "moyen": "Site spécialisé non recoupé, ou donnée susceptible d'évoluer rapidement",
+      "communautaire": "Reddit, YouTube, builds partagés par les joueurs — utile mais non vérifiable officiellement"
+    },
+    "derniere_maj": "2026-11-19",
+    "schema": "url, titre, type, confiance, publie, consulte, usage, lot",
+    "total": 171,
+    "note_qualite": "Les entrées marquées « REJETÉE » documentent des sources écartées volontairement : elles sont conservées pour éviter qu'elles ne soient réintégrées par erreur lors d'un rafraîchissement ultérieur."
+  },
+  "sources": [
+    {
+      "url": "https://www.playdeltaforce.com/",
+      "titre": "",
+      "type": "Officiel",
+      "confiance": "officiel",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Site officiel, events HQ, codes de portes quotidiens",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://www.playdeltaforce.com/events/hq/",
+      "titre": "",
+      "type": "Officiel",
+      "confiance": "officiel",
+      "publie": "2026-11-18",
+      "consulte": "2026-11-19",
+      "usage": "data/daily_codes.json",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://steamcommunity.com/games/2507950/announcements/",
+      "titre": "",
+      "type": "Officiel",
+      "confiance": "officiel",
+      "publie": "2025-02-21",
+      "consulte": "2026-11-19",
+      "usage": "data/bhd.json — 7 chapitres de la campagne Black Hawk Down, gratuité",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://timesaver.gg/blog/delta-force-season-aurora-patch-notes",
+      "titre": "",
+      "type": "Patch notes",
+      "confiance": "eleve",
+      "publie": "2026-11-09",
+      "consulte": "2026-11-19",
+      "usage": "data/season12.json — intégralité des changements Aurora",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://timesaver.gg/blog/delta-force-best-operators-tier-list",
+      "titre": "",
+      "type": "Tier list",
+      "confiance": "eleve",
+      "publie": "2026-11-15",
+      "consulte": "2026-11-19",
+      "usage": "data/operators.json + data/tier_list.json — tiers scindés Operations / Warfare",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://timesaver.gg/blog/delta-force-bosses-guide",
+      "titre": "",
+      "type": "Guide",
+      "confiance": "eleve",
+      "publie": "2026-10-23",
+      "consulte": "2026-11-19",
+      "usage": "data/bosses.json — 8 boss, règle de propriété du butin",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://timesaver.gg/blog/delta-force-black-site-upgrade-guide-priority",
+      "titre": "",
+      "type": "Guide",
+      "confiance": "eleve",
+      "publie": "2026-09-27",
+      "consulte": "2026-11-19",
+      "usage": "data/blacksite.json — priorités d'amélioration, paliers Central Command",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://timesaver.gg/blog/delta-force-tide-prison-map-loot-extraction-guide",
+      "titre": "",
+      "type": "Guide",
+      "confiance": "eleve",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/maps.json + data/bosses.json — Tide Prison, Warden Ghroth",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://timesaver.gg/blog/delta-force-brakkesh-faction-guide",
+      "titre": "",
+      "type": "Guide",
+      "confiance": "eleve",
+      "publie": "2026-11-14",
+      "consulte": "2026-11-19",
+      "usage": "data/maps.json — système de factions Brakkesh 2.0",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://theclick.gg/delta-force-aurora-patch-notes/",
+      "titre": "",
+      "type": "Patch notes",
+      "confiance": "eleve",
+      "publie": "2026-11-13",
+      "consulte": "2026-11-19",
+      "usage": "data/season12.json — recoupement des changements Aurora",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://overgear.com/guides/delta-force/season-12-guide/",
+      "titre": "",
+      "type": "Guide saison",
+      "confiance": "eleve",
+      "publie": "2026-11-09",
+      "consulte": "2026-11-19",
+      "usage": "data/season12.json, data/maps.json, data/economy.json",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://patchbot.io/games/delta-force/2140-version-update",
+      "titre": "",
+      "type": "Patch notes",
+      "confiance": "eleve",
+      "publie": "2026-11-08",
+      "consulte": "2026-11-19",
+      "usage": "data/season12.json — version 2140",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://accountshark.net/blog/delta-force-season-aurora-season-12-guide",
+      "titre": "",
+      "type": "Guide saison",
+      "confiance": "moyen",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/season12.json — recoupement",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://www.mmoexp.com/news/delta-force-season-12-patch-notes-martelo",
+      "titre": "",
+      "type": "Patch notes",
+      "confiance": "moyen",
+      "publie": "2026-11-10",
+      "consulte": "2026-11-19",
+      "usage": "data/operators.json — chiffres détaillés de Martelo",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://senseos.gg/guides/delta-force/operators-list/",
+      "titre": "",
+      "type": "Base de données",
+      "confiance": "eleve",
+      "publie": "2026-11-15",
+      "consulte": "2026-11-19",
+      "usage": "data/operators.json — saisons d'arrivée et classes",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://delta-force.fandom.com/wiki/Operators",
+      "titre": "",
+      "type": "Wiki",
+      "confiance": "moyen",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/operators.json — roster canonique (Branko absent → marqué À CONFIRMER)",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://dfloadouts.com/guides/delta-force-operator-tier-list/",
+      "titre": "",
+      "type": "Tier list",
+      "confiance": "moyen",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/tier_list.json — recoupement",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://www.worthplaying.com/",
+      "titre": "",
+      "type": "News",
+      "confiance": "moyen",
+      "publie": "2026-10-30",
+      "consulte": "2026-11-19",
+      "usage": "data/season12.json — Dev Stream, Firing Range 2.0",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://www.topuplive.com/news/delta-force-ammo-chart-guide.html",
+      "titre": "",
+      "type": "Guide",
+      "confiance": "eleve",
+      "publie": "2026-10-21",
+      "consulte": "2026-11-19",
+      "usage": "data/ammo.json — tableau complet des niveaux de pénétration et prix",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://games.gg/delta-force/guides/delta-force-ammo-guide-300blk-tiv-cinder-and-more/",
+      "titre": "",
+      "type": "Guide",
+      "confiance": "eleve",
+      "publie": "2026-11-10",
+      "consulte": "2026-11-19",
+      "usage": "data/ammo.json — les 5 munitions de la Saison Aurora",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://deltaforce.th.gl/",
+      "titre": "",
+      "type": "Base de données / carte interactive",
+      "confiance": "eleve",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/maps.json, data/keycards.json — 1326 marqueurs, 101 keycards",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://deltaforce.th.gl/guides/all-layali-grove-keycards",
+      "titre": "",
+      "type": "Guide",
+      "confiance": "eleve",
+      "publie": "2026-10-31",
+      "consulte": "2026-11-19",
+      "usage": "data/keycards.json — 22 keycards Layali Grove",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://deltaforce.th.gl/guides/all-brakkesh-keycards",
+      "titre": "",
+      "type": "Guide",
+      "confiance": "eleve",
+      "publie": "2026-11-01",
+      "consulte": "2026-11-19",
+      "usage": "data/keycards.json — 19 keycards / 34 portes Brakkesh",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://www.th.gl/apps/delta-force",
+      "titre": "",
+      "type": "Outil",
+      "confiance": "eleve",
+      "publie": "2026-11-12",
+      "consulte": "2026-11-19",
+      "usage": "data/blacksite.json — Black Site Upgrade Planner",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://gamegrids.io/delta-force/maps/",
+      "titre": "",
+      "type": "Cartes",
+      "confiance": "eleve",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/maps.json",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://codmunity.gg/delta-force-operations",
+      "titre": "",
+      "type": "Méta",
+      "confiance": "eleve",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/tier_list.json, data/builds.json — pick rates Operations",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://deltahub.gg/meta/operations",
+      "titre": "",
+      "type": "Méta",
+      "confiance": "eleve",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/tier_list.json, data/builds.json",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://zilliongamer.com/delta-force/c/weapons/best-an-94-build-delta-force",
+      "titre": "",
+      "type": "Guide arme",
+      "confiance": "eleve",
+      "publie": "2026-11-14",
+      "consulte": "2026-11-19",
+      "usage": "data/weapons.json — statistiques complètes AN-94 et codes de build",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://deltaforcebuilds.com/latest",
+      "titre": "",
+      "type": "Builds communautaires",
+      "confiance": "communautaire",
+      "publie": "2026-11-16",
+      "consulte": "2026-11-19",
+      "usage": "data/builds.json — codes AN-94 et PKM",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://bittopup.com/article/Delta-Force-Jan-2026-Meta-Best-Loadouts-Import-Codes",
+      "titre": "",
+      "type": "Builds",
+      "confiance": "moyen",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/builds.json — codes d'import vérifiés",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://games.gg/delta-force/guides/delta-force-s11-layali-grove-weapon-tier-list/",
+      "titre": "",
+      "type": "Tier list armes",
+      "confiance": "eleve",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/tier_list.json",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://epiccarry.com/blogs/delta-force-havoc-warfare-guide/",
+      "titre": "",
+      "type": "Guide mode",
+      "confiance": "moyen",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/vehicles.json",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://gamingonphone.com/guides/delta-force-vehicle-tier-list/",
+      "titre": "",
+      "type": "Tier list véhicules",
+      "confiance": "moyen",
+      "publie": "2026-11-16",
+      "consulte": "2026-11-19",
+      "usage": "data/vehicles.json",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://guides-factory.com/delta-force-vehicles/",
+      "titre": "",
+      "type": "Guide véhicules",
+      "confiance": "moyen",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/vehicles.json",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://hone.gg/blog/best-delta-force-settings/",
+      "titre": "",
+      "type": "Guide réglages",
+      "confiance": "eleve",
+      "publie": "2026-08-14",
+      "consulte": "2026-11-19",
+      "usage": "data/settings.json — réglages PC, quirk Global Illumination",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://igamemag.com/delta-force-brakkesh-2-0/",
+      "titre": "",
+      "type": "News",
+      "confiance": "moyen",
+      "publie": "2026-11-15",
+      "consulte": "2026-11-19",
+      "usage": "data/maps.json — refonte Brakkesh 2.0",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://deltaforceitems.com/",
+      "titre": "",
+      "type": "Outil",
+      "confiance": "moyen",
+      "publie": "2026-11-18",
+      "consulte": "2026-11-19",
+      "usage": "data/daily_codes.json",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://dfloadout.gg/en/mat-khau-hang-ngay",
+      "titre": "",
+      "type": "Outil",
+      "confiance": "moyen",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/daily_codes.json — source alternative",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/",
+      "titre": "",
+      "type": "Communauté",
+      "confiance": "communautaire",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Retours joueurs sur Brakkesh 2.0, files d'attente, stratégies d'extraction",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceMobile/",
+      "titre": "",
+      "type": "Communauté",
+      "confiance": "communautaire",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/settings.json — sensibilités mobile",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://dontlag.com/articles/delta-force-best-weapons",
+      "titre": "",
+      "type": "Guide armes",
+      "confiance": "moyen",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/weapons.json, data/ammo.json",
+      "lot": "lot initial"
+    },
+    {
+      "url": "https://skycoach.gg/",
+      "titre": "",
+      "type": "Guide réglages",
+      "confiance": "moyen",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "data/settings.json",
+      "lot": "lot initial"
+    },
+    {
+      "url": "timesaver.gg/blog/delta-force-brakkesh-faction-guide",
+      "titre": "timesaver.gg",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-14",
+      "consulte": "2026-11-19",
+      "usage": "Mécanique Faction Badge et calendrier daté des 8 events Brakkesh.",
+      "lot": "rafraîchissement 19/11/2026"
+    },
+    {
+      "url": "timesaver.gg/blog/delta-force-zenith-port-guide",
+      "titre": "timesaver.gg",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-11",
+      "consulte": "2026-11-19",
+      "usage": "Déclencheur réel de Riptide (barrage soutenu intercepté par la DCA, pas la bombe thermobarique) ; tactiques toits ; prix véhicules.",
+      "lot": "rafraîchissement 19/11/2026"
+    },
+    {
+      "url": "guides-factory.com/delta-force-anti-vehicle-guide",
+      "titre": "guides-factory.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-16",
+      "consulte": "2026-11-19",
+      "usage": "Anti-véhicule S12 : missiles TV interceptables, Wheeled Tank Destroyer, perturbation créditée en assistance.",
+      "lot": "rafraîchissement 19/11/2026"
+    },
+    {
+      "url": "news.bittopup.com/delta-force-mandelbrick-farming-guide-12-locations-routes",
+      "titre": "news.bittopup.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-18",
+      "consulte": "2026-11-19",
+      "usage": "12 spawns Space City, 8 extractions, mécanique de copie, pity 75 scans, boss Saeed Ziaten.",
+      "lot": "rafraîchissement 19/11/2026"
+    },
+    {
+      "url": "overgear.com/guides/delta-force/ranked-mode-in-detail/",
+      "titre": "overgear.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-18",
+      "consulte": "2026-11-19",
+      "usage": "Déblocage Ranked (Warfare Lv.6 / Operations Lv.8) et barème complet des points de Mérite.",
+      "lot": "rafraîchissement 19/11/2026"
+    },
+    {
+      "url": "mmoexp.com/News/delta-force-season-12-3x3-safe-box-low-pvp-guide.html",
+      "titre": "mmoexp.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-11",
+      "consulte": "2026-11-19",
+      "usage": "Parcours 3x3 Safe Box faible-PvP, contrat Thrifty, piège Safe Box ≠ extraction.",
+      "lot": "rafraîchissement 19/11/2026"
+    },
+    {
+      "url": "reddit.com/r/DeltaForceGlobal — « I really suck at Operations/Extraction, any tips? »",
+      "titre": "reddit.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-18",
+      "consulte": "2026-11-19",
+      "usage": "Conseils de terrain : casque DICH (+50 % portée d'écoute), munitions > armure, ~18 cartouches violettes, Gear Tickets.",
+      "lot": "rafraîchissement 19/11/2026"
+    },
+    {
+      "url": "github.com — delta-force-live, DeltaForceProfitTracker, delta-force-extraction-leaderboard, coolxitech/deltaforce, l1n6yun/DeltaForceAPI",
+      "titre": "github.com — delta-force-live, DeltaForceProfitTracker, delta-force-extraction-leaderboard, coolxitech",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Outils communautaires légitimes (hors processus du jeu). ⚠️ Nombreux dépôts homonymes = cheats/malwares, jamais recommandés.",
+      "lot": "rafraîchissement 19/11/2026"
+    },
+    {
+      "url": "topuplive.com/news/delta-force-ammo-chart-guide.html",
+      "titre": "topuplive.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-10-21",
+      "consulte": "2026-11-19",
+      "usage": "Matrice complète des taux de pénétration (6 niveaux de munition × 6 niveaux d'armure) et prix par balle pour 4 calibres.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "guides-factory.com/guides/delta-force-ammo-types-armor-penetration-guide",
+      "titre": "guides-factory.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-16",
+      "consulte": "2026-11-19",
+      "usage": "Mécanique dégâts santé/armure, nuance de l'armure niveau 6, munition 7.62x51 LS et bourdonnement d'oreilles.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "deltaforce.garena.com/en/news/all/GWPGVY",
+      "titre": "deltaforce.garena.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-10",
+      "consulte": "2026-11-19",
+      "usage": "Notes de patch officielles S12 : valeurs exactes K416, AR-57, MCX LT, SVCH, G17, KC-17, 725, véhicule neuronal.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "u4n.com/news/delta-force-season-12-balance-changes-explained.html",
+      "titre": "u4n.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-02",
+      "consulte": "2026-11-19",
+      "usage": "Détail chiffré Thompson, AKM (seuils 42/74 → 30/45 m), AUG chargeur 45.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "wiki.bittopup.com/deltaforce/protect",
+      "titre": "wiki.bittopup.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Fiches casques : niveaux balistiques et effets sur l'audition et le champ de vision.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "gamer.org/delta-force-helmets-hearing-and-survival-guide",
+      "titre": "gamer.org",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Casque violet +50 % d'audition, casque lourd rouge +20 %, détection jusqu'à 80 m avec boosters.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "reddit.com/r/DeltaForceGameHQ — T5/FaceShield helmets",
+      "titre": "reddit.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Correction majeure : tous les casques couvrent le visage dans la même boîte de collision ; la visière n'ajoute rien.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "timesaver.gg/blog/delta-force-black-site-upgrade-guide-priority",
+      "titre": "timesaver.gg",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-09-27",
+      "consulte": "2026-11-19",
+      "usage": "Ordre de priorité Black Site, paliers Decontamination Chamber (Ops 9/14/27), distinction missions département vs saison.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "timesaver.gg/blog/delta-force-tekniq-alloy-guide",
+      "titre": "timesaver.gg",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-09-04",
+      "consulte": "2026-11-19",
+      "usage": "Boucle de revenu Alloy, marges d'artisanat, sinks prioritaires.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "reddit.com/r/DeltaForceGlobal — Any advice about earning lots of Tekniq Alloys?",
+      "titre": "reddit.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Boucle gilet niv.5 + munition niv.4, suivre la munition des streamers, taux d'extraction 73,8 % au SG552.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "playnews.gg — Delta Force Operations complete 2026 extraction guide",
+      "titre": "playnews.gg — Delta Force Operations complete 2026 extraction guide",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-09-01",
+      "consulte": "2026-11-19",
+      "usage": "Règles chiffrées : 90 s par point de butin, pas à 30 m, 70 % des morts dans les 5 dernières minutes.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "timesaver.gg/blog/delta-force-how-to-extract-operations-guide",
+      "titre": "timesaver.gg",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-10-09",
+      "consulte": "2026-11-19",
+      "usage": "Typologie des extractions (permanente/conditionnelle/payante/aléatoire), Space City randomisé, Layali Grove 2.0.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "deltaforceforum.com — Guide to Delta Force Extraction",
+      "titre": "deltaforceforum.com — Guide to Delta Force Extraction",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Mécaniques cachées : bruits d'animaux, bouton récompense, démontage d'armes, relance des quotidiennes, fumigène médecin.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "lootbar.com/blog/en/delta-force-ranked-mode-guide.html",
+      "titre": "lootbar.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Échelle des grades Private III → Sergeant IV et règles des cartes 2× Mérite.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "deltaforcebuilds.com/latest",
+      "titre": "deltaforcebuilds.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-18",
+      "consulte": "2026-11-19",
+      "usage": "6 codes de build datés du 15 au 18/11/2026 (K437, AKM, PKM, AN-94 ×2, QBZ95-1).",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "codmunity.gg/delta-force + /delta-force-operations",
+      "titre": "codmunity.gg",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Taux de sélection par arme et tier lists séparées Warfare / Operations.",
+      "lot": "rafraîchissement 19/11/2026 — lot 2"
+    },
+    {
+      "url": "aimsector.com/news/delta-force-detonation-guide",
+      "titre": "aimsector.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-10-03",
+      "consulte": "2026-11-19",
+      "usage": "Règles complètes Detonation 5v5 : pose 4 s, désamorçage 6 s, cartes Transit et Shariq Manor, tactiques attaque/défense.",
+      "lot": "rafraîchissement 19/11/2026 — lot 3"
+    },
+    {
+      "url": "allthings.how/delta-force-5v5-detonation-mode-explained",
+      "titre": "allthings.how",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-09-28",
+      "consulte": "2026-11-19",
+      "usage": "Économie d'Alloys par manche, jetons de déblocage d'arme, badges, exigence Secure Boot + TPM 2.0.",
+      "lot": "rafraîchissement 19/11/2026 — lot 3"
+    },
+    {
+      "url": "timesaver.gg/blog/delta-force-detonation-best-loadouts-maps",
+      "titre": "timesaver.gg",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-10-01",
+      "consulte": "2026-11-19",
+      "usage": "Profils des deux cartes et logique de build adaptée au rythme du mode.",
+      "lot": "rafraîchissement 19/11/2026 — lot 3"
+    },
+    {
+      "url": "topuplive.com/news/delta-force-bomb-defusal-mode.html",
+      "titre": "topuplive.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-09-28",
+      "consulte": "2026-11-19",
+      "usage": "Structure de manche, format 16 manches, conseils de gestion économique.",
+      "lot": "rafraîchissement 19/11/2026 — lot 3"
+    },
+    {
+      "url": "overgear.com/guides/delta-force/season-12-guide/",
+      "titre": "overgear.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-09",
+      "consulte": "2026-11-19",
+      "usage": "Tableaux d'équilibrage opérateurs tous modes ET Detonation, calendrier des échéances, fin de saison 25/01/2027.",
+      "lot": "rafraîchissement 19/11/2026 — lot 3"
+    },
+    {
+      "url": "youtube.com — Season Aurora Dev Stream Replay (chaîne officielle)",
+      "titre": "youtube.com — Season Aurora Dev Stream Replay (chaîne officielle)",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-02",
+      "consulte": "2026-11-19",
+      "usage": "Présentation développeur de Zenith Port, Brakkesh 2.0 et Martelo.",
+      "lot": "rafraîchissement 19/11/2026 — lot 3"
+    },
+    {
+      "url": "youtube.com — Unlock 3x3 Safebox FAST in Delta Force Season 12",
+      "titre": "youtube.com — Unlock 3x3 Safebox FAST in Delta Force Season 12",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-11",
+      "consulte": "2026-11-19",
+      "usage": "Parcours des missions saisonnières phases 1 et 2, contrats du Destin.",
+      "lot": "rafraîchissement 19/11/2026 — lot 3"
+    },
+    {
+      "url": "github.com/topics/delta-force (89 dépôts indexés)",
+      "titre": "github.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Cartographie de l'écosystème : outils légitimes (map-tracker, loadout-scanner OCR, delta-force-core, bot Discord) et signaux d'alerte des maliciels déguisés.",
+      "lot": "rafraîchissement 19/11/2026 — lot 3"
+    },
+    {
+      "url": "github.com/dezmathio/delta-force-map-tracker",
+      "titre": "github.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Suivi de rotation des cartes et codes quotidiens, licence MIT, JavaScript vanille.",
+      "lot": "rafraîchissement 19/11/2026 — lot 3"
+    },
+    {
+      "url": "github.com/TaiGiap/df-loadout-scanner",
+      "titre": "github.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Scanner OCR de builds, 2 200+ configurations agrégées, strictement sans injection mémoire.",
+      "lot": "rafraîchissement 19/11/2026 — lot 3"
+    },
+    {
+      "url": "timesaver.gg/blog/delta-force-season-aurora-release-date-martelo",
+      "titre": "timesaver.gg",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-01",
+      "consulte": "2026-11-19",
+      "usage": "Avertissement calendrier Garena distinct de la version globale ; identité de Martelo (Veronica Cardozo).",
+      "lot": "rafraîchissement 19/11/2026 — lot 3"
+    },
+    {
+      "url": "forgeguides.com/guides/delta-force-beginner-guide-2026/",
+      "titre": "forgeguides.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-07-23",
+      "consulte": "2026-11-19",
+      "usage": "Parcours des 10 premières heures, distances sonores par type de déplacement, pièges d'extraction.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "switchbladegaming.com/delta-force/beginners-guide-warfare-vs-operations/",
+      "titre": "switchbladegaming.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-10-07",
+      "consulte": "2026-11-19",
+      "usage": "Tableau comparatif Warfare/Operations, échelle des dix premiers raids, sept erreurs et correctifs.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "deltaforcetools.gg/blog/delta-force-common-mistakes-guide",
+      "titre": "deltaforcetools.gg",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-07-21",
+      "consulte": "2026-11-19",
+      "usage": "15 erreurs de débutant, second relevé de distances sonores (sprint 48-49 m), organisation sac/gilet/coffre.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "game-delta.asia/articles/beginner-complete-guide/",
+      "titre": "game-delta.asia",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-08-24",
+      "consulte": "2026-11-19",
+      "usage": "Phases de progression chiffrées, kit budget détaillé, feuille de route 30 jours, piège du « livreur ».",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "boostroom.com/blog/delta-force-beginner-guide-operators-weapons-modes-and-essential-tips",
+      "titre": "boostroom.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-09-02",
+      "consulte": "2026-11-19",
+      "usage": "Discipline de réanimation, usage raisonné des accessoires, ne pas recharger par réflexe.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "timesaver.gg/blog/delta-force-detonation-best-weapons-october-balance-update",
+      "titre": "timesaver.gg",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-10-17",
+      "consulte": "2026-11-19",
+      "usage": "Patch Detonation du 15/10/2026 : Desert Eagle et .357 renforcés, M700/Thompson/MK4/FS-12 affaiblis, barème de revenus revu, classé Legend pondéré sur la victoire.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "timesaver.gg/blog/delta-force-zenith-port-guide",
+      "titre": "timesaver.gg",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-11",
+      "consulte": "2026-11-19",
+      "usage": "Mécanique Riptide détaillée, physique des vagues, Verity Mode audio, retrait d'Akh Canal.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "timesaver.gg/blog/delta-force-season-aurora-patch-notes",
+      "titre": "timesaver.gg",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-09",
+      "consulte": "2026-11-19",
+      "usage": "AZ3 Supercritical : 18/12→25/01, niveau 30, 600 000 Alloys. Factions Brakkesh et badge niveau 2.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "accountshark.net/blog/delta-force-season-aurora-season-12-guide",
+      "titre": "accountshark.net",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-11-10",
+      "consulte": "2026-11-19",
+      "usage": "Récapitulatif S12 : Loading Plans niveau 35, arsenal Brakkesh, équilibrage par mode.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "overgear.com/guides/delta-force/best-settings-for-fps/",
+      "titre": "overgear.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-09-10",
+      "consulte": "2026-11-19",
+      "usage": "Table complète de réglages compétitifs PC et audio, HRTF binaural orienté objet.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "immortalboost.com/blog/delta-force/settings-guide/",
+      "titre": "immortalboost.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-01-06",
+      "consulte": "2026-11-19",
+      "usage": "Courbe d'égalisation bande par bande pour la détection des pas.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "news.bittopup.com/news/delta-force-2026-performance-guide-best-settings-fps-boost",
+      "titre": "news.bittopup.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-04-09",
+      "consulte": "2026-11-19",
+      "usage": "Désactiver les traitements « enhanced » du casque, cap FPS à la fréquence moins 6.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "news.bittopup.com/news/delta-force-console-settings-best-ps5-xbox-config-2025",
+      "titre": "news.bittopup.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2025-11-17",
+      "consulte": "2026-11-19",
+      "usage": "Config console : mode Qualité + V-Sync, 450/300 et 200/150, haptique désactivée.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "lootbar.com/blog/en/delta-force-havoc-warfare-advanced-guide-vehicle-positioning.html",
+      "titre": "lootbar.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-05-15",
+      "consulte": "2026-11-19",
+      "usage": "Technique de coque enterrée, tirer-reculer-repositionner, ingénieur de poche.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "r/DeltaForceGlobal — « Actually Good Tips for Warfare Mode »",
+      "titre": "r",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2025-05-19",
+      "consulte": "2026-11-19",
+      "usage": "Combo marqueur laser + AT4, gestion des leurres d'hélicoptère, caisse de munitions > caisse de soins, frappes à éviter, sirène de frappe lourde.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "r/DeltaForceGlobal — « After 50 hrs of Havoc playtime »",
+      "titre": "r",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2024-08-28",
+      "consulte": "2026-11-19",
+      "usage": "Balise de réapparition gratuite du reconnaissance, laser et temps de visée, changement de classe contre les blindés.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "r/DeltaForceGlobal — « Budget Loadouts for Normal » et « Tips For Operations »",
+      "titre": "r",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2025-02-20",
+      "consulte": "2026-11-19",
+      "usage": "Kit rat chiffré poste par poste, casque à bonus d'écoute, porte-bouclier comme source d'armure.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "r/DeltaForceGameHQ — « Can someone explain operations economy? »",
+      "titre": "r",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2024-12-26",
+      "consulte": "2026-11-19",
+      "usage": "Règle de la valeur par case (~12 000/slot), démontage des accessoires, ne pas surcharger en munitions haut de gamme.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "r/DeltaForceGlobal — « What are the best tips to farm Tekniq alloy? »",
+      "titre": "r",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-03-12",
+      "consulte": "2026-11-19",
+      "usage": "Production Black Site rentable, ouverture des caisses de munitions en période d'inflation.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "timesaver.gg/blog/delta-force-auction-house-flipping-best-items-to-sell",
+      "titre": "timesaver.gg",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-09-28",
+      "consulte": "2026-11-19",
+      "usage": "Règle des 5 secondes marchand vs enchères, rendement par rareté, blocage des cartes d'Ahsarah.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "mmoexp.com/News/delta-force-alloy-farming-guide-black-site-crafting",
+      "titre": "mmoexp.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-09-23",
+      "consulte": "2026-11-19",
+      "usage": "Boucle Black Site → craft → enchères → réinvestissement, priorité aux établis armure et munitions.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "boostroom.com/blog/delta-force-farming-guide",
+      "titre": "boostroom.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-09-02",
+      "consulte": "2026-11-19",
+      "usage": "Profit par raid réussi plutôt que butin maximal ; les tickets d'équipement comme levier de farm.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "aimsector.com/news/delta-force-warfare-guide",
+      "titre": "aimsector.com",
+      "type": "",
+      "confiance": "Moyenne à élevée",
+      "publie": "2026-10-03",
+      "consulte": "2026-11-19",
+      "usage": "Erreurs Warfare : ignorer l'objectif, ne jamais changer de classe, laisser vivre les balises adverses, score par minute en classé.",
+      "lot": "rafraîchissement 19/11/2026 — lot 4"
+    },
+    {
+      "url": "https://guides-factory.com/guides/delta-force-gunsmith-attachments-recoil-control-explained",
+      "titre": "guides-factory.com",
+      "type": "Guide d'armurerie",
+      "confiance": "Élevée",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Control = la statistique de recul réelle (vertical/horizontal, auto et coup par coup). Stability = oscillation, apnée 20 s, flinch 0,8×, recul en apnée 0,95×. Accuracy = tir à la hanche uniquement. → data/gunsmith.json, pages/armurerie/gunsmith.html",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://guides-factory.com/guides/delta-force-weapon-builds-how-to-read-the-gunsmith-and-make-the-best-build",
+      "titre": "guides-factory.com",
+      "type": "Guide d'armurerie",
+      "confiance": "Élevée",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Calibration gratuite via Modify → Calibrate, à faire en dernier ; curseurs d'arbitrage chiffrés (±3,84 % visée contre stabilité). Coût réel en Handling : 60→49, visée 289→316 ms, rechargement 2,3→3 s. → data/gunsmith.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://aimsector.com/news/delta-force-weapon-stats-explained",
+      "titre": "aimsector.com",
+      "type": "Analyse de données",
+      "confiance": "Élevée",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Les 11 statistiques d'arme et leur portée réelle ; protocole de test (chargeur plein sur un mur sans correction, un accessoire changé à la fois) ; ordre de priorité horizontal → vertical → stabilité de tir → stabilité d'optique → apnée. → data/gunsmith.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://timesaver.gg/blog/delta-force-gunsmith-guide-missions-share-codes",
+      "titre": "timesaver.gg",
+      "type": "Guide d'armurerie",
+      "confiance": "Moyenne",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Operations et Warfare appliquent des valeurs de statistiques SÉPARÉES à la même pièce : un build ne se transpose pas d'un mode à l'autre. → data/gunsmith.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/",
+      "titre": "www.reddit.com",
+      "type": "Communauté",
+      "confiance": "Faible",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Un gros chiffre de Control n'implique pas de réduction de recul : lire la section Effet de la pièce (ex. +6 Control n'agissant que sur la stabilité de tir). → data/gunsmith.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/",
+      "titre": "www.reddit.com",
+      "type": "Communauté",
+      "confiance": "Faible",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Flèche de Luna : balayage ~10 m sous la trajectoire, ne traverse pas les murs, ne rescanne que les cibles EN MOUVEMENT → s'immobiliser dès le signalement. → data/contre_jeu.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/",
+      "titre": "www.reddit.com",
+      "type": "Communauté",
+      "confiance": "Faible",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Nox contre les détections ; drones et grappins ont de larges boîtes de collision et s'annulent au tir. → data/contre_jeu.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/",
+      "titre": "www.reddit.com",
+      "type": "Communauté",
+      "confiance": "Faible",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "D-Wolf se régénère sur mise à terre : le contrer par la suppression AVANT contact, les mines de Shepherd (40 dégâts forfaitaires ignorant l'armure) ou la flèche de choc. → data/contre_jeu.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/",
+      "titre": "www.reddit.com",
+      "type": "Communauté",
+      "confiance": "Faible",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Cône de balayage 120-180° devant elle. ⚠ Portée contradictoire : 25 m (Reddit) vs 60 m (bittopup) — fourchette présentée telle quelle, non tranchée. → data/contre_jeu.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://news.bittopup.com/",
+      "titre": "news.bittopup.com",
+      "type": "Guide tiers",
+      "confiance": "Moyenne",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Portées de scan et rôles des capacités ; le Data Knife désactive l'électronique et coupe les capacités adverses à ~10 m. → data/contre_jeu.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://overgear.com/guides/delta-force/ranked-mode-in-detail/",
+      "titre": "overgear.com",
+      "type": "Guide tiers",
+      "confiance": "Moyenne",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Le Classé est un interrupteur, pas une file séparée. Déblocage Warfare Lv.6 / Operations Lv.8. Warfare = Score Par Minute ; Operations = valeur extraite + contrats + IA + joueurs + 1ʳᵉ livraison de brick. Échelle Private 0-899 → General of the Army 7200+. → data/ranked.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://deltaforce.garena.com/en/news/system/RMDWVM",
+      "titre": "deltaforce.garena.com",
+      "type": "Source officielle (Garena)",
+      "confiance": "Élevée",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Les 4 piliers d'Operations (Stash, Départements, Black Site, Gunsmith) ; chaque département monte jusqu'au niveau 4 et débloque des articles de Supply Station ; mission finale « Dawn's Light » = les 5 départements au niveau 4. → data/blacksite.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://note.com/",
+      "titre": "note.com",
+      "type": "Communauté",
+      "confiance": "Faible",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Arbre « Cash is King » : 2 M → 10 M → 25 M → 50 M Havoc Coins ; certaines améliorations du Black Site exigent un niveau de département donné. → data/blacksite.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://overgear.com/guides/delta-force/prison/",
+      "titre": "overgear.com",
+      "type": "Guide tiers",
+      "confiance": "Moyenne",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Départ enfermé en cellule, 5 mécanismes de sortie, équipement dans un casier juste dehors ; gardien Warden Ghroth (depuis 09/2025) dont la Carte de Jugement n'est pas extractible. → data/maps.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://timesaver.gg/blog/delta-force-tide-prison-map-loot-extraction-guide",
+      "titre": "timesaver.gg",
+      "type": "Guide tiers",
+      "confiance": "Moyenne",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "3 extractions : séquence infirmerie → scanner biométrique → levier du bureau principal (2 usages par partie) ; point fixe en mer sous les tours ; abandon de sac en plongée. Cartes d'accès à 3 niveaux — durabilités communautaires, NON vérifiées. → data/maps.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://www.shacknews.com/",
+      "titre": "www.shacknews.com",
+      "type": "Communauté",
+      "confiance": "Faible",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Corroboration des 5 puzzles de cellule et du schéma à 3 extractions ; Tide Prison classée en difficulté Hard. → data/maps.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://game-delta.asia/articles/prison-map-guide/",
+      "titre": "game-delta.asia",
+      "type": "⚠ REJETÉE",
+      "confiance": "REJETÉE",
+      "publie": "",
+      "consulte": "2026-11-19",
+      "usage": "Décrit 7 extractions nommées (Main Gate, North Tunnel, Rooftop Helipad, Sewer Exit…) incompatibles avec toutes les autres sources. Contenu probablement généré automatiquement — NE JAMAIS REPRENDRE NI LIER.",
+      "lot": "rafraîchissement 19/11/2026 — lot 5"
+    },
+    {
+      "url": "https://deltaforce.garena.com/en/news/all/GWPGVY",
+      "titre": "Garena — S12 Version Patch Notes | Aurora",
+      "type": "Source officielle",
+      "confiance": "officiel",
+      "publie": "2026-11-10",
+      "consulte": "2026-11-19",
+      "usage": "Notes de patch intégrales S12 : 9x19 7N30 (pén. 5, dégâts 0,9×, pénétration 0,85×, augmente le recul), 5.45 SPALL (pén. 4, allonge la réparation casque/gilet), missiles TV interceptables, chasseurs de chars roulants mobiles après destruction du moteur, pilotes d'hélico de transport 120 pts d'assist, MandelBrick désormais droppable en Detonation avec plafond hebdomadaire partagé, Classé Légende et au-delà limité au solo/duo, Akh Canal retiré, Decon Chamber via 1 partie AZ3, Diving Center à Ops 33.",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://timesaver.gg/blog/delta-force-season-aurora-patch-notes",
+      "titre": "timesaver.gg — Season Aurora patch notes",
+      "type": "Guide tiers",
+      "confiance": "Élevée",
+      "publie": "2026-11-09",
+      "consulte": "2026-11-19",
+      "usage": "Tableaux d'équilibrage par mode : Operations AR-57 pén. 31→32, K416 dégâts 31→32, AKM bonus de canon retiré (42/74 m → 30/45 m) ; Warfare Thompson tête 1,9×→1,6×, arc réserve 30→16. Loading Plans à Ops 35. Nouveau palier de collection « Chroma » au-dessus de Rouge.",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://timesaver.gg/blog/delta-force-best-operators-tier-list",
+      "titre": "timesaver.gg — Best Operators Tier List (Aurora)",
+      "type": "Guide tiers",
+      "confiance": "Élevée",
+      "publie": "2026-11-15",
+      "consulte": "2026-11-19",
+      "usage": "Plafond d'empilement Nox : Assaut Silencieux 25 s avec un seul Nox, 15 s avec deux ou trois. Piège sonore de Shepherd : hitbox restaurée, ne bloque plus les balles. Correctif 12/11 : atténuation sonore du Smoke Halo de Martelo fixée à 50 m, chute accentuée au-delà de 30 m.",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://delta-force.fandom.com/wiki/BlackSite",
+      "titre": "Fandom — BlackSite",
+      "type": "Base communautaire",
+      "confiance": "Moyenne",
+      "publie": "2026-07-29",
+      "consulte": "2026-11-19",
+      "usage": "Les 5 départements de réputation : Unité de Guerre Tactique, Bataillon d'Assaut, Laboratoire T&E, Infirmerie, Soutien de Base. Regroupement des stations du Black Site sous ces départements. → data/departements.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://thedeltahandbook.com/blacksite.html",
+      "titre": "The Delta Handbook — Black Site Upgrades",
+      "type": "Base communautaire",
+      "confiance": "Moyenne",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Table complète des paliers par station avec niveaux d'Operations requis et matériaux. → data/departements.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://buffbuff.com/blog/delta-force-black-site",
+      "titre": "buffbuff.com — Black Site Upgrade Reference by Department",
+      "type": "Guide tiers",
+      "confiance": "Moyenne",
+      "publie": "2026-07-22",
+      "consulte": "2026-11-19",
+      "usage": "Gains chiffrés par palier : QG central +1/2/4 % EXP Ops et +2/4/6/8/10 emplacements de vente en attente ; Stand de tir +3 à +25 % de charge maximale ; CSD endurance et vitesse à terre. → data/departements.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://www.yekbot.com/delta-force-black-site-upgrade-guide/",
+      "titre": "yekbot — Black Site Upgrade Guide",
+      "type": "Guide tiers",
+      "confiance": "Moyenne",
+      "publie": "2025-09-14",
+      "consulte": "2026-11-19",
+      "usage": "Prérequis croisés du Stash : 6ᵉ palier Ops 28 + Guerre Tactique niv. 2 ; 8ᵉ Ops 42 + Guerre Tactique niv. 3 + Cyberguerre niv. 3 ; 10ᵉ Ops 60 + Bataillon d'Assaut niv. 4. → data/departements.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://www.thegamer.com/delta-force-money-making-guide/",
+      "titre": "TheGamer — How to make money in Delta Force",
+      "type": "Presse",
+      "confiance": "Élevée",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "⭐ Commission de l'hôtel des ventes = 15 %. La Supply Station vend la plupart des articles ~25 % moins cher que les enchères. → data/artisanat.json, calculateurs T06/T08",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://deltaforcetools.gg/black-site",
+      "titre": "Delta Force Tools — Black Site profit tracker",
+      "type": "Outil communautaire",
+      "confiance": "Moyenne",
+      "publie": "2026-09-23",
+      "consulte": "2026-11-19",
+      "usage": "Relevé daté : Caisse médicale de campagne 47 897 / 12 h ; Kit de réparation de précision 38 059 / 12 h ; Stimulant OE2 23 971 / 18 h ; Point rouge OSIGHT 9 398 / 9 h. → data/artisanat.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://www.gamer.org/delta-force-black-site-crafting-guide-make-over-1m-alloy-daily/",
+      "titre": "gamer.org — Black Site crafting guide",
+      "type": "Guide tiers",
+      "confiance": "Faible",
+      "publie": "2025-09-08",
+      "consulte": "2026-11-19",
+      "usage": "Munitions dorées 5,7×28 : ≈163 000 de matériaux → ≈443 000 de vente, ≈280 000 net après commission. Gilet d'élite ≈334 000 par cycle de 8 h. → data/artisanat.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://rnkd.gg/deltaforce/blacksite/",
+      "titre": "rnkd.gg — Blacksite production tracker",
+      "type": "Outil communautaire",
+      "confiance": "Moyenne",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Recettes et durées de production par atelier (4 h à 1 j 6 h selon l'objet). → data/artisanat.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/comments/1neek90/",
+      "titre": "r/DeltaForceGlobal — Most profitable items to craft in Black Site?",
+      "type": "Communauté",
+      "confiance": "Faible",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Gilet d'élite ≈200 000 de matériaux pour deux gilets à ≈300 000 ; 7,62×51 doré 500 000+ par production ; munitions dorées hybrides ≈650-700 k → 1-1,1 M. ⚠ Chiffres volatils. → data/artisanat.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/comments/1j6dckm/",
+      "titre": "r/DeltaForceGlobal — Any tips or tricks to peeking?",
+      "type": "Communauté",
+      "confiance": "Faible",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "⭐ Utiliser les DEUX touches d'inclinaison réduit le temps d'exposition. Ne jamais reprendre le même angle si l'adversaire y est déjà épaulé. La vitesse de déplacement en visée peut tomber à presque zéro si l'arme est calibrée à fond vers le contrôle. → data/duels.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://deltaforcehawkops.com/delta-force-advanced-combat-movement-guide/",
+      "titre": "deltaforcehawkops — Advanced Combat & Movement Guide",
+      "type": "Guide tiers",
+      "confiance": "Faible",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "L'inclinaison droite expose moins de corps que la gauche (position de l'arme). Le saut-peek est nettement moins efficace que dans d'autres jeux de tir. La glissade est propre à D-Wolf. → data/duels.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/comments/1niy63u/",
+      "titre": "r/DeltaForceGlobal — Solo Operations Advice",
+      "type": "Communauté",
+      "confiance": "Faible",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Jeu solo : ralentir, isoler un joueur à l'écart, repositionner après chaque échange, précharger la boîte sécurisée, l'eau efface la trace sonore. → data/duels.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/comments/1ibwf62/",
+      "titre": "r/DeltaForceGlobal — I made most of my money playing solo on Operations, AMA",
+      "type": "Communauté",
+      "confiance": "Faible",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Méthode des itinéraires fixes : récupérer le coût de l'équipement en 1-2 minutes, extraire en 4-7 minutes, recommencer. Équipement d'environ 100-140 k. → data/duels.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://www.aimsector.com/news/delta-force-warfare-guide",
+      "titre": "aimsector — Warfare guide: how to play, win & score more",
+      "type": "Guide tiers",
+      "confiance": "Élevée",
+      "publie": "2026-10-03",
+      "consulte": "2026-11-19",
+      "usage": "Le Classé Warfare mesure le Score Par Minute. Réparations de véhicules et destructions d'assets rapportent plus que les éliminations. Ne pas réparer à découvert derrière un véhicule déjà repéré comme faible. → data/duels.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/comments/1kq6unn/",
+      "titre": "r/DeltaForceGlobal — Actually Good Tips for Warfare Mode",
+      "type": "Communauté",
+      "confiance": "Faible",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Prendre Ingénieur + lance-missiles en début de partie (aéronefs précoces). Dans un duel de chars à faible vie, sortir et tirer une roquette. Les véhicules, y compris les quads, arrêtent les balles. → data/duels.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://www.deltaforceultimate.com/blog/delta-force-leveling-guide",
+      "titre": "deltaforceultimate — Leveling guide",
+      "type": "Guide tiers",
+      "confiance": "Moyenne",
+      "publie": "2026-09-18",
+      "consulte": "2026-11-19",
+      "usage": "L'Entraînement de terrain (3 missions par jour) est l'activité au meilleur rendement d'expérience par minute. Les cartes 2× Mérite sont à réserver aux sessions sérieuses. → data/duels.json (routine quotidienne)",
+      "lot": "rafraîchissement 19/11/2026 — lot 6"
+    },
+    {
+      "url": "https://theclick.gg/delta-force-az3-supercritical/",
+      "titre": "TheClick — AZ3 Supercritical",
+      "type": "Guide tiers",
+      "confiance": "Haute",
+      "publie": "2026-11-13",
+      "consulte": "2026-11-19",
+      "usage": "Fenêtre d'ouverture du 18/12/2026 au 25/01/2027, prérequis Operations niveau 30, valeur d'entrée 600 000 Tekniq Alloys, Polaris Patrol pris en charge. → data/az3.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 7"
+    },
+    {
+      "url": "https://overgear.com/guides/delta-force/season-12-guide/",
+      "titre": "Overgear — Saison 12 Aurora",
+      "type": "Guide tiers",
+      "confiance": "Moyenne",
+      "publie": "2026-11-10",
+      "consulte": "2026-11-19",
+      "usage": "Confirmation croisée du calendrier Supercritical et des jalons de la S12. → data/az3.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 7"
+    },
+    {
+      "url": "https://timesaver.gg/delta-force/season-aurora-patch-notes",
+      "titre": "TimeSaver — Notes de patch Aurora",
+      "type": "Guide tiers",
+      "confiance": "Moyenne",
+      "publie": "2026-11-08",
+      "consulte": "2026-11-19",
+      "usage": "Les notes officielles ne publient NI emplacements d'extraction NI accès permanent à AZ3 : tout le reste circulant sur le sujet est de la spéculation. → data/az3.json (avertissement)",
+      "lot": "rafraîchissement 19/11/2026 — lot 7"
+    },
+    {
+      "url": "https://senseos.gg/guides/delta-force/operations-difficulty-and-rotation/",
+      "titre": "SenseOS — Difficulté & rotation d'Operations",
+      "type": "Guide tiers",
+      "confiance": "Haute",
+      "publie": "2026-11-15",
+      "consulte": "2026-11-19",
+      "usage": "Table des paliers de niveau Operations : 4 carte · 9 AZ3 Easy + Decon 1 · 14 AZ3 Normal + Decon 2 · 17 pêche · 30 Supercritical · 33 dossiers de boss et Centre de plongée · 35 Loading Plans. Plafond de transport relevé à 3,5 M Alloys. → data/az3.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 7"
+    },
+    {
+      "url": "https://overgear.com/guides/delta-force/nuclear-power-plant-guide/",
+      "titre": "Overgear — Centrale nucléaire AZ3",
+      "type": "Guide tiers",
+      "confiance": "Moyenne",
+      "publie": "2026-10-28",
+      "consulte": "2026-11-19",
+      "usage": "Les antidouleurs n'agissent pas sur la radiation ; salles de décontamination par secteur ; unités de lavage efficaces mais blessantes. → data/az3.json (radiation)",
+      "lot": "rafraîchissement 19/11/2026 — lot 7"
+    },
+    {
+      "url": "https://ldshop.gg/blog/delta-force/new-map-a23-guide.html",
+      "titre": "LDShop — Guide de la carte A23",
+      "type": "Guide tiers",
+      "confiance": "Faible",
+      "publie": "2026-10-20",
+      "consulte": "2026-11-19",
+      "usage": "Mission d'arrêt d'urgence décrite étape par étape, atterrissage à ~23 PV, plafond ~60 PV, extraction spéciale 2 minutes, à faire avant H1000. Recoupé avec Overgear avant intégration. → data/az3.json (mission_arret)",
+      "lot": "rafraîchissement 19/11/2026 — lot 7"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/comments/1u39sqg/",
+      "titre": "Reddit — Ordre de valeur du butin Zero Dam",
+      "type": "Communauté",
+      "confiance": "Moyenne",
+      "publie": "2026-11-02",
+      "consulte": "2026-11-19",
+      "usage": "Hiérarchie Admin > Sous-station > Ciment > Centre des visiteurs > Barracks ; conteneurs prioritaires : caisses de transport aérien, petits coffres, nids d'oiseau, sacs de voyage. → data/maps.json (priorite_butin)",
+      "lot": "rafraîchissement 19/11/2026 — lot 7"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/comments/1o1mrtw/",
+      "titre": "Reddit — Space City, les 8 apparitions",
+      "type": "Communauté",
+      "confiance": "Moyenne",
+      "publie": "2026-10-14",
+      "consulte": "2026-11-19",
+      "usage": "Huit apparitions, Dortoir et Passage employés garantis chaque partie, 18 à 20 joueurs ; Commandement Central et Zone de Lancement les plus fortes ; Centrifugation la plus sûre sans carte. → data/maps.json (apparitions)",
+      "lot": "rafraîchissement 19/11/2026 — lot 7"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/comments/1m84xem/",
+      "titre": "Reddit — Quelles cartes d'accès valent l'achat",
+      "type": "Communauté",
+      "confiance": "Moyenne",
+      "publie": "2026-07-22",
+      "consulte": "2026-11-19",
+      "usage": "Consensus : Salle technique de la Sous-station (inspection par la fenêtre avant de badger) et Dortoir de la Sous-station (~30 k, emplacement de carte à l'intérieur) sont les deux meilleurs achats. → data/keycards.json (economie)",
+      "lot": "rafraîchissement 19/11/2026 — lot 7"
+    },
+    {
+      "url": "https://www.lootbar.com/blog/en/delta-force-zero-dam-key-cards-guide.html",
+      "titre": "LootBar — Cartes d'accès de Zero Dam",
+      "type": "Guide tiers",
+      "confiance": "Faible",
+      "publie": "2026-09-05",
+      "consulte": "2026-11-19",
+      "usage": "Fourchettes de prix indicatives (Infirmerie aile ouest ~100 k, Salle de collecte d'équipement ~350 k, Billetterie ~550 k) et distinction entre cartes de butin et cartes d'itinéraire. Prix signalés comme fluctuants. → data/keycards.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 7"
+    },
+    {
+      "url": "https://news.bittopup.com/delta-force/zero-dam-all-hidden-exfil-key-card-guide",
+      "titre": "BitTopUp — Sorties cachées de Zero Dam",
+      "type": "Guide tiers",
+      "confiance": "Faible",
+      "publie": "2026-08-30",
+      "consulte": "2026-11-19",
+      "usage": "Conditions de sortie retenues (Berge de la rivière = 10 000, Sommet du barrage = moins de 30 kg, Voie de réparation = sans sac) ; les taux de réussite chiffrés de la source ont été écartés comme invérifiables. → data/maps.json (extractions_detail)",
+      "lot": "rafraîchissement 19/11/2026 — lot 7"
+    },
+    {
+      "url": "https://github.com/siyamhosan/DeltaForceProfitTracker",
+      "titre": "GitHub — DeltaForceProfitTracker",
+      "type": "Outil communautaire",
+      "confiance": "Haute",
+      "publie": "2026-11-01",
+      "consulte": "2026-11-19",
+      "usage": "Outil légitime de suivi de profit par reconnaissance de texte sur capture d'écran, sans lecture mémoire (React/Tauri/Bun, MIT). → data/communaute.json (outils_open_source)",
+      "lot": "rafraîchissement 19/11/2026 — lot 7"
+    },
+    {
+      "url": "https://github.com/dezmathio/delta-force-map-tracker",
+      "titre": "GitHub — delta-force-map-tracker",
+      "type": "Outil communautaire",
+      "confiance": "Haute",
+      "publie": "2026-10-25",
+      "consulte": "2026-11-19",
+      "usage": "Suivi de la rotation des cartes et des codes de portes via l'API publique officielle (MIT). → data/communaute.json (outils_open_source)",
+      "lot": "rafraîchissement 19/11/2026 — lot 7"
+    },
+    {
+      "url": "https://deltaforce.garena.com/en/news/all/GWPGVY",
+      "titre": "Garena — Notes de version S12 Aurora (officiel)",
+      "type": "Officiel",
+      "confiance": "Certaine",
+      "publie": "2026-11-10",
+      "consulte": "2026-11-19",
+      "usage": "Source primaire du patch intégral : les 5 munitions avec leurs multiplicateurs exacts, la mécanique de pénétration multi-cibles, le renommage de la passive de Nox, le piège de Shepherd, les ajustements de véhicules, le succès « Génie du rat », Bataille libre à 2 joueurs minimum, MandelBricks en Detonation. → data/ammo.json, data/season12.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://games.gg/delta-force/guides/delta-force-ammo-guide-300blk-tiv-cinder-and-more/",
+      "titre": "games.gg — Guide des munitions Aurora",
+      "type": "Guide tiers",
+      "confiance": "Haute",
+      "publie": "2026-11-10",
+      "consulte": "2026-11-19",
+      "usage": "Confirme la distinction entre niveau de pénétration et multiplicateur de pénétration d'armure, notamment pour la 7N30 qui combine niveau 5 et multiplicateurs réduits. → data/ammo.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://www.theclick.gg/delta-force-300blk-tiv-ttv-ammo/",
+      "titre": "TheClick — .300BLK TIV contre TTV",
+      "type": "Guide tiers",
+      "confiance": "Haute",
+      "publie": "2026-11-13",
+      "consulte": "2026-11-19",
+      "usage": "La seule différence publiée entre TIV et TTV est le palier de pénétration : mêmes multiplicateurs, même fenêtre de 3 s, même rayon de 4 m. → data/ammo.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://guides-factory.com/guides/delta-force-ammo-types-armor-penetration-guide-how-damage-really-works",
+      "titre": "Guides Factory — Pénétration et armure",
+      "type": "Guide tiers",
+      "confiance": "Haute",
+      "publie": "2026-11-16",
+      "consulte": "2026-11-19",
+      "usage": "Rappel de la règle de base : si le niveau de pénétration est inférieur au niveau de protection, aucun dégât de santé n'est infligé — seule la durabilité s'use. → data/ammo.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://www.theclick.gg/delta-force-aurora-patch-notes/",
+      "titre": "TheClick — Notes de patch Aurora + correctif du 12/11",
+      "type": "Guide tiers",
+      "confiance": "Haute",
+      "publie": "2026-11-13",
+      "consulte": "2026-11-19",
+      "usage": "Détail du correctif du 12 novembre : atténuation sonore de Smoke Halo, son privatisé pour Martelo, ajustements des secteurs B et C de Zenith Port. Également : aperçu du Bazar 3 jours à l'avance, durabilité sauvegardable. → data/season12.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://timesaver.gg/blog/delta-force-zenith-port-guide",
+      "titre": "TimeSaver — Zenith Port et l'événement Riptide",
+      "type": "Guide tiers",
+      "confiance": "Haute",
+      "publie": "2026-11-11",
+      "consulte": "2026-11-19",
+      "usage": "L'événement Riptide se déclenche sur un barrage de missiles guidés intercepté, pas sur la bombe thermobarique. Retrait d'Akh Canal confirmé. → data/maps.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://gamerheadlines.com/delta-force-season-aurora-november-10-update/",
+      "titre": "GamerHeadlines — Lancement d'Aurora",
+      "type": "Presse",
+      "confiance": "Moyenne",
+      "publie": "2026-11-08",
+      "consulte": "2026-11-19",
+      "usage": "Réinitialisation complète de la progression des missions S11 et expiration des accès saisonniers de coffre-fort. Nerf du multiplicateur tête du Thompson et des munitions en réserve de l'arc. → data/season12.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://dotesports.com/delta-force/news/delta-force-hot-zone-mode-explained",
+      "titre": "Dot Esports — Le mode Hot Zone expliqué",
+      "type": "Guide tiers",
+      "confiance": "Haute",
+      "publie": "2025-01-23",
+      "consulte": "2026-11-19",
+      "usage": "Règles complètes du 3v3v3 : décodage du MandelBrick aux stations, première équipe à 3 manches, équipement fourni par points de manche avec manche au pistolet en ouverture, aucune récompense dédiée hors événement. → data/hot_zone.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://news.bittopup.com/news/delta-force-game-modes-guide-3-complete-strategies",
+      "titre": "BitTopUp — Guide des modes de jeu",
+      "type": "Guide tiers",
+      "confiance": "Faible",
+      "publie": "2025-11-14",
+      "consulte": "2026-11-19",
+      "usage": "Tactiques avancées de Hot Zone retenues : dissimuler le brick près de la station, concentrer les points sur un seul joueur quand on mène, lire les icônes d'escouade. Chiffres de taux de sélection non repris (invérifiables). → data/hot_zone.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/comments/1i6d8pm/",
+      "titre": "Reddit — Quelle est la méta en Operations",
+      "type": "Communauté",
+      "confiance": "Moyenne",
+      "publie": "2025-01-21",
+      "consulte": "2026-11-19",
+      "usage": "Ordre de priorité du Black Site par un joueur à fort niveau : CSD d'abord (seule station à effet en partie), ateliers armure et munitions niveau 3 pour ~800 k par cycle de 8 h dont ~500 k de profit, Pharmacie à éviter, stand de tir niveau 2 pour la réparation intermédiaire, réserve seulement avant l'achat d'une caisse. → data/blacksite.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/comments/1iiewc0/",
+      "titre": "Reddit — Conseils d'argent en Operations",
+      "type": "Communauté",
+      "confiance": "Moyenne",
+      "publie": "2025-02-05",
+      "consulte": "2026-11-19",
+      "usage": "Conteneurs HAAVK comme cible prioritaire des sorties de récupération (processeurs programmables, cafés en coffret). Sorties minimalistes à ticket gratuit rapportant 200 à 300 k. → data/economy.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/comments/1m1utfv/",
+      "titre": "Reddit — Monter en classé Operations",
+      "type": "Communauté",
+      "confiance": "Moyenne",
+      "publie": "2025-07-17",
+      "consulte": "2026-11-19",
+      "usage": "Barème relevé au palier Platine (garde 5, opérateur 33, brick 20, extraction 10) et méthode du récupérateur sur Zero Dam normal. → data/ranked.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://www.reddit.com/r/DeltaForceGlobal/comments/1hgn7ab/",
+      "titre": "Reddit — Progresser en extraction",
+      "type": "Communauté",
+      "confiance": "Moyenne",
+      "publie": "2024-12-18",
+      "consulte": "2026-11-19",
+      "usage": "Astuce des munitions violettes gardées en poche sécurisée et glissées sur l'arme au contact ; roue de sélection par maintien de la touche de rechargement ; plafond d'équipement en difficulté Facile. → data/economy.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zoA1DV_lJiE",
+      "titre": "YouTube — Configuration AN-94 pour le Warfare en S12",
+      "type": "Vidéo",
+      "confiance": "Moyenne",
+      "publie": "2026-11-11",
+      "consulte": "2026-11-19",
+      "usage": "Confirme l'arrivée de l'AN-94 et l'arbitrage entre poignées RK-0 et K1 Elite Bevel. Codes non repris faute de vérification en jeu. → contexte data/builds.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 8 (publication)"
+    },
+    {
+      "url": "https://deltaforce.garena.com/en/news/announcement/STZAUY",
+      "titre": "Garena — Événements de la saison Aurora (officiel)",
+      "type": "Officiel",
+      "confiance": "Certaine",
+      "publie": "2026-11-08",
+      "consulte": "2026-11-19",
+      "usage": "Texte officiel des 8 événements Brakkesh avec leurs dates exactes : Brakkesh Renouvelé 10/11-10/12, les sept autres 10/11-26/11. Confirme que l'insigne monte uniquement par missions de faction. → data/factions.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 9 (publication)"
+    },
+    {
+      "url": "https://timesaver.gg/blog/delta-force-brakkesh-faction-guide",
+      "titre": "TimeSaver — Guide des factions de Brakkesh",
+      "type": "Guide tiers",
+      "confiance": "Haute",
+      "publie": "2026-11-14",
+      "consulte": "2026-11-19",
+      "usage": "Déroulé complet : contacts dissimulés, choix d'allégeance, insigne, niveau 2 ouvrant jalons et chasses. Les Jetons Brakkesh ne font pas monter l'insigne. Conseil de la poche sécurisée pour l'objet de remise. Brakkesh Normale permanente, Difficile le week-end. → data/factions.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 9 (publication)"
+    },
+    {
+      "url": "https://gamerheadlines.com/delta-force-brakkesh-2-0-faction-missions-hunt-system/",
+      "titre": "GamerHeadlines — Carnet de développement Brakkesh 2.0",
+      "type": "Presse",
+      "confiance": "Haute",
+      "publie": "2026-11-15",
+      "consulte": "2026-11-19",
+      "usage": "Source clé : Ahsarah = prendre la tour, Haavk = protéger une livraison de fret ; changement de camp possible en cours de partie ; au niveau maximal un nombre limité de gardes ordinaires deviennent amicaux ; la chasse suit une zone de recherche approximative rafraîchie par intervalles. → data/factions.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 9 (publication)"
+    },
+    {
+      "url": "https://www.theclick.gg/delta-force-brakkesh-2-0/",
+      "titre": "TheClick — Brakkesh 2.0",
+      "type": "Guide tiers",
+      "confiance": "Haute",
+      "publie": "2026-11-13",
+      "consulte": "2026-11-19",
+      "usage": "Confirme qu'aucun avantage de butin n'est officiellement attribué à l'un des deux camps et qu'aucune coordonnée de contact n'a été publiée. → data/factions.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 9 (publication)"
+    },
+    {
+      "url": "https://senseos.gg/guides/delta-force/fishing/",
+      "titre": "SenseOS — Guide de la pêche",
+      "type": "Guide tiers",
+      "confiance": "Haute",
+      "publie": "2026-10-23",
+      "consulte": "2026-11-19",
+      "usage": "Pêche : niveau 17 en Operations, Joe Reed sur Layali Grove, canne obtenue après extraction, matériel rangé dans la trousse à outils. Fonctionne sur les versions Faciles de Layali Grove, Zero Dam et AZ3. → data/peche.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 9 (publication)"
+    },
+    {
+      "url": "https://www.topuplive.com/news/delta-force-fishing-guide.html",
+      "titre": "TopUpLive — Où trouver Joe Reed",
+      "type": "Guide tiers",
+      "confiance": "Moyenne",
+      "publie": "2026-10-12",
+      "consulte": "2026-11-19",
+      "usage": "Trois secteurs d'apparition récurrents (Serenity Bay via le puits de Garbi, ponton de Blue Harbor, bas-fonds sud d'Amia Town) et la règle d'or : ne pas l'attaquer sous peine de perdre l'accès pour la partie. Cette source indique la difficulté Normale, d'autres indiquent Facile — contradiction signalée sur le site. → data/peche.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 9 (publication)"
+    },
+    {
+      "url": "https://timesaver.gg/blog/delta-force-fishing-guide-how-to-unlock",
+      "titre": "TimeSaver — Déverrouillage de la pêche",
+      "type": "Guide tiers",
+      "confiance": "Haute",
+      "publie": "2026-09-14",
+      "consulte": "2026-11-19",
+      "usage": "Palier de niveau 17 confirmé par le correctif officiel du 09/09/2026 ; rappel que la rivière n'est pas une zone protégée. → data/peche.json",
+      "lot": "rafraîchissement 19/11/2026 — lot 9 (publication)"
+    },
+    {
+      "url": "https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site",
+      "titre": "GitHub Docs — Domaine personnalisé pour GitHub Pages",
+      "type": "Officiel",
+      "confiance": "Certaine",
+      "publie": "2026-11-19",
+      "consulte": "2026-11-19",
+      "usage": "Table de référence DNS : sous-domaine → CNAME vers USERNAME.github.io ; apex → 4 enregistrements A (185.199.108-111.153) ou ALIAS/ANAME. Fichier CNAME à la racine, case « Enforce HTTPS » disponible sous 24 h. → README.md, CNAME",
+      "lot": "rafraîchissement 19/11/2026 — lot 9 (publication)"
+    }
+  ],
+  "ecarts_prompt_vs_sources": [
+    {
+      "sujet": "Nombre d'opérateurs",
+      "prompt": "18",
+      "verifie": "19",
+      "source": "timesaver.gg 15/11/2026",
+      "decision": "Utiliser 19"
+    },
+    {
+      "sujet": "Munitions Saison 12",
+      "prompt": "2 (.300BLK TIV/TTV)",
+      "verifie": "5 (+CINDER, 7N30, SPALL)",
+      "source": "games.gg 10/11/2026",
+      "decision": "Utiliser 5"
+    },
+    {
+      "sujet": "AZ3 Supercritical",
+      "prompt": "disponible",
+      "verifie": "18 décembre 2026, Ops Lv.30",
+      "source": "patch notes Aurora",
+      "decision": "Marquer PAS ENCORE DISPONIBLE"
+    },
+    {
+      "sujet": "Tier list opérateurs",
+      "prompt": "liste unique (Luna SS)",
+      "verifie": "scindée Operations / Warfare, Luna S en Ops seulement",
+      "source": "timesaver.gg 15/11/2026",
+      "decision": "Utiliser la version scindée"
+    },
+    {
+      "sujet": "Akh Canal",
+      "prompt": "non mentionné",
+      "verifie": "retirée de la rotation Warfare en S12",
+      "source": "patch notes Aurora",
+      "decision": "Documenter le retrait"
+    },
+    {
+      "sujet": "Branko",
+      "prompt": "listé comme opérateur",
+      "verifie": "absent du wiki officiel",
+      "source": "delta-force.fandom.com",
+      "decision": "Conserver avec badge À CONFIRMER"
+    },
+    {
+      "sujet": "The Mog",
+      "prompt": "carte Warfare S12",
+      "verifie": "introduite en Saison 11",
+      "source": "recoupement",
+      "decision": "Corriger en S11"
+    }
+  ],
+  "pieges_de_lecture": [
+    "PIÈGE MAJEUR : une grande partie des changements d'opérateurs des patch notes Aurora sont DETONATION-ONLY (Toxik, Raptor, Morse, Uluru, Gizmo, Stinger, Hackclaw, Vlinder, Desmoulins, et les GE2 de Luna et Shepherd). Ne jamais les présenter comme des changements Operations ou Warfare.",
+    "Les codes de portes changent quotidiennement : toujours horodater.",
+    "Les prix de l'Hôtel des Ventes sont pilotés par les joueurs : aucun prix n'est fixe.",
+    "Les codes de build sont liés à une version et à une région : prévoir un avertissement."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "maj": "2026-11-19",
+    "sources": "Notes de saison Reorientation, correctif du 09/09/2026, guides recoupés",
+    "contradiction": "Les sources divergent sur la difficulté où rencontrer le pêcheur : Facile pour les unes, Normale pour les autres. Essayez Facile en premier, c'est la version la plus souvent citée et la moins risquée."
+  },
+  "principe": "La pêche est l'activité la plus calme du jeu, et elle se déroule au beau milieu d'une partie d'extraction. Ce n'est pas une zone protégée : on peut parfaitement vous surprendre en pleine action. Des joueurs rapportent s'être fait abattre à vue plusieurs fois au bord de l'eau.",
+  "deverrouillage": [
+    "Atteignez le niveau 17 en Operations. Il n'y a ni raccourci, ni achat, ni code pour contourner ce palier.",
+    "Lancez une partie sur Layali Grove et trouvez le pêcheur Joe Reed au bord de la rivière.",
+    "Acceptez sa demande d'introduction et terminez-la pendant la partie.",
+    "Extrayez-vous pour recevoir votre première canne. Mourir avant annule tout.",
+    "Votre matériel de pêche se range dans la trousse à outils, l'emplacement de transport qui s'ouvre lui aussi au niveau 17."
+  ],
+  "spawns": {
+    "titre": "Où le trouver",
+    "note": "Sa position change d'une partie à l'autre, mais trois secteurs reviennent constamment.",
+    "lieux": [
+      "Serenity Bay — sautez dans le puits au-dessus des ruines de Garbi, traversez le canal souterrain à la nage et ressortez à la cabane en bois",
+      "Ponton de Blue Harbor — la plage au bord de la rivière, près du point d'apparition",
+      "Bas-fonds sud d'Amia Town — vers la cabane du front de mer sud"
+    ]
+  },
+  "regle_dor": "Ne l'attaquez jamais. Il riposte, et vous perdez l'accès à la pêche pour toute la durée de la partie.",
+  "ou": "Une fois débloquée, la pêche fonctionne sur les versions Faciles de Layali Grove, Zero Dam et AZ3.",
+  "bazar": "La Saison 12 ajoute l'échange de poissons au Bazar. Combiné à l'aperçu des matériaux du Bazar trois jours avant son renouvellement, cela transforme la pêche en petite activité économique planifiable plutôt qu'en simple curiosité.",
+  "note_niveau": "Pour mémoire, la carte en partie se débloque elle aussi par palier de niveau Operations — au niveau 4."
+}

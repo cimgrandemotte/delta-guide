@@ -1,0 +1,298 @@
+{
+  "_meta": {
+    "fichier": "settings.json",
+    "derniere_maj": "2026-11-19",
+    "sources": [
+      "https://hone.gg/blog/best-delta-force-settings/",
+      "https://skycoach.gg/",
+      "https://bittopup.com/"
+    ],
+    "avertissement": "Les gains de FPS indiqués sont ceux mesurés par les sources citées sur leurs configurations de test. Vos résultats varieront."
+  },
+  "pc": {
+    "graphismes": [
+      {
+        "parametre": "Global Illumination",
+        "valeur": "Low OU Ultra",
+        "gain": "jusqu'à +75% FPS",
+        "note": "QUIRK MOTEUR CONFIRMÉ : le réglage Ultra tourne MIEUX que Medium et High. Si votre machine encaisse, Ultra est plus beau ET plus fluide que les paliers intermédiaires. Sinon, Low."
+      },
+      {
+        "parametre": "Volumetric Fog",
+        "valeur": "Low",
+        "gain": "+8% FPS"
+      },
+      {
+        "parametre": "Shadows",
+        "valeur": "Low",
+        "gain": "+15% FPS",
+        "note": "Ne réduit pas la visibilité des ennemis."
+      },
+      {
+        "parametre": "Ambient Occlusion",
+        "valeur": "Off",
+        "gain": "Léger",
+        "note": "Assombrit les coins où se cachent les joueurs : le désactiver aide à les voir."
+      },
+      {
+        "parametre": "Motion Blur",
+        "valeur": "Off",
+        "gain": "Clarté",
+        "note": "Toujours désactivé en compétitif."
+      },
+      {
+        "parametre": "V-Sync",
+        "valeur": "Off",
+        "gain": "Latence",
+        "note": "Introduit de l'input lag."
+      },
+      {
+        "parametre": "Mode d'affichage",
+        "valeur": "Fullscreen (exclusif)",
+        "note": "Latence plus faible que le fenêtré sans bordure."
+      },
+      {
+        "parametre": "NVIDIA Reflex",
+        "valeur": "On + Boost",
+        "note": "Réduction directe de la latence système."
+      },
+      {
+        "parametre": "DLSS",
+        "valeur": "Quality",
+        "gain": "+12% FPS",
+        "note": "Meilleur compromis netteté/performance."
+      },
+      {
+        "parametre": "Anti-Aliasing",
+        "valeur": "TAA ou DLSS",
+        "note": "Éviter les réglages Ultra coûteux."
+      },
+      {
+        "parametre": "Texture Quality",
+        "valeur": "Selon VRAM",
+        "note": "Peu d'impact FPS si la VRAM suffit."
+      }
+    ],
+    "fov": {
+      "recommande": "105 – 115",
+      "note": "Un FOV élevé élargit la vision périphérique mais réduit la taille apparente des cibles lointaines."
+    },
+    "souris": {
+      "dpi": 800,
+      "sensibilite": "5 – 8",
+      "coefficient_ads": 1.33,
+      "mode_visee": "MDV (Monitor Distance Vertical)",
+      "note": "800 DPI est le standard compétitif. Le coefficient 1.33 conserve une cohérence de ressenti entre hipfire et ADS."
+    },
+    "latence_de_reference": "6,9 ms sur PC bien configuré"
+  },
+  "console": {
+    "fov": {
+      "recommande": "95 – 105"
+    },
+    "latence_de_reference": "16,7 ms",
+    "conseils": [
+      "Activer le mode performance (fréquence d'images prioritaire).",
+      "Régler l'aim assist et les courbes de réponse avant de toucher à la sensibilité.",
+      "Désactiver le motion blur et la profondeur de champ.",
+      "Le delta de latence avec le PC (16,7 ms contre 6,9 ms) explique une part des duels perdus en crossplay : privilégier les angles préparés et le pre-aim."
+    ],
+    "competitif": {
+      "mode": "Mode Qualité avec V-Sync : 60 images stables valent mieux qu'un compteur plus haut mais irrégulier, car l'assistance à la visée réagit de façon prévisible.",
+      "sensibilite_pro": "450/300 en tir à la hanche, 200/150 en visée — le compromis retenu par les joueurs console de haut niveau.",
+      "haptique": "Vibration et gâchettes adaptatives désactivées : elles créent de l'incohérence d'entrée."
+    }
+  },
+  "mobile": {
+    "sensibilites": {
+      "hipfire": {
+        "horizontal": 450,
+        "vertical": 300
+      },
+      "ads": {
+        "horizontal": 200,
+        "vertical": 150
+      },
+      "deadzone": 10
+    },
+    "conseils": [
+      "Configurer une disposition HUD personnalisée : tir, accroupi, saut et soin accessibles au pouce sans glisser.",
+      "Activer le tir gyroscopique pour l'ajustement fin si votre matériel le permet.",
+      "Réduire les effets graphiques pour stabiliser la fréquence d'images : la constance prime sur la beauté.",
+      "Le recul du M250 est augmenté sur mobile : préférer les AR et SMG."
+    ]
+  },
+  "edpi": {
+    "formule": "eDPI = DPI × Sensibilité en jeu",
+    "exemple": "800 DPI × 6 = 4800 eDPI",
+    "fourchettes": [
+      {
+        "profil": "Sniper / longue portée",
+        "edpi": "2400 – 4000"
+      },
+      {
+        "profil": "Polyvalent",
+        "edpi": "4000 – 6400"
+      },
+      {
+        "profil": "Agressif / CQB",
+        "edpi": "6400 – 9600"
+      }
+    ],
+    "conversion": "Pour conserver le même ressenti en changeant de DPI : nouvelle_sensibilite = eDPI_cible / nouveau_DPI."
+  },
+  "audio": {
+    "conseils": [
+      "Le casque DICH violet offre environ +50% de portée auditive : c'est l'un des meilleurs achats du jeu.",
+      "Utiliser un casque stéréo et désactiver tout traitement surround virtuel du système.",
+      "Baisser la musique à zéro et monter les effets : les pas et les rechargements sont de l'information.",
+      "Une AN-94 s'entend jusqu'à 500 m : le choix de l'arme est aussi un choix de discrétion.",
+      "NOUVEAU S12 : le mix audio Verity (prévisualisation sur Zenith Port) améliore la spatialisation."
+    ]
+  },
+  "plateformes": {
+    "pc": "Steam, Epic Games Store, client officiel",
+    "console": "PlayStation 5, Xbox Series X|S",
+    "mobile": "iOS et Android (version mobile dédiée)",
+    "crossplay": "Disponible, avec filtres d'appariement selon la plateforme.",
+    "note_s12": "Le Mode Immersif (masquage de l'essentiel de l'interface) est réservé au PC."
+  },
+  "eq_pas_a_pas": {
+    "titre": "Égaliseur — le réglage qui fait ressortir les pas",
+    "principe": "On creuse les basses qui masquent, on remonte la bande où vivent les pas.",
+    "bandes": [
+      {
+        "bande": "60 – 120 Hz",
+        "reglage": "−1 à −2 dB",
+        "effet": "Réduit le masquage par les explosions et les moteurs."
+      },
+      {
+        "bande": "200 – 500 Hz",
+        "reglage": "−1 dB",
+        "effet": "Enlève la boue du bas-médium."
+      },
+      {
+        "bande": "1 – 2 kHz",
+        "reglage": "+1 à +2 dB",
+        "effet": "Fait émerger le corps du pas."
+      },
+      {
+        "bande": "2 – 4 kHz",
+        "reglage": "+2 à +3 dB",
+        "effet": "Bande la plus utile : attaque du pas sur surface dure."
+      },
+      {
+        "bande": "6 – 9 kHz",
+        "reglage": "+2 dB",
+        "effet": "Détail des graviers et du tissu."
+      },
+      {
+        "bande": "10 kHz",
+        "reglage": "0 dB",
+        "effet": "Neutre — au-delà, on ajoute du souffle, pas de l'information."
+      }
+    ],
+    "avertissement": "Désactivez les traitements « enhanced » du logiciel de votre casque (surround virtuel, bass boost) : ils ajoutent de la latence et dégradent la précision spatiale du HRTF du jeu. Un seul moteur de spatialisation à la fois."
+  },
+  "portee_d_ecoute": {
+    "titre": "Ce que vous pouvez réellement entendre",
+    "lignes": [
+      {
+        "mode": "Operations",
+        "portee": "≈ 30 m",
+        "commentaire": "Le mode où l'audio décide des duels. Un pas isolé à 30 m est une invitation à prendre l'initiative."
+      },
+      {
+        "mode": "Havoc Warfare",
+        "portee": "10 – 15 m",
+        "commentaire": "Les véhicules saturent le mixage. Ne fondez jamais une décision sur l'absence de bruit."
+      },
+      {
+        "mode": "Detonation",
+        "portee": "Proche d'Operations",
+        "commentaire": "Pas de véhicules, peu de joueurs : le silence y est une information. Marchez par défaut."
+      }
+    ],
+    "materiel": "Casque circum-auriculaire fermé. Évitez les intra-auriculaires : la remontée de grave enterre les pas. Sortie 16 bits / 44 kHz ou 24 bits / 48 kHz, pas plus haut."
+  },
+  "config_competitive": {
+    "titre": "Le socle compétitif",
+    "lignes": [
+      {
+        "reglage": "Mode d'affichage",
+        "valeur": "Plein écran exclusif",
+        "raison": "Le sans-bordure ajoute de la latence."
+      },
+      {
+        "reglage": "V-Sync",
+        "valeur": "Désactivé",
+        "raison": "Le jeu cesse d'attendre l'écran."
+      },
+      {
+        "reglage": "Limite d'images",
+        "valeur": "Fréquence de l'écran moins 6",
+        "raison": "Stabilise le temps d'image, évite les à-coups."
+      },
+      {
+        "reglage": "Champ de vision",
+        "valeur": "105 – 110",
+        "raison": "Assez large pour voir les flancs sans rapetisser les cibles lointaines."
+      },
+      {
+        "reglage": "Netteté",
+        "valeur": "80 – 100",
+        "raison": "Compense le flou introduit par le TAA et l'upscaling."
+      },
+      {
+        "reglage": "Textures",
+        "valeur": "Élevé / Ultra si la VRAM suit",
+        "raison": "Les silhouettes et l'équipement restent lisibles."
+      },
+      {
+        "reglage": "Ombres, reflets, particules, post-traitement, brouillard volumétrique",
+        "valeur": "Bas",
+        "raison": "Moins d'encombrement visuel, plus de temps GPU."
+      },
+      {
+        "reglage": "Distance d'affichage",
+        "valeur": "Élevée",
+        "raison": "La seule option « haute » qui gagne vraiment des duels."
+      },
+      {
+        "reglage": "Super résolution",
+        "valeur": "DLSS ou FSR en mode Qualité",
+        "raison": "Des images en plus avec moins de flou qu'une baisse de résolution native."
+      },
+      {
+        "reglage": "Génération d'images",
+        "valeur": "Désactivée en classé",
+        "raison": "Ajoute de la latence perçue à la visée."
+      },
+      {
+        "reglage": "NVIDIA Reflex",
+        "valeur": "Enhanced (On + Boost)",
+        "raison": "Réduit le délai du clic au pixel."
+      },
+      {
+        "reglage": "Flou de mouvement, profondeur de champ, aberration chromatique",
+        "valeur": "Désactivés",
+        "raison": "Les cibles restent lisibles en rotation rapide."
+      },
+      {
+        "reglage": "Type de sensibilité ADS",
+        "valeur": "MDV uniquement",
+        "raison": "Même ressenti sur toutes les lunettes."
+      },
+      {
+        "reglage": "Coefficient de distance au moniteur",
+        "valeur": "1,33",
+        "raison": "Correspondance verticale standard en visée."
+      },
+      {
+        "reglage": "Windows — précision du pointeur",
+        "valeur": "Décoché",
+        "raison": "Déplacement souris 1:1."
+      }
+    ]
+  }
+}

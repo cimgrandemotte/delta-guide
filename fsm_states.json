@@ -1,0 +1,526 @@
+{
+  "$schema": "internal://arena-agent/fsm/v1",
+  "machine": "DELTA_FORCE_ULTIMATE_GUIDE_BUILD",
+  "version": "1.0.0",
+  "created": "2026-11-19",
+  "timezone": "Europe/Paris",
+  "current_state": "S9",
+  "terminal_state": "S9",
+  "transition_trigger": "USER_INPUT::CONTINUER",
+  "global_invariants": [
+    "NO_ZIP",
+    "NO_PDF",
+    "IMAGES_JPG_ONLY",
+    "IMAGES_MAX_10_PER_RESPONSE",
+    "AUDIO_MP3_ONLY",
+    "AUDIO_MAX_10_PER_RESPONSE",
+    "NO_FABRICATED_GAME_DATA",
+    "SOURCE_TIMESTAMP_REQUIRED",
+    "LEGAL_DISCLAIMER_ON_EVERY_PAGE"
+  ],
+  "states": [
+    {
+      "id": "S0",
+      "name": "INIT",
+      "status": "COMPLETED",
+      "entry": "Lecture intégrale du MegaPrompt XML v4.0",
+      "tasks": [
+        {
+          "id": "S0.1",
+          "label": "Créer workflow_master.yaml",
+          "done": true
+        },
+        {
+          "id": "S0.2",
+          "label": "Créer fsm_states.json",
+          "done": true
+        },
+        {
+          "id": "S0.3",
+          "label": "Créer l'arborescence complète (37 dossiers)",
+          "done": true
+        },
+        {
+          "id": "S0.4",
+          "label": "Créer package.json + configs de déploiement",
+          "done": true
+        },
+        {
+          "id": "S0.5",
+          "label": "Créer robots.txt, manifest.json, sitemap.xml, .gitignore, LICENSE",
+          "done": true
+        },
+        {
+          "id": "S0.6",
+          "label": "Déclarer les contraintes plateforme (audio non-TTS, données live CORS)",
+          "done": true
+        }
+      ],
+      "exit_criteria": "Structure validée + contraintes déclarées",
+      "next": "S1"
+    },
+    {
+      "id": "S1",
+      "name": "RESEARCH",
+      "status": "COMPLETED",
+      "entry": "CONTINUER reçu après S0",
+      "tasks": [
+        {
+          "id": "S1.1",
+          "label": "Sources officielles : playdeltaforce.com (FR + EN news), deltaforce.garena.com, Steam",
+          "done": true
+        },
+        {
+          "id": "S1.2",
+          "label": "Bases communautaires : deltaforcedb.com, deltaforce.th.gl, deltaforcemaps.com, deltaforcetools.gg, gamegrids.io",
+          "done": true
+        },
+        {
+          "id": "S1.3",
+          "label": "Presse & guides : timesaver.gg, theclick.gg, gamesradar, dotesports, pcgamesn, gamerant",
+          "done": true
+        },
+        {
+          "id": "S1.4",
+          "label": "Wikis : fandom, liquipedia, dfloadouts",
+          "done": true
+        },
+        {
+          "id": "S1.5",
+          "label": "Social : r/DeltaForceGlobal, r/DeltaForceMobile, YouTube, X @deltaforce_game, GitHub",
+          "done": true
+        },
+        {
+          "id": "S1.6",
+          "label": "Compilation research/research_data.json + research/sources_log.json",
+          "done": true
+        },
+        {
+          "id": "S1.7",
+          "label": "Génération des JSON de données structurées (data/*.json)",
+          "done": true
+        },
+        {
+          "id": "S1.8",
+          "label": "Rapport : top 10 faits S12 Aurora + liste des incertitudes",
+          "done": true
+        }
+      ],
+      "data_targets": [
+        "research/research_data.json",
+        "research/sources_log.json",
+        "data/season12.json",
+        "data/operators.json",
+        "data/weapons.json",
+        "data/attachments.json",
+        "data/ammo.json",
+        "data/keycards.json",
+        "data/bosses.json",
+        "data/vehicles.json",
+        "data/maps_markers.json",
+        "data/blacksite.json",
+        "data/builds.json",
+        "data/tier_list.json",
+        "data/daily_codes.json",
+        "data/market_prices.json"
+      ],
+      "exit_criteria": "Tous les faits portent source_url + date_source + confiance",
+      "next": "S2"
+    },
+    {
+      "id": "S2",
+      "name": "DESIGN_SYSTEM",
+      "status": "COMPLETED",
+      "tasks": [
+        {
+          "id": "S2.1",
+          "label": "design_system.css (tokens, palette HUD, typographies)",
+          "done": true
+        },
+        {
+          "id": "S2.2",
+          "label": "animations.css (glitch, scanlines, radar, typewriter, flip 3D)",
+          "done": true
+        },
+        {
+          "id": "S2.3",
+          "label": "components.css (cartes opérateur/arme/keycard/boss, stat-bar, badges tier)",
+          "done": true
+        },
+        {
+          "id": "S2.4",
+          "label": "responsive.css (320/480/768/1024/1280/1440/2560)",
+          "done": true
+        },
+        {
+          "id": "S2.5",
+          "label": "main.js, components.js, animations.js, utils.js, sfx.js (Web Audio)",
+          "done": true
+        },
+        {
+          "id": "S2.6",
+          "label": "Lot 1 : 10 images JPG hyperréalistes",
+          "done": true
+        },
+        {
+          "id": "S2.7",
+          "label": "Audition + enregistrement des voix TTS, premiers briefings MP3",
+          "done": true
+        }
+      ],
+      "asset_budget": {
+        "images_jpg": 10,
+        "audio_mp3": 10
+      },
+      "next": "S3"
+    },
+    {
+      "id": "S3",
+      "name": "BUILD_CORE",
+      "status": "COMPLETED",
+      "tasks": [
+        {
+          "id": "S3.1",
+          "label": "index.html — QG complet (11 sections)",
+          "done": true
+        },
+        {
+          "id": "S3.2",
+          "label": "Navbar globale + badge S12 LIVE + CTA",
+          "done": true
+        },
+        {
+          "id": "S3.3",
+          "label": "Footer QG 3 colonnes + disclaimer légal",
+          "done": true
+        },
+        {
+          "id": "S3.4",
+          "label": "Composants globaux injectables (audio player, back-to-top, tooltips, cookie, breadcrumbs)",
+          "done": true
+        },
+        {
+          "id": "S3.5",
+          "label": "search.js + data/search_index.json (Fuse.js, Ctrl+K)",
+          "done": true
+        },
+        {
+          "id": "S3.6",
+          "label": "Serveur de preview live",
+          "done": true
+        }
+      ],
+      "next": "S4"
+    },
+    {
+      "id": "S4",
+      "name": "BUILD_CONTENT_BATCH1",
+      "status": "COMPLETED",
+      "groups": [
+        {
+          "id": "A",
+          "pages": [
+            "pages/operateurs/index.html",
+            "pages/operateurs/martelo.html",
+            "pages/operateurs/d-wolf.html"
+          ]
+        },
+        {
+          "id": "B",
+          "pages": [
+            "pages/operateurs/luna.html",
+            "pages/operateurs/hackclaw.html",
+            "pages/operateurs/stinger.html",
+            "pages/operateurs/shepherd.html",
+            "pages/operateurs/gizmo.html"
+          ]
+        },
+        {
+          "id": "C",
+          "pages": [
+            "13 fiches opérateurs restantes (générées depuis template + data/operators.json)"
+          ]
+        },
+        {
+          "id": "D",
+          "pages": [
+            "pages/armurerie/index.html",
+            "pages/armurerie/fusils-assaut.html",
+            "pages/armurerie/munitions.html"
+          ]
+        },
+        {
+          "id": "E",
+          "pages": [
+            "pages/armurerie/smg.html",
+            "pages/armurerie/snipers-dmr.html",
+            "pages/armurerie/lmg.html",
+            "pages/armurerie/battle-rifles.html",
+            "pages/armurerie/shotguns.html",
+            "pages/armurerie/pistolets.html",
+            "pages/armurerie/accessoires.html",
+            "pages/armurerie/builds.html"
+          ]
+        },
+        {
+          "id": "F",
+          "pages": [
+            "pages/hazard-ops/index.html",
+            "pages/hazard-ops/mecaniques.html",
+            "pages/hazard-ops/guide-debutant.html",
+            "pages/hazard-ops/strategies.html"
+          ]
+        }
+      ],
+      "asset_budget_per_response": {
+        "images_jpg": 10,
+        "audio_mp3": 10
+      },
+      "next": "S5"
+    },
+    {
+      "id": "S5",
+      "name": "BUILD_CONTENT_BATCH2",
+      "status": "COMPLETED",
+      "groups": [
+        {
+          "id": "G",
+          "pages": [
+            "pages/cartes/index.html",
+            "pages/hazard-ops/zero-dam.html",
+            "pages/hazard-ops/layali-grove.html"
+          ]
+        },
+        {
+          "id": "H",
+          "pages": [
+            "pages/hazard-ops/space-city.html",
+            "pages/hazard-ops/brakkesh.html",
+            "pages/hazard-ops/tide-prison.html",
+            "pages/hazard-ops/az3.html"
+          ]
+        },
+        {
+          "id": "I",
+          "pages": [
+            "pages/havoc-warfare/index.html",
+            "pages/havoc-warfare/vehicules.html",
+            "pages/havoc-warfare/zenith-port.html",
+            "pages/havoc-warfare/modes.html",
+            "pages/havoc-warfare/strategies.html"
+          ]
+        },
+        {
+          "id": "J",
+          "pages": [
+            "pages/black-hawk-down/index.html",
+            "pages/black-hawk-down/missions.html",
+            "pages/black-hawk-down/coop.html",
+            "pages/black-hawk-down/lore.html"
+          ]
+        },
+        {
+          "id": "K",
+          "pages": [
+            "pages/encyclopedie/index.html",
+            "pages/encyclopedie/keycards.html",
+            "pages/encyclopedie/black-site.html",
+            "pages/encyclopedie/hotel-ventes.html",
+            "pages/encyclopedie/bosses.html",
+            "pages/encyclopedie/economie.html"
+          ]
+        }
+      ],
+      "next": "S6"
+    },
+    {
+      "id": "S6",
+      "name": "BUILD_CONTENT_BATCH3",
+      "status": "COMPLETED",
+      "groups": [
+        {
+          "id": "L",
+          "pages": [
+            "pages/astuces-pro/index.html",
+            "pages/astuces-pro/debutants.html",
+            "pages/astuces-pro/avance.html",
+            "pages/astuces-pro/meta.html",
+            "pages/astuces-pro/settings.html",
+            "pages/astuces-pro/tierlist.html"
+          ]
+        },
+        {
+          "id": "M",
+          "pages": [
+            "pages/saison-aurora/index.html",
+            "pages/news/index.html",
+            "pages/hazard-ops/codes-portes.html",
+            "pages/outils/index.html"
+          ]
+        }
+      ],
+      "next": "S7"
+    },
+    {
+      "id": "S7",
+      "name": "INTERACTIVE_TOOLS",
+      "status": "COMPLETED",
+      "tools": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08",
+        "T09",
+        "T10",
+        "T11",
+        "T12",
+        "T13",
+        "T15"
+      ],
+      "next": "S8"
+    },
+    {
+      "id": "S8",
+      "name": "QA_AND_POLISH",
+      "status": "COMPLETED",
+      "tasks": [
+        {
+          "id": "S8.1",
+          "label": "Responsive 320/768/1024/1440",
+          "done": true
+        },
+        {
+          "id": "S8.2",
+          "label": "Vérification liens internes (script)",
+          "done": true
+        },
+        {
+          "id": "S8.3",
+          "label": "Vérification assets (images/audio référencés et présents)",
+          "done": true
+        },
+        {
+          "id": "S8.4",
+          "label": "Tests fonctionnels des 15 outils",
+          "done": true
+        },
+        {
+          "id": "S8.5",
+          "label": "SEO : titles, metas, OG, Twitter, JSON-LD, sitemap, canonical",
+          "done": true
+        },
+        {
+          "id": "S8.6",
+          "label": "Accessibilité WCAG 2.1 AA",
+          "done": true
+        },
+        {
+          "id": "S8.7",
+          "label": "Performance : lazy loading, critical CSS, preload fonts, dimensions images",
+          "done": true
+        }
+      ],
+      "next": "S9",
+      "result": "29 pages, 1715 liens internes, 106 images, 29 briefings audio. QA 0 erreur / 0 avertissement."
+    },
+    {
+      "id": "S9",
+      "name": "FINAL_DELIVERY",
+      "status": "COMPLETED",
+      "tasks": [
+        {
+          "id": "S9.1",
+          "label": "README.md professionnel complet",
+          "done": false
+        },
+        {
+          "id": "S9.2",
+          "label": "LICENSE MIT + .gitignore",
+          "done": false
+        },
+        {
+          "id": "S9.3",
+          "label": "Récapitulatif chiffré + arborescence finale",
+          "done": false
+        },
+        {
+          "id": "S9.4",
+          "label": "Instructions de déploiement Vercel / Netlify / GitHub Pages",
+          "done": false
+        },
+        {
+          "id": "S9.5",
+          "label": "Rappel /download-workspace",
+          "done": false
+        }
+      ],
+      "next": null,
+      "result": "Publication : domaine delta-guide.duckdns.org propagé sur 32 pages, CNAME + .nojekyll créés, workflow GitHub Actions réécrit en Python avec QA bloquante et 2 garde-fous. 32 pages, 2021 liens, 123 images JPG, 31 briefings, 0 SVG, 0 PNG, 0 archive. 171 sources."
+    }
+  ],
+  "transitions": [
+    {
+      "from": "S0",
+      "to": "S1",
+      "on": "CONTINUER",
+      "guard": "structure_created == true"
+    },
+    {
+      "from": "S1",
+      "to": "S2",
+      "on": "CONTINUER",
+      "guard": "research_data_complete == true"
+    },
+    {
+      "from": "S2",
+      "to": "S3",
+      "on": "CONTINUER",
+      "guard": "design_system_ready == true && voice_registered == true"
+    },
+    {
+      "from": "S3",
+      "to": "S4",
+      "on": "CONTINUER",
+      "guard": "homepage_renders == true"
+    },
+    {
+      "from": "S4",
+      "to": "S5",
+      "on": "CONTINUER",
+      "guard": "batch1_groups_complete == true"
+    },
+    {
+      "from": "S5",
+      "to": "S6",
+      "on": "CONTINUER",
+      "guard": "batch2_groups_complete == true"
+    },
+    {
+      "from": "S6",
+      "to": "S7",
+      "on": "CONTINUER",
+      "guard": "batch3_groups_complete == true"
+    },
+    {
+      "from": "S7",
+      "to": "S8",
+      "on": "CONTINUER",
+      "guard": "all_tools_functional == true"
+    },
+    {
+      "from": "S8",
+      "to": "S9",
+      "on": "CONTINUER",
+      "guard": "qa_report_clean == true"
+    }
+  ],
+  "statut_global": "PRÊT À PUBLIER",
+  "domaine": "https://delta-guide.duckdns.org",
+  "hebergement": "GitHub Pages",
+  "last_sync": "2026-11-19",
+  "sync_note": "Ce fichier n'était plus tenu à jour pendant la construction. Resynchronisé le 19/11/2026 sur l'état réel du site. Décision de périmètre actée : l'arborescence a été consolidée en 28 pages denses au lieu des ~56 pages atomiques du plan initial — le contenu prévu est présent, regroupé par section."
+}
